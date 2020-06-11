@@ -28,7 +28,7 @@
 
 
     <!-- Prefix to enhance Sage notebook contents -->
-    <initialism>MFG</initialism>
+    <initialism>AT</initialism>
 
       <latex-preamble>
         <package>cancel</package>
@@ -57,7 +57,7 @@
 
     <macros>
         \newcommand*\circled[1]{\tikz[baseline=(char.base)]{
-            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+        \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
     </macros>
 
 <!--        <search>
@@ -65,15 +65,5 @@
                 <cx>006592449927388994635:w0x-ox5bpme</cx>
             </google>
         </search> -->
-
-<!-- intended to make circled 1 and circled 2 available for latex 
-<xsl:param name="latex.preamble.late">
-    <xsl:text>% Set up font for the circled digits we use&#xa;</xsl:text>
-    <xsl:text>\newfontfamily{\circledfont}{Symbola}&#xa;</xsl:text>
-    <xsl:text>\usepackage{newunicodechar}&#xa;</xsl:text>
-    <xsl:text>\newunicodechar{<U+2460>}{\circledfont{<U+2460>}} % 1 &#xa;</xsl:text>
-    <xsl:text>\newunicodechar{<U+2462>}{{\circledfont{<U+2462>}}} % 2 &#xa;</xsl:text>
-</xsl:param>
--->
 
 </docinfo>

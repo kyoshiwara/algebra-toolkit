@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<chapter xml:id="chap9"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Equations and Graphs</title>
+    
+<introduction>
+<sidebyside width="70%">
+    <image xml:id="fig-doubling-cube">
+        <description>two cubes</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}  [scale=.8]
+        \def\x{3};
+        \def\d{1};
+        \def\y{3*3^(1/3)};
+        \def\c{3^(1/3)};
+        \draw[gray,ultra thick] (0,0) rectangle ++(\x,\x);
+        \draw[gray,ultra thick] (\d,\d) rectangle ++(\x,\x);
+        \draw[gray,ultra thick] (0,0) -- ++(\d,\d);
+        \draw[gray,ultra thick] (\x,0) -- ++(\d,\d);
+        \draw[gray,ultra thick] (0,\x) -- ++(\d,\d);
+        \draw[gray,ultra thick] (\x,\x) -- ++(\d,\d);
+        \node[text=blue] at ({\d+\x/2},{\d+\x+.3}) {$x$};
+        \node[text=blue] at ({\d+\x-.1},{\d/2}) {$x$};
+        \node[text=blue] at ({\d+\x+.3},{\d+\x/2}) {$x$};
+        \node[text=red] at ({\d+\x/4}, -.7) {$V=x^3$};
+
+        \def\h{6};
+        \def\y{3*3^(1/3)};
+        \def\c{3^(1/3)};
+        \draw[gray,ultra thick] (\h,0) rectangle ++({\y},{\y});
+        \draw[gray,ultra thick] ({\h+\c},{\c}) rectangle ++({\y},{\y});
+        \draw[gray,ultra thick] (\h,0) -- ++({\c},{\c});
+        \draw[gray,ultra thick] ({\h+\y},0) -- ++({\c},{\c});
+        \draw[gray,ultra thick] ({\h},{\y}) -- ++({\c},{\c});
+        \draw[gray,ultra thick] ({\h+\y},{\y}) -- ++({\c},{\c});
+        \node[text=blue] at ({\h+\c+\y/2},{\c+\y+.5}) {$\sqrt[3]{2}x$};
+        \node[text=blue] at ({\h+\c+\y+.1},{\c/2}) {$\sqrt[3]{2}x$};
+        \node[text=blue] at ({\h+\c+\y+.7},{\c+\y/2}) {$\sqrt[3]{2}x$};
+        \node[text=red] at ({\h+\c+\y/3}, -.7) {$V=2x^3$};
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+</sidebyside>
+
+<sidebyside width="75%"><image source="images/conics"><description>graph</description></image></sidebyside>
+
+
+    <sidebyside widths="30% 30% 30%"><image source="images/fireworks.png"><description>fireworks</description></image><image source="images/operahouse.png"><description>operahouse</description></image><image source="images/fountain.png"><description>fountain</description></image></sidebyside>
+
+    <sidebyside widths="30% 30% 30%"><image source="images/mollweide.png"><description>mollweide</description></image><image source="images/Decca.png"><description>Decca</description></image><image source="images/ellipsestadium.png"><description>ellipsestadium</description></image></sidebyside>
+
+    <sidebyside widths="30% 30% 30%"><image source="images/headlight.png"><description>headlight</description></image><image source="images/sundial.png"><description>sundial</description></image><image source="images/telescope.png"><description>telescope</description></image></sidebyside>
+   
+    <sidebyside widths="30% 30% 30%"><image source="images/whispering.png"><description>whispering</description></image><image source="images/sonicboom.png"><description>sonicboom</description></image><image source="images/orbits.png"><description>orbits</description></image></sidebyside>
+
+    <sidebyside widths="30% 30% 30%"><image source="images/bridge.png"><description>bridge</description></image><image source="images/navigation.png"><description>navigation</description></image><image source="images/lithotripsy.png"><description>lithotripsy</description></image></sidebyside>
+
+</introduction>
+
+<xi:include href="./section-9-1.xml" />
+<xi:include href="./section-9-2.xml" />
+<xi:include href="./section-9-3.xml" />
+<xi:include href="./section-9-4.xml" />
+<!-- 
+<xi:include href="./section-9-5.xml" /> 
+ -->
+</chapter>
