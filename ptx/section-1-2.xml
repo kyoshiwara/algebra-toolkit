@@ -119,7 +119,8 @@ the height of a basketball above the ground, <m>h</m>, in feet, is given by
 </subsection>
 
 <subsection><title>4. Working with exponents</title>
-
+<introduction>
+    
 <p>Recall the laws of exponents:</p>
 
 <assemblage><title>Laws of Exponents</title><p><ol label="I">
@@ -131,7 +132,7 @@ the height of a basketball above the ground, <m>h</m>, in feet, is given by
         <li><p><m>(ab)^n=a^n b^n</m></p></li>
         <li><p><m>\displaystyle{\left(\frac{a}{b}\right)^n = \frac{a^n}{b^n} }</m></p></li>
     </ol></p></assemblage>
-
+</introduction>
 <subsubsection><title>Examples</title>
 
 <example><statement><p>Here are some examples of the correct use of the laws of exponents.

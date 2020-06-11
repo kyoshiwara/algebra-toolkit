@@ -141,8 +141,8 @@ the sides <m>\overline{AB}</m> and <m>\overline{AC}</m> are perpendicular, and t
 <answer><p><m>m_{\overline{AB}}=\dfrac{2}{7}=m_{\overline{CD}}~</m>; <m>~m_{\overline{BC}}=\dfrac{5}{2}=m_{\overline{AD}}</m></p></answer></exercise>
 
 <p>Consider the graph of <m>4x-2y=6</m> shown below.</p>
- <sidebyside widths="50% 45%" valigns="bottom bottom"><paragraphs><p> Can we find the equation of the line that is parallel to this line, but passes through the point <m>(1,4)</m>?  If we can find the slope of the desired line, we can use the slope-intercept formula to find its equation.</p>
-<p> Now because the line we want is parallel to the given line, they must have the same slope.  To find the slope of the given line, we write its equation in slope-intercept form:</p></paragraphs>
+ <sidebyside widths="50% 45%" valigns="bottom bottom"><stack><p> Can we find the equation of the line that is parallel to this line, but passes through the point <m>(1,4)</m>?  If we can find the slope of the desired line, we can use the slope-intercept formula to find its equation.</p>
+<p> Now because the line we want is parallel to the given line, they must have the same slope.  To find the slope of the given line, we write its equation in slope-intercept form:</p></stack>
 
 <image source="images/fig-10-1-app.png"><description>parallel lines</description></image></sidebyside>
 
@@ -192,9 +192,6 @@ perpendicular to the line <m>4x-2y=6</m>.</p></statement>
 <answer><m>y=\dfrac{-5}{2}x+\dfrac{17}{2}</m></answer></exercise>
 
 </subsection>
-
-<xi:include href="./summary-10-1.xml" /> <!-- summary  -->
-<xi:include href="./section-10-1-exercises.xml" /> <!-- exercises  -->
 
 </section> 
 <!-- </book>  </mathbook> -->
