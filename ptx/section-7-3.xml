@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="ComplexNumbers" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 7.3 Complex Numbers</title>
+                 
+<subsection><title>1. Rationalize denominators</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Rationalize the denominator <m>~\dfrac{1}{\sqrt{3x}}</m></p> </statement>
+
+<solution><p>We multiply the numerator and denominator by the denominator, <m>\sqrt{3x}</m>.
+    <me>\dfrac{1}{\sqrt{3x}} \cdot \alert{\dfrac{\sqrt{3x}}{\sqrt{3x}}} = \dfrac{\sqrt{3x}}{3x}</me>
+</p></solution></example>
+                    
+<example><statement><p>Rationalize the denominator <m>~\dfrac{x}{\sqrt{2}+\sqrt{x}}</m></p></statement>
+
+<solution><p>We multiply numerator and denominator by the conjugate of the denominator, <m>\sqrt{2}-\sqrt{x}</m>.  
+    <me>\dfrac{x\blert{(\sqrt{2}-\sqrt{x})}}{(\sqrt{2}+\sqrt{x})\blert{(\sqrt{2}-\sqrt{x})}}=\dfrac{x({\sqrt{2}-\sqrt{x})}}{2-x}</me> 
+We have used the formula for the differnce of two squares, <m>~(a+b)(a-b)=a^2-b^2,~</m> to simplify <m>~(\sqrt{2}+\sqrt{x})(\sqrt{2}-\sqrt{x})~</m> to <m>~2-x~</m>.</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Rationalize the denominator <m>~\dfrac{2\sqrt{3}}{\sqrt{2k}}</m></p></statement>
+<answer><m>\dfrac{\sqrt{6k}}{k}</m></answer></exercise>
+
+<exercise><statement><p>Simplify the radical, then rationalize the denominator: <m>~\sqrt{\dfrac{27x}{20}}</m></p></statement>
+<answer><m>\dfrac{3\sqrt{15x}}{10}</m></answer></exercise>
+
+<exercise><statement><p>Rationalize the denominator <m>~\dfrac{3}{7-\sqrt{2}}</m></p></statement>
+<answer><m>\dfrac{7+\sqrt{2}}{15}</m></answer></exercise>
+
+<exercise><statement><p>Rationalize the denominator <m>~\dfrac{\sqrt{x}+\sqrt{y}}{\sqrt{x}-\sqrt{y}}</m></p></statement>
+<answer><m>\dfrac{x+2\sqrt{xy}+y}{x-y}</m></answer></exercise>
+
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Work with radicals</title>
+
+<subsubsection><title>Example</title>
+
+<example><statement><p>Define <m>~w=\dfrac{-1}{2}+\dfrac{i\sqrt{3}}{2}.~</m>  Calculate <m>~w^2</m>. </p></statement>
+    
+<solution><p>Use the formula <m>~(a-b)^2=a^2-2ab+b^2~</m> with <m>~a=\dfrac{i\sqrt{3}}{2}~</m> and <m>~b=\dfrac{1}{2}.~</m>
+    <md><mrow>(a-b)^2 \amp = a^2-2ab+b^2</mrow>
+        <mrow>(\dfrac{i\sqrt{3}}{2}-\dfrac{1}{2})^2 \amp = (\dfrac{i\sqrt{3}}{2})^2-2(\dfrac{i\sqrt{3}}{2})(\dfrac{1}{2})+(\dfrac{1}{2})^2</mrow>
+        <mrow> \amp = \dfrac{-3}{4}-\dfrac{i\sqrt{3}}{2}+\dfrac{1}{4}</mrow>
+        <mrow> \amp = \dfrac{-1}{2}-\dfrac{i\sqrt{3}}{2}</mrow></md></p>
+    </solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Use the values of <m>w</m> and <m>w^2</m> from the Example to calculate <m>w^3</m>.</p></statement>
+    <answer><m>1</m></answer></exercise>
+
+<exercise><statement><p>Show that <m>~\sqrt{i} = \dfrac{\sqrt{2}}{2} +i \dfrac{\sqrt{2}}{2}</m> </p></statement>
+    <answer><p>Square <m>~\dfrac{\sqrt{2}}{2} +i \dfrac{\sqrt{2}}{2}.</m> </p></answer></exercise>
+</subsubsection>
+</subsection>
+
+
+</section>
+<!-- </book>  </mathbook> -->

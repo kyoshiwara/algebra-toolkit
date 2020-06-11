@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="RootsRadicals" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 3.3 Roots and Radicals</title>
+                 
+<subsection><title>1. Use the definition of root</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Simplify. Do not use a calculator!<ol label="a" cols="2">
+    <li><m>(\sqrt{7})(\sqrt{7})</m></li>
+    <li><m>\sqrt{n}(\sqrt{n})</m></li></ol></p></statement>
+ 
+<solution><p>By the definition of square root, <m>\sqrt{a}</m> is a number whose square is <m>a</m>.<ol label="a">
+    <li><m>(\sqrt{7})(\sqrt{7})=7</m></li>
+    <li><m>\sqrt{n}(\sqrt{n})=n</m></li></ol>
+</p></solution></example>
+
+<example><statement><p>Simplify. Do not use a calculator!<ol label="a" cols="2">
+    <li><m>(\sqrt[3]{5})^3</m></li>
+    <li><m>(\sqrt[3]{4})(\sqrt[3]{4})(\sqrt[3]{4})</m></li></ol></p></statement>
+ 
+<solution><p>By the definition of square root, <m>\sqrt[3]{a}</m> is a number whose cube is <m>a</m>.<ol label="a">
+    <li><m>(\sqrt[3]{5})^3=5</m></li>
+    <li><m>(\sqrt[3]{4})(\sqrt[3]{4})(\sqrt[3]{4})=4</m></li></ol></p></solution></example>
+
+<example><statement><p>Simplify. Do not use a calculator!<ol label="a" cols="2">
+    <li><m>\dfrac{3}{\sqrt{3}}</m></li>
+    <li><m>(\sqrt{13})^2</m></li></ol></p></statement>
+ 
+<solution><p><ol label="a">
+    <li><m>\dfrac{3}{\sqrt{3}} = \dfrac{\sqrt{3}\sqrt{3}}{\sqrt{3}} = \sqrt{3}</m></li>
+    <li><m>(\sqrt{13})^2 = 13</m></li></ol>
+</p></solution></example>
+
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Simplify. Do not use a calculator!<ol label="a" cols="2">
+    <li><m>\sqrt{5}(\sqrt{5})</m></li>
+    <li><m>\sqrt{x}(\sqrt{x})</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+    <li><m>5</m></li>
+    <li><m>x</m></li></ol></p></answer></exercise>
+
+<exercise><statement><p>Simplify. Do not use a calculator!<ol label="a" cols="2">
+    <li><m>(\sqrt[3]{9})(\sqrt[3]{9})(\sqrt[3]{9})</m></li>
+    <li><m>(\sqrt[3]{20})^3</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+    <li><m>9</m></li>
+    <li><m>20</m></li></ol></p></answer></exercise>
+
+<exercise><statement><p>Simplify. Do not use a calculator!<ol label="a" cols="2">
+    <li><m>\sqrt{29}(\sqrt{29})</m></li>
+    <li><m>\dfrac{10}{\sqrt{10}}</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+    <li><m>29</m></li>
+    <li><m>\sqrt{10}</m></li></ol></p></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Approximate rational numbers</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Identify each number as rational or irrational.<ol label="a" cols="2">
+    <li><m>\sqrt{6}</m></li>
+    <li><m>\dfrac{-5}{3}</m></li>
+    <li><m>\sqrt{16}</m></li>
+    <li><m>\sqrt{\dfrac{5}{9}}</m></li>
+</ol></p></statement>
+
+<solution><p><ol label="a">
+    <li>Irrational:  <m>~\sqrt{6}~</m> is not the quotient of two integers.</li>
+    <li><p> Rational: <m>~\dfrac{-5}{3}~</m> is the quotient of two integers.</p></li>
+    <li>Rational:  <m>~\sqrt{16} = 4~</m> is an integer.</li>
+    <li><p> Irrational: <m>~\sqrt{\dfrac{5}{9}} = \dfrac{\sqrt{5}}{3}~</m>,  but <m>\sqrt{5}</m> is irrational.</p></li>
+</ol></p></solution></example>
+
+<example><statement><p>Give a decimal approximation rounded to thousandths.<ol label="a" cols="3">
+    <li><m>5\sqrt{3}</m></li>
+    <li><m>\dfrac{-2}{3}\sqrt{21}</m></li>
+    <li><m>2+\sqrt[3]{5}</m></li>
+</ol></p></statement>
+
+<solution><p>Use a calculator to evaluate.<ol label="a">
+    <li>Enter <m>~5~ \boxed{\sqrt{}}~</m> and round to three decimal places: <m>~8.660 </m></li>
+    <li>Enter <m>~\boxed{(-)}~2~\boxed{\sqrt{}}~21~\boxed{)}~\boxed{\div}~3~</m> and round to three decimal places: <m>~-3.055</m></li>
+    <li>Enter <m>~2~\boxed{(+)}~\boxed{\text{MATH}}~\boxed{4}~5~</m> and round to three decimal places: <m>~3.710</m></li>
+</ol></p>
+</solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Identify each number as rational or irrational.<ol label="a" cols="2">
+    <li><m>\sqrt{250}</m></li>
+    <li><m>\dfrac{\sqrt{3}}{2}</m></li>
+    <li><m>\dfrac{\sqrt{81}}{4}</m></li>
+    <li><m>\sqrt[3]{16}</m></li>
+</ol></p></statement>
+    <answer><p><ol label="a" cols="2">
+    <li>Irrational</li>
+    <li>Irrational</li>
+    <li>Rational</li>
+    <li>Irrational</li>
+</ol></p></answer></exercise>
+
+<exercise><statement><p>Give a decimal approximation rounded to thousandths.<ol label="a" cols="3">
+    <li><m>-6\sqrt[3]{5}</m></li>
+    <li><m>\dfrac{3}{5}\sqrt{76}</m></li>
+    <li><m>7-\sqrt{19}</m></li>
+</ol></p></statement>
+    <answer><p><ol label="a" cols="3">
+    <li><m>-10.260</m></li>
+    <li><m>5.231</m></li>
+    <li><m>2.641</m></li></ol></p>
+    </answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>3. Use the order of operations</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Simplify each expression. Do not use a calculator!<ol label="a">
+    <li><m>\dfrac{4-\sqrt{64}}{2}</m></li>
+    <li><m>-2(3\sqrt{16}-\sqrt{3(27)})</m></li>
+    <li><m>6-3\sqrt[3]{27-7(5)}</m></li>
+</ol></p></statement>
+ 
+<solution><p><ol label="a">
+    <li><me>\begin{aligned}[t]
+                \dfrac{4-\sqrt{64}}{2} \amp = \dfrac{4-8}{2} \amp\amp \blert{\text{Evaluate the radical.}}\\
+                 \amp = \dfrac{-4}{2}=-2 \amp\amp \blert{\text{Simplify the numerator.}}                
+                \end{aligned}</me></li>
+    <li><me>\begin{aligned}[t]
+                -2(3\sqrt{16}-\sqrt{3(27)}) \amp = -2(3 \cdot 4-\sqrt{81}) \amp\amp \blert{\text{Evaluate the radicals.}}\\
+                 \amp = -2(12-9)=-6 \amp\amp \blert{\text{Simplify inside the parentheses.}}                
+                \end{aligned}</me></li>
+    <li><me>\begin{aligned}[t]
+                6-3\sqrt[3]{27-7(5)} \amp = 6-3\sqrt[3]{27-35}  \amp\amp \blert{\text{Simplify under the radical.}}\\
+                 \amp = 6-3\sqrt[3]{-8}=6-3(-2)=12                
+                \end{aligned}</me></li>
+</ol></p></solution></example>
+
+<example><statement><p>Simplify each expression. Round your answer to hundredths.<ol label="a" cols="2">
+    <li><m>\dfrac{8-2\sqrt{2}}{4}</m></li>
+    <li><m>2+6\sqrt[3]{-25}</m></li></ol></p></statement>
+
+<solution><p><ol label="a">
+    <li><p>Enter
+            <me>\boxed{(}~8~\boxed{-}~2~\boxed{\sqrt{}}~\boxed{)}~\boxed{)}~\boxed{\div}~4</me>
+        and round to two decimal places:  <m>~1.29</m></p></li>
+    <li><p>Enter
+            <me>~2~\boxed{+}~6~\boxed{\text{MATH}}~\boxed{4}~\boxed{-}~25</me>
+        and round to two decimal places:  <m>~-15.54</m></p></li></ol></p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercise</title>
+
+<exercise><statement><p>Simplify each expression. Do not use a calculator!<ol label="a">
+    <li><m>\dfrac{36}{6+\sqrt{36}}</m></li>
+    <li><m>10+2(3-\sqrt{169})</m></li>
+    <li><m>\dfrac{3+\sqrt[3]{-729}}{6-\sqrt[3]{-27}}</m></li>
+</ol></p></statement> 
+    <answer><p><ol label="a">
+    <li><m>3</m></li>
+    <li><m>-10</m></li>
+    <li><m>\dfrac{-2}{3}</m></li>
+</ol></p></answer></exercise> 
+
+<exercise><statement><p>Simplify each expression. Round your answer to hundredths.<ol label="a" cols="2">
+    <li><m>\dfrac{6+9\sqrt{3}}{3}</m></li>
+    <li><m>-1-3\sqrt[3]{120}</m></li>
+</ol></p></statement>
+    <answer><p><ol label="a">
+    <li><m>7.20</m></li>
+    <li><m>-15.80</m></li></ol></p></answer></exercise>
+</subsubsection>
+</subsection>
+
+
+</section>
+<!-- </book>  </mathbook> -->

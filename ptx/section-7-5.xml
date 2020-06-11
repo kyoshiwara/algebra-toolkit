@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="EquationswithFractions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 7.5 Equations that Include Algebraic Fractions</title>
+                 
+<subsection><title>1. Solve equations graphically</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Use a graph to solve the equation <m>~2x^3+9x^2-8x+36=0</m></p> </statement>
+
+<solution><p>We graph the equation <m>~y=2x^3+9x^2-8x+36~</m> and look for the points where <m>~y=0~</m> (the <m>x</m>-intercepts).</p>  
+    <sidebyside  width="35%"><image source="images/fig-7-5-1.png"><description>graph</description></image></sidebyside>
+<p>From the graph, we estimate the solutions at <m>~x=-4.5,~x=-2,</m> and <m>~x=-2</m>. By substituting each of these values into the original equation, you can verify that they are indeed solutions.</p></solution></example>
+                    
+<example><statement><p>Use a graph to solve the equation <m>~x^2+2x+3 = 15-2x</m></p></statement>
+    
+<solution><p>We graph the equations <m>~y_1=x^2+2x+3~</m> and  <m>~y_2=15-2x~</m>  and look for points on the two graphs where the coordinates are equal (intersection points).</p> 
+    <sidebyside  width="35%"><image source="images/fig-7-5-2.png"><description>graph</description></image></sidebyside>
+<p>From the graph, we see that the points with <m>~x=-6~</m> and <m>~x=2~</m> have the same <m>y</m>-coordinate on both graphs.  In other words, <m>~y_1=y_2~</m> when <m>~x=-6~</m> or <m>~x=2~</m>,  so <m>~x=-6~</m> and <m>~x=2~</m> are the solutions.</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Use a graph to solve the equation <m>~2x^3+7x^2-7x-12=0</m></p></statement>
+<answer><m>x = -4,~ -1,~ \dfrac{3}{2}</m></answer></exercise>
+
+<exercise><statement><p>Use a graph to solve the equation <m>~\dfrac{24}{x+4}=11+2x-x^2</m></p></statement>
+<answer><m>x=-1,~4</m></answer></exercise>
+
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Solve proportions</title>
+
+<introduction><p>
+    <assemblage><title>Property of Proportions</title>
+        <p>We can clear the fractions from a proportion by cross-multiplying.
+            <me>\text{If}~~~~\dfrac{a}{b} = \dfrac{c}{d},~~~~\text{then}~~~~ad=bc.</me></p></assemblage>
+</p></introduction>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Solve <m>~\dfrac{2.4}{1.5} = \dfrac{8.4}{x}</m></p></statement>
+    
+<solution><p>We apply the property of proportions and cross-multiply to get
+    <md><mrow>2.4x \amp = 1.5(8.4) \amp \amp \blert{\text{Divide both sides by 2.4.}}</mrow>
+        <mrow>x \amp = \dfrac{1.5(8.4)}{2.4}  \amp \amp \blert{\text{Simplify the right side.}}</mrow>
+        <mrow>x \amp = 5.25</mrow></md>
+</p></solution></example>
+
+<example><statement><p>If 3 pounds of coffee beans makes 225 cups, how many pounds of coffee beans will you need to make 3000 cups of coffee?</p></statement>
+
+<solution><p>We assume that the number of cups is proportional to the amount of coffee beans. That is, the ratio of cups to coffee beans is constant. So
+    <md><mrow>\dfrac{225~ \text{cups}}{3~ \text{pounds}} \amp = \dfrac{3000~ \text{cups}}{x~ \text{pounds}}</mrow>
+        <mrow>\dfrac{225}{3} \amp = \dfrac{3000}{x}</mrow></md>
+Cross-multiplying, we find
+    <md><mrow>225x \amp = 3(3000)</mrow>
+        <mrow>x \amp = \dfrac{3(3000)}{225}= 40</mrow></md>
+You will need 40 pounds of coffee beans.</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Solve <m>~\dfrac{182}{65} = \dfrac{21}{w}</m></p></statement>
+    <answer><m>w=7.5</m></answer></exercise>
+
+<exercise><statement><p>A cinnamon bread recipe calls for <m>1 \frac{1}{4}</m>tablespoons of cinnamon and 5 cups of flour. Write and solve a proportion to discover how much cinnamon would be needed with 8 cups of flour.</p></statement>
+    <answer><p><m>\dfrac{1.25}{5} = \dfrac{x}{8};~~2~</m> tablespoons</p></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>3. Solve quadratic equations</title>
+
+<subsubsection><title>Example</title>
+
+<example><statement><p>Solve each quadratic equation by the easiest method. <ol label="a">
+    <li><m>2x^2-2x=3</m></li>
+    <li><m>(2x-1)^2=3</m></li>
+    <li><m>2x^2-x=3</m></li></ol></p></statement>
+
+<solution><p><ol label="a">
+    <li><p>Because <m>~2x^2-2x-3~</m> does not factor, we use the quadratic formula.
+        <me>x = \dfrac{2 \pm \sqrt{(-2)^2-4(2)(-3)}}{2(2)} = \dfrac{2\pm \sqrt{28}}{4} = \dfrac{1 \pm \sqrt{7}}{2}</me></p></li>
+    <li><p>We use extraction of roots.
+        <md><mrow>2x-1 \amp = \pm \sqrt{3}</mrow>
+            <mrow>x \amp = \dfrac{1 \pm \sqrt{3}}{2}</mrow></md></p></li>
+    <li><p>We write the equation in standard form and factor the left side.
+        <md><mrow>2x^2-x-3 \amp = 0</mrow>
+            <mrow>(2x-3)(x+1) \amp = 0</mrow>
+            <mrow>2x-3=0~~~~x+1 \amp = 0</mrow>
+            <mrow>x = \dfrac{3}{2}~~~~x  \amp = -1</mrow></md></p></li></ol>
+    </p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Solve each equation by the easiest method. <ol label = "1">
+    <li><m>3x^2+10x=8</m></li>
+    <li><m>x^2+6x+9=8</m></li>
+    <li><m>81x^2-18x+1=0</m></li>
+    <li><m>9x^2+18x=27</m></li></ol></p></statement>
+<answer><p><ol label="1">
+    <li><m>x=-4,~\dfrac{2}{3}</m></li>
+    <li><m>x=-2\pm2\sqrt{2}</m></li>
+    <li><m>x=\dfrac{1}{9},~\dfrac{1}{9}</m></li>
+    <li><m>x=-3,~1</m></li></ol></p></answer></exercise>
+</subsubsection>
+
+</subsection>
+
+</section>
+<!-- </book>  </mathbook> -->

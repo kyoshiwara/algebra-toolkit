@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="MathematicalModels"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 2.4 Functions as Mathematical Models</title>
+                 
+<subsection><title>1. Recognize familiar formulas</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Write a formula for the volume of a rectangular box, and identify the variables.</p></statement>
+ 
+<solution><p><m>V=lwh~~</m>. <m>V</m> stands for volume, and <m>l,~w,</m> and <m>h</m> stand for, respectively, the length, width, and height of the box.</p></solution></example>
+
+<example><statement><p>Write a formula for the average of a number of scores, and identify the variables.</p></statement>
+ 
+<solution><p><m>A=\dfrac{S}{n}~~</m>. <m>A</m> stands for the average, <m>S</m> stands for the sum of the scores, and <m>n</m> stands for the number of scores.</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Choose the correct formula from the list below, and identify the variables.<ul cols="2">
+    <li><m>I=Prt</m></li>
+    <li><m>P=R-C</m></li>
+    <li><m>d=rt</m></li>
+    <li><m>P=rW</m></li></ul></p>
+    <p><ol label="a">
+        <li>The distance traveled at a constant speed.</li>
+        <li>The simple interest on an investment.</li>
+        <li>The part specified by a percentage.</li>
+        <li>The profit on sales of an item.</li></ol></p></statement>
+    <answer><p><ol label="a">
+    <li><p><m>d=rt</m>. <m>~~d</m> stands for the distance traveled at speed <m>r</m> for time <m>t</m>.</p></li>
+    <li><p><m>I=Prt</m>. <m>~~I</m> stands for the interest earned on an investment <m>P</m> at interest rate <m>r</m> after a time period <m>t</m>.</p></li>
+    <li><p><m>P=rW</m>. <m>~~P</m> stands for the quantity <m>r</m> percent of a whole amount <m>W</m>.</p></li>
+    <li><p><m>P=R-C</m>. <m>~~P</m> stands for the profit left after the costs <m>C</m> are subtracted from the revenue <m>R</m>.</p></li>
+</ol></p></answer></exercise>
+
+<exercise><statement><p>Choose the correct geometric formula from the list below, and identify the variables.<ul cols="2">
+    <li><m>A=lw</m></li>
+    <li><m>P=2l+2w</m></li>
+    <li><m>A=\pi r^2</m></li>
+    <li><m>C=\pi d</m></li>
+    <li><m>V=\pi r^2h</m></li>
+    <li><m>V=\dfrac{4}{3}\pi r^3</m></li></ul></p>
+    <p><ol label="a">
+        <li>The volume of a cylinder.</li>
+        <li>The area of a circle.</li>
+        <li>The area of a rectangle.</li>
+        <li>The perimeter of a rectangle.</li>
+        <li>The volume of a sphere.</li>
+        <li>The circumference of a circle.</li></ol></p></statement>
+    <answer><p><ol label="a">
+    <li><p><m>V=\pi r^2h</m>. <m>~~V</m> stands for the volume, <m>r</m> for the radius, and <m>h</m> for the height of the cylinder.</p></li>
+    <li><p><m>A=\pi r^2</m>. <m>~~A</m> stands for the area and <m>r</m> for the radius of the circle.</p></li>
+    <li><p><m>A=lw</m>. <m>~~A</m> stands for the area of the rectangle, <m>l</m> and <m>w</m> stand for its length and width.</p></li>
+    <li><p><m>P=2l+2w</m>. <m>~~P</m> stands for the perimeter of the rectangle, <m>l</m> and <m>w</m> stand for its length and width.</p></li>
+    <li><p><m>V=\dfrac{4}{3}\pi r^3</m>. <m>~~V</m> stands for the volume and <m>r</m> for the radius of the sphere.</p></li>
+    <li><p><m>C=\pi d</m>. <m>~~C</m> stands for the circumference and <m>d</m> for the diameter of the circle.</p></li>
+</ol></p></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Calculate slope between points</title>
+
+<subsubsection><title>Example</title>
+
+<example><statement><p>Here is a table of values for a function <m>f(x)</m>.
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>9</m></cell>
+                        <cell><m>15</m></cell></row>
+                    <row> 
+                        <cell><m>f(x)</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>14</m></cell>
+                        <cell><m>22</m></cell>
+                        <cell><m>30</m></cell>
+                        <cell><m>39</m></cell></row>
+                </tabular></sidebyside>
+    <ol label="a">
+        <li>Calculate the slopes of the line segments joining each successive pair of points on the graph.</li>
+        <li>According to your calculations, is the graph concave up or down?</li></ol>
+    </p></statement>
+
+<solution><p><ol label="a">
+        <li><m>m_1=\dfrac{14-10}{2-1}=4,~~m_2=\dfrac{22-14}{5-2}=\dfrac{8}{3},~~m_3=\dfrac{30-22}{9-5}=2,~~m_4=\dfrac{39-30}{15-9}=\dfrac{3}{2}</m></li>
+        <li>The slopes are decreasing, so the graph is concave down.</li></ol></p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Here is a table of values for a function <m>h(t)</m>.
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>5</m></cell></row>
+                    <row> 
+                        <cell><m>h(t)</m></cell>
+                        <cell><m>-10</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>0.5</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>4.5</m></cell></row>
+                    </tabular></sidebyside>
+    <ol label="a">
+        <li>Calculate the slopes of the line segments joining each successive pair of points on the graph.</li>
+        <li>According to your calculations, is the graph concave up or down?</li></ol></p></statement>
+    <answer><p><ol label="a">
+        <li><m>m_1=4,~~m_2=2.5,~~m_3=\dfrac{7}{6},~~m_4=0.5</m></li>
+        <li>Concave down.</li></ol></p></answer></exercise>
+
+<exercise><statement><p><ol label="a">
+    <li>Complete the table for the function <m>g(x)=\dfrac{16}{x}</m>.
+    
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>16</m></cell></row>
+                    <row> 
+                        <cell><m>g(x)</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    </tabular></sidebyside></li>
+    <li>Calculate the slopes of the line segments joining each successive pair of points on the graph.</li>
+    <li>According to your calculations, is the graph concave up or down?</li></ol>
+    </p></statement>
+            
+<answer><p><ol label="a">
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>16</m></cell></row>
+                    <row> 
+                        <cell><m>g(x)</m></cell>
+                        <cell><m>16</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>1</m></cell></row>
+                    </tabular></sidebyside></li>
+        <li><m>m_1=-8,~~m_2=-2,~~m_3=\dfrac{-1}{2},~~m_4=\dfrac{-1}{8}</m></li>
+        <li>Concave up.</li></ol></p></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>3. Evaluate a piecewise function</title>
+
+<subsubsection><title>Example</title>
+
+<example><statement><p>Evaluate the function.
+    <me>f(x)=\begin{cases}
+        4 \amp  x \lt 1\\
+        5+2x-x^2  \amp  1\le x\lt 3\\
+        2x \amp  x \gt 3
+        \end{cases}</me></p>
+    <sidebyside width="30%"><image source="images/fig-2-4-1.svg"><description>graph</description></image></sidebyside>
+<p><ol label="a" cols="2">
+    <li><m>f(-2)</m></li>
+    <li><m>f(1)</m></li>
+    <li><m>f(2)</m></li>
+    <li><m>f(3)</m></li></ol></p></statement>
+
+<solution><p><ol label="a" cols="2">
+    <li><m>4</m></li>
+    <li><m>6</m></li>
+    <li><m>5</m></li>
+    <li>undefined</li></ol></p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercise</title>
+ 
+<exercise><statement><p>Sketch a graph of the function, and evaluate for the inputs below.
+    <me>g(x)=\begin{cases}
+        x+2 \amp  x \lt -1\\
+        1  \amp  -1\lt x\lt 1\\
+        x \amp  x \ge 1
+        \end{cases}</me></p>
+<sidebyside width="40%"><image source="images/fig-1-5-3.png"><description>grid</description></image></sidebyside>
+<p><ol label="a" cols="2">
+    <li><m>g(-2)</m></li>
+    <li><m>g(-1)</m></li>
+    <li><m>g(0)</m></li>
+    <li><m>g(1)</m></li></ol></p>
+
+</statement>
+<answer><sidebyside width="30%"><image source="images/fig-2-4-2.svg"><description>graph</description></image></sidebyside>
+    <p><ol label="a" cols="2">
+    <li><m>0</m></li>
+    <li>undefined</li>
+    <li><m>1</m></li>
+    <li><m>1</m></li></ol></p></answer>></exercise>
+
+</subsubsection>
+</subsection>
+
+</section>
+<!-- </book>  </mathbook> -->

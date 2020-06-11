@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="IntegerExponents" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 3.2 Integer Exponents</title>
+                 
+<subsection><title>1. Use the laws of exponents</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Multiply <m>~(2x^2y)(5x^4y^3)~</m>.</p></statement>
+ 
+<solution><p>Rearrange the factors to group together the numerical coefficients and the powers of each base.
+    <me>(2x^2y)(5x^4y^3) = (2)(5)x^2x^4yy^3</me>
+Multiply the coefficients together, and use the first law of exponents to find the products of the variable factors.
+    <me>(2)(5)x^2x^4yy^3 = 10x^6y^4 ~~~~~~~~ \blert{\text{Add exponents on each base.}}</me>
+</p></solution></example>
+
+<example><statement><p>Divide <m>~\dfrac{3x^2y^4}{6x^3y}</m>.</p></statement>
+ 
+<solution><p>Consider the numerical coefficients and the powers of each base separately.  Use the second law of exponents to simplify each quotient of powers.
+    <me>\begin{aligned}[t]
+                \dfrac{3x^2y^4}{6x^3y} \amp = \dfrac{3}{6} \cdot \dfrac{x^2}{x^3} \cdot \dfrac{y^4}{y} \amp\amp \blert{\text{Subtract exponents on each base.}}\\
+                \amp = \dfrac{1}{2} \cdot \dfrac{1}{x^{3-2}} \cdot y^{4-1} \amp\amp \blert{\text{Multiply factors.}}\\
+                \amp = \dfrac{1}{2} \cdot \dfrac{1}{x} \cdot \dfrac{y^3}{1} = \dfrac{y^3}{2x}               
+                \end{aligned}</me>
+</p></solution></example>
+
+<example><statement><p>Simplify <m>~(5a^3b)^2</m>.</p></statement>
+ 
+<solution><p>Apply the fourth law of exponents and square each factor.
+    <me>(5a^3b)^2 = 5^2(a^3)^2b^2 = 25a^6b^2 ~~~~~~~~ \blert{\text{Apply the third law:  multiply exponents.}}</me>
+</p></solution></example>
+
+<example><statement><p>Simplify <m>~(\dfrac{2}{y^3})^3</m>.</p></statement>
+ 
+<solution><p>Apply the fifth law of exponents.
+    <me>\begin{aligned}[t]
+                (\dfrac{2}{y^3})^3 \amp = \dfrac{2^3}{(y^3)^3} \amp\amp \blert{\text{Cube numerator and denominator.}}\\
+                \amp = \dfrac{2^3}{y^{3\cdot 3}} = \dfrac{8}{y^9} \amp\amp \blert{\text{Apply the third law.}}               
+                \end{aligned}</me>
+</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Multiply <m>~-3a^4b(-4a^3b)</m>.</p></statement>
+<answer><m>12a^7b^2</m></answer></exercise>
+
+<exercise><statement><p>Divide <m>~\dfrac{8x^2y}{12x^5y^3}</m>.</p></statement>
+<answer><m>\dfrac{2}{3x^3y^2}</m></answer></exercise>
+
+<exercise><statement><p>Simplify <m>~(6pq^4)^3</m>.</p></statement>
+<answer><m>216p^3q^{12}</m></answer></exercise>
+
+<exercise><statement><p>Simplify <m>~(\dfrac{n^3}{k^4})^8</m>.</p></statement>
+<answer><m>\dfrac{n^{24}}{k^{32}}</m></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Evaluate powers with negative exponents</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Write each expression without using negative exponents.<ol label="a" cols="2">
+    <li><m>10^{-4}</m></li>
+    <li><m>(\dfrac{x}{4})^{-3}</m></li></ol></p></statement>
+
+<solution><p><ol label="a">
+    <li><m>10^{-4} = \dfrac{1}{10^4} = \dfrac{1}{10,000}~</m>, or <m>~0.0001</m>.</li>
+    <li><p>To compute a negative power of a fraction, we compute the corresponding positive power of its reciprocal.  Thus,
+        <me>(\dfrac{x}{4})^{-3} = (\dfrac{4}{x})^3 = \dfrac{64}{x^3}</me></p></li></ol></p></solution></example>
+
+<example><statement><p>Write each expression using negative exponents.<ol label="a" cols="2">
+    <li><m>\dfrac{1}{3a^4a^2}</m></li>
+    <li><m>\dfrac{8}{x^4}</m></li></ol></p></statement>
+
+<solution><p><ol label="a">
+    <li><m>\dfrac{1}{3a^4a^2} = 3^{-4}a^{-2}</m></li>
+    <li><m>\dfrac{8}{x^4} = 8x^{-4}</m></li></ol></p>
+</solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Write each expression using negative exponents.<ol label="a" cols="2">
+    <li><m>(-6)^{-2}</m></li>
+    <li><m>(\dfrac{3}{5})^{-2}</m></li></ol></p>
+</statement>
+    <answer><p><ol label="a" cols="2">
+    <li><m>\dfrac{1}{36}</m></li>
+    <li><m>\dfrac{25}{9}</m></li></ol></p>
+    </answer></exercise>
+
+<exercise><statement><p>Write each expression using negative exponents.<ol label="a" cols="2">
+    <li><m>4t^{-2}</m></li>
+    <li><m>(4t)^{-2}</m></li></ol></p>
+</statement>
+    <answer><p><ol label="a" cols="2">
+    <li><m>\dfrac{4}{t^2}</m></li>
+    <li><m>\dfrac{1}{16t^2}</m></li></ol></p>
+    </answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>3. Use scientific notation</title>
+
+<subsubsection><title>Example</title>
+
+<example><statement><p>Write each number in scientific notation.<ol label="a" cols="2">
+    <li><m>62,000,000</m></li>
+    <li><m>0.000431</m></li></ol></p></statement>
+ 
+<solution><p><ol label="a">
+    <li><p>First, we position the decimal point so that there is just one nonzero digit to the left of the decimal.
+        <me>62,000,000 = 6.2 \times <fillin characters="6"/></me>                          
+    To recover <m>62,000,000</m> from <m>6.2</m>, we must move the decimal point seven places to the right. Therefore, we multiply <m>6.2</m> by <m>10^7</m>.
+        <me>62,000,000 = 6.2 \times 10^7</me></p></li>
+    <li><p>First, we position the decimal point so that there is just one nonzero digit to the left of the decimal.
+        <me>0.000431 = 4.31 \times <fillin characters="6"/></me>                          
+    To recover <m>0.000431</m> from <m>4.31</m>, we must move the decimal point seven places to the right. Therefore, we multiply <m>4.31</m> by <m>10^{-4}</m>.
+        <me>0.000431 = 4.31 \times 10^{-4}</me></p></li></ol></p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercise</title>
+
+<exercise><statement><p>Write each number in scientific notation.<ol label="a">
+    <li><p>The largest living animal is the blue whale, with an average weight of <m>~120,000,000~</m> grams.</p></li>
+    <li><p>The smallest animal is the fairy fly beetle, which weighs about <m>~0.000005~</m> grams.</p></li></ol>
+</p></statement> 
+    <answer><p><ol label="a">
+    <li><m>1.2 \times 10^8</m></li>
+    <li><m>5 \times 10^{-6}</m></li></ol></p></answer></exercise> 
+
+</subsubsection>
+</subsection>
+
+
+</section>
+<!-- </book>  </mathbook> -->

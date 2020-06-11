@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="RationalFunctions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 7.4 Rational Functions</title>
+                 
+<subsection><title>1. Multiply and divide fractions</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Multiply <m>~\dfrac{4y^2-1}{4-y^2} \cdot \dfrac{y^2-2y}{4y+2}</m></p> </statement>
+
+<solution><p>We factor each numerator and denominator, and look for common factors. 
+    <md><mrow>\dfrac{4y^2-1}{4-y^2} \cdot \dfrac{y^2-2y}{4y+2} \amp = \dfrac{(2y-1)\cancel{(2y+1)}}{\cancel{(2-y)}(2+y)} \cdot \dfrac{y(-1)\cancel{(y-2)}}{2\cancel{(2y+1)}} \amp \amp \blert{\text{Divide out common factors.}}</mrow>
+        <mrow> \amp = \dfrac{-y(2y-1)}{2(y+2)} \amp \amp \blert{\text{Note:}~~y-2=-(2-y)}</mrow></md>
+</p></solution></example>
+                    
+<example><statement><p>Divide <m>~\dfrac{6ab}{2a+b} \div (4a^2b)</m></p></statement>
+
+<solution><p>We multiply the first fraction by the reciprocal of the second fraction.  
+    <md><mrow>\dfrac{6ab}{2a+b} \div (4a^2b) \amp = \dfrac{\blert{\cancel{2} \cdot 3}\cancel{ab}}{2a+b} \cdot \dfrac{1}{\blert{\cancel{2} \cdot 2}a \cdot \cancel{ab}} \amp \amp \blert{\text{Divide out common factors.}}</mrow>
+        <mrow> \amp = \dfrac{3}{2a(2a+b)}</mrow></md>
+</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Multiply <m>~\dfrac{3xy}{4xy-6y^2} \cdot \dfrac{2x-3y}{12x}</m></p></statement>
+<answer><m>\dfrac{1}{8}</m></answer></exercise>
+
+<exercise><statement><p>Multiply <m>~\dfrac{9x^2-25}{2x-2} \cdot \dfrac{x^2-1}{6x-10}</m></p></statement>
+<answer><m>\dfrac{(3x+5)(x+1)}{4}</m></answer></exercise>
+
+<exercise><statement><p>Divide <m>~(x^2-9) \div \dfrac{x^2-6x+9}{3x}</m></p></statement>
+<answer><m>\dfrac{3x(x+3)}{x-3}</m></answer></exercise>
+
+<exercise><statement><p>Divide <m>~\dfrac{x^2-1}{x+3} \div \dfrac{x^2-x-2}{x^2+5x+6}</m></p></statement>
+<answer><m>\dfrac{(x-1)(x+2)}{x-2}</m></answer></exercise>
+
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Add and subtract fractions</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Subtract <m>~\dfrac{3x}{x+2} - \dfrac{2x}{x-3}</m></p></statement>
+    
+<solution><p>Step 1: The LCD for the fractions is <m>(x+2)(x-3)</m>.</p>
+<p>Step 2:  We build each fraction to an equivalent one with the LCD.
+    <me> \dfrac{3x\alert{(x-3)}}{(x+2)\alert{(x-3)}} = \dfrac{3x^2-9x}{x^2-x-6}~~~~\text{and}~~~~\dfrac{2x\alert{(x+2)}}{(x-3)\alert{(x+2)}} = \dfrac{2x^2+4x}{x^2-x-6}</me>
+Step 3:  Combine the numerators over the same denominator.
+    <md><mrow>\dfrac{3x}{x+2} - \dfrac{2x}{x-3} \amp = \dfrac{3x^2-9x}{x^2-x-6}-\dfrac{2x^2+4x}{x^2-x-6}  </mrow>
+        <mrow>\amp = \dfrac{(3x^2-9x)-(2x^2+4x)}{x^2-x-6} \amp \amp \blert{\text{Subtract the numerators.}}</mrow>
+        <mrow> \amp = \dfrac{x^2-13x}{x^2-x-6}</mrow> </md>
+Step 4:  Reduce the result, if possible.  We factor numerator and denominator to find
+    <me>\dfrac{x(x-13)}{(x-3)(x+2)}</me>
+The fraction cannot be reduced.</p></solution></example>
+
+<example><statement><p>Write as a single fraction <m>~1+\dfrac{2}{a} - \dfrac{a^2+2}{a^2+a}</m></p></statement>
+
+<solution><p>Step 1: By factoring each denominator, we find that the LCD for the fractions is <m>a(a+1)</m>.</p>
+<p>Step 2:  We build each fraction to an equivalent one with the LCD.
+    <md><mrow> 1=\dfrac{1\cdot\alert{a(a+1)}}{1\cdot\alert{a(a+1)}} \amp = \dfrac{a^2+a}{a(a+1)}</mrow>
+        <mrow> \dfrac{2}{a}=\dfrac{2\cdot\alert{(a+1)}}{a\cdot\alert{(a+1)}} \amp = \dfrac{2a+2}{a(a+1)}</mrow>
+        <mrow>\dfrac{a^2+2}{a^2+a}  \amp = \dfrac{a^2+2}{a(a+1)}</mrow></md>
+Step 3:  Combine the numerators over the same denominator.
+    <md><mrow>1+\dfrac{2}{a}-\dfrac{a^2+2}{a^2+a} \amp =\dfrac{a^2+a}{a(a+1)}+\dfrac{2a+2}{a(a+1)}-\dfrac{a^2+2}{a(a+1)}</mrow>
+        <mrow>\amp = \dfrac{(a^2+a)+(2a+2)-(a^2+2)}{a(a+1)} =\dfrac{3a}{a(a+1)}</mrow></md>
+Step 4:  Reduce the fraction to find
+    <me>\dfrac{3\cancel{a}}{\cancel{a}(a+1)} = \dfrac{3}{a+1}</me></p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Subtract <m>~\dfrac{x+1}{x^2+2x} - \dfrac{x-1}{x^2-3x}</m></p></statement>
+    <answer><m>\dfrac{-3x-1}{x(x+2)(x-3)}</m></answer></exercise>
+
+<exercise><statement><p>Write as a single fraction <m>~y-\dfrac{2}{y^2-1} + \dfrac{3}{y+1}</m> </p></statement>
+    <answer><m>\dfrac{y^3+2y-5}{y^2-1}</m></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>3. Simplify complex fractions</title>
+
+<subsubsection><title>Example</title>
+
+<example><statement><p>Simplify <m>~\dfrac{x+\dfrac{3}{4}}{x-\dfrac{1}{2}}</m></p></statement>
+
+<solution><p>Consider all the simple fractions that appear in the complex fraction; in this case their LCD is 4. We multiply each term of the numerator and each term of the denominator by 4.
+    <me>\dfrac{\alert{4}(x+\dfrac{3}{4})}{\alert{4}(x-\dfrac{1}{2})} =\dfrac{\alert{4}(x)+\alert{4}(\dfrac{3}{4})}{\alert{4}(x)-\alert{4}(\dfrac{1}{2})} = \dfrac{4x+3}{4x-2}</me>
+The original complex fraction is equivalent tp the simple fraction <m>\dfrac{4x+3}{4x-2}</m>.</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Write the complex fraction as a simple fraction in lowest terms:  
+    <me>\dfrac{\dfrac{2}{y}+\dfrac{1}{2y}}{y+\dfrac{y}{2}}</me></p></statement>
+<answer><m>\dfrac{5}{3y^2}</m></answer></exercise>
+
+<exercise><statement><p>Write the complex fraction as a simple fraction in lowest terms:  
+    <me>\dfrac{H-T}{\dfrac{H}{T}-\dfrac{T}{H}}</me></p></statement>
+<answer><m>\dfrac{TH}{H+T}</m></answer></exercise>
+</subsubsection>
+
+</subsection>
+
+</section>
+<!-- </book>  </mathbook> -->

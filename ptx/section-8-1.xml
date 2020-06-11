@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="TwobyTwoSystems" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 8.1 Systems of Linear Equations in Two Variables</title>
+                 
+<subsection><title>1. Identify the solution of a system</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Decide whether <m>(3,-2)</m> is a solution of the system 
+    <md><mrow>x = 5y+13</mrow>
+        <mrow>2x+3y=0</mrow></md></p> </statement>
+
+<solution><p>A solution must satisfy both equations.  We substitute <m>x=\alert{3}</m> and <m>y=\alert{-2}</m> into the equations. 
+    <md><mrow>\alert{3} = 5(\alert{-2})+13 ? \amp \amp \text{Yes}</mrow>
+        <mrow> 2(\alert{3})+3(\alert{-2})=0 ? \amp \amp \text{Yes}</mrow></md>
+Yes, <m>(3,-2)</m> is a solution</p></solution></example>
+                    
+<example><statement><p>Find the solution of the system graphed below.</p>
+    <sidebyside  width="35%"><image source="images/fig-8-1-1.png"><description>graph</description></image></sidebyside>
+</statement>
+    
+<solution><p>The solution must lie on both graphs, so it is the intersection point, <m>P</m>. The coordinates of point <m>P</m> are <m>(50, 1300)</m>, so the solution of the system is <m>t=50,~y=1300</m>. </p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Decide whether <m>(-3,-2)</m> is a solution of the system 
+    <md><mrow>x + 3y \amp = -9</mrow>
+        <mrow>3x+2y \amp = -5</mrow></md></p></statement>
+<answer><p>No</p></answer></exercise>
+
+<exercise><statement><p>Find the solution of the system graphed below.</p>
+    <sidebyside  width="40%"><image source="images/fig-8-1-2.png"><description>graph</description></image></sidebyside></statement>
+<answer><m>(300, 24)</m></answer></exercise>
+
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Write equations in two variables</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Write equations about the number of tables and the number of chairs:<ol label="a">
+    <li>There are four chairs for each table.</li>
+    <li>Chairs cost $125 each; a table costs $350.  Darryl spent $10,200 on tables and chairs.</li></ol> 
+</p></statement>
+    
+<solution><p>Let <m>x</m> be the number of tables and <m>y</m> the number of chairs.<ol label="a">
+    <li>The number of chairs is 4 times the number of tables: <m>y=4x</m>.</li> 
+    <li><m>125y+350x=10,200</m></li></ol>  
+</p></solution></example>
+
+<example><statement><p>Write equations about the dimensions of a rectangle:<ol label="a">
+    <li>The perimeter of the rectangle is 42 meters.</li>
+    <li>The length is 3 meters more than twice the width.</li></ol>
+</p></statement>
+
+<solution><p>Let <m>x</m> be the width of the rectangle and <m>y</m> its length.<ol label="a">
+    <li><m>2x+2y=42</m></li>  
+    <li><m>y=3+2x</m></li></ol>  
+</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Write equations about the number of calories in a hamburger and in a chocolate shake.<ol label="a">    <li>A hamburger and a chocolate shake together contain 1020 calories.</li>
+    <li>Two shakes and three hamburgers contain 2710 calories.</li></ol></p></statement>
+    <answer><ol label="a">
+        <li><m>x+y=1020</m></li>
+        <li><m>3x+2y=2710</m></li></ol></answer></exercise>
+
+<exercise><statement><p>Write equations about the vertex angle and the base angles of an isosceles triangle.<ol label="a">
+   <li>The vertex angle is <m>15 \degree</m> less than each base angle.</li>
+    <li>The sum of the angles in a triangle is <m>180 \degree</m>.</li></ol></p></statement>
+    <answer><p><ol label="a">
+        <li><m>y=x-5</m></li>
+        <li><m>2x+y=180</m></li></ol></p></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>3. Use formulas</title>
+
+<subsubsection><title>Example</title>
+
+<example><statement><p>You have $5000 to invest for one year. You want to put part of the money into bonds that pay 7% interest, and the rest of the money into stocks that involve some risk but will pay 12% if successful. Now suppose you decide to invest <m>x</m> dollars in stocks and <m>y</m> dollars in bonds.<ol label="a">
+    <li>Use the interest formula, <m>I=Pr</m>, to write expressions for the interest earned on the bonds and on the stocks.</li> 
+    <li>Write an equation about the amount invested.</li>                 
+    <li>Write an equation to say that the total interest earned was $400.</li></ol>     
+</p></statement>
+
+<solution><p><ol label="a">
+    <li><p>Stocks: <m>I=0.12x;~~~</m>Bonds: <m>I=0.07y</m></p></li>
+    <li><m>x+y=500</m></li>
+    <li><m>0.12x+0.07y=400</m></li></ol></p></solution></example>
+
+<example><statement><p>A chemist wants to produce 45 quarts of a 40% solution of carbolic acid by mixing a 20% solution with a 50% solution.  She uses <m>x</m> quarts of the 20% solution and <m>y</m> quarts of the 50% solution.<ol label="a">
+    <li>Write an equation about the total amount of solution.</li>   
+    <li>Use the percent formula, <m>P=rW</m>, to write expressions about the amount of carbolic acid in each original solution.</li>         
+    <li>How many quarts of carbolic acid are in the mixture?</li>        
+    <li>Write an equation about the amount of carbolic acid.</li></ol></p></statement> 
+
+<solution><p><ol label="a">
+    <li><m>x+y=45</m></li>
+    <li><p>20% solution: <m>0.20x;~~~</m> 50% solution: <m>0.50y</m></p></li>
+    <li><m>P=rW=0.40(45)</m></li>
+    <li><m>0.20x+0.50y=0.40(45)</m></li></ol></p></solution></example>
+
+<example><statement><p>A river steamer requires 3 hours to travel 24 miles upstream and 2 hours for the return trip downstream.  Let <m>x</m> be the speed of the current and <m>y</m> the speed of the steamer in still water.<ol label="a">
+    <li>Write an equation about the upstream trip.</li>      
+    <li>Write an equation about the downstream trip.</li></ol></p></statement>
+
+<solution><p><ol label="a">
+    <li>The speed of the steamer aginst the current is <m>r=y-x</m>, so <m>~3(y-x)=24</m></li>
+    <li>The speed of the steamer with the current is <m>r=y+x</m>, so <m>~2(y+x)=24</m></li></ol></p></solution></example> 
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Jerry invested $2000, part in a CD at 4% interest and the remainder in a business venture at 9%.  After one year, his income from the business venture was $37 more than his income from the CD.  Now suppose Jerry invested <m>x</m> dollars in the CD and <m>y</m> dollars in the business venture. <ol label="a"> 
+    <li>Use the interest formula to write expressions for the interest Jerry earned on the CD and the interest he earned on the business venture.</li>
+    <li>Write an equation about the amount Jerry invested.</li>
+    <li>Write an equation about the interest Jerry earned.</li></ol> </p></statement>
+<answer><p><ol label="1">
+    <li><m>0.04x;~~0.09y</m></li>
+    <li><m>x+y=2000</m></li>
+    <li><m>0.09y=37+0.04x</m></li></ol></p></answer></exercise>
+
+<exercise><statement><p>A pet store owner wants to mix a 12% saltwater solution and a 30% saltwater solution to obtain 90 liters of a 24% solution. He uses <m>x</m> quarts of the 12% solution and <m>y</m> quarts of the 30% solution.<ol label="a">
+    <li>Write an equation about the total amount of saltwater.</li>
+    <li>Use the percent formula to write expressions about the amount of salt in each original solution.</li>
+    <li>How many liters of salt are in the mixture?</li>
+    <li>Write an equation about the amount of salt.</li></ol></p></statement>
+<answer><p><ol label="1">
+    <li><m>x+y=90</m></li>
+    <li><m>0.20x;~~0.30y</m></li>
+    <li><m>0.24(90)</m></li>
+    <li><m>0.20x+0.30y=0.24(90)</m></li></ol></p></answer></exercise>
+
+<exercise><statement><p>A yacht leaves San Diego and heads south, traveling at 25 miles per hour. Six hours later a Coast Guard cutter leaves San Diego traveling at 40 miles per hour and pursues the yacht. Let <m>x</m> be the time it takes the cutter to catch the yacht, and <m>y</m> the distance it traveled.<ol label="a">
+    <li> Write an equation about the yacht's journey.</li>
+    <li>Write an equation about the cutter's journey.</li></ol></p></statement>
+<answer><p><ol label="1">
+    <li><m>25(x+6)=y</m></li>
+    <li><m>40x=y</m></li></ol></p></answer></exercise>
+
+</subsubsection>
+
+</subsection>
+
+</section>
+<!-- </book>  </mathbook> -->

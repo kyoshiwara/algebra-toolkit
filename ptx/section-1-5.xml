@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="LinearFunctions"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 1.5 Linear Functions</title>
+                 
+<subsection><title>1. Slope-Intercept Form</title>
+
+<assemblage><title>Slope-Intercept Form</title>
+    <p>If we write the equation of a linear function in the form,
+        <me>f (x) = b + mx</me>
+    then <m>m</m> is the <term>slope</term><idx>slope</idx> of the line, and <m>b</m> is the <term><m>y</m>-intercept</term>.</p>
+</assemblage>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>The temperature inside a pottery drying oven starts at 70 degrees and is rising at a rate of 0.5 degrees per minute. Write a function for the temperature, <m>H</m>, inside the oven after <m>t</m> minutes.</p></statement>
+ 
+<solution><p>At <m>t=0</m>, the temperature is 70 degrees, so <m>b=70</m>.  The slope is given by the rate of increase of <m>H</m>, so <m>m=0.5</m>.  Thus, the function is <m>H=70+0.5t</m>.</p></solution></example>
+
+<example><statement><p>A perfect score on a driving test is 120 points, and you lose 4 points for each wrong answer.  Write a function for your score, <m>S</m>, if you give <m>n</m> wrong answers.</p></statement>
+
+<solution><p>If <m>n=0</m>, your score is 120, so <m>b=120</m>. Your score decreases by 4 points per wrong answer, so <m>m=\dfrac{\Delta S}{\Delta n} = 4</m>.  The function is <m>S=120-4n</m>.</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Monica has saved $7800 to live on while she attends college.  She spends $600 a month.  Write a function for the amount, <m>S</m>, in Monica's savings account after <m>t</m> months.</p></statement>
+    <answer><m>S=7800-600t</m></answer></exercise>
+
+<exercise><statement><p>Jesse opened a new doughnut shop in an old store-front. He invested $2400 in remodeling and set-up, and he makes about $400 per week from the business.  Write a function giving the shop's financial standing, <m>F</m>, after <m>w</m> weeks.</p></statement>
+    <answer><m>F=-2400+400w</m></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Point-Slope Form</title>
+
+<assemblage><title>Point-Slope Formula</title>
+<p>To find an equation for the line of slope <m>m</m> passing through the point <m>(x_1,y_1)</m>, use the point-slope formula
+      <me>\dfrac{y-y_1}{x-x_1} = m</me>
+or
+    <me>y-y_1=m(x-x_1)</me></p></assemblage>
+
+<subsubsection><title>Example</title>
+
+<example><statement><p>Find an equation for the line that passes through <m>(1,3)</m> and has slope <m>-2</m>.</p>
+</statement>
+
+<solution><p>We substitute <m>x_1=\alert{1}</m>, <m>y_1=\alert{3}</m>, and <m>m=\alert{-2}</m> into the point-slope formula.
+    <me>\begin{aligned}[t]
+                y-\alert{3} \amp = \alert{-2} (x-\alert{1}) \amp \amp \blert{\text{Apply the distributive law.}}\\
+                y-3 \amp = -2x + 2 \amp \amp \blert{\text{Add 3 to both sides.}}\\
+                y \amp = -2x + 5   \amp \amp 
+                \end{aligned}</me>
+</p></solution></example>
+
+<example><statement><p>Find an equation for the line of slope <m>\dfrac{-1}{2}</m> that passes through <m>(-3,-2)</m>.</p>
+</statement>
+
+<solution><p>We substitute <m>x_1=\alert{-3}</m>, <m>y_1=\alert{-2}</m>, and <m>m=\alert{\dfrac{-1}{2}}</m> into the point-slope formula.
+    <me>\begin{aligned}[t]
+                \dfrac{y-(\alert{-2})}{x-(\alert{-3})} \amp = \alert{\dfrac{-1}{2}}  \amp \amp \blert{\text{Simplify the left side.}}\\
+                \dfrac{y+2}{x+3} \amp = \dfrac{-1}{2} \amp \amp \blert{\text{Cross-multiply.}}\\
+                2(y+2) \amp = -1(x+3)   \amp \amp \blert{\text{Apply the distributive law.}}\\
+                2y+4 \amp = -x-3   \amp \amp \blert{\text{Subtract 4 from both sides.}}\\
+                2y \amp = -x-7   \amp \amp \blert{\text{Divide both sides by 2.}}\\
+                y \amp = \dfrac{-1}{2}x-\dfrac{7}{2}   \amp \amp
+                \end{aligned}</me>
+</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Find an equation for the line of slope <m>-4</m> that passes through <m>(2,-5)</m>.
+</p></statement>
+    <answer><m>y=-4x+3</m></answer></exercise>
+
+<exercise><statement><p>Find an equation for the line of slope <m>\dfrac{2}{3}</m> that passes through <m>(-6,1)</m>.
+</p></statement>
+    <answer><m>y=\dfrac{2}{3}x+5</m></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>3. Graphing a line</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Graph the line <m>~y=\dfrac{3}{4}x-2</m> </p></statement>
+
+<solution><sidebyside widths="50% 45%" vertical="middle middle"><stack><p>Begin by plotting the <m>y</m>-intercept, <m>(0,-2)</m>.  We use the slope, <m>\dfrac{\Delta y}{\Delta x} = \dfrac{3}{4}</m>, to find another point on the line, as follows.  Start at the point <m>(0,-2)</m> and move 3 units up and 4 units to the right.  Plot a second point here, at <m>(4,1)</m>.</p>
+<p>Find a third point by writing the slope as <m>\dfrac{\Delta y}{\Delta x} = \dfrac{-3}{-4}</m>:  from <m>(0,-2)</m>, move down 3 units and 4 units to the left.  Plot a third point here, at <m>(-4,-5)</m>.  Finally, draw a line through the three points.</p></stack>
+<image source="images/fig-1-5-1.png"><description>line</description></image></sidebyside></solution></example>
+
+<example><statement><p>Graph the line of slope <m>\dfrac{-1}{2}</m> that passes through <m>(-3,-2)</m>.</p></statement>
+
+<solution><sidebyside widths="50% 50%" vertical="middle middle"><stack><p>Begin by plotting the point <m>(-3,-2)</m>.  Use the slope, <m>\dfrac{\Delta y}{\Delta x} = \dfrac{-1}{2}</m>, to find another point on the line, as follows.  Start at the point <m>(-3,-2)</m> and move 1 unit down and 3 units to the right.  Plot a second point here, at <m>(-1,-31)</m>.</p>
+<p>Find a third point by writing the slope as <m>\dfrac{\Delta y}{\Delta x} = \dfrac{1}{-2}</m>:  from <m>(-3,-2)</m>, move 1 unit up and 2 units to the left.  Plot a third point here, at <m>(-5,-1)</m>.  Finally, draw a line through the three points.</p></stack>
+<image source="images/fig-1-5-2.png"><description>line</description></image></sidebyside></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+ 
+<exercise><statement><p>Graph the line <m>~y=\dfrac{-1}{3}x-3</m> </p>
+    <sidebyside width="40%"><image source="images/fig-1-5-3.png"><description>grid</description></image></sidebyside></statement>
+    <answer><sidebyside width="25%"><image source="images/fig-1-5-4.png"><description>grid</description></image></sidebyside></answer></exercise>
+
+<exercise><statement><p>Graph the line with slope <m>m=\dfrac{3}{2}</m> passing through <m>(-1,-2)</m>. </p>
+    <sidebyside width="40%"><image source="images/fig-1-5-3.png"><description>grid</description></image></sidebyside></statement>
+    <answer><sidebyside width="25%"><image source="images/fig-1-5-5.png"><description>grid</description></image></sidebyside></answer></exercise>
+</subsubsection>
+</subsection>
+
+</section>
+<!-- </book>  </mathbook> -->

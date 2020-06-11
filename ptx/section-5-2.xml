@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="LogFunctions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 5.2 Logarithmic Functions</title>
+                 
+<subsection><title>1. Estimate logs</title>
+
+<subsubsection><title>Examples</title>
+                    
+<example><statement><p>Write each log equation in exponential form. Then use trial and error to estimate the log between two integers.<ol label="a" cols="2">
+        <li><m>\log_2 6=x</m></li>
+        <li><m>\log_2 24=x</m></li>
+        <li><m>\log_2 100=x</m></li>
+        <li><m>\log_2 0.3=x</m></li></ol></p></statement>
+
+<solution><p><ol label="a">
+    <li><m>2^x=6.~</m> Because <m>~2^2=4~</m> and <m>~2^3=8</m>, <m>~2 \lt x \lt 3</m>.</li>
+    <li><m>2^x=24.~</m> Because <m>~2^4=16~</m> and <m>~2^5=32</m>, <m>~4 \lt x \lt 5</m>.</li> 
+    <li><m>2^x=100.~</m> Because <m>~2^6=64~</m> and <m>~2^7=128</m>, <m>~6 \lt x \lt 7</m>.</li> 
+    <li><m>2^x=0.3.~</m> Because <m>~2^{-2}=\dfrac{1}{4} = 0.25~</m> and <m>~2^{-1}=\dfrac{1}{2} = 0.5</m>, <m>~-2 \lt x \lt -1</m>.</li></ol> </p>
+</solution></example>
+
+<example><statement><p><ol label="a">
+    <li><p>Use computing technology to complete the table for <m>f(x)=5^x~</m>. Round the function values to tenths.
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>2.0</m></cell>
+                        <cell><m>2.1</m></cell>
+                        <cell><m>2.2</m></cell>
+                        <cell><m>2.3</m></cell>
+                        <cell><m>2.4</m></cell>
+                        <cell><m>2.5</m></cell>
+                        <cell><m>2.6</m></cell>
+                        <cell><m>2.7</m></cell>
+                        <cell><m>2.8</m></cell>
+                        <cell><m>2.9</m></cell>
+                        <cell><m>3.0</m></cell></row>
+                    <row> 
+                        <cell><m>f(x)</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    </tabular></sidebyside></p></li>
+    <li><p>Use your table from part (a) to make a table of values for the function <m>g(x) = \log_5 x</m>.
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>~x~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell></row>
+                    <row> 
+                        <cell><m>g(x)</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    </tabular></sidebyside></p></li></ol></p></statement>
+
+<solution><p><ol label="a">
+    <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>2.0</m></cell>
+                        <cell><m>2.1</m></cell>
+                        <cell><m>2.2</m></cell>
+                        <cell><m>2.3</m></cell>
+                        <cell><m>2.4</m></cell>
+                        <cell><m>2.5</m></cell>
+                        <cell><m>2.6</m></cell>
+                        <cell><m>2.7</m></cell>
+                        <cell><m>2.8</m></cell>
+                        <cell><m>2.9</m></cell>
+                        <cell><m>3.0</m></cell></row>
+                    <row> 
+                        <cell><m>f(x)</m></cell>
+                        <cell><m>25</m></cell>
+                        <cell><m>29.4</m></cell>
+                        <cell><m>34.5</m></cell>
+                        <cell><m>40.5</m></cell>
+                        <cell><m>47.6</m></cell>
+                        <cell><m>55.9</m></cell>
+                        <cell><m>65.7</m></cell>
+                        <cell><m>77.1</m></cell>
+                        <cell><m>90.6</m></cell>
+                        <cell><m>106.4</m></cell>
+                        <cell><m>125</m></cell></row>
+                    </tabular></sidebyside></p></li>
+    <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>25</m></cell>
+                        <cell><m>29.4</m></cell>
+                        <cell><m>34.5</m></cell>
+                        <cell><m>40.5</m></cell>
+                        <cell><m>47.6</m></cell>
+                        <cell><m>55.9</m></cell>
+                        <cell><m>65.7</m></cell>
+                        <cell><m>77.1</m></cell>
+                        <cell><m>90.6</m></cell>
+                        <cell><m>106.4</m></cell>
+                        <cell><m>125</m></cell></row>
+                    <row>
+                        <cell><m>g(x)</m></cell>
+                        <cell><m>2.0</m></cell>
+                        <cell><m>2.1</m></cell>
+                        <cell><m>2.2</m></cell>
+                        <cell><m>2.3</m></cell>
+                        <cell><m>2.4</m></cell>
+                        <cell><m>2.5</m></cell>
+                        <cell><m>2.6</m></cell>
+                        <cell><m>2.7</m></cell>
+                        <cell><m>2.8</m></cell>
+                        <cell><m>2.9</m></cell>
+                        <cell><m>3.0</m></cell></row>                         
+                    </tabular></sidebyside></p></li></ol></p>
+</solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Write each log equation in exponential form. Then use trial and error to estimate the log, first between two integers, and then to the nearest tenth.<ol label="a" cols="2">
+        <li><m>\log_3 10=x</m></li>
+        <li><m>\log_3 20=x</m></li>
+        <li><m>\log_3 150=x</m></li>
+        <li><m>\log_3 0.5=x</m></li></ol></p></statement>
+    <answer><p><ol label="a">
+        <li>between 2 and 3, <m>~2.1</m></li>
+        <li>between 2 and 3, <m>~2.7</m></li>
+        <li>between 4 and 5, <m>~4.6</m></li>
+        <li>between <m>-1</m> and 0, <m>~-0.6</m></li></ol>
+    </p></answer></exercise>
+
+<exercise><statement><p><ol label="a">
+    <li><p>Use computing technology to complete the table for <m>f(x)=4^x~</m>.
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>-0.5</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>0.5</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>1.5</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>2.5</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>3.5</m></cell>
+                        <cell><m>4.0</m></cell></row>
+                    <row> 
+                        <cell><m>f(x)</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    </tabular></sidebyside></p></li>
+    <li><p>Use your table from part (a) to make a table of values for the function <m>g(x) = \log_4 x</m>.
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>~x~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell>
+                        <cell><m>~~~~</m></cell></row>
+                    <row> 
+                        <cell><m>g(x)</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    </tabular></sidebyside></p></li>
+    <li><p>Use your table from part (b) to make a graph of <m>g(x) = \log_4 x</m>.</p>
+        <sidebyside width="50%"><image source="images/fig-5-2-1.svg"><description>grid </description></image></sidebyside>
+        </li></ol></p></statement>
+ 
+<answer><p><ol label="a">
+    <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>-0.5</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>0.5</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>1.5</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>2.5</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>3.5</m></cell>
+                        <cell><m>4.0</m></cell></row>
+                    <row>                 
+                        <cell><m>f(x)</m></cell>
+                        <cell><m>0.25</m></cell>
+                        <cell><m>0.5</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>16</m></cell>
+                        <cell><m>32</m></cell>
+                        <cell><m>64</m></cell>
+                        <cell><m>128</m></cell>
+                        <cell><m>256</m></cell></row>
+                    </tabular></sidebyside></p></li>
+    <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>~x~</m></cell>
+                        <cell><m>0.25</m></cell>
+                        <cell><m>0.5</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>16</m></cell>
+                        <cell><m>32</m></cell>
+                        <cell><m>64</m></cell>
+                        <cell><m>128</m></cell>
+                        <cell><m>256</m></cell></row>
+                    <row> 
+                        <cell><m>g(x)</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>-0.5</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>0.5</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>1.5</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>2.5</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>3.5</m></cell>
+                        <cell><m>4.0</m></cell></row>
+                    </tabular></sidebyside></p></li> 
+    <li><sidebyside width="50%"><image source="images/fig-5-2-2.svg"><description>graph</description></image></sidebyside></li></ol></p></answer></exercise>  
+
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Use function notation</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p><m>f(x)=\log_6 x</m><ol label="a">
+    <li>What is <m>~f^{-1}(x)</m>?</li>
+    <li>Evaluate and simplify <m>~f(f^{-1}(4))</m></li>
+    <li>Evaluate and simplify <m>~f^{-1}(f(5))</m></li></ol></p></statement>
+
+<solution><p><ol label="a">
+    <li><m>~f^{-1}(x) = 6^x</m></li>
+    <li><m>~f(f^{-1}(4)) = f(6^4) = \log_6 (6^4) = 4</m></li>
+    <li><m>~f^{-1}(\log_6 5) = 6^{\log_6 5} = 5</m></li></ol>
+</p></solution></example>
+
+<example><statement><p> For each function <m>~f(x)~</m>, decide whether <m>f(a+b)=f(a)+f(b)</m>.<ol label="a" cols="2">
+    <li><m>f(x)=3^x</m></li>
+    <li><m>f(x)=\log_3 x</m></li></ol>
+</p></statement>
+
+<solution><p><ol label="a">
+    <li><p><m>f(a+b)=3^{a+b},~</m> and <m>~f(a)+f(b) = 3^a+3^b.~</m></p>
+        <p> But <m>~3^{a+b}~</m> is not equivalent to <m>~3^a+3^b;~</m> in fact <m>~3^{a+b} =3^a \cdot 3^b.</m></p></li>
+    <li><p><m>f(a+b)=\log_3 (a+b),~</m> and <m>~f(a)+f(b) = \log_3 a +\log_3 b.~</m></p>
+        <p> But <m>~\log_3 (a+b)~</m> is not equivalent to <m>~\log_3 a +\log_3 b;~</m> in fact <m>~\log_3 (ab) = \log_3 a +\log_3 b.</m></p></li>
+    </ol></p>
+</solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p><m>h(x)=\log_4 x.~</m> Evaluate if possible.<ol label="a" cols="2">
+    <li><m>h(4)</m></li>
+    <li><m>h^{-1}(4)</m></li>
+    <li><m>h(0)</m></li>
+    <li><m>h^{-1}(0)</m></li></ol>
+</p></statement>
+    <answer><p><ol label="a">
+        <li><m>1</m></li>
+        <li><m>256</m></li>
+        <li>undefined</li>
+        <li><m>1</m></li></ol></p>
+    </answer></exercise>
+
+<exercise><statement><p><m>q(x)=9^x.~</m> Evaluate if possible.<ol label="a" cols="2">
+    <li><m>q(\dfrac{1}{2})</m></li>
+    <li><m>q^{-1}(3)</m></li>
+    <li><m>q(0)</m></li>
+    <li><m>q^{-1}(0)</m></li></ol>
+</p></statement>
+    <answer><p><ol label="a">
+        <li><m>3</m></li>
+        <li><m>\dfrac{1}{2}</m></li>
+        <li><m>1</m></li>
+        <li>undefined</li></ol></p>
+    </answer></exercise>
+
+<exercise><statement><p><m>g(x)=5^x~</m>. Evaluate and simplify if possible.<ol label="a" cols="2">
+    <li><m>g(3+t)</m></li>
+    <li><m>g(3t)</m></li></ol>
+</p></statement>
+    <answer><p><ol label="a">
+        <li><m>125 \cdot 5^{t}</m></li>
+        <li><m>125^t</m></li></ol></p>
+    </answer></exercise>
+
+<exercise><statement><p><m>f(x)=\log_8 x~</m>. Evaluate and simplify if possible.<ol label="a" cols="2">
+    <li><m>f(64p)</m></li>
+    <li><m>f(64+p)</m></li></ol>
+</p></statement>
+    <answer><p><ol label="a">
+        <li><m>2+\log_8 p</m></li>
+        <li>cannot be simplified</li></ol></p>
+    </answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>3. Graph log functions</title>
+
+<subsubsection><title>Exercise</title>
+
+<exercise><statement><p><ol label="a">
+    <li><p>Complete the table of values and graph on the same grid: <m>~f(x)=x^2~</m> and <m>~g(x)=2^x~</m>
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>~~~x~~~</m></cell>
+                        <cell><m>~~~0~~~</m></cell>
+                        <cell><m>~~~1~~~</m></cell>
+                        <cell><m>~~~2~~~</m></cell>
+                        <cell><m>~~~3~~~</m></cell>
+                        <cell><m>~~~4~~~</m></cell>
+                        <cell><m>~~~5~~~</m></cell>
+                        <cell><m>~~~6~~~</m></cell>
+                        <cell><m>~~~8~~~</m></cell>
+                        <cell><m>~~10~~~</m></cell></row>
+                    <row> 
+                        <cell><m>~f(x)~</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    <row> 
+                        <cell><m>~g(x)~</m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    </tabular></sidebyside></p>
+    <sidebyside width="50%"><image source="images/fig-5-2-3.svg"><description>grid</description></image></sidebyside></li>
+    <li><p>Use your tables from part (a) to graph <m>~h(x)=\sqrt{x}~</m> and <m>~j(x)=\log_2 x~</m> on the same grid.</p>
+    <sidebyside width="50%"><image source="images/fig-5-2-5.svg"><description>grid</description></image></sidebyside></li>
+</ol></p></statement> 
+    <answer><p><ol label="a">
+     <li><sidebyside width="50%"><image source="images/fig-5-2-4.svg"><description>graph</description></image></sidebyside></li>
+      <li><sidebyside width="50%"><image source="images/fig-5-2-6.svg"><description>graph</description></image></sidebyside></li></ol> </p>
+    </answer></exercise>
+
+</subsubsection>
+</subsection>
+
+</section>
+<!-- </book>  </mathbook> -->
