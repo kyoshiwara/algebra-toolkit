@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="DomainRange" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 2.6 Domain and Range</title>
+                 
+<subsection><title>1. Solve equations</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Solve <m>~3\sqrt{x-4}=15</m>.</p></statement>
+ 
+<solution><p>Isolate <m>x</m> by "undoing" each operation in order: perform the opposite operations.
+    <me>\begin{aligned}[t]
+                3\sqrt{x-4} \amp = 15 \amp\amp \blert{\text{Divide both sides by 3.}}\\
+                \sqrt{x-4} \amp = 5 \amp\amp \blert{\text{Square both sides.}}\\
+                x-4 \amp = 25 \amp\amp \blert{\text{Add 4 to both sides.}}\\
+                x \amp = 29                
+                \end{aligned}</me>
+When we square both sides of an equation, we should check for extraneous solutions.
+    <me>3\sqrt{\alert{29}-4} = 3\sqrt{25} = 3(5)=15</me>
+The solutions is 29.</p></solution></example>
+
+<example><statement><p>Solve <m>~\dfrac{24}{x-1} = 4</m>.</p></statement>
+ 
+<solution><p>Clear the fraction by multiplying both sides by <m>(x-1)</m>.
+    <me>\begin{aligned}[t]
+                \dfrac{24}{x-1} \blert{(x-1)} \amp = 4 \blert{(x-1)} \amp\amp \blert{\text{Multiply by}~(x-1).}\\
+                24 \amp = 4(x-1) \amp\amp \blert{\text{Divide both sides by 4.}}\\
+                6 \amp = x-1 \amp\amp \blert{\text{Add 1 to both sides.}}\\
+                7 \amp = x                
+                \end{aligned}</me>
+Substituting 7 into <m>x-1</m>, we see that 7 does not cause the denominator to be 0, so 7 is the solution.</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Solve <m>~\sqrt[3]{2x-7}=-2</m>.</p></statement>
+<answer><m>x=\dfrac{-1}{2}</m></answer></exercise>
+
+<exercise><statement><p>Solve <m>~|x-4|=3</m>.</p></statement>
+<answer><m>x=7</m> or <m>x=1</m></answer></exercise>
+
+<exercise><statement><p>Solve <m>~5x^3-2=8</m>.</p></statement>
+<answer><m>x=\sqrt[3]{2}</m></answer></exercise>
+
+<exercise><statement><p>Solve <m>~\dfrac{3}{x^2}=16</m>.</p></statement>
+<answer><m>x=\pm \dfrac{\sqrt{3}}{4}</m></answer></exercise>
+
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Find points on a circle</title>
+
+<introduction><p>Recall that the equation for a circle of radius <m>r</m> centered at the origin is
+    <me>x^2+y^2=r^2</me></p>
+<sidebyside width="30%"><image source="images/fig-2-6-1.png"><description>circle</description></image></sidebyside>
+</introduction>
+
+<subsubsection><title>Example</title>
+
+<example><statement><p><ol label="a">
+    <li>Solve the equation <m>~x^2+y^2=9~</m> for <m>y</m> to get two functions.</li>
+    <li>Find two points on the circle that have <m>x</m>-coordinate <m>1</m>.</li></ol>
+</p></statement>
+
+<solution><p><ol label="a">
+    <li><p><me>\begin{aligned}[t]
+                x^2+y^2 \amp = 9 \amp\amp \blert{\text{Subtract}~x^2~\text{from both sides.}}\\
+                y^2 \amp = 9 - x^2 \amp\amp \blert{\text{Take square roots.}}\\
+                y \amp = \pm \sqrt{9-x^2}                
+                \end{aligned}</me>
+The two functions are <m>~y = \sqrt{9-x^2}~</m> and <m>~y = -\sqrt{9-x^2}~</m>.</p></li>
+    <li><p>Substitute <m>x=1</m> into each equation.
+        <me>y = \sqrt{9-(\alert{1})^2} = \sqrt{9-1} = \sqrt{8} = 2\sqrt{2}</me>
+        One point is <m>(1,2\sqrt{2}).</m>  Similarly, the other point is <m>(1,-2\sqrt{2}).</m></p></li></ol>
+</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercise</title>
+
+<exercise><statement><p><ol label="a">
+    <li>Solve the equation <m>~x^2+y^2=100~</m> for <m>y</m> to get two functions.</li>
+    <li>Find two points on the circle that have <m>x</m>-coordinate <m>-6</m>.</li>
+    <li>Find two points on the circle that have <m>y</m>-coordinate <m>5</m>.</li></ol>
+</p></statement>
+    <answer><p><ol label="a">
+        <li><p><m>y = \sqrt{100-x^2}</m> and <m>y = -\sqrt{100-x^2}</m></p></li>
+        <li><p><m>(-6,8)</m> and <m>(-6,-8)</m></p></li>
+        <li><p><m>(5\sqrt{3},5)</m> and <m>(-5\sqrt{3},5)</m></p></li></ol></p>
+    </answer></exercise>
+
+</subsubsection>
+</subsection>
+
+
+</section>
+<!-- </book>  </mathbook> -->

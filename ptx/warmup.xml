@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="WarmUp"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 1.0 Warm-Up</title>
+                 
+<subsection><title>1. Solve a linear equation</title>
+
+<subsubsection><title>Examples</title>
+                    
+<example><statement><p>Solve the equation <m>~~\dfrac{2}{3}x-5=7</m> </p></statement>
+                    
+<solution><me>\begin{aligned}[t]
+                \dfrac{2}{3}x-5 \amp = 7 \amp \amp \blert{\text{Add 5 to both sides.}}\\
+                \dfrac{2}{3}x \amp = 12 \amp \amp \blert{\text{To divide both sides by } \dfrac{2}{3}, \text{we:}}\\
+                \dfrac{3}{2}(\dfrac{2}{3}x) \amp =\dfrac{3}{2}(12) \amp \amp \blert{\text{Multiply by the reciprocal of }\dfrac{2}{3}.}\\
+                x \amp = 18 \amp \amp \blert{\text{The solution is 18.}}
+                \end{aligned}</me></solution></example>
+
+<example><statement><p>Solve the equation <m>~~2x+7=4x-3</m></p></statement>
+
+<solution><me>\begin{aligned}[t]
+                2x+7 \amp = 4x-3 \amp \amp \blert{\text{Subtract <m>2x</m> from both sides.}}\\
+                7 \amp = 2x-3 \amp \amp \blert{\text{Add 3 to both sides.}}\\
+                10 \amp =2x   \amp \amp \blert{\text{Divide both sides by 2.}}\\
+                5 \amp = x \amp \amp \blert{\text{The solution is 5.}}
+                \end{aligned}</me></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Solve the equation <m>~~10=1-\dfrac{3x}{7}</m></p></statement>
+    <answer><m>-21</m></answer></exercise>
+
+<exercise><statement><p>Solve the equation <m>~~6p-8=-3p-26</m> </p></statement>
+    <answer><m>-2</m></answer></exercise>
+
+<exercise><statement><p>Solve the equation <m>~~12=\dfrac{7u+4}{5}</m> </p></statement>
+    <answer><m>8</m></answer></exercise>
+
+<exercise><statement><p>Solve the equation <m>~~0=13q+25-17q+7</m> </p></statement>
+    <answer><m>8</m></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Solve a linear inequality</title>
+
+<p>The rules for solving an inequality are the same as those for solving an equation, with one important difference:</p>
+
+<assemblage><p>If we multiply or divide both sides by a negative number, we must reverse the direction of the inequality.</p></assemblage>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Solve <m>~~-3x+1 \gt 7~~</m> and graph the solutions on a number line.</p></statement>
+
+<solution><p><me>\begin{aligned}[t]
+                -3x+1-1 \amp \gt 7-1 \amp \amp \blert{\text{Subtract 1 from both sides.}}\\
+                -3x \amp \gt 6 \amp \amp \blert{\text{Divide both sides by -3, and reverse the direction of the inequality.}}\\
+                x \amp \gt -2   \amp \amp  
+                \end{aligned}</me>
+The solutions are all the numbers less than <m>-2</m>.
+The graph of the solutions is shown below.</p>
+    <sidebyside width="70%"><image source="images/fig-wu-1.png"><description>line graph</description></image></sidebyside>
+</solution></example>
+
+<example><statement><p>Solve <m>~~-3 \lt 2x-5 \le 6~~</m> and graph the solutions on a number line.</p></statement>
+
+<solution><p><me>\begin{aligned}[t]
+                -3 \amp \lt 2x-5 \le 6 \amp \amp \blert{\text{Add 5 on all three sides of the inequality.}}\\
+                2 \amp \lt 2x \le 11 \amp \amp \blert{\text{Divide each side by 2.}}\\
+                1 \amp \lt x \le \dfrac{11}{2}   \amp \amp  \blert{\text{Notice that we did not reverse the inequality.}}
+                \end{aligned}</me>
+The solutions are all the numbers greater than 1 but less than 5.5.
+The graph of the solutions is shown below.</p>
+    <sidebyside width="70%"><image source="images/fig-wu-2.png"><description>line graph</description></image></sidebyside>
+</solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Solve the inequality <m>~~8-4x \gt 2~~</m> and graph the solutions on a number line.</p></statement>
+    <answer><m>x \lt \dfrac{5}{2}</m></answer></exercise>
+
+<exercise><statement><p>Solve the inequality <m>~~-6 \le \dfrac{4-x}{3} \lt 2~~</m> and graph the solutions on a number line.</p></statement>
+    <answer><m>22 \ge x \gt -2</m></answer></exercise>
+
+<exercise><statement><p>Solve the inequality <m>~~3x-5 \lt -6x+7~~</m> and graph the solutions on a number line.</p></statement>
+    <answer><m>x \lt \dfrac{4}{3}</m></answer></exercise>
+
+<exercise><statement><p>Solve the inequality <m>~~-6 \gt 4-5b \gt -21~~</m> and graph the solutions on a number line.</p></statement>
+    <answer><m>2 \lt b \lt 5</m></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>3. Verify a solution</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Verify that <m>x=-5</m> is a solution of the equation <m>~~x^2+2x-15=0</m>. </p></statement>
+
+<solution><p>Show that substituting <m>-5</m> for <m>x</m> makes the equation true.
+            <me>\begin{aligned}[t]
+                x^2+2x-15 \amp = (\alert{-5})^2+2(\alert{-5})-15\\
+                         \amp = 25-10-15=0
+                \end{aligned}</me>       
+</p></solution></example>
+
+<example><statement><p>Verify that <m>x=-3</m> is not a solution of the equation <m>~~\sqrt{2x+10}-3x=8</m>. </p></statement>
+
+<solution><p>Show that substituting <m>-3</m> for <m>x</m> does not make the equation true.
+            <me>\begin{aligned}[t]
+                \sqrt{2x+10}-3x \amp = \sqrt{2(\alert{-3})+10}-3(\alert{-3})\\
+                         \amp = \sqrt{4}+9=2+9=11 \not= 8
+                \end{aligned}</me>       
+</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Decide whether the given value is a solution of the equation.
+    <me>x^3-3x^2-4x+2=10;~~~~x=-2</me></p></statement>
+    <answer><p>Yes</p></answer></exercise>
+
+<exercise><statement><p>Decide whether the given value is a solution of the equation.
+    <me>\sqrt{3x+5}=10+\sqrt{x+7};~~~~x=9</me></p></statement>
+    <answer><p>No</p></answer></exercise>
+
+<exercise><statement><p>Decide whether the given value is a solution of the equation.
+    <me>\dfrac{2x-1}{x+1}+2=\dfrac{x+1}{x-1};~~~~x=2</me></p></statement>
+    <answer><p>Yes</p></answer></exercise>
+
+<exercise><statement><p>Decide whether the given value is a solution of the equation.
+    <me>9-4x=5\sqrt{x+3};~~~~x=6</me></p></statement>
+    <answer><p>No</p></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>4. Solve an equation in two variables</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Is <m>(-3,2)</m> a solution of the equation <m>~~x^2+4y^2=25</m> ?</p></statement>
+
+<solution><p>Substitute <m>x=\alert{-3}</m> and <m>y=\alert{2}</m> into the equation.
+    <me>(\alert{-3})^2+4(\alert{2})^2=9+4(4)=9+16=25</me>
+The ordered pair <m>(-3,2)</m> satisfies the equation, so it is a solution.</p></solution></example>
+
+
+<example><statement><sidebyside widths="70% 25%"><p>Which of the following ordered pairs are solutions of the equation whose graph is shown?
+    <ol label="a" cols="2">
+        <li><m>(-3,-2)</m></li>
+        <li><m>(-5,0)</m></li>
+        <li><m>(1,-4)</m></li>
+        <li><m>(-1,-6)</m></li></ol></p>
+    <image source="images/fig-wu-3.png"><description>graph</description></image></sidebyside></statement>
+<solution><p>The points <m>(-3,-2)</m> and <m>(-1,-6)</m> lie on the graph, so they represent solutions of the equation.
+</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Find a solution of the equation with the given coordinate.
+    <me>6x-5y=-3,~~~~(2,?)</me></p></statement>
+    <answer><m>(2,3)</m></answer></exercise>
+
+<exercise><statement><p>Find a solution of the equation with the given coordinate.
+    <me>y=\frac{3}{4}x+8,~~~~(?,-1)</me></p></statement>
+    <answer><m>(-12,-1)</m></answer></exercise>
+
+<exercise><statement><p>Find a solution of the equation with the given coordinate.</p>
+    <sidebyside width="40%"><image source="images/fig-wu-4.png"><description>graph</description></image></sidebyside>
+</statement>
+    <answer><m>(16,4)</m></answer></exercise>
+
+<exercise><statement><p>Find a solution of the equation with the given coordinate.</p>
+    <sidebyside width="40%"><image source="images/fig-wu-5.png"><description>graph</description></image></sidebyside>
+</statement>
+    <answer><m>(2,-5)</m></answer></exercise>
+</subsubsection>
+
+</subsection>
+</section>
+<!-- </book>  </mathbook> -->

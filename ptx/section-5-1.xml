@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="InverseFunctions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 5.1 Inverse Functions</title>
+                 
+<subsection><title>1. Use new vocabulary</title>
+
+<subsubsection><title>Definitions</title>
+                    
+<p>Write a definition or description for each term:<ol label="1">
+        <li>Inverse function</li>
+        <li>Inverse function notation</li>
+        <li>Horizontal line test</li>
+        <li>One-to-one function</li>
+        <li>Symmetric about <m>y=x</m></li>
+    </ol></p>
+</subsubsection>
+
+<subsubsection><title>Exercise</title>
+
+<exercise><statement><p>Illustrate each term above for the following situation:</p>
+    <p>The sales tax <m>T</m> on an item that costs <m>p</m> dollars is given by the function <m>T=f(p)=1.15p</m></p>
+</statement>
+    <answer><p><ol label="1">
+        <li>The inverse function gives the price <m>p</m> of an item whose sales tax is <m>T</m> dollars.</li>
+        <li><m>p=f^{-1}(T)</m></li>
+        <li>The graph of <m>T=f(p)=1.15p</m> is linear, and so passes the horizontal line test.</li>
+        <li>A function that passes the horizontal line test is one-to-one: for each value of <m>p</m> there is only one value of <m>T</m>, and vice versa.</li>
+        <li><sidebyside  width="40%"><image source="images/fig-5-1-1.svg"><description>lines</description></image></sidebyside>  </li></ol>
+    </p></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Solve an equation for a variable</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Solve <m>~y=\sqrt{x^3-4}~</m> for <m>x</m> in terms of <m>y</m>.</p></statement>
+
+<solution><p>
+    <md><mrow>y \amp =\sqrt{x^3-4} \amp \amp \blert{\text{Square both sides.}}</mrow>
+        <mrow>y^2 \amp = x^3-4 \amp \amp \blert{\text{Add 4 to both sides.}}</mrow>
+        <mrow>y^2 + 4 \amp = x^3 \amp \amp \blert{\text{Take cube roots.}}</mrow>
+        <mrow> \sqrt[3]{y^2+4} \amp = x</mrow></md>
+</p></solution></example>
+
+<example><statement><p> Solve <m>~y=\dfrac{x+1}{x-2}~</m> for <m>x</m> in terms of <m>y</m>.</p></statement>
+
+<solution><p>
+    <md><mrow>y \amp =\dfrac{x+1}{x-2} \amp \amp \blert{\text{Clear the fraction.}}</mrow>
+        <mrow>y(x-2) \amp = x+1 \amp \amp \blert{\text{Apply the distributive law.}}</mrow>
+        <mrow>xy-2y \amp = x+1 \amp \amp \blert{\text{Collect}~x~\text{terms.}}</mrow>
+        <mrow>xy-x \amp = 1+2y \amp \amp \blert{\text{Factor out}~x.}</mrow>
+        <mrow>x(y-1) \amp = 1+2y \amp \amp \blert{\text{Divide by}~y-1.}</mrow>
+        <mrow>x \amp = \dfrac{1+2y}{y-1}</mrow></md></p>
+</solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Solve <m>~y=5-4\sqrt{x+2}~</m> for <m>x</m> in terms of <m>y</m>.</p></statement>
+    <answer><m>x=\dfrac{(y-5)^2}{16}-2</m></answer></exercise>
+
+<exercise><statement><p>Solve <m>~y=\dfrac{3}{\sqrt[3]{x+6}}~</m> for <m>x</m> in terms of <m>y</m>.</p></statement>
+    <answer><m>x=\dfrac{27}{y^3}-6</m></answer></exercise>
+
+<exercise><statement><p>Solve <m>~y=(2x-3)^3+1~</m> for <m>x</m> in terms of <m>y</m>.</p></statement>
+    <answer><m>x=\dfrac{1}{2}(3+\sqrt[3]{y-1})</m></answer></exercise>
+
+<exercise><statement><p>Solve <m>~y=\dfrac{3x-1}{2x+1}~</m> for <m>x</m> in terms of <m>y</m>.</p></statement>
+    <answer><m>x=\dfrac{y+1}{3-2y}</m></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>3. Use function notation</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p><m>f(x)=2x-3~</m>. Find formulas for:<ol label="a" cols="3">
+    <li><m>g(x)=\dfrac{1}{f(x)}</m></li>
+    <li><m>h(x)=-f(x)</m></li>
+    <li><m>j(x)=f^{-1}(x)</m></li></ol>
+</p></statement>
+ 
+<solution><p><ol label="a">
+     <li><m>g(x)=\dfrac{1}{2x-3}</m></li>
+      <li><m>h(x)=3-2x</m></li>   
+      <li><m>j(x)=\dfrac{x+3}{2}</m></li></ol> </p></solution></example>
+
+<example><statement><p><m>f(x)=\sqrt[3]{x-4}~</m>. Find formulas for:<ol label="a" cols="3">
+    <li><m>g(x)=\dfrac{1}{f(x)}</m></li>
+    <li><m>h(x)=-f(x)</m></li>
+    <li><m>j(x)=f^{-1}(x)</m></li></ol>
+</p></statement>
+ 
+<solution><p><ol label="a">
+     <li><m>g(x)=\dfrac{1}{\sqrt[3]{x-4}}</m></li>
+      <li><m>h(x)=-\sqrt[3]{x-4}</m></li>   
+      <li><m>j(x)=x^3+4</m></li></ol> </p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercise</title>
+
+<exercise><statement><p><m>f(x)=2-\dfrac{1}{2}x~</m>. Find formulas for:<ol label="a" cols="3">
+    <li><m>g(x)=\dfrac{1}{f(x)}</m></li>
+    <li><m>h(x)=-f(x)</m></li>
+    <li><m>j(x)=f^{-1}(x)</m></li></ol>
+</p></statement> 
+    <answer><p><ol label="a">
+     <li><m>g(x)=\dfrac{2}{4-x}</m></li>
+      <li><m>h(x)=\dfrac{1}{2}x-2</m></li>   
+      <li><m>j(x)=4-2x</m></li></ol> </p>
+    </answer></exercise> 
+
+<exercise><statement><p><m>f(x)=\dfrac{1}{x+2}~</m>. Find formulas for:<ol label="a" cols="3">
+    <li><m>g(x)=\dfrac{1}{f(x)}</m></li>
+    <li><m>h(x)=-f(x)</m></li>
+    <li><m>j(x)=f^{-1}(x)</m></li></ol>
+</p></statement> 
+    <answer><p><ol label="a">
+        <li><m>g(x)=x+2</m></li>
+        <li><m>h(x)=\dfrac{-1}{x+2}</m></li>
+        <li><m>j(x)=f^{-1}(x)</m></li></ol></p>
+    </answer></exercise> 
+
+<exercise><statement><p><m>f(x)=x^{3/4}~</m>. Find formulas for:<ol label="a" cols="3">
+    <li><m>g(x)=\dfrac{1}{f(x)}</m></li>
+    <li><m>h(x)=-f(x)</m></li>
+    <li><m>j(x)=f^{-1}(x)</m></li></ol>
+</p></statement> 
+    <answer><p><ol label="a">
+        <li><m>g(x)=x^{-3/4}</m></li>
+        <li><m>h(x)=-x^{3/4}</m></li>
+        <li><m>j(x)=x^{4/3}</m></li></ol> </p>
+    </answer></exercise> 
+    
+<exercise><statement><p><m>f(x)=\sqrt[3]{x-4}~</m>. Find formulas for:<ol label="a" cols="3">
+    <li><m>g(x)=\dfrac{1}{f(x)}</m></li>
+    <li><m>h(x)=-f(x)</m></li>
+    <li><m>j(x)=f^{-1}(x)</m></li></ol>
+</p></statement> 
+    <answer><p><ol label="a">
+        <li><m>g(x)=\dfrac{1}{\sqrt[3]{x-4}}</m></li>
+        <li><m>h(x)=-\sqrt[3]{x-4}</m></li>
+        <li><m>j(x)=x^3+4</m></li></ol> </p>
+    </answer></exercise> 
+</subsubsection>
+</subsection>
+
+</section>
+<!-- </book>  </mathbook> -->

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="RationalExponents" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 3.4 Rational Exponents</title>
+                 
+<subsection><title>1. Perform operations on fractions</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Add <m>~\dfrac{-3}{4}+(\dfrac{-5}{8})</m></p></statement>
+ 
+<solution><p>The LCD for the fractions is 8, so we build the first fraction:
+    <me>\dfrac{-3}{4} \cdot \alert{\dfrac{2}{2}} = \dfrac{-6}{8}</me>
+Then we combine like fractions:
+    <me>\dfrac{-6}{8}+\dfrac{5}{8} = \dfrac{-6+(-5)}{8} = \dfrac{-11}{8}</me>
+</p></solution></example>
+
+<example><statement><p>Subtract <m>~\dfrac{-5}{6}-(\dfrac{-3}{4})</m></p></statement>
+ 
+<solution><p>The LCD for the fractions is 12, so we build each fraction:
+    <me>\dfrac{-5}{6} \cdot \alert{\dfrac{2}{2}} = \dfrac{-10}{12};~~~~\dfrac{-3}{4} \cdot \alert{\dfrac{3}{3}} = \dfrac{-9}{12}</me>
+Then we combine like fractions:
+    <me>\dfrac{-10}{12}-(\dfrac{-9}{12}) = \dfrac{-10+9}{12} = \dfrac{-1}{12}</me></p></solution></example>
+
+<example><statement><p>Multiply <m>~\dfrac{-2}{3}(\dfrac{5}{4})</m></p></statement>
+ 
+<solution><p>We multiply numerators together, and multiply denominators together:
+    <me>\dfrac{-2}{3}(\dfrac{5}{4}) = \dfrac{-2 \cdot 5}{3 \cdot 4} = \dfrac{-10}{12}</me>
+Then we reduce:
+    <me>\dfrac{-10}{12} = \dfrac{-5 \cdot \cancel{2}}{6 \cdot \cancel{2}} = \dfrac{-5}{6}</me>
+</p></solution></example>
+
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Add <m>~\dfrac{-3}{4}+\dfrac{1}{3}</m></p></statement>
+    <answer><p><m>\dfrac{-5}{12}</m></p></answer></exercise>
+
+<exercise><statement><p>Subtract <m>~\dfrac{3}{8}-(\dfrac{-1}{6})</m></p></statement>
+    <answer><p><m>\dfrac{13}{24}</m></p></answer></exercise>
+
+<exercise><statement><p>Multiply <m>~\dfrac{3}{8}(-)\dfrac{-1}{6})</m></p></statement>
+    <answer><p><m>\dfrac{-1}{16}</m></p></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Convert between fractions and decimals</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Convert <m>~0.016~</m> to a common fraction.</p></statement>
+
+<solution><p>The numerator of the fraction is 016, or 16. The last digit, 6, is in the thousandths place, so the denominator of the fraction is 1000. Thus, <m>0.016=\dfrac{16}{1000}</m>.  We can reduce this fraction by dividing top and bottom by 8: 
+    <me>~ \dfrac{16}{1000} = \dfrac{\cancel{8} \cdot 2}{\cancel{8} \cdot 125} = \dfrac{2}{125}</me>
+</p></solution></example>
+
+<example><statement><p>Convert <m>~\dfrac{5}{16}~</m> to a decimal fraction.</p></statement>
+
+<solution><p>Using a calculator, divide 5 by 16:
+    <me>5~\boxed{\div}~16 = 0.3125</me></p>
+</solution></example>
+
+<example><statement><p>Convert <m>~\dfrac{5}{11}~</m> to a decimal fraction.</p></statement>
+
+<solution><p>Using a calculator, divide 5 by 11:
+    <me>5~\boxed{\div}~1 = 0.45454545 ... </me>
+This is a nonterminating decimal, which we indicate by a repeater bar:
+    <me>\dfrac{5}{11}= 0.45454545 ... =  0.\overline{45}</me></p>
+</solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Convert <m>~0.1062~</m> to a common fraction.</p></statement>
+    <answer><m>\dfrac{531}{5000}</m></answer></exercise>
+
+<exercise><statement><p>Convert <m>~2.08~</m> to a common fraction.</p></statement>
+    <answer><m>\dfrac{51}{25}</m></answer></exercise>
+
+ <exercise><statement><p>Convert <m>~\dfrac{5}{11}~</m> to a decimal fraction.</p></statement>
+    <answer><m>0.2\overline{6}</m></answer></exercise> 
+</subsubsection>
+</subsection>
+
+<subsection><title>3. Solve equations</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Solve <m>~0.6x^4 = 578</m>. Round your answer to hundredths.</p></statement>
+ 
+<solution><p> First, we isolate the power.
+        <me>\begin{aligned}[t]
+                0.6x^4 \amp = 578 \amp\amp \blert{\text{Divide both sides by 0.6.}}\\
+                 x^4 \amp = 963.\overline{3}               
+                \end{aligned}</me>
+    We raise both sides to the reciprocal of the power.
+        <me>\begin{aligned}[t]
+                (x^4)^{1/4} \amp = (963.\overline{3})^{1/4} \amp\amp \blert{\text{By the third law of exponents,}~ (x^4)^{1/4}=x.}\\
+                 x \amp = 5.57                 
+                \end{aligned}</me>
+        To evaluate <m>(963.\overline{3})^{1/4}</m>, enter  <m>~~\text{ANS}~\boxed{\wedge{}}~.25</m></p></solution></example>
+
+<example><statement><p>Solve <m>~x^{2/3}-4=60</m>.</p></statement>
+
+<solution><p> First, we isolate the power.
+        <me>\begin{aligned}[t]
+                x^{2/3}-4 \amp = 60 \amp\amp \blert{\text{Add 4 to both sides.}}\\
+                 x^{2/3} \amp = 64               
+                \end{aligned}</me>
+    We raise both sides to the reciprocal of the power.
+        <me>\begin{aligned}[t]
+                (x^{2/3})^{3/2} \amp = 64^{3/2} \amp\amp \blert{64^{3/2}=(64^{1/2})^3=8^3}\\
+                 x \amp = 512                 
+                \end{aligned}</me>
+        Or we can evaluate <m>~64^{3/2}~</m> by entering  <m>~~64~\boxed{\wedge{}}~1.5</m></p></solution></example>
+
+<example><statement><p>Solve <m>~18x^{0.24} = 6.5</m>. Round your answer to thousandths.</p></statement>
+ 
+<solution><p> First, we isolate the power.
+        <me>\begin{aligned}[t]
+                18x^{0.24} \amp = 6.5 \amp\amp \blert{\text{Divide both sides by 18.}}\\
+                 x^{0.24} \amp = 0.36\overline{1}               
+                \end{aligned}</me></p>
+    <p>We raise both sides to the reciprocal of the power.
+        <me>\begin{aligned}[t]
+                (x^{0.24})^{1/0.24} \amp = (0.36\overline{1})^{1/0.24}\\
+                 x \amp = 0.014                 
+                \end{aligned}</me>
+        We evaluate <m>(0.36\overline{1})^{1/0.24}</m> by entering  <m>~~\text{ANS} ~\boxed{\wedge{}}~\boxed{~(~}~1~ \boxed{\div}~.24~\boxed{~)~}</m></p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercise</title>
+
+<exercise><statement><p>Solve <m>~4x^5 = 1825~</m>. Round your answer to thousandths.</p></statement> 
+    <answer><m>3.403</m></answer></exercise> 
+
+<exercise><statement><p>Solve <m>~\dfrac{3}{4}x^{3/4} = 36~</m>. Round your answer to thousandths.</p></statement>
+    <answer><m>174.444</m></answer></exercise>
+
+ <exercise><statement><p>Solve <m>~0.2x^{1.4}+1.8=12.3~</m>. Round your answer to thousandths.</p></statement>
+    <answer><m>16.931</m></answer></exercise>   
+</subsubsection>
+</subsection>
+
+
+</section>
+<!-- </book>  </mathbook> -->

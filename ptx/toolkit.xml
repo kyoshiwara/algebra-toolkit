@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--********************************************************************
+Copyright 2020 Katherine Yoshiwara
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*********************************************************************-->
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+
+<xi:include href="./bookinfo.xml" />   <!-- ISBN, website, other metadata -->
+
+<book xml:id="MFG">
+       <title>Modeling, Functions, and Graphs</title>
+       <subtitle>Algebra for College Students</subtitle>
+
+       <xi:include href="./frontmatter.xml" />            <!--  Title Page, Preface, etc.  -->
+
+
+        <xi:include href="./chap1.xml" />        <!-- Functions and their graphs  -->
+        <xi:include href="./chap2.xml" />        <!-- Modeling with Functions  -->
+        <xi:include href="./chap3.xml" />        <!-- Power Functions  -->
+        <xi:include href="./chap4.xml" />        <!-- Exponential Functions  -->
+        <xi:include href="./chap5.xml" />        <!-- logarithmic Functions  -->
+        <xi:include href="./chap6.xml" />        <!-- Quadratic Functions  -->
+        <xi:include href="./chap7.xml" />        <!-- Polynomial and Rational Functions  -->
+        <xi:include href="./chap8.xml" />        <!-- Linear Systems  -->
+
+
+<!--     <xi:include href="./backmatter.xml" />       
+    Index follows appendices, preceded only colophon -->
+<!--    <index>
+        <index-list />
+    </index>
+
+    <colophon>
+        <p>This book was authored in MathBook XML.</p>
+    </colophon>
+-->
+    </book>
+</pretext>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="LinearProgramming" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 8.5 Linear Programming</title>
+                 
+<subsection><title>1. Use new vocabulary</title>
+
+<subsubsection><title>Definitions</title>
+                    
+<p>Write a definition or description for each term:<ol label="1">
+        <li>Objective function</li>
+        <li>Constraint</li>
+        <li>Feasible solution</li>
+        <li>Optimum solution</li>
+        <li>Vertex</m></li>
+    </ol></p>
+</subsubsection>
+
+<subsubsection><title>Exercise</title>
+
+<exercise><statement><p>Illustrate each term above for the TrailGear example at the start of Section 8.5</p> </statement>
+    <answer>The objective function is <m>~P-8x+10y,~</m> the constraints are <m>~3x+6y \le 2400~</m> and <m>~2x+y \le 1000.~</m> The feasible solutions are all the solutions to the inequalities in the constraints. The optimum solution is <m>(400, 200)</m>, which is one of the vertices of the set of feasible solutions, that is an intersection point of the boundary lines of that set.</answer></answer></exercise>
+</subsubsection>
+</subsection>
+
+
+
+
+</section>
+<!-- </book>  </mathbook> -->

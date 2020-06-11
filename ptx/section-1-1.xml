@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="LinMod"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 1.1 Linear Models</title>
+                 
+<subsection><title>1. Write a linear model</title>
+
+<subsubsection><title>Examples</title>
+                    
+<example><statement><p>Steve bought a Blu-Ray player for $269 and a number of discs at $14 each. Write an expression for Steve's total bill, <m>B</m> (before tax), in terms of the number of discs he bought, <m>d</m></p></statement>
+                    
+<solution><m>B=269+14d</m></solution></example>
+
+<example><statement><p>At 6 am the temperature was 50<m>\degree</m>, and it has been falling by 4<m>\degree</m> every hour. Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</p></statement>
+
+<solution><m>T=50-4h</m></solution></example>
+
+<example><statement><p>Kyli's electricity company charges her $6 per month plus $0.10 per kilowatt hour (kWh) of energy she uses. Write an equation for Kyli's electric bill, <m>E</m>, if she uses <m>w</m> kWh of electricity.</p></statement>
+
+<solution><m>E=6+0.10w</m></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Salewa saved $5000 to go to school full time. She spends $200 per week on living expenses. Write an equation for Salewa's savings, <m>S</m>, after <m>w</m> weeks.</p></statement>
+    <answer><m>S=5000-200w</m></answer></exercise>
+
+<exercise><statement><p>As a student at City College, Delbert pays a $50 registration fee plus $15 for each unit he takes. Write an equation that gives Delbert's tuition, <m>T</m>, if he takes <m>u</m> units.</p></statement>
+    <answer><m>T=50+15u</m></answer></exercise>
+
+<exercise><statement><p>Greta's math notebook has 100 pages, and she uses on average 6 pages per day for notes and homework. How many pages, <m>P</m>, will she have left after <m>d</m> days?</p></statement>
+    <answer><m>P=100-6d</m></answer></exercise>
+
+<exercise><statement><p>Asa has typed 220 words of his term paper, and is still typing at a rate of 20 words per minute.  How many words, <m>W</m>, will Asa have typed after <m>m</m> more minutes?</p></statement>
+    <answer><m>W=220+20m</m></answer></exercise>
+
+<exercise><statement><p>The temperature in Nome was <m>-12 \degree</m> F at noon. It has been rising at a rate of 2 <m>\degree</m> F per hour all day. Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</p></statement>
+    <answer><m>T=-12+2h</m></answer></exercise>
+
+<exercise><statement><p>Francine borrowed money from her mother, and she owes her $750 right now. She has been paying off the debt at a rate of $50 per month. Write an equation for Francine's financial status, <m>F</m>, in terms of <m>m</m>, the number of months from now.</p></statement>
+    <answer><m>F=-750+50m</m></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Graph a linear equation by the intercept method</title>
+
+<example><statement><p>Graph the equation <m>3x+2y=7</m> by the intercept method.
+</p></statement>
+
+<solution><p>First, we find the <m>x</m>- and <m>y</m>-intercepts of the graph. To find the <m>y</m>-intercept, we substitute <m>0</m> for <m>x</m> and solve for <m>y</m>:
+        <me>\begin{aligned}[t]
+                3(\alert{0})+2y \amp =7 \amp \amp \blert{\text{Simpify the left side.}}\\
+                2y \amp =7 \amp \amp \blert{\text{Divide both sides by 2.}}\\
+                y \amp =\dfrac{7}{2}=3\dfrac{1}{2}   \amp \amp  
+                \end{aligned}</me>
+The <m>y</m>-intercept is the point <m>(0, 3\dfrac{1}{2})</m>. To find the <m>x</m>-intercept, we substitute <m>0</m> for <m>y</m> and solve for <m>x</m>:
+        <me>\begin{aligned}[t]
+                3x+2(\alert{0}) \amp =7 \amp \amp \blert{\text{Simpify the left side.}}\\
+                3x \amp =7 \amp \amp \blert{\text{Divide both sides by 3.}}\\
+                x \amp =\dfrac{7}{3}=2\dfrac{1}{3}   \amp \amp  
+                \end{aligned}</me>
+The <m>x</m>-intercept is the point <m>(2\dfrac{1}{3}, 0)</m>.</p>
+
+<p>A table with the two intercepts is shown below. Plot the intercepts and connect them with a straight line.</p> 
+    <sidebyside widths="40% 35%" margins="0% 20%" valigns="middle middle">
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <row> <cell><m>x</m></cell><cell><m>y</m></cell></row>
+                <row> <cell><m>0</m></cell><cell><m>3\dfrac{1}{2}</m></cell></row>
+                <row> <cell><m>2\dfrac{1}{3}</m></cell><cell><m>0</m></cell></row>
+            </tabular>
+            <image source="images/fig-1-1-1.png"><description>graph</description></image></sidebyside>
+</solution></example>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Graph the line <m>y=\dfrac{-4}{3}x+8</m> by the intercept method.</p>
+<sidebyside widths="30% 40%">
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <row> <cell><m>x</m></cell><cell><m>y</m></cell></row>
+                <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
+                <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
+            </tabular>
+            <image source="images/fig-1-1-2.png"><description>grid</description></image></sidebyside></statement>
+    <answer><sidebyside width="30%"><image source="images/fig-1-1-3.png"><description>graph</description></image>
+        </sidebyside></answer></exercise>
+
+<exercise><statement><p>Graph the line <m>\dfrac{x}{6}+\dfrac{y}{8}=-1</m> by the intercept method.</p>
+<sidebyside widths="30% 40%">
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <row> <cell><m>x</m></cell><cell><m>y</m></cell></row>
+                <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
+                <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
+            </tabular>
+            <image source="images/fig-1-1-2.png"><description>grid</description></image></sidebyside></statement>
+    <answer><sidebyside width="30%"><image source="images/fig-1-1-4.png"><description>graph</description></image>
+        </sidebyside></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>3. Interpret the intercepts</title>
+
+<example><statement><p>The temperature, <m>T</m>, in Nome was <m>-12 \degree</m> at noon and has been rising at a rate of <m>2 \degree</m> per hour all day. <ul>
+    <li>Write and graph an equaton for <m>T</m> in terms of <m>h</m>, the number of hours after noon.</li>
+    <li>Find the intercepts of the graph and interpret their meaning in the context of the problem situation.</li>
+</ul></p></statement>
+
+<solution><sidebyside widths="50% 40%"><p>An equation for <m>T</m> at time <m>h</m> is
+        <me>T=-12 +2h</me>
+To find the <m>T</m>-intercept, we set <m>h=0</m> and solve for <m>T</m>.
+        <me>T=-12+2(\alert{0})=-12</me>  </p>
+<image source="images/fig-1-1-5.png"><description>graph</description></image></sidebyside> 
+<p>The <m>T</m>-intercept is <m>(0,-12)</m>. This point tells us that when <m>h=0, T=-12</m>, or the temperature at noon was <m>-12 \degree</m>. To find the <m>h</m>-intercept, we set <m>T=0</m> and solve for <m>h</m>. 
+        <me>\begin{aligned}[t]
+                \alert{0} \amp = -12+2h \amp \amp \blert{\text{Add 12 to both sides.}}\\
+                12 \amp = 2h \amp \amp \blert{\text{Divide both sides by 2.}}\\
+                6 \amp =h   \amp \amp  
+                \end{aligned}</me>       
+The <m>h</m>-intercept is the point <m>(6,0)</m>. This point tells us that when <m>h=6, T=0</m>, or the temperature will reach zero degrees at six hours after noon, or 6 pm.</p></solution></example>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Sheri bought a bottle of multivitamins for her family. The number of vitamins lt in the bottle after <m>d</m> days is given by
+    <me>N=300-5d</me></p>
+<sidebyside widths="50% 30%" valigns="bottom bottom"><p><ol label="a"> <li>Find the intercepts and use them to make a graph of the equation.
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <row> <cell><m>d</m></cell><cell><m>N</m></cell></row>
+                <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
+                <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
+            </tabular></li>
+    <li>Explain what each intercept tells us about the vitamins.</li></ol></p>
+<image source="images/fig-1-1-6.png"><description>grid</description></image></sidebyside></statement>
+    <answer><sidebyside widths="25% 60%"><image source="images/fig-1-1-7.png"><description>grid</description></image>
+        <p><ul><li><m>(0,300)</m> There were 300 vitamins to start.</li>               
+               <li><m>(60,0)</m> The vitamin bottle is empty after 60 days.</li></ul></p></sidebyside></answer></exercise>
+
+<exercise><statement><p>Delbert bought some equipment and went into the dog-grooming business.  His profit is increasing according to the equation 
+    <me>P=-600+40d</me>
+where <m>d</m> is the number of dogs he has groomed.</p>
+<sidebyside widths="50% 45%" valigns="bottom bottom"><p><ol label="a"> <li>Find the intercepts and use them to make a graph of the equation.
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <row> <cell><m>d</m></cell><cell><m>P</m></cell></row>
+                <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
+                <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
+            </tabular></li>
+    <li>Explain what each intercept tells us about Delbert's dog-grooming business.</li></ol></p>
+<image source="images/fig-1-1-8.png"><description>grid</description></image></sidebyside></statement>
+    <answer><sidebyside widths="25% 60%"><image source="images/fig-1-1-9.png"><description>grid</description></image>
+        <p><ul><li><m>(0,-600)</m> To start, Delbert's profit is <m>-$600</m>.</li>               
+            <li><m>(15,0)</m> Delbert breaks even after grooming 15 dogs.</li></ul></p></sidebyside></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>4. Solve an equation for one of the variables</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Solve the equation <m>2x-3y=8</m> for <m>y</m>.</p></statement>
+
+<solution><p><me>\begin{aligned}[t]
+                2x-3y \amp = 8 \amp \amp \blert{\text{Subtract <m>2x</m> from both sides.}}\\
+                -3y \amp = 8-2x \amp \amp \blert{\text{Divide both sides by} -3.}\\
+                y \amp =\dfrac{8-2x}{-3}   \amp \amp  \blert{\text{Divide each term of the numerator by} -3.}\\
+                y \amp =\dfrac{8}{3}-\dfrac{2}{3}x   \amp \amp
+                \end{aligned}</me></p></solution></example>
+
+
+<example><statement><p>Solve the equation <m>A=\dfrac{h}{2}(b+c)</m> for <m>b</m>.</p></statement>
+
+<solution><p><me>\begin{aligned}[t]
+                A \amp = \dfrac{h}{2}(b+c) \amp \amp \blert{\text{Multiply both sides by 2.}}\\
+                2A \amp = h(b+c) \amp \amp \blert{\text{Divide both sides by}~h.}\\
+                \dfrac{2A}{h} \amp = b+c   \amp \amp  \blert{\text{Subtract <m>c</m> from both sides.}}\\
+                \dfrac{2A}{h}-c \amp = b   \amp \amp
+                \end{aligned}</me></p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Solve  <m>f=s+at</m>  for <m>t</m></p></statement>
+    <answer><m>t=\dfrac{f-a}{s}</m></answer></exercise>
+
+<exercise><statement><p>Solve  <m>2x-4y=k</m>  for <m>y</m></p></statement>
+    <answer><m>y=\dfrac{-1}{4}k+\dfrac{1}{2}x</m></answer></exercise>
+
+<exercise><statement><p>Solve  <m>P=2l+2w</m>  for <m>l</m></p></statement>
+    <answer><m>l=\dfrac{P}{2}-w</m></answer></exercise>
+
+<exercise><statement><p>Solve  <m>\dfrac{x}{a}+\dfrac{y}{b}=1</m>  for <m>x</m></p></statement>
+    <answer><m>x=a-\dfrac{ay}{b}</m></answer></exercise>
+</subsubsection>
+
+
+
+
+</subsection>
+</section>
+<!-- </book>  </mathbook> -->

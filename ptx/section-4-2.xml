@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="ExponentialFunctions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 4.2 Exponential Functions</title>
+                 
+<subsection><title>1. Evaluate exponential functions</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Evaluate <m>~f(x)=8 \cdot 4^x</m>. <ol label="a" cols="2">
+    <li><m>f(2)</m></li>
+    <li><m>f(-2)</m></li>
+    <li><m>f(\frac{1}{2})</m></li>
+    <li><m>f(-\frac{1}{2})</m></li></ol></p></statement>
+ 
+<solution><p>Follow the order of operations:  compute powers before products.<ol label="a">
+    <li><m>f(2)=8 \cdot 4^2 = 8\cdot 16 = 128</m></li>
+    <li><m>f(-2)=8 \cdot 4^{-2} = 8\cdot \dfrac{1}{16} = \dfrac{1}{2}</m></li>
+    <li><m>f(\frac{1}{2})=8 \cdot 4^{1/2} = 8\cdot 2 = 16</m></li>
+    <li><m>f(-\frac{1}{2})=8 \cdot 4^{-1/2} = 8\cdot \dfrac{1}{2} = 4</m></li></ol></p>
+</solution></example>
+
+<example><statement><p>Evaluate <m>~g(x)=120(0.65)^x~</m>. Round your answers to thousandths.<ol label="a" cols="2">
+    <li><m>g(2.3)</m></li>
+    <li><m>g(-1.8)</m></li>
+    <li><m>g(0.4)</m></li>
+    <li><m>g(-0.25)</m></li></ol></p></statement>
+ 
+<solution><p>Follow the order of operations:  use your calculator to compute powers before products. Do not round off at intermediate steps!<ol label="a">
+    <li><m>g(2.3) = 120(0.65)^{2.3} = 120(0.37127...) = 44.554</m></li>
+    <li><m>g(-1.8) = 120(0.65)^{-1.8} = 120(2.17148...) = 260.578</m></li>
+    <li><m>g(0.4) = 120(0.65)^{0.4} = 120(0.84171...) = 101.006</m></li>
+    <li><m>g(-0.25) = 120(0.65)^{-0.25} = 120(1.11370...) = 133.645</m></li></ol>
+</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Evaluate each function.  Give your answers as common fractions.<ol label="a">
+    <li><m>G(t)=15(5)^t~</m>. Find <m>G(-3)</m></li>
+    <li><m>H(n)=4(\frac{1}{27})^n~</m>. Find <m>H(\frac{2}{3})</m></li>
+    <li><m>F(x)=\frac{1}{2} \cdot 8^x~</m>. Find <m>F(-\frac{1}{3})</m></li></ol>
+ </p></statement>
+    <answer><p><ol label="a">
+        <li><m>\dfrac{3}{25}</m></li>
+        <li><m>\dfrac{4}{9}</m></li>
+        <li><m>\dfrac{1}{4}</m></li></ol>
+    </p></answer></exercise>
+
+<exercise><statement><p>Evaluate each function. Round your answers to hundredths.<ol label="a">
+    <li><m>G(t)=15(1.5)^t~</m>. Find <m>G(-3)</m></li>
+    <li><m>h(z)=1.8(0.8)^z~</m>. Find <m>h(4)</m></li>
+    <li><m>F(w)=2500(1.03)^w~</m>. Find <m>F(25)</m></li></ol></p></statement>
+    <answer><p><ol label="a">
+        <li><m>4.44</m></li>
+        <li><m>0.745</m></li>
+        <li><m>5234.44</m></li></ol></p></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Use function notation</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p> The number of students at Salt Creek Elementary School is growing according to the formula <m>~f(t)=500(1.08)^t~</m>, where <m>t</m> is the number of years since the school opened in 2005.<ol label="a">  
+    <li>What does the equation <m>~f(6)=500(1.08)^6~</m> tell us about the school?</li>
+    <li>Use function notation to say that the student population was 583 in 2007.</li></ol>
+</p></statement>
+
+<solution><p><ol label="a">
+    <li>In this equation, <m>t=6</m> and <m>f(6)=793</m>. In 2011 (six years after the school opened), the student population was 793.</li>
+    <li>In 2007, <m>t=2</m>, so <m>f(2)=500(1.08)^2=583</m>.</li></ol>
+</p></solution></example>
+
+<example><statement><p> The value of Digicorp stock has been falling according to the formula <m>~V(w)=48(0.96)^w~</m>, where <m>w</m> is the number of weeks since its peak value of $48 per share.
+<ol label="a">
+    <li>Use function notation to say that 8 weeks later the value of a share of Digicorp stock was $34.63.</li>
+    <li>What does the equation <m>~V(12) = 48(0.96)^{12} = 29.41~</m> tell us about the stock?</li></ol>
+</p></statement>
+
+<solution><p><ol label="a">
+    <li>We evaluate the function at <m>w=8</m> to get <m>~V(8) = 48(0.96)^8 = 34.63</m>.</li> 
+    <li>In this equation, <m>w=12</m> and <m>V(12) = 29.41</m>, so 12 weeks after the peak value a share of Digicorp stock was worth $29.41.</li></ol></p>
+</solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>The number of internet users in the United States is given by <m>~I(t) = 95,331,000(1.09)^t~</m>, where <m>t=0</m> in 2000.  Use function notation to say that the number of internet users in 2005 was 146,679,000.</p>
+</statement>
+    <answer><m>I(t) = 146,679,000</m></answer></exercise>
+
+<exercise><statement><p>The percent of U.S. households that maintain a landline telephone is decreasing according to the formula <m>~L(t) = 95(0.96)^t~</m>, where <m>t=0</m> in 2004.  What does the equation <m>~L(t) = 95(0.96)^{10} = 63~</m> tell us about landlines? </p></statement>
+    <answer><p>In 2014, 63% of households maintained a landline.</p></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>3. Solve equations graphically</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Here is a graph of <m>f(x)=x^2+2x-16</m>. Use the graph to solve the equation <m>x^2+2x-16=8</m>.  Show your work on the graph.</p>
+    <sidebyside  width="35%"><image source="images/fig-4-2-1.png"><description>graph</description></image></sidebyside>
+</statement>
+ 
+<solution><p>To solve the equation, we want to find <m>x</m>-values that produce a function value of 8. Each point on the graph has coordinates <m>(x,f(x))</m> for a different value of <m>x</m>, and the vertical coordinate of each point is given by the function value, <m>f(x)</m>.  So we look for points on the graph with vertical coordinate <m>f(x)=8</m>.</p>
+<p>There are two such points, <m>(-6,8)</m> and <m>(4,8)</m>. Those points tell us that <m>f(-6)=8</m> and <m>f(4)=8</m>.  Thus, the <m>x</m>-coordinates of the points, namely <m>-6</m> and <m>4</m>, are the solutions.  To check algebraically, we can verify that <m>f(-6)=8</m> and <m>f(4)=8</m>:
+    <me>\begin{aligned}[t]
+                f(-6) \amp = (-6)^2+2(-6)-16 = 36-12-16 = 8\\
+                f(4)\amp = 4^2+2(4)-16 = 16+8-16 = 8               
+                \end{aligned}</me>
+</p></solution></example>
+
+<example><statement><p>Here is a graph of <m>G(x)=\dfrac{20}{(x-3)^2}</m>. Use the graph to solve the equation <m>\dfrac{20}{(x-3)^2} = 5</m>.  Show your work on the graph.</p>
+    <sidebyside  width="50%"><image source="images/fig-4-2-2.png"><description>graph</description></image></sidebyside>
+</statement>
+
+<solution><p> We find any points on the graph with vertical coordinate <m>G(x)=5</m>. There are two points, <m>(1,5)</m> and <m>(5,5</m>.)  The <m>x</m>-coordinates of those points, namely 1 and 5, are the solutions.</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercise</title>
+
+<exercise><statement><p>Here is a graph of 
+    <me>~F(x)=\dfrac{1}{16}x^3+\dfrac{3}{8}x^2-\dfrac{3}{2}-7~</me> 
+Use the graph to solve the equation 
+    <me>~\dfrac{1}{16}x^3+\dfrac{3}{8}x^2-\dfrac{3}{2}-7 = -3~</me>  
+Show your work on the graph.</p>
+    <sidebyside  width="35%"><image source="images/fig-4-2-3.png"><description>graph</description></image></sidebyside>
+</statement> 
+    <answer><m>8,~-1,~4</m></answer></exercise> 
+
+<exercise><statement><p>Here is a graph of 
+    <me>~g(x)=15x^{2/3}~</me> 
+Use the graph to solve the equation 
+    <me>~15x^{2/3} = 60~</me>  
+Show your work on the graph.</p>
+    <sidebyside  width="40%"><image source="images/fig-4-2-4.png"><description>graph</description></image></sidebyside>
+</statement>
+    <answer><m>-8,~8</m></answer></exercise>
+</subsubsection>
+</subsection>
+
+</section>
+<!-- </book>  </mathbook> -->

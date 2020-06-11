@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Slope"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 1.4 Slope</title>
+                 
+<subsection><title>1. Use ratios for comparison</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>You are choosing between two brands of iced tea.  Which is a better bargain: a 28-ounce bottle of Teatime for $1.82, or a 36-ounce bottle of Leafdream for $2.25?</p></statement>
+ 
+<solution><p>Compute the ratio price per ounce for each brand.
+    <me>\text{Teatime:}~~~\dfrac{182 \text{ cents}}{28 \text{ ounces}}= 6.5 \text{ cents per ounce}</me>
+    <me>\text{Leafdream:}~~~\dfrac{225 \text{ cents}}{36 \text{ ounces}}= 6.25 \text{ cents per ounce}</me>
+Leafdream is the better bargain.</p></solution></example>
+
+<example><statement><p>The trail to Lookout Point gains 780 feet in elevation over a distance of 1.3 miles.  The trail to Knife Edge gains 950 feet in elevation over a distance of 1.6 miles.  Which trail is steeper?</p></statement>
+
+<solution><p>Compute the ratio of elevation gain to horizontal distance traveled for each trail.
+    <me>\text{Lookout Point:}~~~\dfrac{780 \text{ feet}}{1.3 \text{ miles}}= 600 \text{ feet per mile}</me>
+    <me>\text{Knife Edge:}~~~\dfrac{950 \text{ feet}}{1.6 \text{ miles}}= 593.75 \text{ feet per mile}</me>
+The Lookout Point trail is steeper.</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Rachel drove 292.4 miles on 8.6 gallons of gasoline.  Reuben drove 390 miles on 12 gallons of gasoline.  Who got the better gas mileage?</p></statement>
+    <answer><p>Rachel:  34 miles per gallon;  Reuben:  32.5 miles per gallon</p></answer></exercise>
+
+<exercise><statement><p>Leslie drove 168 miles in 2.8 hours, and Mark drove 224 miles in 3.5 hours.  Who drove at the greater average speed?</p></statement>
+    <answer><p>Mark:  64 miles per hour;  Leslie:  60 miles per hour</p></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Calculate slope from a graph</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Calculate the slope of the line.</p>
+    <sidebyside widths="35%"><image source="images/fig-1-4-1.png"><description>graph</description></image></sidebyside>
+</statement>
+
+<solution><p>Choose two points on the line, and calculate the ratio of vertical change to horizontal change.  Use the grid lines on the graph, but don't forget to note the scales on the axes.</p>
+<p>The slope is the ratio <m>\dfrac{\Delta h}{\Delta t}</m>.  The variable on the horizontal axis increases by 4 units, from 2 to 6, so <m>\Delta t=4</m>.  The variable on the vertical axis increases by 8 grid lines, but each grid line represents 2 units, so <m>\Delta h=16</m>.  Thus, the slope is <m>\dfrac{\Delta h}{\Delta t} = \dfrac{16}{4}=4</m>.
+</p></solution></example>
+
+<example><statement><p>Calculate the slope of the line.</p>
+    <sidebyside widths="35%"><image source="images/fig-1-4-2.png"><description>graph</description></image></sidebyside>
+</statement>
+
+<solution><p>Choose two points on the line, and calculate the ratio of vertical change to horizontal change.  Use the grid lines on the graph, but don't forget to note the scales on the axes.</p>
+<p>The slope is the ratio <m>\dfrac{\Delta V}{\Delta t}</m>.  The horizontal variable, <m>t</m>, increases by 6 grid lines, but each grid line represents 2 units, so <m>\Delta t=12</m>. The vertical variable, <m>V</m>, decreases by 3 grid lines, or 6 units, so <m>\Delta V=-6</m>.  Thus, <m>\dfrac{\Delta V}{\Delta t} = \dfrac{-6}{12}=\dfrac{-1}{2}</m>.
+</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Calculate the slope of the line.</p>
+    <sidebyside widths="35%"><image source="images/fig-1-4-3.png"><description>graph</description></image></sidebyside>
+</statement>
+    <answer><m>50</m></answer></exercise>
+
+<exercise><statement><p>Calculate the slope of the line.</p>
+    <sidebyside widths="35%"><image source="images/fig-1-4-4.png"><description>graph</description></image></sidebyside>
+</statement>
+    <answer><m>-24</m></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>3. Calculate slope using a formula</title>
+
+<assemblage><title>Two-Point Formula for Slope</title>
+    <p>The slope of the line joining points <m>~P_1(x_1,y_1)~</m> and <m>~P_2(x_2,y_2)~</m> is
+        <me>m=\dfrac{y_2-y_1}{x_2-x_1}~~~~~~\text{if}~~~~x_2 \not= x_1</me></p></assemblage>
+        
+<subsubsection><title>Example</title>
+
+<example><statement><p>Compute the slope of the line joining <m>(-6,2)</m> and <m>(3,-1)</m>.</p></statement>
+
+<solution><p>It doesn't matter which point is <m>P_1</m> and which is <m>P_21</m>, so we choose <m>P_1</m> to be <m>(-6,2)</m>.  Then <m>(x_1,y_1)=(-6,2)</m> and <m>(x_2,y_2)=(3,-1)</m>.  Thus,
+    <me>\begin{aligned}[t]
+                m \amp = \dfrac{y_2-y_1}{x_2-x_1}\\
+                  \amp = \dfrac{-1-2}{3-(-6)} = \dfrac{-3}{9} = \dfrac{-1}{3}
+                \end{aligned}</me>
+</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+ 
+<exercise><statement><p>Compute the slope of the line joining the points <m>(5,2)</m> and <m>(8,7)</m>.</p></statement>
+    <answer><m>\dfrac{5}{3}</m></answer></exercise>
+
+<exercise><statement><p>Compute the slope of the line joining the points <m>(-3,-4)</m> and <m>(-7,1)</m>.</p></statement>
+    <answer><m>\dfrac{-5}{4}</m></answer></exercise>
+</subsubsection>
+</subsection>
+
+</section>
+<!-- </book>  </mathbook> -->

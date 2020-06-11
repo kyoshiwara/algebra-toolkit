@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="AbsoluteValueFunction"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 2.5 The Absolute Value Function</title>
+                 
+<subsection><title>1. Use interval notation</title>
+
+<subsubsection><title>Example</title>
+
+<example><statement><p>Write each set with interval notation, and graph the set on a number line.<ol label="a" cols="2">
+    <li><m>3 \le x \lt 6</m></li>
+    <li><m>x \ge -9</m></li>
+    <li><m>x \le 1~\text{or}~x\gt 4</m></li>
+    <li><m>-8 \lt x \le 5~\text{or}~-1\le x \lt 3</m></li></ol></p></statement>
+ 
+<solution><p><ol label="a">
+    <li><p><m>[3,6).</m> This is called a half-open or half-closed interval. A square bracket indicates that the end-point is included; a round bracket that it is not included.</p>
+    <sidebyside width="70%"><image source="images/fig-2-5-1.png"><description>interval</description></image></sidebyside></li>
+    <li><p><m>[-9, \infty).</m> We use round brackets next to the symbol <m>\infty</m> because <m>\infty</m> is not a specific number and is not included in the set.</p>
+    <sidebyside width="90%"><image source="images/fig-2-5-2.png"><description>interval</description></image></sidebyside></li>
+    <li><p><m>(-\infty,1] \cup (4, \infty).</m> The word “or” describes the union of two sets. The symbol <m>~\cup~</m> is used for union.</p>
+    <sidebyside width="70%"><image source="images/fig-2-5-3.png"><description>interval</description></image></sidebyside></li>
+    <li><p><m>(-8,-5] \cup [-1,3).</m></p>
+    <sidebyside width="70%"><image source="images/fig-2-5-4.png"><description>interval</description></image></sidebyside></li></ol>
+</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercise</title>
+
+<exercise><statement><p>Write each set with interval notation, and graph the set on a number line.<ol label="a" cols="2">
+    <li><m>-5 \lt x \le 3</m></li>
+    <li><m>-6 \lt x \lt \infty</m></li>
+    <li><m>x \lt -3 ~\text{or}~ x\ge -1</m></li>
+    <li><m>-6 \le x \lt-4 ~\text{or}~ -2 \lt x \le 0</m></li></ol></p></statement>
+<answer><p><ol label="a">
+        <li><m>(-5,-3]</m>
+            <sidebyside width="70%"><image source="images/fig-2-5-5.png"><description>interval</description></image></sidebyside></li>
+        <li><m>(-6, \infty)</m>
+            <sidebyside width="70%"><image source="images/fig-2-5-6.png"><description>interval</description></image></sidebyside></li>
+        <li><m>(-\infty,-3) \cup [-1,\infty)</m>
+            <sidebyside width="70%"><image source="images/fig-2-5-7.png"><description>interval</description></image></sidebyside></li>
+        <li><m>[-6,-4) \cup (-2,0]</m>
+            <sidebyside width="70%"><image source="images/fig-2-5-8.png"><description>interval</description></image></sidebyside></li>
+</ol></p></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Solve compound inequalities</title>
+
+<subsubsection><title>Example</title>
+
+<example><statement><p>Solve the inequality <m>~-3 \lt 2x-5 \le 6~</m> and write your solution with interval notation.</p></statement>
+
+<solution><p>To isolate <m>x</m>, we first add 5 on each side of the inequality symbols.
+    <me>\begin{aligned}[t]
+                -3 \amp \lt 2x-5 \le 6 \amp\amp \blert{\text{Add 5 on all three sides.}}\\
+                2 \amp \lt 2x~~ \le 11 \amp\amp \blert{\text{Divide each side by 2.}}\\
+                1 \amp \lt x \le \dfrac{11}{2}                
+                \end{aligned}</me>
+The solutions are all real numbers greater than 1 but less than or equal to <m>\dfrac{11}{2}</m>. In interval notation, we write <m>~(1, \dfrac{11}{2}]</m>.</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Solve the inequality <m>~23 \gt 9-2b \ge 13~</m> and write your solution with interval notation.</p></statement>
+    <answer><m>(-7,-2]</m></answer></exercise>
+
+<exercise><statement><p>Solve the inequality <m>~-8 \le \dfrac{5w+3}{4} \lt -3~</m> and write your solution with interval notation.
+    </p></statement>          
+<answer><m>[-7,-3)</m></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>3. Simplify absolute value functions</title>
+
+<subsubsection><title>Example</title>
+
+<example><statement><p>Simplify the function <m>~f(x)=|2x-8|~</m> as a piecewise defined function.</p></statement>
+
+<solution><p>We use the definition of absolute value to write
+    <me>
+        f(x) =
+        \begin{cases}
+        2x-8 \amp  \text{if} ~~2x-8\ge 0\\
+        -(2x-8)  \amp  \text{if} ~~2x-8\lt 0
+        \end{cases}
+    </me>
+    Then we simplify each expression.
+    <me>
+        f(x) =
+        \begin{cases}
+        2x-8 \amp  \text{if} ~~x\ge 4\\
+        8-2x  \amp  \text{if} ~~x\lt 4
+        \end{cases}
+    </me>
+</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+ 
+<exercise><statement><p>Simplify the function <m>~f(x)=|6-3x|~</m> as a piecewise defined function.</p></statement>
+    <answer><p><me>
+        f(x) =
+        \begin{cases}
+        6-3x \amp  \text{if} ~~x\le 2\\
+        3x-6  \amp  \text{if} ~~x\gt 2
+        \end{cases}
+    </me></p></answer></exercise>
+
+<exercise><statement><p>Simplify the function <m>~f(x)=|1+4x|~</m> as a piecewise defined function.</p></statement>
+    <answer><p><me>
+        f(x) =
+        \begin{cases}
+        1+4x \amp  \text{if} ~~x\ge \dfrac{-1}{4}\\
+        -1-4x  \amp  \text{if} ~~x\lt \dfrac{-1}{4}
+        \end{cases}
+    </me></p></answer></exercise>
+</subsubsection>
+</subsection>
+
+</section>
+<!-- </book>  </mathbook> -->

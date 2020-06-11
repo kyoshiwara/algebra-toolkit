@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Transformations"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 2.3 Transformations of Graphs</title>
+                 
+<subsection><title>1. Interpret function notation for transformations</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Write a formula for the transformed function.<ol label="a">  
+    <li><m>f(x)=\dfrac{1}{x},~~g(x)=f(x)-3</m></li>
+    <li><m>f(x)=\dfrac{1}{x^2},~~g(x+4)</m></li>
+    <li><m>f(x)=\sqrt[3]{x},~~g(x)=\dfrac{1}{3}f(x)</m></li>
+    <li><m>f(x)=|x|,~~g(x)=-f(x)</m></li>
+</ol></p></statement>
+ 
+<solution><p><ol label="a">
+    <li><m>g(x)=\dfrac{1}{x}-3</m></li>
+    <li><m>g(x)=\dfrac{1}{(x+4)^2}</m></li>
+    <li><m>g(x)=\dfrac{1}{3}\sqrt[3]{x}</m></li>
+    <li><m>g(x)=-|x|</m></li>
+</ol></p></solution></example>
+
+<example><statement><p>Write a formula for the transformed function.<ol label="a">
+    <li><m>f(x)=x^2-3x,~~g(x)=f(x+1)</m></li>    
+    <li><m>f(x)=x^3+\sqrt{x},~~g(x)=-2f(x)</m></li>
+    <li><m>f(x)=5-\dfrac{2}{x},~~g(x)=f(x)-8</m></li>
+    <li><m>f(x)=\dfrac{4x-7}{x^2},~~g(x)=f(x-2)</m></li></ol></p></statement>
+
+<solution><p><ol label="a">
+    <li><m>g(x)=(x+1)^2-3(x+1)</m></li>    
+    <li><m>g(x)=-2x^3-2\sqrt{x}</m></li>
+    <li><m>g(x)=-3-\dfrac{2}{x}</m></li>
+    <li><m>g(x)=\dfrac{4(x-2)-7}{(x-2)^2}</m></li></ol></p>
+</solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Write formulas for the transformed functions.<ol label="a">
+    <li><m>f(x)=x^2-3x+5;~~g(x)=f(x-3),~~h(x)=f(x)-3</m></li>
+    <li><m>f(x)=\dfrac{\sqrt{x}}{2x-1};~~g(x)=f(x)+1,~~h(x)=f(x+1)</m></li></ol></p></statement>
+    <answer><p><ol label="a">
+    <li><m>g(x)=(x-3)^2-3(x-3)+5,~~h(x)=x^2-3x+2</m></li>
+    <li><m>g(x)=\dfrac{\sqrt{x}}{2x-1}+1,~~h(x)=\dfrac{\sqrt{x+1}}{2(x+1)-1}</m></li></ol></p></answer></exercise>
+
+<exercise><statement><p>Write formulas for the transformed functions.<ol label="a">
+    <li><m>f(x)=x^3-|x|;~~g(x)=f(x)-2,~~h(x)=f(x-2)</m></li>
+    <li><m>f(x)=\dfrac{x-1}{x^2};~~g(x)=3f(x),~~h(x)=\dfrac{-1}{3}f(x)</m></li></ol></p></statement>
+    <answer><p><ol label="a">
+    <li><m>g(x)=x^3-|x|-2,~~h(x)=(x-2)^3-|x-2|</m></li>
+    <li><m>g(x)=\dfrac{3(x-1)}{x^2},~~h(x)=\dfrac{-(x-1)}{3x^2}</m></li></ol></p></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Make a table for a transformed function</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Complete the table for the function and its transformation.
+    <me>f(x)=x^3,~~g(x)=f(x)-4</me>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell></row>
+                    <row> 
+                        <cell><m>f(x)</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    <row> 
+                        <cell><m>g(x)</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    </tabular></sidebyside></p></statement>
+
+<solution><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell></row>
+                    <row> 
+                        <cell><m>f(x)</m></cell>
+                        <cell><m>-8</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>8</m></cell></row>
+                    <row> 
+                        <cell><m>g(x)</m></cell>
+                        <cell><m>-12</m></cell>
+                        <cell><m>-5</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>4</m></cell></row>
+                    </tabular></sidebyside></p></solution></example>
+
+<example><statement><p>Complete the table for the function and its transformation.
+    <me>f(x)=|x|,~~g(x)=f(x-4)</me>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell></row>
+                    <row> 
+                        <cell><m>f(x)</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    <row> 
+                        <cell><m>g(x)</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    </tabular></sidebyside></p></statement>
+
+<solution><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell></row>
+                    <row> 
+                        <cell><m>f(x)</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell></row>
+                    <row> 
+                        <cell><m>g(x)</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>0</m></cell></row>
+                    </tabular></sidebyside></p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Complete the table for the function and its transformation.
+    <me>f(x)=\dfrac{1}{x},~~g(x)=-2f(x)</me>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell></row>
+                    <row> 
+                        <cell><m>f(x)</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    <row> 
+                        <cell><m>g(x)</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    </tabular></sidebyside></p></statement>
+
+    <answer><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell></row>
+                    <row> 
+                        <cell><m>f(x)</m></cell>
+                        <cell><m>\dfrac{-1}{4}</m></cell>
+                        <cell><m>\dfrac{-1}{2}</m></cell>
+                        <cell>undefined</cell>
+                        <cell><m>\dfrac{1}{2}</m></cell>
+                        <cell><m>\dfrac{1}{4}</m></cell></row>
+                    <row> 
+                        <cell><m>g(x)</m></cell>
+                        <cell><m>\dfrac{1}{2}</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell>undefined</cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>\dfrac{-1}{2}</m></cell></row>
+                    </tabular></sidebyside></p></answer></exercise>
+
+<exercise><statement><p>Complete the table for the function and its transformation.
+    <me>f(x)=x^2,~~g(x)=f(x+1)</me>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell></row>
+                    <row> 
+                        <cell><m>f(x)</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    <row> 
+                        <cell><m>g(x)</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    </tabular></sidebyside></p></statement>
+
+    <answer><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell></row>
+                    <row> 
+                        <cell><m>f(x)</m></cell>
+                        <cell><m>16</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>16</m></cell></row>
+                    <row> 
+                        <cell><m>g(x)</m></cell>
+                        <cell><m>9</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell>1</cell>
+                        <cell><m>9</m></cell>
+                        <cell><m>25</m></cell></row>
+                    </tabular></sidebyside></p></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>3. Identify the order of operations in a transformed function</title>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>State the basic function and the transformations needed to graph <m>~~F(x)=5 \sqrt[3]{x}+6</m>.</p></statement>
+
+<solution><p>The basic function is <m>~f(x)=\sqrt[3]{x}~</m>.  The output is multiplied by 5, and then 6 is added, so <m>~g(x)=5f(x)~</m>, and <m>~F(x)=g(x)+6~</m>.</p></solution></example>
+
+<example><statement><p>State the basic function and the transformations needed to graph <m>~~G(x)=\dfrac{-3}{(x-1)^2}</m>.</p></statement>
+
+<solution><p>The basic function is <m>~f(x)=\dfrac{1}{x^2}~</m>.  We subtract 1 from the input, then multiply the output by <m>-3</m>, so <m>~g(x)=f(x-1)~</m>, and <m>~G(x)=-3g(x)~</m>.</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+ 
+<exercise><statement><p>State the basic function and the transformations needed to graph <m>~~F(x)=\sqrt{x+6}+2</m>.</p></statement>
+    <answer><p>The basic function is <m>~f(x)=\sqrt{x}~</m>. Then <m>~g(x)=f(x+6)~</m> and <m>~F(x)=g(x)+2~</m>.</p></answer></exercise>
+
+<exercise><statement><p>State the basic function and the transformations needed to graph <m>~~G(x)=\dfrac{1}{4}(x-3)^3</m>.</p></statement>
+    <answer><p>The basic function is <m>~f(x)=x^3~</m>. Then <m>~g(x)=f(x-3)~</m> and <m>~F(x)=\dfrac{1}{4}g(x)~</m>.</p></answer></exercise>
+</subsubsection>
+</subsection>
+
+</section>
+<!-- </book>  </mathbook> -->
