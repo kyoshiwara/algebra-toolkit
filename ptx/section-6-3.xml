@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="GraphingParabolas" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 6.3 Graphing Parabolas </title>
                  
@@ -73,4 +73,4 @@ The <m>y</m>-coordinate is 32, and the point is <m>(-3,32)</m>.</p></solution></
 </subsection>
 
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="LogScales" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 5.4 Log Scales </title>
                  
@@ -230,4 +230,4 @@
 
 
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

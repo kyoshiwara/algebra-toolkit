@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 <chapter xml:id="chap10"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Logarithmic Functions</title>
 
-<introduction>
-    <sidebyside width="60%" margins="0% 40%"><image source="images/neurons.png"><description>neurons, 3D4Medicalcom/Getty Images</description></image></sidebyside>
-</introduction>
 
 
 <xi:include href="./section-10-1.xml" />     <!-- Logarithmic Functions  -->

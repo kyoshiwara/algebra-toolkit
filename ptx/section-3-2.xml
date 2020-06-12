@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="IntegerExponents" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 3.2 Integer Exponents</title>
                  
@@ -136,4 +136,4 @@ Multiply the coefficients together, and use the first law of exponents to find t
 
 
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

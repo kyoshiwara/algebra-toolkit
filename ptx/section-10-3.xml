@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="CentralConics"   xmlns:xi="http://www.w3.org/2001/XInclude">
 
@@ -344,4 +344,4 @@ respectively.</p>
 <xi:include href="./section-10-1-exercises.xml" /> exercises  -->
 
 </section> 
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

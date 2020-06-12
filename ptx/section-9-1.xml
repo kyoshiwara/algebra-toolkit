@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="Sequences"   xmlns:xi="http://www.w3.org/2001/XInclude">
             <title>Sequences</title>
@@ -278,4 +278,4 @@ The sequence is determined by the recursive definition
 <xi:include href="./section-9-1-exercises.xml" />
  -->
 </section> 
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

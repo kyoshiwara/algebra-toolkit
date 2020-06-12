@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="LogFunctions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 5.2 Logarithmic Functions</title>
                  
@@ -410,4 +410,4 @@
 </subsection>
 
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

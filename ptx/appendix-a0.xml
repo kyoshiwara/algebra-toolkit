@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <appendix xml:id="appendix-a"   xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Algebra Skills Refresher</title>
@@ -4460,4 +4460,4 @@ We must square the <em>entire expression</em> on each side of the equal sign as 
 </appendix>
 
 
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

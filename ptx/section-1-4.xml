@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="Slope"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 1.4 Slope</title>
                  
@@ -96,4 +96,4 @@ The Lookout Point trail is steeper.</p></solution></example>
 </subsection>
 
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

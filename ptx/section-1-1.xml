@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="LinMod"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 1.1 Linear Models</title>
                  
@@ -194,4 +194,4 @@ where <m>d</m> is the number of dogs he has groomed.</p>
 
 </subsection>
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

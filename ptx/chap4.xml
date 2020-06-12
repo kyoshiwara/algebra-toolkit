@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<chapter xml:id="chap4"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Applications of Quadratic Models</title>
+<chapter xml:id="chap4"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Exponential Functions</title>
     
-<introduction>
-    <sidebyside width="60%" margins="0% 40%"><image source="images/shutterstock_534935254.jpg"><description>hungry nestlings</description></image></sidebyside>
-</introduction>
+
     
- <xi:include href="./section-4-1.xml" /> <!-- Quadratic Formula  -->
- <xi:include href="./section-4-2.xml" /> <!-- The Vertex  -->
- <xi:include href="./section-4-3.xml" /> <!-- Curve Fitting  -->
- <xi:include href="./section-4-4.xml" /> <!-- Quadratic Inequalities-->
+ <xi:include href="./section-4-1.xml" /> 
+ <xi:include href="./section-4-2.xml" /> 
+ <xi:include href="./section-4-3.xml" /> 
+ <xi:include href="./section-4-4.xml" /> 
+ <xi:include href="./section-4-5.xml" />
  </chapter> 

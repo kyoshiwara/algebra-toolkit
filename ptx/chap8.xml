@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<chapter xml:id="chap8"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Polynomial and Rational Functions</title>
+<chapter xml:id="chap8"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Linear Systems</title>
     
-<introduction>
-    <sidebyside width="60%" margins="0% 40%"><image source="images/Durer-font.png"><description>font designed by Albrecht Durer</description></image></sidebyside>
-</introduction>
 
 
 
-<xi:include href="./section-8-1.xml" /> <!--Polynomial Functions -->
-<xi:include href="./section-8-2.xml" /> <!--Algebraic Fractions -->
-<xi:include href="./section-8-3.xml" /> <!--Operations on Algebraic Fractions -->
-<xi:include href="./section-8-4.xml" /> <!--More Operations on Fractions-->
-<xi:include href="./section-8-5.xml" /> <!--Equations with Fractions-->
+
+<xi:include href="./section-8-1.xml" /> 
+<xi:include href="./section-8-2.xml" /> 
+<xi:include href="./section-8-3.xml" /> 
+<xi:include href="./section-8-4.xml" /> 
+<xi:include href="./section-8-5.xml" /> 
 
 </chapter>

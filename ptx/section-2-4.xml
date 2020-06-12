@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="MathematicalModels"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 2.4 Functions as Mathematical Models</title>
                  
@@ -213,4 +213,4 @@
 </subsection>
 
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

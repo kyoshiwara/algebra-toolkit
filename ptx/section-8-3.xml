@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="Matrices" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 8.3 Solving Linear Systems Using Matrices</title>
                  
@@ -56,4 +56,4 @@ This matrix is in upper triangular form, or row echelon form. If we continue and
 
 
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="AbsoluteValueFunction"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 2.5 The Absolute Value Function</title>
                  
@@ -119,4 +119,4 @@ The solutions are all real numbers greater than 1 but less than or equal to <m>\
 </subsection>
 
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

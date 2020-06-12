@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <appendix xml:id="glossary" xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Glossary</title>
@@ -1501,4 +1501,4 @@
 </paragraphs>
 
 </appendix>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->
