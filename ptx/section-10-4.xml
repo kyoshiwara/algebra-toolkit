@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="TranslatedConics"   xmlns:xi="http://www.w3.org/2001/XInclude">
 
@@ -351,4 +351,4 @@ We have considered the graphs of examples in which <m>B=0</m>. These graphs are 
 <xi:include href="./section-10-4-exercises.xml" /> exercises  -->
 
 </section> 
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

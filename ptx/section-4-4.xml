@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="PropertiesLogarithms" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 4.4 Properties of Logarithms</title>
                  
@@ -106,4 +106,4 @@
 </subsection>
 
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

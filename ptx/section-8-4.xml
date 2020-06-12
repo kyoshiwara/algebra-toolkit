@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="LinearInequalities" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 8.4 Linear Inequalities</title>
                  
@@ -121,4 +121,4 @@ We find<m>x=1</m>, so the solution is <m>x=1,~y=-1</m>, or <m>(1,-1)</m>.</p></s
 </subsection>
 
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

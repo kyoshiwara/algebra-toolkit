@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="QuadraticInequalities" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 6.5 Quadratic Inequalities </title>
                  
@@ -149,4 +149,4 @@ The <m>x</m>-intercepts are <m>(\dfrac{-3 + \sqrt{15}}{2},0)</m> and <m>(\dfrac{
 
 
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

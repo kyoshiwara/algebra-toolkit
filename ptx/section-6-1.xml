@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="FactorsIntercepts" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 6.1 Factors and <m>x</m>-Intercepts </title>
                  
@@ -161,4 +161,4 @@ The solutions are <m>x=0</m> and <m>x=\dfrac{-2}{3}</m>.  </p></solution></examp
 </subsection>
 
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

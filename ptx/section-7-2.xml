@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="GraphingPolynomials" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 7.2 Graphing Polynomial Functions</title>
                  
@@ -144,4 +144,4 @@ The remainder is 8. Because the degree of 8 is less than the degree of <m>x+3</m
 </subsection>
 
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

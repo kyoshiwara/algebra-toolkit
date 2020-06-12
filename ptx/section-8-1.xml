@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="TwobyTwoSystems" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 8.1 Systems of Linear Equations in Two Variables</title>
                  
@@ -149,4 +149,4 @@ Yes, <m>(3,-2)</m> is a solution</p></solution></example>
 </subsection>
 
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

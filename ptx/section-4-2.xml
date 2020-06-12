@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="ExponentialFunctions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 4.2 Exponential Functions</title>
                  
@@ -141,4 +141,4 @@ Show your work on the graph.</p>
 </subsection>
 
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

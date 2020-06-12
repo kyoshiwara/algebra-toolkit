@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="ExponentialModels" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 4.5 Exponential Models </title>
                  
@@ -139,4 +139,4 @@ The doubling time is 18.59 years.</p></solution></example>
 </subsection>
 
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

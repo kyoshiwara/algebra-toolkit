@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <!-- <appendix xml:id="appendix-c"   xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>References</title> -->
@@ -115,4 +115,4 @@
 	<biblio type="raw">Wright, Paul and Paquette, Radnor. <title>Highway Engineering</title>. New York: John Wiley and Sons, Inc., 1987.</biblio>
 </references>
 <!-- </appendix> -->
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

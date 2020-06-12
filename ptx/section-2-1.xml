@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
-<section xml:id="NonlinearModels"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 2.1 Noninear Models</title>
+<section xml:id="NonlinearModels"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 2.1 Nonlinear Models</title>
                  
 <subsection><title>1. Evaluate quadratic expressions</title>
 
@@ -275,4 +275,4 @@ To calculate the volume of water, we can multiply the area of the base, <m>lw</m
 </subsection>
 
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

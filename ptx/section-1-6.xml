@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="LinearRegression"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 1.6 Linear Regression</title>
                  
@@ -84,4 +84,4 @@ Cross-multiply to find
 </subsection>
 
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

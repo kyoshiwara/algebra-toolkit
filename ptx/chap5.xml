@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<chapter xml:id="chap5"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Functions and Their Graphs</title>
+<chapter xml:id="chap5"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Logarithmic Functions</title>
     
-<introduction>
-    <sidebyside width="60%" margins="0% 40%"><image source="images/shutterstock_221329105.jpg"><description>earth population</description></image></sidebyside>
-</introduction>
+
         
-<xi:include href="./section-5-1.xml" />  <!-- Functions -->
-<xi:include href="./section-5-2.xml" />  <!--Graphs of Functions-->
-<xi:include href="./section-5-3.xml" />  <!--Graphs of Functions-->
-<xi:include href="./section-5-4.xml" />  <!--Direct Variation-->
-<!-- <xi:include href="./section-5-5.xml" />  
-<xi:include href="./section-5-6.xml" />   -->
+<xi:include href="./section-5-1.xml" />  
+<xi:include href="./section-5-2.xml" />  
+<xi:include href="./section-5-3.xml" />  
+<xi:include href="./section-5-4.xml" />  
+
 </chapter> 

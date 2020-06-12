@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="ProblemSolving" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 6.4 Problem Solving </title>
                  
@@ -113,4 +113,4 @@ The solution is <m>b = -5</m>.</p></solution></example>
 </subsection>
 
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

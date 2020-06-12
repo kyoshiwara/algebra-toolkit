@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="CurveFitting" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 6.6 Curve Fitting </title>
                  
@@ -106,4 +106,4 @@ The solution is <m>a=2,~b=-3</m>, and <m>c=4</m>.</p>
 
 
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="Properties-of-Lines"   xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Properties of Lines</title>
@@ -194,4 +194,4 @@ perpendicular to the line <m>4x-2y=6</m>.</p></statement>
 </subsection>
 
 </section> 
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="NaturalBase" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 5.3 The Natural Base</title>
                  
@@ -60,4 +60,4 @@ The growth law is <m>~P(t) = P_0 e^{0.077t}</m>.</p>
 </subsection>
 
 </section>
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

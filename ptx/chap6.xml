@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<chapter xml:id="chap6"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Powers and Roots</title>
+<chapter xml:id="chap6"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Quadratic Functions</title>
     
-<introduction>       
-    <sidebyside width="60%" margins="0% 40%"><image source="images/fig-mouse-to-elephant.png"><description>mouse to elephant: Bob Elsdale/Getty Images</description></image></sidebyside>
-</introduction>
+
         
 
 
-<xi:include href="./section-6-1.xml" />  <!--Integer Exponents -->
-<xi:include href="./section-6-2.xml" />  <!--Roots and Radicals -->
-<xi:include href="./section-6-3.xml" />  <!--Rational Exponents -->
-<xi:include href="./section-6-4.xml" /> <!--Working with Radicals-->
-<xi:include href="./section-6-5.xml" /> <!--Radical Equations-->
-
+<xi:include href="./section-6-1.xml" />  
+<xi:include href="./section-6-2.xml" />  
+<xi:include href="./section-6-3.xml" />  
+<xi:include href="./section-6-4.xml" /> 
+<xi:include href="./section-6-5.xml" /> 
+<xi:include href="./section-6-6.xml" />
 </chapter> 

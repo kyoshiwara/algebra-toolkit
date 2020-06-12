@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="The-Binomial-Expansion"   xmlns:xi="http://www.w3.org/2001/XInclude">
             <title>The Binomial Expansion</title>
@@ -504,9 +504,9 @@ Notice that the sigma notation indicates terms for <m>k=0</m> to <m>k=6</m>, so 
     <li><m>~_7C_4~ (2m)^3(-3n)^4 = 22,680m^3n^4</m></li></ol></p></answer></exercise>
 
 </subsection>
-
+<!-- 
 <xi:include href="./summary-9-5.xml" />
 <xi:include href="./section-9-5-exercises.xml" /> 
-
+ -->
 </section> 
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->

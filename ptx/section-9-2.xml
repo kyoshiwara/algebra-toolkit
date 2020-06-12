@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <mathbook><book> -->
+<!-- <pretext><book> -->
 
 <section xml:id="Arithmetic-and-Geometric-Sequences"   xmlns:xi="http://www.w3.org/2001/XInclude">
             <title>Arithmetic and Geometric Sequences</title>
@@ -249,4 +249,4 @@ Then we use the formula with  <m>a = -24, ~r = \dfrac{-1}{2}</m>, and <m>n = 9</
 
 
 </section> 
-<!-- </book>  </mathbook> -->
+<!-- </book>  </pretext> -->
