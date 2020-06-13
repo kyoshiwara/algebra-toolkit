@@ -1,23 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="LinMod"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 1.1 Linear Models</title>
+<section xml:id="LinMod"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Linear Models</title>
                  
 <subsection><title>1. Write a linear model</title>
 
+<introduction><p>When we say "Express <m>y</m> in terms of <m>x</m>,"  we mean to write an equation that looks like
+    <me>y = \text{algebraic expression in}~ x</me>
+We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.</p>
+
+<p>In particular, a <term>linear model</term> has the form
+    <me>\blert{y = \text{starting value} + \text{rate} \times x}</me></p>
+</introduction>
+
 <subsubsection><title>Examples</title>
                     
-<example><statement><p>Steve bought a Blu-Ray player for $269 and a number of discs at $14 each. Write an expression for Steve's total bill, <m>B</m> (before tax), in terms of the number of discs he bought, <m>d</m></p></statement>
+<example><statement><p>Steve bought a Blu-Ray player for $269 and a number of discs at $14 each. Write an expression for Steve's total bill, <m>B</m> (before tax), in terms of the number of discs he bought, <m>d</m>.</p></statement>
                     
-<solution><m>B=269+14d</m></solution></example>
+<solution><p>We want an equation of the form
+        <me>B = \text{starting value} + \text{rate} \times d</me>
+    where Steve's bill started with the Blu-Ray player or $269, and then increased by a number of discs at a rate of $14 each.  Substituting those values, we have
+    <me>B=269+14d</me></p></solution></example>
 
 <example><statement><p>At 6 am the temperature was 50<m>\degree</m>, and it has been falling by 4<m>\degree</m> every hour. Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</p></statement>
 
-<solution><m>T=50-4h</m></solution></example>
+<solution><p>We want an equation of the form
+        <me>T = \text{starting value} + \text{rate} \times h</me>
+    The temperature started at 50<m>\degree</m>, and then decreased each hour at the rate of 4<m>\degree</m> per hour, so we subtract <m>4h</m> from 50 to get
+    <me>T=50-4h</me></p></solution></example>
 
 <example><statement><p>Kyli's electricity company charges her $6 per month plus $0.10 per kilowatt hour (kWh) of energy she uses. Write an equation for Kyli's electric bill, <m>E</m>, if she uses <m>w</m> kWh of electricity.</p></statement>
 
-<solution><m>E=6+0.10w</m></solution></example>
+<solution><p>Kyli's bill starts a6 $6 and increases by $0.10 for each kWh, <m>w</m>. Thus,
+    <me>E=6+0.10w</me></p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
@@ -44,6 +59,8 @@
 
 <subsection><title>2. Graph a linear equation by the intercept method</title>
 
+<introduction><p>To graph a line by the intercept method, we find the <m>x</m>- and <m>y</m>-intercepts of the line and plot those points.</p></introduction> 
+
 <example><statement><p>Graph the equation <m>3x+2y=7</m> by the intercept method.
 </p></statement>
 
@@ -61,7 +78,7 @@ The <m>y</m>-intercept is the point <m>(0, 3\dfrac{1}{2})</m>. To find the <m>x<
                 \end{aligned}</me>
 The <m>x</m>-intercept is the point <m>(2\dfrac{1}{3}, 0)</m>.</p>
 
-<p>A table with the two intercepts is shown below. Plot the intercepts and connect them with a straight line.</p> 
+<p>A table with the two intercepts is shown below. We plot the intercepts and connect them with a straight line.</p> 
     <sidebyside widths="40% 35%" margins="0% 20%" valigns="middle middle">
             <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row> <cell><m>x</m></cell><cell><m>y</m></cell></row>
@@ -98,6 +115,8 @@ The <m>x</m>-intercept is the point <m>(2\dfrac{1}{3}, 0)</m>.</p>
 </subsection>
 
 <subsection><title>3. Interpret the intercepts</title>
+
+<introduction><p>The values of the variables at the intercepts often tell us something important about a linear model</p></introduction>
 
 <example><statement><p>The temperature, <m>T</m>, in Nome was <m>-12 \degree</m> at noon and has been rising at a rate of <m>2 \degree</m> per hour all day. <ul>
     <li>Write and graph an equaton for <m>T</m> in terms of <m>h</m>, the number of hours after noon.</li>
@@ -145,12 +164,16 @@ where <m>d</m> is the number of dogs he has groomed.</p>
     <li>Explain what each intercept tells us about Delbert's dog-grooming business.</li></ol></p>
 <image source="images/fig-1-1-8.png"><description>grid</description></image></sidebyside></statement>
     <answer><sidebyside widths="25% 60%"><image source="images/fig-1-1-9.png"><description>grid</description></image>
-        <p><ul><li><m>(0,-600)</m> To start, Delbert's profit is <m>-$600</m>.</li>               
+        <p><ul><li><m>(0,-600)</m> To start, Delbert's profit is <m>-$600</m>. (He is $600 in debt.)</li>               
             <li><m>(15,0)</m> Delbert breaks even after grooming 15 dogs.</li></ul></p></sidebyside></answer></exercise>
 </subsubsection>
 </subsection>
 
 <subsection><title>4. Solve an equation for one of the variables</title>
+
+<introduction><p>It is usually easier to study a model and draw its graph if it is in the form 
+    <me>y = \text{starting value} + \text{rate} \times x</me>
+To put an equation into this form, we want to "isolate" the output variable on one side of the equation.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -163,11 +186,11 @@ where <m>d</m> is the number of dogs he has groomed.</p>
                 y \amp =\dfrac{8}{3}-\dfrac{2}{3}x   \amp \amp
                 \end{aligned}</me></p></solution></example>
 
-
 <example><statement><p>Solve the equation <m>A=\dfrac{h}{2}(b+c)</m> for <m>b</m>.</p></statement>
 
-<solution><p><me>\begin{aligned}[t]
-                A \amp = \dfrac{h}{2}(b+c) \amp \amp \blert{\text{Multiply both sides by 2.}}\\
+<solution><p>It is nearly always best to clear fractions from an equation first, so we begin by multiplying both sides by 2.
+    <me>\begin{aligned}[t]
+                \alert{2}A \amp = \alert{\cancel{2}}\left(\dfrac{h}{\cancel{2}}(b+c)\right) \amp \amp \blert{\text{Multiply both sides by}~ \alert{2}.}\\
                 2A \amp = h(b+c) \amp \amp \blert{\text{Divide both sides by}~h.}\\
                 \dfrac{2A}{h} \amp = b+c   \amp \amp  \blert{\text{Subtract <m>c</m> from both sides.}}\\
                 \dfrac{2A}{h}-c \amp = b   \amp \amp

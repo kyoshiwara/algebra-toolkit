@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="LinearRegression"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 1.6 Linear Regression</title>
+<section xml:id="LinearRegression"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Linear Regression</title>
                  
 <subsection><title>1. Read a scatterplot</title>
 
