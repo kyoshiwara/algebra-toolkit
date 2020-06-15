@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="BasicFunctions"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 2.2 Some Basic Functions</title>
+<section xml:id="BasicFunctions"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Some Basic Functions</title>
                  
 <subsection><title>1. Evaluate cube roots</title>
 
 <subsubsection><title>Examples</title>
 
-<example><statement><p>Evaluate each cube root.<ol label="a">  
+<introduction><p>It is a good idea to become familiar with the first few perfect cubes:
+    <me>2^3=8~~~~~~3^3=27~~~~~~4^3=64~~~~~~5^3=125~~~~~~6^3=216</me>
+and so on.</p></introduction>
+
+<example><statement><p>Evaluate each cube root.<ol label="a" cols="2">  
     <li><m>\sqrt[3]{64}</m></li>
     <li><m>\sqrt[3]{-125}</m></li>
     <li><m>\sqrt[3]{1}</m></li>
@@ -50,7 +54,12 @@
 
 <subsubsection><title>Examples</title>
 
-<example><statement><p>Simplify each expression.<ol label="a">
+<introduction><p>The definition of how to take an absolute value may look complicated, but it just says two things:<ol label="1">
+    <li>If the number is positive, leave it alone.</li>
+    <li>If the number is negative, put another negative in front, which will make the number positive.</li></ol></p>
+</introduction>
+
+<example><statement><p>Simplify each expression.<ol label="a" cols="2">
     <li><m>|-3|</m></li>
     <li><m>-|3|</m></li>
     <li><m>-(-3)</m></li>
@@ -69,9 +78,9 @@
     <li><m>|-x|</m></li></ol></p></statement>
 
 <solution><p><ol label="a">
-    <li><m>-x=-(-8)=8</m></li>
-    <li><m>|x|=|-8|=8</m></li>
-    <li><m>|-x|=|-(-8)|=8</m></li></ol></p></solution></example>
+    <li><m>-x = -(-8) = 8</m></li>
+    <li><m>|x| = |-8| = 8</m></li>
+    <li><m>|-x| = |-(-8)| = 8</m></li></ol></p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
@@ -89,11 +98,17 @@
 
 <subsection><title>3. Use the order of operations in evaluation</title>
 
+<introduction><p>Recall the order of operations: <ol label="1">
+    <li>Simplify what's inside parentheses (or absolute value bars) first.</li>
+    <li>Next evaluate all powers and roots.</li>
+    <li>Then perform all multiplications and divisions in order from left to right.</li>
+    <li>Finally, perform all additionas and subtractions in order from left to right.</li></ol></p></introduction>
+
 <subsubsection><title>Examples</title>
 
 <example><statement><p>Simplify <m>~|2|-4|3-8|</m></p></statement>
 
-<solution><p>Absolute value bars are a grouping device. Simplify expressions within absolute value bars first.
+<solution><p>Absolute value bars are a grouping device. We simplify expressions within absolute value bars first.
     <me>\begin{aligned}[t]
                 |2|-4|\alert{3-8}| \amp = |2|- 4|\alert{-5}| \amp \amp \blert{\text{Evaluate absolute values.}}\\
                  \amp = 2-4(5) \amp \amp \blert{\text{Multiply.}}\\
@@ -113,10 +128,10 @@
 
 <subsubsection><title>Exercises</title>
  
-<exercise><statement><p>Simplify <m>~~3\sqrt[3]{\dfrac{125}{216}} + \dfrac{4}{5} \sqrt[3]{-512}~</m>. Follow the order of operations.</p></statement>
+<exercise><statement><p>Simplify <m>~~3\sqrt[3]{\dfrac{125}{216}} + \dfrac{4}{5} \sqrt[3]{-512}~~~</m>. Follow the order of operations.</p></statement>
     <answer><p><m>\dfrac{-39}{10}</m></p></answer></exercise>
 
-<exercise><statement><p>Simplify <m>~~-3|3-6|-4|-4-3|~</m>. Follow the order of operations.</p></statement>
+<exercise><statement><p>Simplify <m>~~-3|3-6|-4|-4-3|~~~</m>. Follow the order of operations.</p></statement>
     <answer><p><m>-37</m></p></answer></exercise>
 </subsubsection>
 </subsection>

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="WarmUp"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 1.0 Warm-Up</title>
+<section xml:id="WarmUp"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Warm-Up</title>
+
+<introduction><p>We begin by refreshing some basic skills for working with equations and graphs.</p></introduction>
                  
 <subsection><title>1. Solve a linear equation</title>
+
+<introduction><p>Recall that to solve an equation we want to "isolate" the variable on one side of the equals sign. We "undo" each operation performed on the variable by performing the opposite operation on both sides of the equation.</p></introduction>
 
 <subsubsection><title>Examples</title>
                     
@@ -18,8 +22,9 @@
 
 <example><statement><p>Solve the equation <m>~~2x+7=4x-3</m></p></statement>
 
-<solution><me>\begin{aligned}[t]
-                2x+7 \amp = 4x-3 \amp \amp \blert{\text{Subtract <m>2x</m> from both sides.}}\\
+<solution>To begin, we must get both variable terms on the same side of the equation.
+    <me>\begin{aligned}[t]
+                2x+7 \amp = 4x-3 \amp \amp \blert{\text{Subtract}~2x~\text{from both sides.}}\\
                 7 \amp = 2x-3 \amp \amp \blert{\text{Add 3 to both sides.}}\\
                 10 \amp =2x   \amp \amp \blert{\text{Divide both sides by 2.}}\\
                 5 \amp = x \amp \amp \blert{\text{The solution is 5.}}
@@ -34,26 +39,28 @@
 <exercise><statement><p>Solve the equation <m>~~6p-8=-3p-26</m> </p></statement>
     <answer><m>-2</m></answer></exercise>
 
-<exercise><statement><p>Solve the equation <m>~~12=\dfrac{7u+4}{5}</m> </p></statement>
+<exercise><statement><p>Solve the equation <m>~~12=\dfrac{7u+4}{5}</m> </p>
+<p>Hint:  Start by clearing the fraction:  multiply both sides by 5.</p></statement>
     <answer><m>8</m></answer></exercise>
 
-<exercise><statement><p>Solve the equation <m>~~0=13q+25-17q+7</m> </p></statement>
+<exercise><statement><p>Solve the equation <m>~~0=13q+25-17q+7</m> </p>
+<p>Hint:  Start by combining like terms.</p></statement>
     <answer><m>8</m></answer></exercise>
 </subsubsection>
 </subsection>
 
 <subsection><title>2. Solve a linear inequality</title>
 
-<p>The rules for solving an inequality are the same as those for solving an equation, with one important difference:</p>
+<introduction><p>The rules for solving an inequality are the same as those for solving an equation, with one important difference:</p>
 
-<assemblage><p>If we multiply or divide both sides by a negative number, we must reverse the direction of the inequality.</p></assemblage>
+<assemblage><p>If we multiply or divide both sides by a negative number, we must reverse the direction of the inequality.</p></assemblage></introduction>
 
 <subsubsection><title>Examples</title>
 
 <example><statement><p>Solve <m>~~-3x+1 \gt 7~~</m> and graph the solutions on a number line.</p></statement>
 
 <solution><p><me>\begin{aligned}[t]
-                -3x+1-1 \amp \gt 7-1 \amp \amp \blert{\text{Subtract 1 from both sides.}}\\
+                -3x+1 \amp \gt 7 \amp \amp \blert{\text{Subtract 1 from both sides.}}\\
                 -3x \amp \gt 6 \amp \amp \blert{\text{Divide both sides by -3, and reverse the direction of the inequality.}}\\
                 x \amp \gt -2   \amp \amp  
                 \end{aligned}</me>
@@ -73,6 +80,8 @@ The solutions are all the numbers greater than 1 but less than 5.5.
 The graph of the solutions is shown below.</p>
     <sidebyside width="70%"><image source="images/fig-wu-2.png"><description>line graph</description></image></sidebyside>
 </solution></example>
+
+<p>Recall that a solid dot on a number line indicates that the number is part of the solution; an open dot means that the number is not part of the solution.</p>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
@@ -92,26 +101,28 @@ The graph of the solutions is shown below.</p>
 </subsection>
 
 <subsection><title>3. Verify a solution</title>
+<introduction><p>We can always check a solution to an equation by verifying that it makes the equation true.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
-<example><statement><p>Verify that <m>x=-5</m> is a solution of the equation <m>~~x^2+2x-15=0</m>. </p></statement>
+<example><statement><p>Verify that <m>x=-5</m> is a solution of the equation <me>~~x^2+2x-15=0</me> </p></statement>
 
-<solution><p>Show that substituting <m>-5</m> for <m>x</m> makes the equation true.
+<solution><p>We show that substituting <m>-5</m> for <m>x</m> makes the equation true.  When we substitute a negative number for a variable, we should enclose the number in parentheses.
             <me>\begin{aligned}[t]
                 x^2+2x-15 \amp = (\alert{-5})^2+2(\alert{-5})-15\\
                          \amp = 25-10-15=0
-                \end{aligned}</me>       
-</p></solution></example>
+                \end{aligned}</me>
+Because the expression does equal <m>0</m>, we see that <m>x=-5</m> is a solution.</p></solution></example>
 
-<example><statement><p>Verify that <m>x=-3</m> is not a solution of the equation <m>~~\sqrt{2x+10}-3x=8</m>. </p></statement>
+<example><statement><p>Verify that <m>x=-3</m> is not a solution of the equation <me>~~\sqrt{2x+10}-3x=8</me> </p></statement>
 
-<solution><p>Show that substituting <m>-3</m> for <m>x</m> does not make the equation true.
+<solution><p>We show that substituting <m>-3</m> for <m>x</m> does not make the equation true.
             <me>\begin{aligned}[t]
                 \sqrt{2x+10}-3x \amp = \sqrt{2(\alert{-3})+10}-3(\alert{-3})\\
                          \amp = \sqrt{4}+9=2+9=11 \not= 8
-                \end{aligned}</me>       
-</p></solution></example>
+                \end{aligned}</me>
+The left side of the equation does not equal 8 when <m>x=-3</m>, so <m>x=-3</m> is not a solution.</p></solution>
+</example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
@@ -136,14 +147,15 @@ The graph of the solutions is shown below.</p>
 
 <subsection><title>4. Solve an equation in two variables</title>
 
+<introduction><p>A solution of an equation in two variables <m>x</m> and <m>y</m> is written as an <term>ordered pair</term>, <m>(x,y)</m>.  For example, the solution <m>(-2,5)</m> means that <m>x=-2</m> and <m>y=5</m>.</p></introduction>
+
 <subsubsection><title>Examples</title>
 
 <example><statement><p>Is <m>(-3,2)</m> a solution of the equation <m>~~x^2+4y^2=25</m> ?</p></statement>
 
-<solution><p>Substitute <m>x=\alert{-3}</m> and <m>y=\alert{2}</m> into the equation.
+<solution><p>We substitute <m>x=\alert{-3}</m> and <m>y=\alert{2}</m> into the equation.
     <me>(\alert{-3})^2+4(\alert{2})^2=9+4(4)=9+16=25</me>
 The ordered pair <m>(-3,2)</m> satisfies the equation, so it is a solution.</p></solution></example>
-
 
 <example><statement><sidebyside widths="70% 25%"><p>Which of the following ordered pairs are solutions of the equation whose graph is shown?
     <ol label="a" cols="2">
@@ -152,7 +164,8 @@ The ordered pair <m>(-3,2)</m> satisfies the equation, so it is a solution.</p><
         <li><m>(1,-4)</m></li>
         <li><m>(-1,-6)</m></li></ol></p>
     <image source="images/fig-wu-3.png"><description>graph</description></image></sidebyside></statement>
-<solution><p>The points <m>(-3,-2)</m> and <m>(-1,-6)</m> lie on the graph, so they represent solutions of the equation.
+<solution><p>The graph of an equation is just a picture of its solutions, so points that lie on the graph are solutions of the equation.</p>
+<p> The points <m>(-3,-2)</m> and <m>(-1,-6)</m> lie on the graph, so they represent solutions of the equation. The points <m>(-5,0)</m> and <m>(1,-4)</m> do not lie on the graph, so they are not solutions of the equation.
 </p></solution></example>
 </subsubsection>
 
