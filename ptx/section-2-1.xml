@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="NonlinearModels"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 2.1 Nonlinear Models</title>
+<section xml:id="NonlinearModels"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Nonlinear Models</title>
                  
 <subsection><title>1. Evaluate quadratic expressions</title>
 
+<introduction><p>When squaring a negative number, don't forget to enclose it in parentheses. For example, if <m>x=-4</m>, then <me>x^2=(-4)^2 = (-4)(-4) = 16</me>  If we write <m>-4^2</m>, then only the 4 is squared, so we have <me>-4^2 = - (4)(4) = -16</me></p></introduction>
+
 <subsubsection><title>Examples</title>
 
-<example><statement><p>Evaluate for <m>x=-6</m>.<ol label="a">  
+<example><statement><p>Evaluate for <m>x=-6</m>.<ol label="a" cols="2">  
     <li><m>2x^2</m></li>
     <li><m>2-x^2</m></li>
     <li><m>(2x)^2</m></li>
@@ -15,16 +17,16 @@
 </ol></p></statement>
  
 <solution><p>Enclose <m>-6</m> in parentheses, and follow the order of operations.<ol label="a">
-    <li><m>2x^2=2(-6)^2=2(36)=72</m></li>
-    <li><m>2-x^2=2-(-6)^2=2-36=-34</m></li>
-    <li><m>(2x)^2=[2(-6)]^2=[-12]^2=144</m></li>
-    <li><m>(2-x)^2=[2-(-6)^2=[8]^2=64</m></li>
+    <li>Square first, then multiply by 2:  <m>~~2x^2=2(-6)^2=2(36)=72</m></li>
+    <li>Square first, then subtract from 2:  <m>~~2-x^2=2-(-6)^2=2-36=-34</m></li>
+    <li>Multiply by 2 first, then square:  <m>~~(2x)^2=[2(-6)]^2=[-12]^2=144</m></li>
+    <li>Subtract from 2 first, then square:  <m>~~(2-x)^2=[2-(-6)^2=[8]^2=64</m></li>
 </ol></p></solution></example>
 
 <example><statement><p>Make a table of values for <m>y=x^2+2x-8</m>, and graph the equation.</p></statement>
 
-<solution>
-    <sidebyside widths="65% 35%" verticalalign="middle middle"><p><tabular left="minor">             
+<solution><p>We plot the points from the table and connect them with a smooth curve.</p>
+    <sidebyside widths="65% 35%" valigns="middle middle"><p><tabular left="minor">             
         <col top="minor" right="minor"  bottom="minor" halign="center"/><col top="minor" right="minor"  bottom="minor" halign="center"/><col/><col top="none" halign="left" right="none" bottom="none"/>
                     <row>
                         <cell bottom="minor"><m>x</m></cell>
@@ -82,7 +84,7 @@
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Evaluate for <m>w=-9</m><ol label="a">
+<exercise><statement><p>Evaluate for <m>w=-9</m><ol label="a" cols="2">
     <li><m>(2w)^2</m></li>
     <li><m>36-(2w)^2</m></li>
     <li><m>-2(4-w)^2</m></li>
@@ -93,7 +95,7 @@
         <li><m>-338</m></li>
         <li><m>-79</m></li></ol></p></answer></exercise>
 
-<exercise><statement><p>Evaluate for <m>a=-3,~b=-4</m><ol label="a">
+<exercise><statement><p>Evaluate for <m>a=-3,~b=-4</m><ol label="a" cols="2">
     <li><m>ab^2</m></li>
     <li><m>a-b^2</m></li>
     <li><m>(a-b^2)^2</m></li>
@@ -104,7 +106,7 @@
         <li><m>361</m></li>
         <li><m>-84</m></li></ol></p></answer></exercise>
 
-<exercise><statement><p>Evaluate for <m>h=-2,~g=-5</m><ol label="a">
+<exercise><statement><p>Evaluate for <m>h=-2,~g=-5</m><ol label="a" cols="2">
     <li><m>h^2-2hg+g^2</m></li>
     <li><m>(h-g)^2</m></li>
     <li><m>h^2-g^2</m></li>
@@ -116,7 +118,7 @@
         <li><m>-21</m></li></ol></p></answer></exercise>
 
 <exercise><statement><p>Make a table of values for <m>y=x^2-x-6</m>, and graph the equation.</p>
-    <sidebyside widths="10% 50%" verticalalign="middle middle"><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+    <sidebyside widths="10% 50%" valigns="middle middle"><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
                     <row>
                         <cell bottom="minor"><m>x</m></cell>
                         <cell bottom="minor"><m>y</m></cell></row>
@@ -149,7 +151,7 @@
                         <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
                     </tabular></p>
         <image source="images/fig-1-5-3.png"><description>grid</description></image></sidebyside></statement>
-    <answer><sidebyside widths="10% 25%" verticalalign="middle middle"><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+    <answer><sidebyside widths="10% 25%" valigns="middle middle"><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
                     <row>
                         <cell bottom="minor"><m>x</m></cell>
                         <cell bottom="minor"><m>y</m></cell></row>
@@ -187,6 +189,10 @@
 
 <subsection><title>2. Use the Pythagorean theorem</title>
 
+<introduction><p>If <m>a</m> and <m>b</m> are the lengths of the legs of a right triangle and <m>c</m> is the length of the hypotenuse, then 
+<me>a^2 + b^2 = c^2</me>
+Note that the theorem is true only for right triangles -- ones that have a 90<m>\degree</m> angle.</p></introduction>
+
 <subsubsection><title>Examples</title>
 
 <example><statement><sidebyside widths="50% 30%"><p>Find the unknown side in the right triangle.</p>
@@ -197,19 +203,19 @@
     <me>\begin{aligned}[t]
                 a^2 + b^2 \amp = c^2 \\
                 12^2+35^2 \amp =z^2 \amp \amp \blert{\text{Simplify the left side.}}\\
-                1369 \amp =z^2   \amp \amp  \blert{\text{Take the square root of both sides.}}\\
-                \pm 37 \amp z
+                1369 \amp = z^2   \amp \amp  \blert{\text{Take the square root of both sides.}}\\
+                \pm 37 \amp = z
                 \end{aligned}</me>
 The length of the hypotenuse is a positive number, so <m>z=37</m>.</p></solution></example>
 
 <example><statement><p>A 25-foot ladder is placed against a wall so that its foot is 7 feet from the base of the wall.  How far up the wall does the ladder reach?</p></statement>
 
-<solution><sidebyside widths="75% 15%"><stack><p>Make a sketch and label the known dimensions.  Call the unknown height <m>h</m>.  The ladder forms the hypotenuse of a right triangle, so we apply the Pythagorean theorem, substituting 25 for <m>c</m>, 7 for <m>b</m>, and <m>h</m> for <m>a</m>.
+<solution><sidebyside widths="75% 15%"><stack><p>We make a sketch and label the known dimensions, calling the unknown height <m>h</m>.  The ladder forms the hypotenuse of a right triangle, so we apply the Pythagorean theorem, substituting 25 for <m>c</m>, 7 for <m>b</m>, and <m>h</m> for <m>a</m>.
     <me>\begin{aligned}[t]
                 a^2 + b^2 \amp = c^2 \\
                 h^2 + 7^2 \amp = 25^2
             \end{aligned}</me></p></stack>
-<image source="images/fig-2-1-4.png"><description>graph</description></image></sidebyside><p>Solve the equation by extraction of roots:
+<image source="images/fig-2-1-4.png"><description>graph</description></image></sidebyside><p>We solve the equation by extraction of roots:
     <me>\begin{aligned}[t]
                 h^2 + 49 \amp = 625 \amp \amp \blert{\text{Subtract 49 from both sides.}}\\
                 h^2 \amp =576 \amp \amp \blert{\text{Extract roots.}}\\
