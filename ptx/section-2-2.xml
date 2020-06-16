@@ -33,11 +33,12 @@ and so on.</p></introduction>
     <li><m>\sqrt[3]{-9}</m></li></ol>
 </p></statement>
 
-<solution><p>On a scientific calculator, look for the key labeled <m>\boxed{\sqrt[3]{}}</m>. On a graphing calculator, press <m>\boxed{\text{MATH}}</m> <m>\boxed{\text{4}}</m>.<ol label="a">
+<solution><p>On a scientific calculator, look for the key labeled <m>\boxed{\sqrt[3]{\hphantom{1}\vphantom{1}}}</m>. On a graphing calculator, press <kbd>MATH</kbd> <kbd>4</kbd><ol label="a">
     <li><m>\sqrt[3]{347} \approx 7.027</m></li>    
     <li><m>\sqrt[3]{0.85} \approx 0.947</m></li>
     <li><m>\sqrt[3]{-9} \approx -2.080</m></li></ol></p>
 </solution></example>
+
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
@@ -109,21 +110,41 @@ and so on.</p></introduction>
 <example><statement><p>Simplify <m>~|2|-4|3-8|</m></p></statement>
 
 <solution><p>Absolute value bars are a grouping device. We simplify expressions within absolute value bars first.
-    <me>\begin{aligned}[t]
-                |2|-4|\alert{3-8}| \amp = |2|- 4|\alert{-5}| \amp \amp \blert{\text{Evaluate absolute values.}}\\
-                 \amp = 2-4(5) \amp \amp \blert{\text{Multiply.}}\\
-                 \amp =2-20=18   \amp \amp  
-                \end{aligned}</me></p></solution></example>
+    <md>
+        <mrow>
+            |2|-4|\alert{3-8}| \amp = |2|- 4|\alert{-5}| \amp \amp \blert{\text{Evaluate absolute values.}}
+        </mrow>
+        <mrow>
+            \amp = 2-4(5) \amp \amp \blert{\text{Multiply.}}
+        </mrow>
+        <mrow>
+            \amp =2-20=18
+        </mrow>
+    </md>
+</p></solution></example>
 
 <example><statement><p>Simplify <m>~\dfrac{8-2\sqrt[3]{11.375+2.5^3}}{8-4}</m></p></statement>
 
 <solution><p>Simplify the expression under the radical first.
-    <me>\begin{aligned}[t]
-                \dfrac{8-2\sqrt[3]{\alert{11.375+2.5^3}}}{8-4} \amp = \dfrac{8-2\sqrt[3]{\alert{27}}}{8-4} \amp \amp \blert{\text{Evaluate the radical.}}\\
-                 \amp =\dfrac{8-2(3)}{8-4}  \amp \amp \blert{\text{Simplify numerator and denominator.}}\\
-                 \amp =\dfrac{8-6}{4} = \dfrac{2}{4} = \dfrac{1}{2}   \amp \amp  
-                \end{aligned}</me>
+    <md>
+        <mrow>
+            \dfrac{8-2\sqrt[3]{\alert{11.375+2.5^3}}}{8-4} \amp = \dfrac{8-2\sqrt[3]{\alert{27}}}{8-4} \amp \amp ~~\blert{\text{Evaluate the radical.}}
+        </mrow>
+        <mrow>
+            \amp =\dfrac{8-2(3)}{8-4}  \amp \amp \begin{array}{l}
+                \blert{\text{Simplify numerator }}\\
+                \blert{\text{and denominator.}}
+                \end{array}
+        </mrow>
+        <mrow>
+            \amp =\dfrac{8-6}{4}
+        </mrow>
+        <mrow>
+            \amp = \dfrac{2}{4}  = \dfrac{1}{2}
+        </mrow>
+    </md>
 </p></solution></example>
+
 </subsubsection>
 
 <subsubsection><title>Exercises</title>

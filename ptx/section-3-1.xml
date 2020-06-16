@@ -9,35 +9,55 @@
 
 <introduction><p>In these examples, we assume all variables are positive. We round answers to tenths.</p></introduction>
 
-<example><statement><p>Solve <m>~231.90=18.85r^2~</m>.</p></statement>
- 
-<solution><p>The equation is quadratic.  We solve by extraction of roots.
-    <me>\begin{aligned}[t]
-                231.90 \amp = 18.85 r^2 \amp\amp \blert{\text{Isolate the squared expression.}}\\
-                12.302 \amp = r^2 \amp\amp \blert{\text{Take square roots.}}\\
-                r \amp = 35                
-                \end{aligned}</me>
+<example>
+    <statement><p>Solve <m>~231.90=18.85r^2~</m>.</p></statement>
+    <solution><p>The equation is quadratic.  We solve by extraction of roots.
+        <md>
+            <mrow>
+                231.90 \amp = 18.85 r^2 \amp\amp \blert{\text{Isolate the squared expression.}}
+            </mrow>
+            <mrow>
+                12.302 \amp = r^2 \amp\amp \blert{\text{Take square roots.}}
+            </mrow>
+            <mrow>
+                r \amp = 35
+            </mrow>
+        </md>
 </p></solution></example>
 
-<example><statement><p>Solve <m>~2.8125 = \dfrac{36}{n}</m>.</p></statement>
- 
-<solution><p>We must first get the variable out of the denominator.
-    <me>\begin{aligned}[t]
-                n(2.8125) \amp = \dfrac{36}{n} n \amp\amp \blert{\text{Multiply boyh sides by}~n.}\\
-                2.8125n \amp = 36 \amp\amp \blert{\text{Divide both sides by 2.8125.}}\\
-                n \amp = 12.8                
-                \end{aligned}</me>
+<example>
+    <statement><p>Solve <m>~2.8125 = \dfrac{36}{n}</m>.</p></statement>
+    <solution><p>We must first get the variable out of the denominator.
+        <md>
+            <mrow>
+                n(2.8125) \amp = \dfrac{36}{n} n \amp\amp \blert{\text{Multiply boyh sides by}~n.}
+            </mrow>
+            <mrow>
+                2.8125n \amp = 36 \amp\amp \blert{\text{Divide both sides by 2.8125.}}
+            </mrow>
+            <mrow>
+                n \amp = 12.8
+            </mrow>
+        </md>
 </p></solution></example>
 
-<example><statement><p>Solve <m>~0.5547 = \dfrac{1500}{d^2}</m>.</p></statement>
- 
-<solution><p>We must first get the variable out of the denominator.
-    <me>\begin{aligned}[t]
-                d^2(0.5547) \amp = \dfrac{1500}{d^2} d^2 \amp\amp \blert{\text{Multiply boyh sides by}~d^2.}\\
-                0.5547d^2 \amp = 1500 \amp\amp \blert{\text{Divide both sides by 0.5547.}}\\
-                d^2 \amp = 2704.16  \amp\amp \blert{\text{Take square roots.}}\\
-                d \amp = 52                
-                \end{aligned}</me>
+<example>
+    <statement><p>Solve <m>~0.5547 = \dfrac{1500}{d^2}</m>.</p></statement>
+    <solution><p>We must first get the variable out of the denominator.
+        <md>
+            <mrow>
+                 d^2(0.5547) \amp = \dfrac{1500}{d^2} d^2 \amp\amp \blert{\text{Multiply boyh sides by}~d^2.}
+            </mrow>
+            <mrow>
+                0.5547d^2 \amp = 1500 \amp\amp \blert{\text{Divide both sides by 0.5547.}}
+            </mrow>
+            <mrow>
+                d^2 \amp = 2704.16  \amp\amp \blert{\text{Take square roots.}}
+            </mrow>
+            <mrow>
+               d \amp = 52 
+            </mrow>
+        </md>
 </p></solution></example>
 </subsubsection>
 
@@ -58,26 +78,38 @@
 
 <subsubsection><title>Examples</title>
 
-<example><statement><p>Sketch a graph of <m>V=0.2s^3</m>.</p></statement>
-
-<solution><p>We know that the graph has the shape of the basic function <m>y=x^3</m>, so all we need are a few points to "anchor" the graph.
-    <me>\begin{aligned}[t]
-                \text{If} s=1, \amp V = 0.2(1)^3 = 0.2\\
-                \text{If} s=2, \amp V = 0.2(2)^3 = 1.6\\
-                \text{If} s=3, \amp V = 0.2(3)^3 = 5.4                
-                \end{aligned}</me>
+<example>
+    <statement><p>Sketch a graph of <m>V=0.2s^3</m>.</p></statement>
+    <solution><p>We know that the graph has the shape of the basic function <m>y=x^3</m>, so all we need are a few points to "anchor" the graph.
+    <md>
+        <mrow>
+            \text{If } s=1, \amp V = 0.2(1)^3 = 0.2
+        </mrow>
+        <mrow>
+            \text{If } s=2, \amp V = 0.2(2)^3 = 1.6
+        </mrow>
+        <mrow>
+            \text{If } s=3, \amp V = 0.2(3)^3 = 5.4 
+        </mrow>
+    </md>
 The graph is shown below.</p>
 <sidebyside width="30%"><image source="images/fig-3-1-1.png"><description>graph</description></image></sidebyside>
 </solution></example>
 
-<example><statement><p>Sketch a graph of <m>H=\dfrac{48}{w}</m>.</p></statement>
-
-<solution><p>We know that the graph has the shape of the basic function <m>y=\dfrac{1}{x}</m>, so all we need are a few points to "anchor" the graph.
-    <me>\begin{aligned}[t]
-                \text{If} w=2, \amp H = \dfrac{48}{2} = 24\\
-                \text{If} w=6, \amp H = \dfrac{48}{6} = 8\\
-                \text{If} w=12, \amp H = \dfrac{48}{12} = 4                
-                \end{aligned}</me>
+<example>
+    <statement><p>Sketch a graph of <m>H=\dfrac{48}{w}</m>.</p></statement>
+    <solution><p>We know that the graph has the shape of the basic function <m>y=\dfrac{1}{x}</m>, so all we need are a few points to "anchor" the graph.
+    <md>
+        <mrow>
+            \text{If } w=2, \amp H = \dfrac{48}{2} = 24
+        </mrow>
+        <mrow>
+            \text{If } w=6, \amp H = \dfrac{48}{6} = 8
+        </mrow>
+        <mrow>
+            \text{If } w=12, \amp H = \dfrac{48}{12} = 4 
+        </mrow>
+    </md>
 The graph is shown below.</p>
 <sidebyside width="30%"><image source="images/fig-3-1-2.png"><description>graph</description></image></sidebyside>
 </solution></example>

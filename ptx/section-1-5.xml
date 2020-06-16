@@ -59,25 +59,41 @@ or
 </statement>
 
 <solution><p>We substitute <m>x_1=\alert{1}</m>, <m>y_1=\alert{3}</m>, and <m>m=\alert{-2}</m> into the point-slope formula.
-    <me>\begin{aligned}[t]
-                y-\alert{3} \amp = \alert{-2} (x-\alert{1}) \amp \amp \blert{\text{Apply the distributive law.}}\\
-                y-3 \amp = -2x + 2 \amp \amp \blert{\text{Add 3 to both sides.}}\\
-                y \amp = -2x + 5   \amp \amp 
-                \end{aligned}</me>
+    <md>
+        <mrow>
+            y-\alert{3} \amp = \alert{-2} (x-\alert{1}) \amp \amp \blert{\text{Apply the distributive law.}}
+        </mrow>
+        <mrow>
+            y-3 \amp = -2x + 2 \amp \amp \blert{\text{Add 3 to both sides.}}
+        </mrow>
+        <mrow>
+            y \amp = -2x + 5
+        </mrow>
+    </md>
 </p></solution></example>
 
 <example><statement><p>Find an equation for the line of slope <m>\dfrac{-1}{2}</m> that passes through <m>(-3,-2)</m>.</p>
 </statement>
 
 <solution><p>We substitute <m>x_1=\alert{-3}</m>, <m>y_1=\alert{-2}</m>, and <m>m=\alert{\dfrac{-1}{2}}</m> into the point-slope formula.
-    <me>\begin{aligned}[t]
-                \dfrac{y-(\alert{-2})}{x-(\alert{-3})} \amp = \alert{\dfrac{-1}{2}}  \amp \amp \blert{\text{Simplify the left side.}}\\
-                \dfrac{y+2}{x+3} \amp = \dfrac{-1}{2} \amp \amp \blert{\text{Cross-multiply.}}\\
-                2(y+2) \amp = -1(x+3)   \amp \amp \blert{\text{Apply the distributive law.}}\\
-                2y+4 \amp = -x-3   \amp \amp \blert{\text{Subtract 4 from both sides.}}\\
-                2y \amp = -x-7   \amp \amp \blert{\text{Divide both sides by 2.}}\\
-                y \amp = \dfrac{-1}{2}x-\dfrac{7}{2}   \amp \amp
-                \end{aligned}</me>
+    <md>
+        <mrow>
+            \dfrac{y-(\alert{-2})}{x-(\alert{-3})} \amp = \alert{\dfrac{-1}{2}}  \amp \amp \blert{\text{Simplify the left side.}}
+        </mrow>
+        <mrow>
+            \dfrac{y+2}{x+3} \amp = \dfrac{-1}{2} \amp \amp \blert{\text{Cross-multiply.}}
+        </mrow>
+        <mrow>
+            2(y+2) \amp = -1(x+3)   \amp \amp \blert{\text{Apply the distributive law.}}
+        </mrow>
+        <mrow>
+            2y+4 \amp = -x-3   \amp \amp \blert{\text{Subtract 4 from both sides.}}
+        </mrow>
+        <mrow>
+            2y \amp = -x-7   \amp \amp \blert{\text{Divide both sides by 2.}}\\
+                y \amp = \dfrac{-1}{2}x-\dfrac{7}{2}
+        </mrow>
+    </md>
 </p></solution></example>
 </subsubsection>
 
