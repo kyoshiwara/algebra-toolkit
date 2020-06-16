@@ -5,6 +5,8 @@
                  
 <subsection><title>1. Use the definition of root</title>
 
+<introduction><p>Because <m>~(\sqrt{a})(\sqrt{a})=a,~</m> it is also true that <m>~\dfrac{a}{\sqrt{a}}= \sqrt{a}</m>.</p></introduction>
+
 <subsubsection><title>Examples</title>
 
 <example><statement><p>Simplify. Do not use a calculator!<ol label="a" cols="2">
@@ -20,17 +22,17 @@
     <li><m>(\sqrt[3]{5})^3</m></li>
     <li><m>(\sqrt[3]{4})(\sqrt[3]{4})(\sqrt[3]{4})</m></li></ol></p></statement>
  
-<solution><p>By the definition of square root, <m>\sqrt[3]{a}</m> is a number whose cube is <m>a</m>.<ol label="a">
+<solution><p>By the definition of cube root, <m>\sqrt[3]{a}</m> is a number whose cube is <m>a</m>.<ol label="a">
     <li><m>(\sqrt[3]{5})^3=5</m></li>
     <li><m>(\sqrt[3]{4})(\sqrt[3]{4})(\sqrt[3]{4})=4</m></li></ol></p></solution></example>
 
 <example><statement><p>Simplify. Do not use a calculator!<ol label="a" cols="2">
     <li><m>\dfrac{3}{\sqrt{3}}</m></li>
-    <li><m>(\sqrt{13})^2</m></li></ol></p></statement>
+    <li><m>\dfrac{p}{\sqrt{p}}</m></li></ol></p></statement>
  
 <solution><p><ol label="a">
     <li><m>\dfrac{3}{\sqrt{3}} = \dfrac{\sqrt{3}\sqrt{3}}{\sqrt{3}} = \sqrt{3}</m></li>
-    <li><m>(\sqrt{13})^2 = 13</m></li></ol>
+    <li><m>\dfrac{p}{\sqrt{p}} = \dfrac{\sqrt{p}\sqrt{p}}{\sqrt{p}} = \sqrt{p}</m></li></ol>
 </p></solution></example>
 
 </subsubsection>
@@ -52,15 +54,17 @@
     <li><m>20</m></li></ol></p></answer></exercise>
 
 <exercise><statement><p>Simplify. Do not use a calculator!<ol label="a" cols="2">
-    <li><m>\sqrt{29}(\sqrt{29})</m></li>
-    <li><m>\dfrac{10}{\sqrt{10}}</m></li></ol></p></statement>
+    <li><m>\dfrac{10}{\sqrt{10}}</m></li>
+    <li><m>\dfrac{H}{\sqrt{H}}</m></li></ol></p></statement>
 <answer><p><ol label="a" cols="2">
-    <li><m>29</m></li>
-    <li><m>\sqrt{10}</m></li></ol></p></answer></exercise>
+    <li><m>\sqrt{10}</m></li>
+    <li><m>\sqrt{H}</m></li></ol></p></answer></exercise>
 </subsubsection>
 </subsection>
 
 <subsection><title>2. Approximate rational numbers</title>
+
+<introduction><p>Rational numbers are the integers and common fractions; we can represent them precisely in decimal form. But the best we can do for an irrational number is to write an approximate decimal form by rounding.</p></introduction>   
 
 <subsubsection><title>Examples</title>
 
@@ -122,26 +126,33 @@
 
 <subsection><title>3. Use the order of operations</title>
 
+<introduction><p>In the order of operations, simplifying radicals comes after what's inside parentheses (or fraction bars) and before products and quotients.</p></introduction>
+
 <subsubsection><title>Examples</title>
 
 <example><statement><p>Simplify each expression. Do not use a calculator!<ol label="a">
     <li><m>\dfrac{4-\sqrt{64}}{2}</m></li>
-    <li><m>-2(3\sqrt{16}-\sqrt{3(27)})</m></li>
+    <li><m>-2\left(3\sqrt{16}-\sqrt{3(27)}\right)</m></li>
     <li><m>6-3\sqrt[3]{27-7(5)}</m></li>
 </ol></p></statement>
  
 <solution><p><ol label="a">
-    <li><me>\begin{aligned}[t]
-                \dfrac{4-\sqrt{64}}{2} \amp = \dfrac{4-8}{2} \amp\amp \blert{\text{Evaluate the radical.}}\\
-                 \amp = \dfrac{-4}{2}=-2 \amp\amp \blert{\text{Simplify the numerator.}}                
+    <li><p>We start by simplifying the numerator.</p>
+        <me>\begin{aligned}[t]
+            \dfrac{4-\sqrt{64}}{2} \amp = \dfrac{4-8}{2} \amp\amp \blert{\text{Evaluate the radical, then subtract.}}\\
+                 \amp = \dfrac{-4}{2}=-2 \amp\amp \blert{\text{Reduce the fraction.}}                
                 \end{aligned}</me></li>
-    <li><me>\begin{aligned}[t]
-                -2(3\sqrt{16}-\sqrt{3(27)}) \amp = -2(3 \cdot 4-\sqrt{81}) \amp\amp \blert{\text{Evaluate the radicals.}}\\
-                 \amp = -2(12-9)=-6 \amp\amp \blert{\text{Simplify inside the parentheses.}}                
+    <li><p>We start by simplifyng what's inside parentheses.</p>
+        <me>\begin{aligned}[t]
+                \amp -2\left(3\sqrt{16} -\sqrt{3(27)}\right)  \amp\amp \blert{\text{Evaluate the radicals.}}\\
+                 \amp   = -2(3 \cdot 4-\sqrt{81}) \amp\amp \blert{\text{Simplify inside the parentheses.}}\\
+                  \amp   = -2(12-9)=-6                 
                 \end{aligned}</me></li>
-    <li><me>\begin{aligned}[t]
-                6-3\sqrt[3]{27-7(5)} \amp = 6-3\sqrt[3]{27-35}  \amp\amp \blert{\text{Simplify under the radical.}}\\
-                 \amp = 6-3\sqrt[3]{-8}=6-3(-2)=12                
+    <li><p>We start by simplifying the radicand.</p>
+        <me>\begin{aligned}[t]
+                6-3\sqrt[3]{27-7(5)} \amp = 6-3\sqrt[3]{27-35}  \amp\amp \blert{\text{Subtract under the radical.}}\\
+                 \amp = 6-3\sqrt[3]{-8}  \amp\amp \blert{\text{Evaluate the radical.}}\\
+                 \amp =6-3(-2)=12                
                 \end{aligned}</me></li>
 </ol></p></solution></example>
 
@@ -150,10 +161,12 @@
     <li><m>2+6\sqrt[3]{-25}</m></li></ol></p></statement>
 
 <solution><p><ol label="a">
-    <li><p>Enter
+    <li><p>Do not start with "<m>8-2</m>"! Evaluate <m>\sqrt{2}</m> first, then multiply by 2, and subtract the result from 8. Once the numerator is simplified, divide by 4.</p> 
+        <p>On a calculator, enter
             <me>\boxed{(}~8~\boxed{-}~2~\boxed{\sqrt{}}~\boxed{)}~\boxed{)}~\boxed{\div}~4</me>
         and round to two decimal places:  <m>~1.29</m></p></li>
-    <li><p>Enter
+    <li><p>Evaluate the cube root, multiply by 6, then add the result to 2.</p>
+        <p>On a calculator, enter
             <me>~2~\boxed{+}~6~\boxed{\text{MATH}}~\boxed{4}~\boxed{-}~25</me>
         and round to two decimal places:  <m>~-15.54</m></p></li></ol></p></solution></example>
 </subsubsection>
