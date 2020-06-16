@@ -65,17 +65,29 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
 </p></statement>
 
 <solution><p>First, we find the <m>x</m>- and <m>y</m>-intercepts of the graph. To find the <m>y</m>-intercept, we substitute <m>0</m> for <m>x</m> and solve for <m>y</m>:
-        <me>\begin{aligned}[t]
-                3(\alert{0})+2y \amp =7 \amp \amp \blert{\text{Simpify the left side.}}\\
-                2y \amp =7 \amp \amp \blert{\text{Divide both sides by 2.}}\\
-                y \amp =\dfrac{7}{2}=3\dfrac{1}{2}   \amp \amp  
-                \end{aligned}</me>
+        <md>
+            <mrow>
+                 3(\alert{0})+2y \amp =7 \amp \amp \blert{\text{Simpify the left side.}}
+            </mrow>
+            <mrow>
+                2y \amp =7 \amp \amp \blert{\text{Divide both sides by 2.}}
+            </mrow>
+            <mrow>
+                y \amp =\dfrac{7}{2}=3\dfrac{1}{2}
+            </mrow>
+        </md>
 The <m>y</m>-intercept is the point <m>\left(0, 3\dfrac{1}{2}\right)</m>. To find the <m>x</m>-intercept, we substitute <m>0</m> for <m>y</m> and solve for <m>x</m>:
-        <me>\begin{aligned}[t]
-                3x+2(\alert{0}) \amp =7 \amp \amp \blert{\text{Simpify the left side.}}\\
-                3x \amp =7 \amp \amp \blert{\text{Divide both sides by 3.}}\\
-                x \amp =\dfrac{7}{3}=2\dfrac{1}{3}   \amp \amp  
-                \end{aligned}</me>
+        <md>
+            <mrow>
+                3x+2(\alert{0}) \amp =7 \amp \amp \blert{\text{Simpify the left side.}}
+            </mrow>
+            <mrow>
+                3x \amp =7 \amp \amp \blert{\text{Divide both sides by 3.}}
+            </mrow>
+            <mrow>
+                x \amp =\dfrac{7}{3}=2\dfrac{1}{3}
+            </mrow>
+        </md>
 The <m>x</m>-intercept is the point <m>\left(2\dfrac{1}{3}, 0\right)</m>.</p>
 
 <p>A table with the two intercepts is shown below. We plot the intercepts and connect them with a straight line.</p> 
@@ -233,11 +245,17 @@ To find the <m>T</m>-intercept, we set <m>h=0</m> and solve for <m>T</m>.
     </image>
 </sidebyside> 
 <p>The <m>T</m>-intercept is <m>(0,-12)</m>. This point tells us that when <m>h=0, T=-12</m>, or the temperature at noon was <m>-12 \degree</m>. To find the <m>h</m>-intercept, we set <m>T=0</m> and solve for <m>h</m>. 
-        <me>\begin{aligned}[t]
-                \alert{0} \amp = -12+2h \amp \amp \blert{\text{Add 12 to both sides.}}\\
-                12 \amp = 2h \amp \amp \blert{\text{Divide both sides by 2.}}\\
-                6 \amp =h   \amp \amp  
-                \end{aligned}</me>       
+        <md>
+            <mrow>
+                \alert{0} \amp = -12+2h \amp \amp \blert{\text{Add 12 to both sides.}}
+            </mrow>
+            <mrow>
+                12 \amp = 2h \amp \amp \blert{\text{Divide both sides by 2.}}
+            </mrow>
+            <mrow>
+                6 \amp =h
+            </mrow>
+        </md>
 The <m>h</m>-intercept is the point <m>(6,0)</m>. This point tells us that when <m>h=6, T=0</m>, or the temperature will reach zero degrees at six hours after noon, or 6 pm.</p></solution></example>
 
 <subsubsection><title>Exercises</title>
@@ -365,22 +383,41 @@ To put an equation into this form, we want to "isolate" the output variable on o
 
 <example><statement><p>Solve the equation <m>2x-3y=8</m> for <m>y</m>.</p></statement>
 
-<solution><p><me>\begin{aligned}[t]
-                2x-3y \amp = 8 \amp \amp \blert{\text{Subtract <m>2x</m> from both sides.}}\\
-                -3y \amp = 8-2x \amp \amp \blert{\text{Divide both sides by} -3.}\\
-                y \amp =\dfrac{8-2x}{-3}   \amp \amp  \blert{\text{Divide each term of the numerator by} -3.}\\
-                y \amp =\dfrac{8}{3}-\dfrac{2}{3}x   \amp \amp
-                \end{aligned}</me></p></solution></example>
+<solution><p>
+    <md>
+        <mrow>
+           2x-3y \amp = 8 \amp \amp \blert{\text{Subtract <m>2x</m> from both sides.}} 
+        </mrow>
+        <mrow>
+            -3y \amp = 8-2x \amp \amp \blert{\text{Divide both sides by} -3.}
+        </mrow>
+        <mrow>
+            y \amp =\dfrac{8-2x}{-3}   \amp \amp  \blert{\text{Divide each term of the numerator by} -3.}
+        </mrow>
+        <mrow>
+            y \amp =\dfrac{8}{3}-\dfrac{2}{3}x
+        </mrow>
+    </md>
+</p></solution></example>
 
 <example><statement><p>Solve the equation <m>A=\dfrac{h}{2}(b+c)</m> for <m>b</m>.</p></statement>
 
 <solution><p>It is nearly always best to clear fractions from an equation first, so we begin by multiplying both sides by 2.
-    <me>\begin{aligned}[t]
-                \alert{2}A \amp = \alert{\cancel{2}}\left(\dfrac{h}{\cancel{2}}(b+c)\right) \amp \amp \blert{\text{Multiply both sides by}~ \alert{2}.}\\
-                2A \amp = h(b+c) \amp \amp \blert{\text{Divide both sides by}~h.}\\
-                \dfrac{2A}{h} \amp = b+c   \amp \amp  \blert{\text{Subtract <m>c</m> from both sides.}}\\
-                \dfrac{2A}{h}-c \amp = b   \amp \amp
-                \end{aligned}</me></p></solution></example>
+    <md>
+        <mrow>
+            \alert{2}A \amp = \alert{\cancel{2}}\left(\dfrac{h}{\cancel{2}}(b+c)\right) \amp \amp \blert{\text{Multiply both sides by}~ \alert{2}.}
+        </mrow>
+        <mrow>
+            2A \amp = h(b+c) \amp \amp \blert{\text{Divide both sides by}~h.}
+        </mrow>
+        <mrow>
+            \dfrac{2A}{h} \amp = b+c   \amp \amp  \blert{\text{Subtract <m>c</m> from both sides.}}
+        </mrow>
+        <mrow>
+            \dfrac{2A}{h}-c \amp = b
+        </mrow>
+    </md>
+</p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
