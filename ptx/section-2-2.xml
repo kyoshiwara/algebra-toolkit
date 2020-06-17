@@ -128,7 +128,7 @@ and so on.</p></introduction>
 <solution><p>Simplify the expression under the radical first.
     <md>
         <mrow>
-            \dfrac{8-2\sqrt[3]{\alert{11.375+2.5^3}}}{8-4} \amp = \dfrac{8-2\sqrt[3]{\alert{27}}}{8-4} \amp \amp ~~\blert{\text{Evaluate the radical.}}
+            \dfrac{8-2\sqrt[3]{\alert{11.375+2.5^3}}}{8-4} \amp = \dfrac{8-2\sqrt[3]{\alert{27}}}{8-4} \amp \amp ~\blert{\text{Evaluate the radical.}}
         </mrow>
         <mrow>
             \amp =\dfrac{8-2(3)}{8-4}  \amp \amp \begin{array}{l}

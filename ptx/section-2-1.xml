@@ -320,7 +320,7 @@ The height must be a positive number, so the ladder reaches 24 feet up the wall.
                 }
                 \begin{tikzpicture} [scale=.75]
                 \draw[gray,thin] (3,0) rectangle ++(-.25,.25);
-                \draw[black, thick] (0,0) node[below left] {Home plate} -- (3,0) node[below right] {1st base} --  (3,3) node[above right] {2nd base} -- (0,3) node[above left] {3rd base} -- cycle;
+                \draw[black, thick] (0,0) node[below left, align=center] {\small  Home\\ plate} -- (3,0) node[below right] {\small 1st base} --  (3,3) node[above right] {\small 2nd base} -- (0,3) node[above left] {\small 3rd base} -- cycle;
                 \draw[blue,thick] (0,0) -- (3,3) node[above,midway, xshift=-2] {$x$};
                 \node[text=blue] at (1.5,-.4) {\small 90 ft};
                 \node[text=blue] at (3.8,1.5) {\small 90 ft};
