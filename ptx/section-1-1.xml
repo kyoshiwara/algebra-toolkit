@@ -65,18 +65,30 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
 </p></statement>
 
 <solution><p>First, we find the <m>x</m>- and <m>y</m>-intercepts of the graph. To find the <m>y</m>-intercept, we substitute <m>0</m> for <m>x</m> and solve for <m>y</m>:
-        <me>\begin{aligned}[t]
-                3(\alert{0})+2y \amp =7 \amp \amp \blert{\text{Simpify the left side.}}\\
-                2y \amp =7 \amp \amp \blert{\text{Divide both sides by 2.}}\\
-                y \amp =\dfrac{7}{2}=3\dfrac{1}{2}   \amp \amp  
-                \end{aligned}</me>
-The <m>y</m>-intercept is the point <m>(0, 3\dfrac{1}{2})</m>. To find the <m>x</m>-intercept, we substitute <m>0</m> for <m>y</m> and solve for <m>x</m>:
-        <me>\begin{aligned}[t]
-                3x+2(\alert{0}) \amp =7 \amp \amp \blert{\text{Simpify the left side.}}\\
-                3x \amp =7 \amp \amp \blert{\text{Divide both sides by 3.}}\\
-                x \amp =\dfrac{7}{3}=2\dfrac{1}{3}   \amp \amp  
-                \end{aligned}</me>
-The <m>x</m>-intercept is the point <m>(2\dfrac{1}{3}, 0)</m>.</p>
+        <md>
+            <mrow>
+                 3(\alert{0})+2y \amp =7 \amp \amp \blert{\text{Simpify the left side.}}
+            </mrow>
+            <mrow>
+                2y \amp =7 \amp \amp \blert{\text{Divide both sides by 2.}}
+            </mrow>
+            <mrow>
+                y \amp =\dfrac{7}{2}=3\dfrac{1}{2}
+            </mrow>
+        </md>
+The <m>y</m>-intercept is the point <m>\left(0, 3\dfrac{1}{2}\right)</m>. To find the <m>x</m>-intercept, we substitute <m>0</m> for <m>y</m> and solve for <m>x</m>:
+        <md>
+            <mrow>
+                3x+2(\alert{0}) \amp =7 \amp \amp \blert{\text{Simpify the left side.}}
+            </mrow>
+            <mrow>
+                3x \amp =7 \amp \amp \blert{\text{Divide both sides by 3.}}
+            </mrow>
+            <mrow>
+                x \amp =\dfrac{7}{3}=2\dfrac{1}{3}
+            </mrow>
+        </md>
+The <m>x</m>-intercept is the point <m>\left(2\dfrac{1}{3}, 0\right)</m>.</p>
 
 <p>A table with the two intercepts is shown below. We plot the intercepts and connect them with a straight line.</p> 
     <sidebyside widths="40% 35%" margins="0% 20%" valigns="middle middle">
@@ -85,32 +97,116 @@ The <m>x</m>-intercept is the point <m>(2\dfrac{1}{3}, 0)</m>.</p>
                 <row> <cell><m>0</m></cell><cell><m>3\dfrac{1}{2}</m></cell></row>
                 <row> <cell><m>2\dfrac{1}{3}</m></cell><cell><m>0</m></cell></row>
             </tabular>
-            <image source="images/fig-1-1-1.png"><description>graph</description></image></sidebyside>
+            <image xml:id="y-eq-neg3x-over2-plus7">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.5]
+        \draw[cyan] (-4,-4) grid (6,6);
+        \draw[black,very thick, ->, >=stealth'] (-4,0)--(6.8,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-4)--(0,6.8) node[left, xshift=2]{$y$};
+        \foreach \x  in  {-4,5} {
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x  in  {-4,5} {
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[magenta!90!black,very thick, <->,>=stealth'] (-5/3,6)--(5,-4);
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside>
 </solution></example>
 
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Graph the line <m>y=\dfrac{-4}{3}x+8</m> by the intercept method.</p>
-<sidebyside widths="30% 40%">
-            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
-                <row> <cell><m>x</m></cell><cell><m>y</m></cell></row>
-                <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
-                <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
-            </tabular>
-            <image source="images/fig-1-1-2.png"><description>grid</description></image></sidebyside></statement>
-    <answer><sidebyside width="30%"><image source="images/fig-1-1-3.png"><description>graph</description></image>
-        </sidebyside></answer></exercise>
+<sidebyside widths="30% 40%" valigns="middle middle">
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+        <row> <cell><m>x</m></cell><cell><m>y</m></cell></row>
+        <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
+        <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
+    </tabular>
+    <image xml:id="fig-8x8-grid">
+    <description>8 by 8 grid</description>
+    <latex-image>
+    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+    <![CDATA[\tikzset{%
+    }
+    \begin{tikzpicture} [scale=.35]
+        \draw[cyan] (-8,-8) grid (8,8);
+        \draw[black,very thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-8)--(0,9) node[left, xshift=2]{$y$};
+        \foreach \x  in  {-5, 5} {
+         \draw[cyan!70!black,  thick] (\x,-8) --++(0,16);
+         \draw[cyan!70!black,  thick] (-8,\x) --++(16,0);
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+    \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
+</statement>
+<answer>
+    <sidebyside width="35%" margins="0% 0%"><image xml:id="y-eq-neg4-over3-x-plus8">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.35]
+        \draw[cyan] (-8,-8) grid (8,8);
+        \draw[black,very thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-8)--(0,9) node[left, xshift=2]{$y$};
+        \foreach \x  in  {-5, 5} {
+         \draw[cyan!70!black,  thick] (\x,-8) --++(0,16);
+         \draw[cyan!70!black,  thick] (-8,\x) --++(16,0);
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[magenta!90!black,very thick, <->,>=stealth'] (0,8)--(8,-8/3);
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside>
+</answer></exercise>
 
 <exercise><statement><p>Graph the line <m>\dfrac{x}{6}+\dfrac{y}{8}=-1</m> by the intercept method.</p>
-<sidebyside widths="30% 40%">
-            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
-                <row> <cell><m>x</m></cell><cell><m>y</m></cell></row>
-                <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
-                <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
-            </tabular>
-            <image source="images/fig-1-1-2.png"><description>grid</description></image></sidebyside></statement>
-    <answer><sidebyside width="30%"><image source="images/fig-1-1-4.png"><description>graph</description></image>
-        </sidebyside></answer></exercise>
+<sidebyside widths="30% 40%" valigns="middle middle">
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+            <row> <cell><m>x</m></cell><cell><m>y</m></cell></row>
+            <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
+            <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
+        </tabular>
+        <image source="images/fig-8x8-grid"><description>grid</description></image>
+    </sidebyside>
+</statement>
+<answer>
+    <sidebyside width="35%" margins="0% 0%"><image xml:id="y-eq-neg4-over3-x-minus8">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.35]
+        \draw[cyan] (-8,-8) grid (8,8);
+        \draw[black,very thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-8)--(0,9) node[left, xshift=2]{$y$};
+        \foreach \x  in  {-5, 5} {
+         \draw[cyan!70!black,  thick] (\x,-8) --++(0,16);
+         \draw[cyan!70!black,  thick] (-8,\x) --++(16,0);
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[magenta!90!black,very thick, <->,>=stealth'] (0,-8)--(-8,8/3);
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside>
+</answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -127,13 +223,39 @@ The <m>x</m>-intercept is the point <m>(2\dfrac{1}{3}, 0)</m>.</p>
         <me>T=-12 +2h</me>
 To find the <m>T</m>-intercept, we set <m>h=0</m> and solve for <m>T</m>.
         <me>T=-12+2(\alert{0})=-12</me>  </p>
-<image source="images/fig-1-1-5.png"><description>graph</description></image></sidebyside> 
+<image xml:id="T-eq-2h-minus12">
+        <description>Temperature in Nome</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.4, yscale=.2]
+        \draw[cyan] (-4,-16) grid[ystep=2] (10,8);
+        \draw[black,very thick, ->, >=stealth'] (-4,0)--(10.8,0) node[right]{$h$};
+        \draw[black,very thick, ->, >=stealth'] (0,-16)--(0,9.5) node[left, xshift=2]{$T$};
+        \foreach \x  in  {10, 5} {
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x  in  {-10, 6} {
+         \draw[black] (.3,\x) --++(-.6,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[magenta!90!black,very thick, <->,>=stealth'] (-2,-16)--(10,8);
+        \end{tikzpicture}]]>
+        </latex-image>
+    </image>
+</sidebyside> 
 <p>The <m>T</m>-intercept is <m>(0,-12)</m>. This point tells us that when <m>h=0, T=-12</m>, or the temperature at noon was <m>-12 \degree</m>. To find the <m>h</m>-intercept, we set <m>T=0</m> and solve for <m>h</m>. 
-        <me>\begin{aligned}[t]
-                \alert{0} \amp = -12+2h \amp \amp \blert{\text{Add 12 to both sides.}}\\
-                12 \amp = 2h \amp \amp \blert{\text{Divide both sides by 2.}}\\
-                6 \amp =h   \amp \amp  
-                \end{aligned}</me>       
+        <md>
+            <mrow>
+                \alert{0} \amp = -12+2h \amp \amp \blert{\text{Add 12 to both sides.}}
+            </mrow>
+            <mrow>
+                12 \amp = 2h \amp \amp \blert{\text{Divide both sides by 2.}}
+            </mrow>
+            <mrow>
+                6 \amp =h
+            </mrow>
+        </md>
 The <m>h</m>-intercept is the point <m>(6,0)</m>. This point tells us that when <m>h=6, T=0</m>, or the temperature will reach zero degrees at six hours after noon, or 6 pm.</p></solution></example>
 
 <subsubsection><title>Exercises</title>
@@ -146,26 +268,108 @@ The <m>h</m>-intercept is the point <m>(6,0)</m>. This point tells us that when 
                 <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
                 <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
             </tabular></li>
-    <li>Explain what each intercept tells us about the vitamins.</li></ol></p>
-<image source="images/fig-1-1-6.png"><description>grid</description></image></sidebyside></statement>
-    <answer><sidebyside widths="25% 60%"><image source="images/fig-1-1-7.png"><description>grid</description></image>
-        <p><ul><li><m>(0,300)</m> There were 300 vitamins to start.</li>               
+    <li>Explain what each intercept tells us about the vitamins.</li>
+</ol></p>
+<image xml:id="N-eq-300-minus5d-grid">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.5]
+        \draw[cyan] (0,0) grid (10,10);
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(10.8,0);
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(0,10.8);
+        \end{tikzpicture}]]>
+        </latex-image>
+    </image>
+</sidebyside>
+</statement>
+<answer><sidebyside widths="35% 60%">
+    <image xml:id="N-eq-300-minus5d">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.5]
+        \draw[cyan] (0,0) grid (10,10);
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(10.8,0) node[right]{$d$};
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(0,10.8) node[left, xshift=2]{$N$};
+        \foreach \x [evaluate=\x as \xi using int(10*\x)] in  {2,4,...,10} {
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(50*\x)] in  {2,4,...,10} {
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[magenta!90!black,very thick] (0,6)--(6,0);
+        \end{tikzpicture}]]>
+        </latex-image>
+    </image>
+<p><ul><li><m>(0,300)</m> There were 300 vitamins to start.</li>               
                <li><m>(60,0)</m> The vitamin bottle is empty after 60 days.</li></ul></p></sidebyside></answer></exercise>
 
 <exercise><statement><p>Delbert bought some equipment and went into the dog-grooming business.  His profit is increasing according to the equation 
     <me>P=-600+40d</me>
 where <m>d</m> is the number of dogs he has groomed.</p>
-<sidebyside widths="50% 45%" valigns="bottom bottom"><p><ol label="a"> <li>Find the intercepts and use them to make a graph of the equation.
+<sidebyside widths="50% 45%" valigns="bottom bottom">
+    <p><ol label="a"> <li>Find the intercepts and use them to make a graph of the equation.
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row> <cell><m>d</m></cell><cell><m>P</m></cell></row>
                 <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
                 <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
             </tabular></li>
     <li>Explain what each intercept tells us about Delbert's dog-grooming business.</li></ol></p>
-<image source="images/fig-1-1-8.png"><description>grid</description></image></sidebyside></statement>
-    <answer><sidebyside widths="25% 60%"><image source="images/fig-1-1-9.png"><description>grid</description></image>
-        <p><ul><li><m>(0,-600)</m> To start, Delbert's profit is <m>-$600</m>. (He is $600 in debt.)</li>               
-            <li><m>(15,0)</m> Delbert breaks even after grooming 15 dogs.</li></ul></p></sidebyside></answer></exercise>
+    <image xml:id="P-eq-40d-minus600-grid">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.3]
+        \draw[cyan, thin] (0,-12) grid (20,8);
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(21,0) node[right]{$d$};
+        \draw[black,very thick, ->, >=stealth'] (0,-12)--(0,9.5) node[left, xshift=2]{$P$};
+        \foreach \x in  {5,10,20} {
+         \draw[cyan!70!black, thick] (\x,-12)--++(0,20);
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(50*\x)] in  {-12,-8,-4,4,8} {
+         \draw[cyan!70!black, thick] (0,\x)--++(20,0);
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \end{tikzpicture}]]>
+        </latex-image>
+    </image>
+</sidebyside></statement>
+    <answer><sidebyside widths="35% 60%">
+    <image xml:id="P-eq-40d-minus600">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.3]
+        \draw[cyan, thin] (0,-12) grid (20,8);
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(21,0) node[right]{$d$};
+        \draw[black,very thick, ->, >=stealth'] (0,-12)--(0,9.5) node[left, xshift=2]{$P$};
+        \foreach \x in  {5,10,20} {
+         \draw[cyan!70!black, thick] (\x,-12)--++(0,20);
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(50*\x)] in  {-12,-8,-4,4,8} {
+         \draw[cyan!70!black, thick] (0,\x)--++(20,0);
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[magenta!90!black,very thick, ->, >=stealth'] (0,-12)--(20,4);
+        \end{tikzpicture}]]>
+        </latex-image>
+    </image>
+    <p><ul><li><m>(0,-600)</m> To start, Delbert's profit is <m>-$600</m>. (He is $600 in debt.)</li>               
+        <li><m>(15,0)</m> Delbert breaks even after grooming 15 dogs.</li></ul></p>
+    </sidebyside>
+</answer></exercise>
+
 </subsubsection>
 </subsection>
 
@@ -179,22 +383,41 @@ To put an equation into this form, we want to "isolate" the output variable on o
 
 <example><statement><p>Solve the equation <m>2x-3y=8</m> for <m>y</m>.</p></statement>
 
-<solution><p><me>\begin{aligned}[t]
-                2x-3y \amp = 8 \amp \amp \blert{\text{Subtract <m>2x</m> from both sides.}}\\
-                -3y \amp = 8-2x \amp \amp \blert{\text{Divide both sides by} -3.}\\
-                y \amp =\dfrac{8-2x}{-3}   \amp \amp  \blert{\text{Divide each term of the numerator by} -3.}\\
-                y \amp =\dfrac{8}{3}-\dfrac{2}{3}x   \amp \amp
-                \end{aligned}</me></p></solution></example>
+<solution><p>
+    <md>
+        <mrow>
+           2x-3y \amp = 8 \amp \amp \blert{\text{Subtract <m>2x</m> from both sides.}} 
+        </mrow>
+        <mrow>
+            -3y \amp = 8-2x \amp \amp \blert{\text{Divide both sides by} -3.}
+        </mrow>
+        <mrow>
+            y \amp =\dfrac{8-2x}{-3}   \amp \amp  \blert{\text{Divide each term of the numerator by} -3.}
+        </mrow>
+        <mrow>
+            y \amp =\dfrac{8}{3}-\dfrac{2}{3}x
+        </mrow>
+    </md>
+</p></solution></example>
 
 <example><statement><p>Solve the equation <m>A=\dfrac{h}{2}(b+c)</m> for <m>b</m>.</p></statement>
 
 <solution><p>It is nearly always best to clear fractions from an equation first, so we begin by multiplying both sides by 2.
-    <me>\begin{aligned}[t]
-                \alert{2}A \amp = \alert{\cancel{2}}\left(\dfrac{h}{\cancel{2}}(b+c)\right) \amp \amp \blert{\text{Multiply both sides by}~ \alert{2}.}\\
-                2A \amp = h(b+c) \amp \amp \blert{\text{Divide both sides by}~h.}\\
-                \dfrac{2A}{h} \amp = b+c   \amp \amp  \blert{\text{Subtract <m>c</m> from both sides.}}\\
-                \dfrac{2A}{h}-c \amp = b   \amp \amp
-                \end{aligned}</me></p></solution></example>
+    <md>
+        <mrow>
+            \alert{2}A \amp = \alert{\cancel{2}}\left(\dfrac{h}{\cancel{2}}(b+c)\right) \amp \amp \blert{\text{Multiply both sides by}~ \alert{2}.}
+        </mrow>
+        <mrow>
+            2A \amp = h(b+c) \amp \amp \blert{\text{Divide both sides by}~h.}
+        </mrow>
+        <mrow>
+            \dfrac{2A}{h} \amp = b+c   \amp \amp  \blert{\text{Subtract <m>c</m> from both sides.}}
+        </mrow>
+        <mrow>
+            \dfrac{2A}{h}-c \amp = b
+        </mrow>
+    </md>
+</p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>

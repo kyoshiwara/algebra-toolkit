@@ -13,29 +13,43 @@
 
 <example><statement><p>Solve <m>~3\sqrt{x-4}=15</m>.</p></statement>
  
-<solution><p>We isolate <m>x</m> by "undoing" each operation in order: perform the opposite operations.
-    <me>\begin{aligned}[t]
-                3\sqrt{x-4} \amp = 15 \amp\amp \blert{\text{Divide both sides by 3.}}\\
-                \sqrt{x-4} \amp = 5 \amp\amp \blert{\text{Square both sides.}}\\
-                x-4 \amp = 25 \amp\amp \blert{\text{Add 4 to both sides.}}\\
-                x \amp = 29                
-                \end{aligned}</me>
-Whenever we square both sides of an equation, we should check for extraneous solutions.
+<solution><p>Isolate <m>x</m> by "undoing" each operation in order: perform the opposite operations.
+    <md>
+        <mrow>
+            3\sqrt{x-4} \amp = 15 \amp\amp \blert{\text{Divide both sides by 3.}}
+        </mrow>
+        <mrow>
+            \sqrt{x-4} \amp = 5 \amp\amp \blert{\text{Square both sides.}}
+        </mrow>
+        <mrow>
+            x-4 \amp = 25 \amp\amp \blert{\text{Add 4 to both sides.}}
+        </mrow>
+        <mrow>
+            x \amp = 29
+        </mrow>
+    </md>
+When we square both sides of an equation, we should check for extraneous solutions.
     <me>3\sqrt{\alert{29}-4} = 3\sqrt{25} = 3(5)=15</me>
 Because setting <m>x=29</m> does not cause us to take the square root of a negative number, the solution is 29.</p></solution></example>
 
 <example><statement><p>Let <m>~f(x)=\dfrac{24}{x-1}</m>. Find <m>a</m> so that <m>f(a) = 4</m>.</p></statement>
  
-<solution><p>We must solve the equation 
-    <me>\dfrac{24}{a-1} = 4</me>
-First, we clear the fraction by multiplying both sides by <m>(a-1)</m>.
-    <me>\begin{aligned}[t]
-                \dfrac{24}{a-1} \blert{(a-1)} \amp = 4 \blert{(a-1)} \amp\amp \blert{\text{Multiply by}~(a-1).}\\
-                24 \amp = 4(a-1) \amp\amp \blert{\text{Divide both sides by 4.}}\\
-                6 \amp = a-1 \amp\amp \blert{\text{Add 1 to both sides.}}\\
-                7 \amp = a                
-                \end{aligned}</me>
-Substituting 7 into <m>a-1</m>, we see that 7 does not cause the denominator to be 0, so 7 is the solution, and <m>f(7)=4</m>.</p></solution></example>
+<solution><p>Clear the fraction by multiplying both sides by <m>(x-1)</m>.
+    <md>
+        <mrow>
+            \dfrac{24}{x-1} \blert{(x-1)} \amp = 4 \blert{(x-1)} \amp\amp \blert{\text{Multiply by}~(x-1).}
+        </mrow>
+        <mrow>
+            24 \amp = 4(x-1) \amp\amp \blert{\text{Divide both sides by 4.}}
+        </mrow>
+        <mrow>
+            6 \amp = x-1 \amp\amp \blert{\text{Add 1 to both sides.}}
+        </mrow>
+        <mrow>
+            7 \amp = x 
+        </mrow>
+    </md>
+Substituting 7 into <m>x-1</m>, we see that 7 does not cause the denominator to be 0, so 7 is the solution.</p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
@@ -70,11 +84,18 @@ Substituting 7 into <m>a-1</m>, we see that 7 does not cause the denominator to 
 </p></statement>
 
 <solution><p><ol label="a">
-    <li><p><me>\begin{aligned}[t]
-                x^2+y^2 \amp = 9 \amp\amp \blert{\text{Subtract}~x^2~\text{from both sides.}}\\
-                y^2 \amp = 9 - x^2 \amp\amp \blert{\text{Take square roots.}}\\
-                y \amp = \pm \sqrt{9-x^2}                
-                \end{aligned}</me>
+    <li><p>
+        <md>
+            <mrow>
+                 x^2+y^2 \amp = 9 \amp\amp \blert{\text{Subtract}~x^2~\text{from both sides.}}
+            </mrow>
+            <mrow>
+                y^2 \amp = 9 - x^2 \amp\amp \blert{\text{Take square roots.}}
+            </mrow>
+            <mrow>
+                y \amp = \pm \sqrt{9-x^2}
+            </mrow>
+        </md>
 The two functions are <m>~y = \sqrt{9-x^2}~</m> and <m>~y = -\sqrt{9-x^2}~</m>.</p></li>
     <li><p>Substitute <m>x=1</m> into each equation.
         <me>y = \sqrt{9-(\alert{1})^2} = \sqrt{9-1} = \sqrt{8} = 2\sqrt{2}</me>

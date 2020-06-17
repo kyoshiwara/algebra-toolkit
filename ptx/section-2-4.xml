@@ -105,8 +105,7 @@
     </p></statement>
 
 <solution><p><ol label="a">
-        <li><md><mrow>m_1=\dfrac{14-10}{2-1}=4,~~m_2=\dfrac{22-14}{5-2}=\dfrac{8}{3},</mrow>
-                <mrow>m_3=\dfrac{30-22}{9-5}=2,~~m_4=\dfrac{39-30}{15-9}=\dfrac{3}{2}</mrow></md></li>
+        <li><m>m_1=\dfrac{14-10}{2-1}=4</m>, <m>m_2=\dfrac{22-14}{5-2}=\dfrac{8}{3}</m>, <m>m_3=\dfrac{30-22}{9-5}=2</m>, <m>m_4=\dfrac{39-30}{15-9}=\dfrac{3}{2}</m></li>
         <li>The slopes are decreasing, so the graph is concave down.</li></ol></p></solution></example>
 </subsubsection>
 
@@ -215,8 +214,8 @@
         1  \amp  -1\lt x\lt 1\\
         x \amp  x \ge 1
         \end{cases}</me></p>
-<sidebyside width="40%"><image source="images/fig-1-5-3.png"><description>grid</description></image></sidebyside>
-<p><ol label="a" cols="4">
+<sidebyside width="40%"><image source="images/fig-10x10-grid"><description>grid</description></image></sidebyside>
+<p><ol label="a" cols="2">
     <li><m>g(-2)</m></li>
     <li><m>g(-1)</m></li>
     <li><m>g(0)</m></li>
@@ -228,7 +227,7 @@
     <li><m>0</m></li>
     <li>undefined</li>
     <li><m>1</m></li>
-    <li><m>1</m></li></ol></p></answer>></exercise>
+    <li><m>1</m></li></ol></p></answer></exercise>
 
 </subsubsection>
 </subsection>

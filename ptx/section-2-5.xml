@@ -56,12 +56,18 @@
 <example><statement><p>Solve the inequality <m>~-3 \lt 2x-5 \le 6~</m> and write your solution with interval notation.</p></statement>
 
 <solution><p>To isolate <m>x</m>, we first add 5 on each side of the inequality symbols.
-    <me>\begin{aligned}[t]
-                -3 \amp \lt 2x-5 \le 6 \amp\amp \blert{\text{Add 5 on all three sides.}}\\
-                2 \amp \lt 2x~~ \le 11 \amp\amp \blert{\text{Divide each side by 2.}}\\
-                1 \amp \lt x \le \dfrac{11}{2}                
-                \end{aligned}</me>
-The solutions are all real numbers greater than 1 but less than or equal to <m>\dfrac{11}{2}</m>. In interval notation, we write <m>~(1, \dfrac{11}{2}]</m>.</p></solution></example>
+    <md>
+        <mrow>
+            -3 \amp \lt 2x-5 \le 6 \amp\amp \blert{\text{Add 5 on all three sides.}}
+        </mrow>
+        <mrow>
+            2 \amp \lt 2x~~ \le 11 \amp\amp \blert{\text{Divide each side by 2.}}
+        </mrow>
+        <mrow>
+            1 \amp \lt x \le \dfrac{11}{2}
+        </mrow>
+    </md>
+The solutions are all real numbers greater than 1 but less than or equal to <m>\dfrac{11}{2}</m>. In interval notation, we write <m>~\left(1, \dfrac{11}{2}\right]</m>.</p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
