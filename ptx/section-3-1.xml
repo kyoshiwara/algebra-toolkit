@@ -82,16 +82,6 @@
 
 <subsubsection><title>Examples</title>
 
-<<<<<<< HEAD
-<example><statement><p>Sketch a graph of <m>V=0.2s^3</m>.</p></statement>
-
-<solution><p>We know that the graph has the shape of the basic function <m>y=x^3</m>, so all we need are a few points to "anchor" the graph.
-    <me>\begin{aligned}[t]
-                \text{If}~~~ s=1,~~~ \amp V = 0.2(1)^3 = 0.2\\
-                \text{If}~~~ s=2,~~~ \amp V = 0.2(2)^3 = 1.6\\
-                \text{If}~~~ s=3,~~~ \amp V = 0.2(3)^3 = 5.4                
-                \end{aligned}</me>
-=======
 <example>
     <statement><p>Sketch a graph of <m>V=0.2s^3</m>.</p></statement>
     <solution><p>We know that the graph has the shape of the basic function <m>y=x^3</m>, so all we need are a few points to "anchor" the graph.
@@ -106,21 +96,10 @@
             \text{If } s=3, \amp V = 0.2(3)^3 = 5.4 
         </mrow>
     </md>
->>>>>>> 8cc4071ae07e8459625f30540f32fa2a2268ff5c
 The graph is shown below.</p>
 <sidebyside width="30%"><image source="images/fig-3-1-1.png"><description>graph</description></image></sidebyside>
 </solution></example>
 
-<<<<<<< HEAD
-<example><statement><p>Sketch a graph of <m>H=\dfrac{48}{w}</m>.</p></statement>
-
-<solution><p>We know that the graph has the shape of the basic function <m>y=\dfrac{1}{x}</m>, so all we need are a few points to "anchor" the graph.
-    <me>\begin{aligned}[t]
-                \text{If}~~~ w=2,~~~ \amp H = \dfrac{48}{2} = 24\\
-                \text{If}~~~ w=6,~~~ \amp H = \dfrac{48}{6} = 8\\
-                \text{If}~~~ w=12,~~~ \amp H = \dfrac{48}{12} = 4                
-                \end{aligned}</me>
-=======
 <example>
     <statement><p>Sketch a graph of <m>H=\dfrac{48}{w}</m>.</p></statement>
     <solution><p>We know that the graph has the shape of the basic function <m>y=\dfrac{1}{x}</m>, so all we need are a few points to "anchor" the graph.
@@ -135,7 +114,6 @@ The graph is shown below.</p>
             \text{If } w=12, \amp H = \dfrac{48}{12} = 4 
         </mrow>
     </md>
->>>>>>> 8cc4071ae07e8459625f30540f32fa2a2268ff5c
 The graph is shown below.</p>
 <sidebyside width="30%"><image source="images/fig-3-1-2.png"><description>graph</description></image></sidebyside>
 </solution></example>
