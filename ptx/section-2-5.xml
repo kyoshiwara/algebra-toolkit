@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="AbsoluteValueFunction"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 2.5 The Absolute Value Function</title>
+<section xml:id="AbsoluteValueFunction"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>The Absolute Value Function</title>
                  
 <subsection><title>1. Use interval notation</title>
+
+<introduction><p>Recall that square brackets on an interval mean that the endpoints are included, and round brackets mean that the endpoints are not included.</p></introduction>
 
 <subsubsection><title>Example</title>
 
@@ -14,7 +16,7 @@
     <li><m>-8 \lt x \le 5~\text{or}~-1\le x \lt 3</m></li></ol></p></statement>
  
 <solution><p><ol label="a">
-    <li><p><m>[3,6).</m> This is called a half-open or half-closed interval. A square bracket indicates that the end-point is included; a round bracket that it is not included.</p>
+    <li><p><m>[3,6).</m> This is called a half-open or half-closed interval. <m>3</m> is included in the interval, but <m>6</m> is not included.</p>
     <sidebyside width="70%"><image source="images/fig-2-5-1.png"><description>interval</description></image></sidebyside></li>
     <li><p><m>[-9, \infty).</m> We use round brackets next to the symbol <m>\infty</m> because <m>\infty</m> is not a specific number and is not included in the set.</p>
     <sidebyside width="90%"><image source="images/fig-2-5-2.png"><description>interval</description></image></sidebyside></li>
@@ -47,6 +49,8 @@
 
 <subsection><title>2. Solve compound inequalities</title>
 
+<introduction><p>A compund inequality is one where the algebraic expression is bounded both above and below.</p></introduction>
+
 <subsubsection><title>Example</title>
 
 <example><statement><p>Solve the inequality <m>~-3 \lt 2x-5 \le 6~</m> and write your solution with interval notation.</p></statement>
@@ -68,10 +72,10 @@ The solutions are all real numbers greater than 1 but less than or equal to <m>\
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Solve the inequality <m>~23 \gt 9-2b \ge 13~</m> and write your solution with interval notation.</p></statement>
+<exercise><statement><p>Solve the inequality <m>~~~23 \gt 9-2b \ge 13~~~</m> and write your solution with interval notation.</p></statement>
     <answer><m>(-7,-2]</m></answer></exercise>
 
-<exercise><statement><p>Solve the inequality <m>~-8 \le \dfrac{5w+3}{4} \lt -3~</m> and write your solution with interval notation.
+<exercise><statement><p>Solve the inequality <m>~~~-8 \le \dfrac{5w+3}{4} \lt -3~~~</m> and write your solution with interval notation.
     </p></statement>          
 <answer><m>[-7,-3)</m></answer></exercise>
 </subsubsection>
@@ -79,18 +83,24 @@ The solutions are all real numbers greater than 1 but less than or equal to <m>\
 
 <subsection><title>3. Simplify absolute value functions</title>
 
+<introduction><p>The piecewise definition of the absolute value function is
+    <me>f(x) =
+        \begin{cases}
+        x \amp  \text{if} ~~x\ge 0\\
+        -x \amp  \text{if} ~~x\lt 0
+        \end{cases}</me>
+To write the absolute value of some other algebraic expression, we replace <m>x</m> by the expression wherever <m>x</m> appears.</p></introduction>
+
 <subsubsection><title>Example</title>
 
 <example><statement><p>Simplify the function <m>~f(x)=|2x-8|~</m> as a piecewise defined function.</p></statement>
 
-<solution><p>We use the definition of absolute value to write
-    <me>
-        f(x) =
+<solution><p>We use the definition of absolute value and replace <m>x</m> by <m>2x-8</m>.
+    <me>f(x) =
         \begin{cases}
         2x-8 \amp  \text{if} ~~2x-8\ge 0\\
         -(2x-8)  \amp  \text{if} ~~2x-8\lt 0
-        \end{cases}
-    </me>
+        \end{cases}</me>
     Then we simplify each expression.
     <me>
         f(x) =

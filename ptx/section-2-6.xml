@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="DomainRange" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 2.6 Domain and Range</title>
+<section xml:id="DomainRange" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Domain and Range</title>
                  
-<subsection><title>1. Solve equations</title>
+<subsection><title>1. Solve equations involving function notation</title>
+
+<introduction><p>We must exclude from the domain of a function any values of the input that would cause us to divide by zero or to take the square root of a negative number. To find these values, we usually solve an equation.</p>
+
+<p>We may also solve an equation to find the domain value for a given range value.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -26,9 +30,9 @@
     </md>
 When we square both sides of an equation, we should check for extraneous solutions.
     <me>3\sqrt{\alert{29}-4} = 3\sqrt{25} = 3(5)=15</me>
-The solutions is 29.</p></solution></example>
+Because setting <m>x=29</m> does not cause us to take the square root of a negative number, the solution is 29.</p></solution></example>
 
-<example><statement><p>Solve <m>~\dfrac{24}{x-1} = 4</m>.</p></statement>
+<example><statement><p>Let <m>~f(x)=\dfrac{24}{x-1}</m>. Find <m>a</m> so that <m>f(a) = 4</m>.</p></statement>
  
 <solution><p>Clear the fraction by multiplying both sides by <m>(x-1)</m>.
     <md>
@@ -56,11 +60,11 @@ Substituting 7 into <m>x-1</m>, we see that 7 does not cause the denominator to 
 <exercise><statement><p>Solve <m>~|x-4|=3</m>.</p></statement>
 <answer><m>x=7</m> or <m>x=1</m></answer></exercise>
 
-<exercise><statement><p>Solve <m>~5x^3-2=8</m>.</p></statement>
+<exercise><statement><p>Let <m>~~F(x)=5x^3-2~</m>. Find <m>t</m> so that <m>F(t)=8</m>.</p></statement>
 <answer><m>x=\sqrt[3]{2}</m></answer></exercise>
 
-<exercise><statement><p>Solve <m>~\dfrac{3}{x^2}=16</m>.</p></statement>
-<answer><m>x=\pm \dfrac{\sqrt{3}}{4}</m></answer></exercise>
+<exercise><statement><p>Let <m>~~g(x)\dfrac{3}{x^2}~</m>. Find <m>b</m> so that <m>g(b)=16</m>.</p></statement>
+<answer><m>b=\pm \dfrac{\sqrt{3}}{4}</m></answer></exercise>
 
 </subsubsection>
 </subsection>

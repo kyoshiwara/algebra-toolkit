@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="Variation" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 3.1 Variation</title>
+<section xml:id="Variation" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Variation</title>
                  
 <subsection><title>1. Solve a variation equation</title>
+
+<introduction><p>We have encountered equations of this form before. Here is a quick review.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -76,8 +78,20 @@
 
 <subsection><title>2. Sketch a variation graph</title>
 
+<introduction><p>The graphs of variations are transformations of the basic graphs <m>y=x^n</m> and <m>y=\dfrac{1}{x^n}</m>.</p></introduction>
+
 <subsubsection><title>Examples</title>
 
+<<<<<<< HEAD
+<example><statement><p>Sketch a graph of <m>V=0.2s^3</m>.</p></statement>
+
+<solution><p>We know that the graph has the shape of the basic function <m>y=x^3</m>, so all we need are a few points to "anchor" the graph.
+    <me>\begin{aligned}[t]
+                \text{If}~~~ s=1,~~~ \amp V = 0.2(1)^3 = 0.2\\
+                \text{If}~~~ s=2,~~~ \amp V = 0.2(2)^3 = 1.6\\
+                \text{If}~~~ s=3,~~~ \amp V = 0.2(3)^3 = 5.4                
+                \end{aligned}</me>
+=======
 <example>
     <statement><p>Sketch a graph of <m>V=0.2s^3</m>.</p></statement>
     <solution><p>We know that the graph has the shape of the basic function <m>y=x^3</m>, so all we need are a few points to "anchor" the graph.
@@ -92,10 +106,21 @@
             \text{If } s=3, \amp V = 0.2(3)^3 = 5.4 
         </mrow>
     </md>
+>>>>>>> 8cc4071ae07e8459625f30540f32fa2a2268ff5c
 The graph is shown below.</p>
 <sidebyside width="30%"><image source="images/fig-3-1-1.png"><description>graph</description></image></sidebyside>
 </solution></example>
 
+<<<<<<< HEAD
+<example><statement><p>Sketch a graph of <m>H=\dfrac{48}{w}</m>.</p></statement>
+
+<solution><p>We know that the graph has the shape of the basic function <m>y=\dfrac{1}{x}</m>, so all we need are a few points to "anchor" the graph.
+    <me>\begin{aligned}[t]
+                \text{If}~~~ w=2,~~~ \amp H = \dfrac{48}{2} = 24\\
+                \text{If}~~~ w=6,~~~ \amp H = \dfrac{48}{6} = 8\\
+                \text{If}~~~ w=12,~~~ \amp H = \dfrac{48}{12} = 4                
+                \end{aligned}</me>
+=======
 <example>
     <statement><p>Sketch a graph of <m>H=\dfrac{48}{w}</m>.</p></statement>
     <solution><p>We know that the graph has the shape of the basic function <m>y=\dfrac{1}{x}</m>, so all we need are a few points to "anchor" the graph.
@@ -110,6 +135,7 @@ The graph is shown below.</p>
             \text{If } w=12, \amp H = \dfrac{48}{12} = 4 
         </mrow>
     </md>
+>>>>>>> 8cc4071ae07e8459625f30540f32fa2a2268ff5c
 The graph is shown below.</p>
 <sidebyside width="30%"><image source="images/fig-3-1-2.png"><description>graph</description></image></sidebyside>
 </solution></example>
@@ -120,14 +146,14 @@ The graph is shown below.</p>
 <exercise><statement><p>Plot three points and sketch a graph of <m>B=\dfrac{0.8}{d^2}</m>.</p>
 <sidebyside width="30%"><image source="images/fig-3-1-3.png"><description>graph</description></image></sidebyside>
 </statement>
-    <answer>
+    <answer><m>(1,0.8),~(2,0.2),~(4,0.05)</m>
         <sidebyside width="30%"><image source="images/fig-3-1-4.png"><description>graph</description></image></sidebyside>
     </answer></exercise>
 
 <exercise><statement><p>Plot three points and sketch a graph of <m>d=\dfrac{3}{8}t^2</m>.</p>
 <sidebyside width="30%"><image source="images/fig-3-1-3.png"><description>graph</description></image></sidebyside>
 </statement>
-    <answer>
+    <answer><m>(1,\dfrac{3}{8}),~(2,\dfrac{3}{2}),~(4,6)</m>
         <sidebyside width="30%"><image source="images/fig-3-1-5.png"><description>graph</description></image></sidebyside>
     </answer></exercise>
 </subsubsection>
@@ -135,9 +161,12 @@ The graph is shown below.</p>
 
 <subsection><title>3. Find the constant of variation</title>
 
+<introduction><p>If we know the type of variation and the coordinates of one point ont the graph, we can find the variation equation.</p></introduction>
+
 <subsubsection><title>Examples</title>
 
-<example><statement><p>Find the constant of variation and the variation equation: <m>y</m> varies directly with the square of <m>x</m>, and <m>y=100</m> when <m>x=2.5</m>.</p></statement>
+<example><statement><p>Find the constant of variation and the variation equation:</p>
+<p> <m>~~~y</m> varies directly with the square of <m>x</m>, and <m>y=100</m> when <m>x=2.5</m>.</p></statement>
 
 <solution><p>Because <m>y</m> varies directly with the square of <m>x</m>, we know that <m>y=kx^2</m>. We substitute the given values to find
     <me>\begin{aligned}[t]
@@ -146,7 +175,8 @@ The graph is shown below.</p>
                 \end{aligned}</me>
 The constant of variation is 16, and the variation equation is <m>~y=16x^2</m>.</p></solution></example>
 
-<example><statement><p>Find the constant of variation and the variation equation: <m>y</m> varies inversely with the square of <m>x</m>, and <m>y=4687.5</m> when <m>x=0.16</m>.</p></statement>
+<example><statement><p>Find the constant of variation and the variation equation:</p>
+<p> <m>~~~y</m> varies inversely with the square of <m>x</m>, and <m>y=4687.5</m> when <m>x=0.16</m>.</p></statement>
 
 <solution><p>Because <m>y</m> varies inversely with the square of <m>x</m>, we know that <m>y=\dfrac{k}{x^2}</m>. We substitute the given values to find
     <me>\begin{aligned}[t]
@@ -158,10 +188,12 @@ The constant of variation is 120, and the variation equation is <m>~y=\dfrac{120
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Find the constant of variation and the variation equation:  <m>y</m> varies inversely with <m>x</m>, and <m>y=31.25</m> when <m>x=640</m>.</p></statement> 
+<exercise><statement><p>Find the constant of variation and the variation equation:</p>
+<p>  <m>y</m> varies inversely with <m>x</m>, and <m>y=31.25</m> when <m>x=640</m>.</p></statement> 
     <answer><m>k=20,000</m> and <m>y=\dfrac{20,000}{x}</m></answer></exercise> 
 
-<exercise><statement><p>Find the constant of variation and the variation equation:  <m>y</m> varies directly with the cube of <m>x</m>, and <m>y=119,164</m> when <m>x=6.2</m>.</p></statement> 
+<exercise><statement><p>Find the constant of variation and the variation equation:</p>  
+<p><m>y</m> varies directly with the cube of <m>x</m>, and <m>y=119,164</m> when <m>x=6.2</m>.</p></statement> 
     <answer><m>k=500</m> and <m>y=500x^3</m></answer></exercise>  
 </subsubsection>
 </subsection>

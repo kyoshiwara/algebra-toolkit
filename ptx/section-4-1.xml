@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="ExponentialGrowth" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 4.1 Exponential Growth and Decay</title>
+<section xml:id="ExponentialGrowth" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Exponential Growth and Decay</title>
                  
 <subsection><title>1. Compute percent increase and decrease</title>
+
+<introduction><p>To calculate an increase of <m>r</m>%, we write the percent as a decimal and multiply the old amount by <m>1+r</m>.  To calculate a decrease we multiply the old amount by <m>1-r</m>.</p></introduction>  
 
 <subsubsection><title>Examples</title>
 
 <example><statement><p>A loaf of bread cost $3.00 last month, but this year the price rose by 6%. What should you multiply by to find the new price? What is the new price?</p></statement>
  
-<solution><p>To get the new price, we multiply by 1.06 to get <m>1.06(3.00)=3.18</m>. The new price is $3.18.</p>
+<solution><p>To get the new price, we multiply by 1.06 to get 
+    <me>1.06(3.00)=3.18</me> 
+    The new price is $3.18.</p>
 </solution></example>
 
 <example><statement><p>Priceco is offering a 15% discount off the regular price of $180 for a ceiling fan. What should you multiply by to find the new price? What is the new price?
 </p></statement>
  
-<solution><p>To get the new price, we multiply by <m>1-0.15</m>, or 0.85, to get <m>0.85(180)=153</m>, so the new price is $153.</p></solution></example>
+<solution><p>To get the new price, we multiply by <m>1-0.15</m>, or 0.85, to get 
+<me>0.85(180)=153</me> 
+so the new price is $153.</p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
@@ -29,6 +35,8 @@
 </subsection>
 
 <subsection><title>2. Use the order of operations</title>
+
+<introduction><p>Recall that evaluating powers comes before multiplication in the order of operations.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -52,9 +60,9 @@
 
 <solution><p><ol label="a">
     <li><p>Follow the order of operations.  Compute the power first:
-        <me>12(1.05)^6 = 12(1.3400956...) = 16.08</me></p></li>
+        <me>12(1.05)^{\alert{6}} = 12(1.3400956...) = 16.08</me></p></li>
     <li><p>Follow the order of operations.  Compute the power first:
-        <me>12(1+6/100)^5 = 12(1.06)^5 = 12(1.3382255...) = 16.06</me></p></li></ol></p>
+        <me>12(1+\alert{6}/100)^5 = 12(1.06)^5 = 12(1.3382255...) = 16.06</me></p></li></ol></p>
 </solution></example>
 </subsubsection>
 
@@ -91,7 +99,7 @@
                         <cell><m>~~3~~</m></cell>
                         <cell><m>~~4~~</m></cell></row>
                     <row> 
-                        <cell><m>(\dfrac{2}{3})^x</m></cell>
+                        <cell><m>\left(\dfrac{2}{3}\right)^x</m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell>
@@ -105,7 +113,7 @@
                         <cell><m>~~3~~</m></cell>
                         <cell><m>~~4~~</m></cell></row>
                     <row> 
-                        <cell><m>(\dfrac{5}{4})^x</m></cell>
+                        <cell><m>\left(\dfrac{5}{4}\right)^x</m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell>
@@ -113,7 +121,7 @@
                     </tabular></sidebyside></li></ol></p></statement>
  
 <solution><p><ol label="a">
-     <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+     <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>
                         <cell><m>~~1~~</m></cell>
@@ -121,14 +129,15 @@
                         <cell><m>~~3~~</m></cell>
                         <cell><m>~~4~~</m></cell></row>
                     <row> 
-                        <cell><m>(\dfrac{2}{3})^x</m></cell>
+                        <cell><m>\left(\dfrac{2}{3}\right)^x</m></cell>
                         <cell><m>\dfrac{2}{3}</m></cell>
                         <cell><m>\dfrac{4}{9}</m></cell>
                         <cell><m>\dfrac{8}{27}</m></cell>
                         <cell><m>\dfrac{16}{81}</m></cell></row>
-                    </tabular></sidebyside>
-        When we multiply a number by <m>\dfrac{2}{3}</m>, the product is smaller than the original number, so the powers of <m>\dfrac{2}{3}</m> decrease as the exponent increases. We can compare the powers more easily by converting the fractions to decimals, rounded to three places: <m>\dfrac{2}{3} = 0.667,~\dfrac{4}{9} = 0.444,~\dfrac{8}{27} = 0.296,~\dfrac{16}{81} = 0.198</m>.</li>
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    </tabular></sidebyside></p>
+        <p>When we multiply a number by <m>\dfrac{2}{3}</m>, the product is smaller than the original number, so the powers of <m>\dfrac{2}{3}</m> decrease as the exponent increases. We can compare the powers more easily by converting the fractions to decimals, rounded to three places: 
+        <me>\dfrac{2}{3} = 0.667,~\dfrac{4}{9} = 0.444,~\dfrac{8}{27} = 0.296,~\dfrac{16}{81} = 0.198</me></p></li>
+    <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>
                         <cell><m>~~1~~</m></cell>
@@ -136,13 +145,14 @@
                         <cell><m>~~3~~</m></cell>
                         <cell><m>~~4~~</m></cell></row>
                     <row> 
-                        <cell><m>(\dfrac{5}{4})^x</m></cell>
+                        <cell><m>\left(\dfrac{5}{4}\right)^x</m></cell>
                         <cell><m>\dfrac{5}{4}</m></cell>
                         <cell><m>\dfrac{25}{16}</m></cell>
                         <cell><m>\dfrac{125}{64}</m></cell>
                         <cell><m>\dfrac{625}{256}</m></cell></row>
-                    </tabular></sidebyside>
-        When we multiply a number by <m>\dfrac{5}{4}</m>, the product is larger than the original number, so the powers of <m>\dfrac{5}{4}</m> increase as the exponent increases. We can compare the powers more easily by converting the fractions to decimals, rounded to three places: <m>\dfrac{5}{4} = 1.25,~\dfrac{25}{16} = 1.563,~\dfrac{125}{64} = 1.953,~\dfrac{625}{256} = 2.441</m>.</li></ol> </p></solution></example>
+                    </tabular></sidebyside></p>
+        <p>When we multiply a number by <m>\dfrac{5}{4}</m>, the product is larger than the original number, so the powers of <m>\dfrac{5}{4}</m> increase as the exponent increases. We can compare the powers more easily by converting the fractions to decimals, rounded to three places: 
+        <me>\dfrac{5}{4} = 1.25,~\dfrac{25}{16} = 1.563,~\dfrac{125}{64} = 1.953,~\dfrac{625}{256} = 2.441</me></p></li></ol> </p></solution></example>
 
 <example><statement><p>Complete the table of powers. As the exponent increases, do the powers increase or decrease?<ol label="a" cols="2">
     <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -218,7 +228,7 @@
                         <cell><m>~~3~~</m></cell>
                         <cell><m>~~4~~</m></cell></row>
                     <row> 
-                        <cell><m>(\dfrac{3}{4})^x</m></cell>
+                        <cell><m>\left(\dfrac{3}{4}\right)^x</m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell>
@@ -232,7 +242,7 @@
                         <cell><m>~~3~~</m></cell>
                         <cell><m>~~4~~</m></cell></row>
                     <row> 
-                        <cell><m>(\dfrac{4}{3})^x</m></cell>
+                        <cell><m>\left(\dfrac{4}{3}\right)^x</m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell>
@@ -247,7 +257,7 @@
                         <cell><m>~~3~~</m></cell>
                         <cell><m>~~4~~</m></cell></row>
                     <row> 
-                        <cell><m>(\dfrac{3}{4})^x</m></cell>
+                        <cell><m>\left(\dfrac{3}{4}\right)^x</m></cell>
                         <cell><m>\dfrac{3}{4}</m></cell>
                         <cell><m>\dfrac{9}{16}</m></cell>
                         <cell><m>\dfrac{27}{64}</m></cell>
@@ -262,7 +272,7 @@
                         <cell><m>~~3~~</m></cell>
                         <cell><m>~~4~~</m></cell></row>
                     <row> 
-                        <cell><m>(\dfrac{4}{3})^x</m></cell>
+                        <cell><m>\left(\dfrac{4}{3}\right)^x</m></cell>
                         <cell><m>\dfrac{4}{3}</m></cell>
                         <cell><m>\dfrac{16}{9}</m></cell>
                         <cell><m>\dfrac{64}{27}</m></cell>

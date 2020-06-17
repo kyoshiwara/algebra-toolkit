@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="IntegerExponents" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 3.2 Integer Exponents</title>
+<section xml:id="IntegerExponents" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Integer Exponents</title>
                  
 <subsection><title>1. Use the laws of exponents</title>
+
+<introduction><p>Recall the five Laws of Exponents.</p>
+
+<assemblage><title>Laws of Exponents</title>
+<p><ol label="I">
+    <li><p><m>\displaystyle{a^m\cdot a^n = a^{m+n}}</m></p></li>
+    <li><p><m>\dfrac{a^m}{a^n}=\begin{cases}
+        a^{m-n} \amp \text{if}~m \gt n\\
+        \dfrac{1}{a^{n-m}} \amp \text{if}~n \gt m
+        \end{cases}</m></p></li>
+    <li><p><m>\displaystyle{\left(a^m\right)^n=a^{mn}}</m></p></li>
+    <li><p><m>\displaystyle{\left(ab\right)^n=a^n b^n}</m></p></li>
+    <li><p><m>\displaystyle{\left(\frac{a}{b}\right)^n=\frac{a^n}{b^n}}</m></p></li>
+</ol></p></assemblage></introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -82,13 +96,18 @@ Multiply the coefficients together, and use the first law of exponents to find t
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Write each expression using negative exponents.<ol label="a" cols="2">
+<introduction><p>Remember that a negative exponent indicates a reciprocal, so for example
+    <me>x^{-2} = \dfrac{1}{x^2}</me>
+A negative exponent does <em>not</em> mean that the power is negative. So for example
+    <me>4^{-2} = \dfrac{1}{16}</me>;  <m>4^{-2}</m> does <em>not</em> mean <m>-16</m>.</p></introduction>
+
+<exercise><statement><p>Write each expression using negative exponents and evaluate.<ol label="a" cols="2">
     <li><m>(-6)^{-2}</m></li>
     <li><m>(\dfrac{3}{5})^{-2}</m></li></ol></p>
 </statement>
     <answer><p><ol label="a" cols="2">
-    <li><m>\dfrac{1}{36}</m></li>
-    <li><m>\dfrac{25}{9}</m></li></ol></p>
+    <li><m>\dfrac{1}{6^2} = \dfrac{1}{36}</m></li>
+    <li><m>\dfrac{5^2}{3^2} = \dfrac{25}{9}</m></li></ol></p>
     </answer></exercise>
 
 <exercise><statement><p>Write each expression using negative exponents.<ol label="a" cols="2">
@@ -103,6 +122,8 @@ Multiply the coefficients together, and use the first law of exponents to find t
 </subsection>
 
 <subsection><title>3. Use scientific notation</title>
+
+<introduction><p>
 
 <subsubsection><title>Example</title>
 
