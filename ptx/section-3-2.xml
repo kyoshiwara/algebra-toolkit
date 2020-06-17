@@ -45,12 +45,12 @@ Multiply the coefficients together, and use the first law of exponents to find t
     <me>(5a^3b)^2 = 5^2(a^3)^2b^2 = 25a^6b^2 ~~~~~~~~ \blert{\text{Apply the third law:  multiply exponents.}}</me>
 </p></solution></example>
 
-<example><statement><p>Simplify <m>~(\dfrac{2}{y^3})^3</m>.</p></statement>
+<example><statement><p>Simplify <m>~\left(\dfrac{2}{y^3}\right)^3</m>.</p></statement>
  
 <solution><p>Apply the fifth law of exponents.
     <me>\begin{aligned}[t]
-                (\dfrac{2}{y^3})^3 \amp = \dfrac{2^3}{(y^3)^3} \amp\amp \blert{\text{Cube numerator and denominator.}}\\
-                \amp = \dfrac{2^3}{y^{3\cdot 3}} = \dfrac{8}{y^9} \amp\amp \blert{\text{Apply the third law.}}               
+                \left(\dfrac{2}{y^3}\right)^3 \amp = \dfrac{2^3}{(y^3)^3} \amp\amp \blert{\text{Cube numerator and denominator.}}\\
+                \amp = \dfrac{2^3}{y^{3(3)}} = \dfrac{8}{y^9} \amp\amp \blert{\text{Apply the third law.}}               
                 \end{aligned}</me>
 </p></solution></example>
 </subsubsection>
@@ -66,23 +66,28 @@ Multiply the coefficients together, and use the first law of exponents to find t
 <exercise><statement><p>Simplify <m>~(6pq^4)^3</m>.</p></statement>
 <answer><m>216p^3q^{12}</m></answer></exercise>
 
-<exercise><statement><p>Simplify <m>~(\dfrac{n^3}{k^4})^8</m>.</p></statement>
+<exercise><statement><p>Simplify <m>~\left(\dfrac{n^3}{k^4}\right)^8</m>.</p></statement>
 <answer><m>\dfrac{n^{24}}{k^{32}}</m></answer></exercise>
 </subsubsection>
 </subsection>
 
 <subsection><title>2. Evaluate powers with negative exponents</title>
 
+<introduction><p>Remember that a negative exponent indicates a reciprocal, so for example
+    <me>x^{-2} = \dfrac{1}{x^2}</me>
+A negative exponent does <em>not</em> mean that the power is negative. So for example
+    <me>4^{-2} = \dfrac{1}{16}</me>;  <m>4^{-2}</m> does <em>not</em> mean <m>-16</m>.</p></introduction>
+
 <subsubsection><title>Examples</title>
 
 <example><statement><p>Write each expression without using negative exponents.<ol label="a" cols="2">
     <li><m>10^{-4}</m></li>
-    <li><m>(\dfrac{x}{4})^{-3}</m></li></ol></p></statement>
+    <li><m>\left(\dfrac{x}{4}\right)^{-3}</m></li></ol></p></statement>
 
 <solution><p><ol label="a">
     <li><m>10^{-4} = \dfrac{1}{10^4} = \dfrac{1}{10,000}~</m>, or <m>~0.0001</m>.</li>
     <li><p>To compute a negative power of a fraction, we compute the corresponding positive power of its reciprocal.  Thus,
-        <me>(\dfrac{x}{4})^{-3} = (\dfrac{4}{x})^3 = \dfrac{64}{x^3}</me></p></li></ol></p></solution></example>
+        <me>\left(\dfrac{x}{4}\right)^{-3} = \left(\dfrac{4}{x}\right)^3 = \dfrac{64}{x^3}</me></p></li></ol></p></solution></example>
 
 <example><statement><p>Write each expression using negative exponents.<ol label="a" cols="2">
     <li><m>\dfrac{1}{3a^4a^2}</m></li>
@@ -96,14 +101,9 @@ Multiply the coefficients together, and use the first law of exponents to find t
 
 <subsubsection><title>Exercises</title>
 
-<introduction><p>Remember that a negative exponent indicates a reciprocal, so for example
-    <me>x^{-2} = \dfrac{1}{x^2}</me>
-A negative exponent does <em>not</em> mean that the power is negative. So for example
-    <me>4^{-2} = \dfrac{1}{16}</me>;  <m>4^{-2}</m> does <em>not</em> mean <m>-16</m>.</p></introduction>
-
 <exercise><statement><p>Write each expression using negative exponents and evaluate.<ol label="a" cols="2">
     <li><m>(-6)^{-2}</m></li>
-    <li><m>(\dfrac{3}{5})^{-2}</m></li></ol></p>
+    <li><m>\left(\dfrac{3}{5}\right)^{-2}</m></li></ol></p>
 </statement>
     <answer><p><ol label="a" cols="2">
     <li><m>\dfrac{1}{6^2} = \dfrac{1}{36}</m></li>
@@ -123,7 +123,7 @@ A negative exponent does <em>not</em> mean that the power is negative. So for ex
 
 <subsection><title>3. Use scientific notation</title>
 
-<introduction><p>
+<introduction><p>If we move the decimal point to the left, we are making a number smaller, so we must multiply by a positive power of 10 to compensate.  If we move the decimal point to the right, we must multiply by a negative power of 10.</p></introduction>
 
 <subsubsection><title>Example</title>
 
