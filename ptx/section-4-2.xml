@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="ExponentialFunctions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 4.2 Exponential Functions</title>
+<section xml:id="ExponentialFunctions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Exponential Functions</title>
                  
 <subsection><title>1. Evaluate exponential functions</title>
 
 <subsubsection><title>Examples</title>
+
+<introduction><p>Powers come before products in the order of operations, so to evaluate an exponential function <m>f(x)=ab^x</m> we evaluate <m>b^x</m> before multiplying by <m>a</m>.</p></introduction>
 
 <example><statement><p>Evaluate <m>~f(x)=8 \cdot 4^x</m>. <ol label="a" cols="2">
     <li><m>f(2)</m></li>
@@ -58,7 +60,9 @@
 </subsubsection>
 </subsection>
 
-<subsection><title>2. Use function notation</title>
+<subsection><title>2. Interpret function notation</title>
+
+<introduction><p>The definitions of the variables help us interpret function notation.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -97,17 +101,19 @@
 
 <subsection><title>3. Solve equations graphically</title>
 
+<introduction><p>We first solve equations graphically in Section 1.3, so you might want to review that section.</p></introduction>
+
 <subsubsection><title>Examples</title>
 
 <example><statement><p>Here is a graph of <m>f(x)=x^2+2x-16</m>. Use the graph to solve the equation <m>x^2+2x-16=8</m>.  Show your work on the graph.</p>
     <sidebyside  width="35%"><image source="images/fig-4-2-1.png"><description>graph</description></image></sidebyside>
 </statement>
  
-<solution><p>To solve the equation, we want to find <m>x</m>-values that produce a function value of 8. Each point on the graph has coordinates <m>(x,f(x))</m> for a different value of <m>x</m>, and the vertical coordinate of each point is given by the function value, <m>f(x)</m>.  So we look for points on the graph with vertical coordinate <m>f(x)=8</m>.</p>
+<solution><p>To solve the equation, we want to find <m>x</m>-values that produce a function value of 8. The vertical coordinate of each point on the graph is given by the function value, <m>f(x)</m>.  So we look for points on the graph with vertical coordinate <m>f(x)=8</m>.</p>
 <p>There are two such points, <m>(-6,8)</m> and <m>(4,8)</m>. Those points tell us that <m>f(-6)=8</m> and <m>f(4)=8</m>.  Thus, the <m>x</m>-coordinates of the points, namely <m>-6</m> and <m>4</m>, are the solutions.  To check algebraically, we can verify that <m>f(-6)=8</m> and <m>f(4)=8</m>:
     <me>\begin{aligned}[t]
-                f(-6) \amp = (-6)^2+2(-6)-16 = 36-12-16 = 8\\
-                f(4)\amp = 4^2+2(4)-16 = 16+8-16 = 8               
+                f(\alert{-6}) \amp = (\alert{-6})^2+2(\alert{-6})-16 = 36-12-16 = 8\\
+                f(\alert{4})\amp = \alert{4}^2+2(\alert{4})-16 = 16+8-16 = 8               
                 \end{aligned}</me>
 </p></solution></example>
 

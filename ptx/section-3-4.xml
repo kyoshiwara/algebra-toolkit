@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="RationalExponents" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 3.4 Rational Exponents</title>
+<section xml:id="RationalExponents" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Rational Exponents</title>
                  
 <subsection><title>1. Perform operations on fractions</title>
 
+<introduction><p>When working with rational exponents, we will need to perform operations on fractions.</p></introduction> 
 <subsubsection><title>Examples</title>
 
 <example><statement><p>Add <m>~\dfrac{-3}{4}+(\dfrac{-5}{8})</m></p></statement>
@@ -40,12 +41,14 @@ Then we reduce:
 <exercise><statement><p>Subtract <m>~\dfrac{3}{8}-(\dfrac{-1}{6})</m></p></statement>
     <answer><p><m>\dfrac{13}{24}</m></p></answer></exercise>
 
-<exercise><statement><p>Multiply <m>~\dfrac{3}{8}(-)\dfrac{-1}{6})</m></p></statement>
+<exercise><statement><p>Multiply <m>~\dfrac{3}{8}-(\dfrac{-1}{6})</m></p></statement>
     <answer><p><m>\dfrac{-1}{16}</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
 <subsection><title>2. Convert between fractions and decimals</title>
+
+<introduction><p>Rational exponents may also be written in decimal form.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -76,7 +79,7 @@ This is a nonterminating decimal, which we indicate by a repeater bar:
     <answer><m>\dfrac{531}{5000}</m></answer></exercise>
 
 <exercise><statement><p>Convert <m>~2.08~</m> to a common fraction.</p></statement>
-    <answer><m>\dfrac{51}{25}</m></answer></exercise>
+    <answer><m>\dfrac{52}{25}</m></answer></exercise>
 
  <exercise><statement><p>Convert <m>~\dfrac{5}{11}~</m> to a decimal fraction.</p></statement>
     <answer><m>0.2\overline{6}</m></answer></exercise> 
@@ -84,6 +87,11 @@ This is a nonterminating decimal, which we indicate by a repeater bar:
 </subsection>
 
 <subsection><title>3. Solve equations</title>
+
+<introduction><p>To solve an equation of the form  <m>~x^n = k</m>, we can raise both sides to the reciprocal of the exponent:
+    <md><mrow>(x^n)^{1/n} \amp = k^{1/n}</mrow>
+        <mrow> x \amp = k^{1/n}</mrow></md>
+because <m>~(x^n)^{1/n} = x^{n(1/n)} = x^1</m>.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -130,7 +138,7 @@ This is a nonterminating decimal, which we indicate by a repeater bar:
         We evaluate <m>(0.36\overline{1})^{1/0.24}</m> by entering  <m>~~\text{ANS} ~\boxed{\wedge{}}~\boxed{~(~}~1~ \boxed{\div}~.24~\boxed{~)~}</m></p></solution></example>
 </subsubsection>
 
-<subsubsection><title>Exercise</title>
+<subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Solve <m>~4x^5 = 1825~</m>. Round your answer to thousandths.</p></statement> 
     <answer><m>3.403</m></answer></exercise> 
