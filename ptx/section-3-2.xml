@@ -29,15 +29,26 @@ Multiply the coefficients together, and use the first law of exponents to find t
     <me>(2)(5)x^2x^4yy^3 = 10x^6y^4 ~~~~~~~~ \blert{\text{Add exponents on each base.}}</me>
 </p></solution></example>
 
-<example><statement><p>Divide <m>~\dfrac{3x^2y^4}{6x^3y}</m>.</p></statement>
- 
-<solution><p>Consider the numerical coefficients and the powers of each base separately.  Use the second law of exponents to simplify each quotient of powers.
-    <me>\begin{aligned}[t]
-                \dfrac{3x^2y^4}{6x^3y} \amp = \dfrac{3}{6} \cdot \dfrac{x^2}{x^3} \cdot \dfrac{y^4}{y} \amp\amp \blert{\text{Subtract exponents on each base.}}\\
-                \amp = \dfrac{1}{2} \cdot \dfrac{1}{x^{3-2}} \cdot y^{4-1} \amp\amp \blert{\text{Multiply factors.}}\\
-                \amp = \dfrac{1}{2} \cdot \dfrac{1}{x} \cdot \dfrac{y^3}{1} = \dfrac{y^3}{2x}               
-                \end{aligned}</me>
-</p></solution></example>
+<example>
+    <statement>
+        <p>Divide <m>~\dfrac{3x^2y^4}{6x^3y}</m>.</p>
+    </statement>
+    <solution>
+        <p>Consider the numerical coefficients and the powers of each base separately.  Use the second law of exponents to simplify each quotient of powers.
+            <md>
+                <mrow>
+                    \dfrac{3x^2y^4}{6x^3y} \amp = \dfrac{3}{6} \cdot \dfrac{x^2}{x^3} \cdot \dfrac{y^4}{y} \amp\amp \blert{\text{Subtract exponents on each base.}}
+                </mrow>
+                <mrow>
+                    \amp = \dfrac{1}{2} \cdot \dfrac{1}{x^{3-2}} \cdot y^{4-1} \amp\amp \blert{\text{Multiply factors.}}
+                </mrow>
+                <mrow>
+                    \amp = \dfrac{1}{2} \cdot \dfrac{1}{x} \cdot \dfrac{y^3}{1} = \dfrac{y^3}{2x} 
+                </mrow>
+            </md>
+        </p>
+    </solution>
+</example>
 
 <example><statement><p>Simplify <m>~(5a^3b)^2</m>.</p></statement>
  
@@ -45,14 +56,23 @@ Multiply the coefficients together, and use the first law of exponents to find t
     <me>(5a^3b)^2 = 5^2(a^3)^2b^2 = 25a^6b^2 ~~~~~~~~ \blert{\text{Apply the third law:  multiply exponents.}}</me>
 </p></solution></example>
 
-<example><statement><p>Simplify <m>~\left(\dfrac{2}{y^3}\right)^3</m>.</p></statement>
- 
-<solution><p>Apply the fifth law of exponents.
-    <me>\begin{aligned}[t]
-                \left(\dfrac{2}{y^3}\right)^3 \amp = \dfrac{2^3}{(y^3)^3} \amp\amp \blert{\text{Cube numerator and denominator.}}\\
-                \amp = \dfrac{2^3}{y^{3(3)}} = \dfrac{8}{y^9} \amp\amp \blert{\text{Apply the third law.}}               
-                \end{aligned}</me>
-</p></solution></example>
+<example>
+    <statement>
+        <p>Simplify <m>~\left(\dfrac{2}{y^3}\right)^3</m>.</p>
+    </statement>
+    <solution>
+        <p>Apply the fifth law of exponents.
+            <md>
+                <mrow>
+                    \left(\dfrac{2}{y^3}\right)^3 \amp = \dfrac{2^3}{(y^3)^3} \amp\amp \blert{\text{Cube numerator and denominator.}}
+                </mrow>
+                <mrow>
+                    \amp = \dfrac{2^3}{y^{3(3)}} = \dfrac{8}{y^9} \amp\amp \blert{\text{Apply the third law.}} 
+                </mrow>
+            </md>
+        </p>
+    </solution>
+</example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
