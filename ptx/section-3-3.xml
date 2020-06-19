@@ -10,21 +10,21 @@
 <subsubsection><title>Examples</title>
 
 <example><statement><p>Simplify. Do not use a calculator!<ol label="a" cols="2">
-    <li><m>(\sqrt{7})(\sqrt{7})</m></li>
+    <li><m>\left(\sqrt{7}\right)\left(\sqrt{7}\right)</m></li>
     <li><m>\sqrt{n}(\sqrt{n})</m></li></ol></p></statement>
  
 <solution><p>By the definition of square root, <m>\sqrt{a}</m> is a number whose square is <m>a</m>.<ol label="a">
-    <li><m>(\sqrt{7})(\sqrt{7})=7</m></li>
+    <li><m>\left(\sqrt{7}\right)\left(\sqrt{7}\right)=7</m></li>
     <li><m>\sqrt{n}(\sqrt{n})=n</m></li></ol>
 </p></solution></example>
 
 <example><statement><p>Simplify. Do not use a calculator!<ol label="a" cols="2">
-    <li><m>(\sqrt[3]{5})^3</m></li>
-    <li><m>(\sqrt[3]{4})(\sqrt[3]{4})(\sqrt[3]{4})</m></li></ol></p></statement>
+    <li><m>\left(\sqrt[3]{5}\right)^3</m></li>
+    <li><m>\left(\sqrt[3]{4}\right)\left(\sqrt[3]{4}\right)\left(\sqrt[3]{4}\right)</m></li></ol></p></statement>
  
 <solution><p>By the definition of cube root, <m>\sqrt[3]{a}</m> is a number whose cube is <m>a</m>.<ol label="a">
-    <li><m>(\sqrt[3]{5})^3=5</m></li>
-    <li><m>(\sqrt[3]{4})(\sqrt[3]{4})(\sqrt[3]{4})=4</m></li></ol></p></solution></example>
+    <li><m>\left(\sqrt[3]{5}\right)^3=5</m></li>
+    <li><m>\left(\sqrt[3]{4}\right)\left(\sqrt[3]{4}\right)\left(\sqrt[3]{4}\right)=4</m></li></ol></p></solution></example>
 
 <example><statement><p>Simplify. Do not use a calculator!<ol label="a" cols="2">
     <li><m>\dfrac{3}{\sqrt{3}}</m></li>
@@ -47,8 +47,8 @@
     <li><m>x</m></li></ol></p></answer></exercise>
 
 <exercise><statement><p>Simplify. Do not use a calculator!<ol label="a" cols="2">
-    <li><m>(\sqrt[3]{9})(\sqrt[3]{9})(\sqrt[3]{9})</m></li>
-    <li><m>(\sqrt[3]{20})^3</m></li></ol></p></statement>
+    <li><m>\left(\sqrt[3]{9}\right)\left(\sqrt[3]{9}\right)\left(\sqrt[3]{9}\right)</m></li>
+    <li><m>\left(\sqrt[3]{20}\right)^3</m></li></ol></p></statement>
 <answer><p><ol label="a" cols="2">
     <li><m>9</m></li>
     <li><m>20</m></li></ol></p></answer></exercise>
@@ -89,9 +89,9 @@
 </ol></p></statement>
 
 <solution><p>Use a calculator to evaluate.<ol label="a">
-    <li>Enter <m>~5~ \boxed{\sqrt{}}~</m> and round to three decimal places: <m>~8.660 </m></li>
-    <li>Enter <m>~\boxed{(-)}~2~\boxed{\sqrt{}}~21~\boxed{)}~\boxed{\div}~3~</m> and round to three decimal places: <m>~-3.055</m></li>
-    <li>Enter <m>~2~\boxed{(+)}~\boxed{\text{MATH}}~\boxed{4}~5~</m> and round to three decimal places: <m>~3.710</m></li>
+    <li>Enter <m>~5~ \boxed{\sqrt{}}~3</m>  <kbd>ENTER</kbd> and round to three decimal places: <m>~8.660 </m></li>
+    <li>Enter <kbd>(-)</kbd> <m>2</m> <m>\boxed{\sqrt{}}~</m> <m>21</m> <kbd name="right-paren"/> <kbd name="obelus"/> <m>3</m> <kbd>ENTER</kbd> and round to three decimal places: <m>~-3.055</m></li>
+    <li>Enter <m>2</m> <kbd name="plus"/> <kbd>MATH</kbd> <kbd>4</kbd> <m>5</m> <kbd>ENTER</kbd> and round to three decimal places: <m>~3.710</m></li>
 </ol></p>
 </solution></example>
 </subsubsection>
@@ -137,23 +137,42 @@
 </ol></p></statement>
  
 <solution><p><ol label="a">
-    <li><p>We start by simplifying the numerator.</p>
-        <me>\begin{aligned}[t]
-            \dfrac{4-\sqrt{64}}{2} \amp = \dfrac{4-8}{2} \amp\amp \blert{\text{Evaluate the radical, then subtract.}}\\
-                 \amp = \dfrac{-4}{2}=-2 \amp\amp \blert{\text{Reduce the fraction.}}                
-                \end{aligned}</me></li>
-    <li><p>We start by simplifyng what's inside parentheses.</p>
-        <me>\begin{aligned}[t]
-                \amp -2\left(3\sqrt{16} -\sqrt{3(27)}\right)  \amp\amp \blert{\text{Evaluate the radicals.}}\\
-                 \amp   = -2(3 \cdot 4-\sqrt{81}) \amp\amp \blert{\text{Simplify inside the parentheses.}}\\
-                  \amp   = -2(12-9)=-6                 
-                \end{aligned}</me></li>
-    <li><p>We start by simplifying the radicand.</p>
-        <me>\begin{aligned}[t]
-                6-3\sqrt[3]{27-7(5)} \amp = 6-3\sqrt[3]{27-35}  \amp\amp \blert{\text{Subtract under the radical.}}\\
-                 \amp = 6-3\sqrt[3]{-8}  \amp\amp \blert{\text{Evaluate the radical.}}\\
-                 \amp =6-3(-2)=12                
-                \end{aligned}</me></li>
+    <li><p>We start by simplifying the numerator.
+        <md>
+            <mrow>
+                \dfrac{4-\sqrt{64}}{2} \amp = \dfrac{4-8}{2} \amp\amp \blert{\text{Evaluate the radical, then subtract.}}
+            </mrow>
+            <mrow>
+                \amp = \dfrac{-4}{2}=-2 \amp\amp \blert{\text{Reduce the fraction.}}
+            </mrow>
+        </md></p>
+    </li>
+    <li><p>We start by simplifyng what's inside parentheses.
+        <md>
+            <mrow>
+                 -2\amp\left(3\sqrt{16} -\sqrt{3(27)}\right)  \amp\amp \blert{\text{Evaluate the radicals.}}
+            </mrow>
+            <mrow>
+                \amp   = -2(3 \cdot 4-\sqrt{81}) \amp\amp \blert{\text{Simplify inside the parentheses.}}
+            </mrow>
+            <mrow>
+                \amp   = -2(12-9)=-6
+            </mrow>
+        </md>
+    </p></li>
+    <li><p>We start by simplifying the radicand.
+        <md>
+            <mrow>
+                6-3\sqrt[3]{27-7(5)} \amp = 6-3\sqrt[3]{27-35}  \amp\amp \blert{\text{Subtract under the radical.}}
+            </mrow>
+            <mrow>
+                \amp = 6-3\sqrt[3]{-8}  \amp\amp \blert{\text{Evaluate the radical.}}
+            </mrow>
+            <mrow>
+                \amp =6-3(-2)=12
+            </mrow>
+        </md>
+    </p></li>
 </ol></p></solution></example>
 
 <example><statement><p>Simplify each expression. Round your answer to hundredths.<ol label="a" cols="2">
@@ -162,13 +181,14 @@
 
 <solution><p><ol label="a">
     <li><p>Do not start with "<m>8-2</m>"! Evaluate <m>\sqrt{2}</m> first, then multiply by 2, and subtract the result from 8. Once the numerator is simplified, divide by 4.</p> 
-        <p>On a calculator, enter
-            <me>\boxed{(}~8~\boxed{-}~2~\boxed{\sqrt{}}~\boxed{)}~\boxed{)}~\boxed{\div}~4</me>
+        <p>On a calculator, enter </p>
+        <p><m>\qquad\qquad</m> <kbd name="left-paren"/> <m>8</m> <kbd name="minus"/>  <m>2~\boxed{\sqrt{}}</m> <kbd name="right-paren"/> <kbd name="right-paren"/> <kbd name="obelus"/> <m>4</m> <kbd>ENTER</kbd></p>
+        <p>
         and round to two decimal places:  <m>~1.29</m></p></li>
     <li><p>Evaluate the cube root, multiply by 6, then add the result to 2.</p>
-        <p>On a calculator, enter
-            <me>~2~\boxed{+}~6~\boxed{\text{MATH}}~\boxed{4}~\boxed{-}~25</me>
-        and round to two decimal places:  <m>~-15.54</m></p></li></ol></p></solution></example>
+        <p>On a calculator, enter</p>
+        <p><m>\qquad\qquad 2</m> <kbd name="plus"/> <m>6</m> <kbd>MATH</kbd> <kbd>4</kbd> <kbd name="minus"/> <m>25</m> <kbd>ENTER</kbd></p>
+        <p>and round to two decimal places:  <m>~{-15.54}</m></p></li></ol></p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercise</title>
