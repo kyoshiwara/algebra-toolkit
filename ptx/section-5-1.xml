@@ -33,6 +33,8 @@
 
 <subsection><title>2. Solve an equation for a variable</title>
 
+<introduction><p>When finding a formual for an inverse function, we need to solve for one variable in terms of the other.</p></introduction>
+
 <subsubsection><title>Examples</title>
 
 <example><statement><p>Solve <m>~y=\sqrt{x^3-4}~</m> for <m>x</m> in terms of <m>y</m>.</p></statement>
@@ -74,6 +76,8 @@
 
 <subsection><title>3. Use function notation</title>
 
+<introduction><p>Keep in mind that the notation for an inverse function, <m>f^{-1}(x)</m>, does not mean the reciprocal of the function.  This is a different use of the notation from how it is used as an exponent.</p></introduction> 
+
 <subsubsection><title>Examples</title>
 
 <example><statement><p><m>f(x)=2x-3~</m>. Find formulas for:<ol label="a" cols="3">
@@ -83,9 +87,14 @@
 </p></statement>
  
 <solution><p><ol label="a">
-     <li><m>g(x)=\dfrac{1}{2x-3}</m></li>
-      <li><m>h(x)=3-2x</m></li>   
-      <li><m>j(x)=\dfrac{x+3}{2}</m></li></ol> </p></solution></example>
+    <li><m>g(x)</m> is the reciprocal of <m>f(x)</m>: <m>g(x)=\dfrac{1}{2x-3}</m></li>
+    <li><m>h(x)</m> is the negative or opposite of <m>f(x)</m>: <m>h(x)=3-2x</m></li>   
+    <li>To find the inverse function for <m>f(x)</m>, we write <m>~y = 2x-3~</m> and solve for <m>x</m>.
+        <md><mrow>y \amp = 2x-3 \amp \amp \blert{\text{Add 3 to both sides.}}</mrow>
+            <mrow>y+3 \amp = 2x \amp \amp \blert{\text{Divide both sides by 2.}}</mrow>
+            <mrow>\dfrac{y+3}{2} \amp = x</mrow></md>
+        We can use any variables for a function, so we switch back to <m>x</m> for the input and <m>y</m> for the output:  <m>~y = \dfrac{x+3}{2}~</m>. Thus, the inverse function is
+            <me>j(x)=\dfrac{x+3}{2}</me></li></ol> </p></solution></example>
 
 <example><statement><p><m>f(x)=\sqrt[3]{x-4}~</m>. Find formulas for:<ol label="a" cols="3">
     <li><m>g(x)=\dfrac{1}{f(x)}</m></li>
@@ -94,9 +103,14 @@
 </p></statement>
  
 <solution><p><ol label="a">
-     <li><m>g(x)=\dfrac{1}{\sqrt[3]{x-4}}</m></li>
-      <li><m>h(x)=-\sqrt[3]{x-4}</m></li>   
-      <li><m>j(x)=x^3+4</m></li></ol> </p></solution></example>
+     <li><m>g(x)</m> is the reciprocal of <m>f(x)</m>: <m>~g(x)=\dfrac{1}{\sqrt[3]{x-4}}</m></li>
+      <li><m>h(x)</m> is the negative or opposite of <m>f(x)</m>: <m>~h(x)=-\sqrt[3]{x-4}</m></li>   
+      <li>To find the inverse function for <m>f(x)</m>, we write <m>~y = \sqrt[3]{x-4}~</m> and solve for <m>x</m>.
+        <md><mrow>y \amp = \sqrt[3]{x-4} \amp \amp \blert{\text{Cube both sides.}}</mrow>
+            <mrow>y^3 \amp = x-4 \amp \amp \blert{\text{Add 4 to both sides.}}</mrow>
+            <mrow>y^3+4 \amp = x</mrow></md>
+        We can use any variables for a function, so we switch back to <m>x</m> for the input and <m>y</m> for the output:  
+        <me>j(x)=x^3+4</me></li></ol> </p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercise</title>
@@ -120,7 +134,7 @@
     <answer><p><ol label="a">
         <li><m>g(x)=x+2</m></li>
         <li><m>h(x)=\dfrac{-1}{x+2}</m></li>
-        <li><m>j(x)=f^{-1}(x)</m></li></ol></p>
+        <li><m>j(x)=\dfrac{1-2x}{x}</m></li></ol></p>
     </answer></exercise> 
 
 <exercise><statement><p><m>f(x)=x^{3/4}~</m>. Find formulas for:<ol label="a" cols="3">
@@ -134,15 +148,15 @@
         <li><m>j(x)=x^{4/3}</m></li></ol> </p>
     </answer></exercise> 
     
-<exercise><statement><p><m>f(x)=\sqrt[3]{x-4}~</m>. Find formulas for:<ol label="a" cols="3">
+<exercise><statement><p><m>f(x)=(x-1)^3+2~</m>. Find formulas for:<ol label="a" cols="3">
     <li><m>g(x)=\dfrac{1}{f(x)}</m></li>
     <li><m>h(x)=-f(x)</m></li>
     <li><m>j(x)=f^{-1}(x)</m></li></ol>
 </p></statement> 
     <answer><p><ol label="a">
-        <li><m>g(x)=\dfrac{1}{\sqrt[3]{x-4}}</m></li>
-        <li><m>h(x)=-\sqrt[3]{x-4}</m></li>
-        <li><m>j(x)=x^3+4</m></li></ol> </p>
+        <li><m>g(x)=\dfrac{1}{(x-1)^3+2}</m></li>
+        <li><m>h(x)=-(x-1)^3-2</m></li>
+        <li><m>j(x)=1+\sqrt[3]{x-2}</m></li></ol> </p>
     </answer></exercise> 
 </subsubsection>
 </subsection>

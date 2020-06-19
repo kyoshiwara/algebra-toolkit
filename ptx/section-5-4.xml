@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="LogScales" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 5.4 Log Scales </title>
+<section xml:id="LogScales" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Log Scales </title>
                  
 <subsection><title>1. Compare quantities with logarithms</title>
+
+<introduction><p>Because <m>\log {x}</m> grows very slowly, we can use logs to compare quantities that vary greatly in magnitude.</p></introduction>
 
 <subsubsection><title>Example</title>
 
@@ -47,7 +49,7 @@
                         <cell><m>2.8</m></cell></row>
                     </tabular></sidebyside></p></li>
     <li><sidebyside width="75%"><image source="images/fig-5-4-1.png"><description>log scale</description></image></sidebyside></li>
-    <li> Each time we multiply <m>x</m> by 5, the log of <m>x</m> increases by 0.7. <m>\log 5 = 0.7</m>. This is an application of the log properties: 
+    <li> Each time we multiply <m>x</m> by 5, the log of <m>x</m> increases by 0.7, because <m>\log 5 = 0.7</m>. This is an application of the log properties: 
         <me>\log 5x = \log x + \log 5 = \log x + 0.7</me></li></ol></p></solution></example>
 </subsubsection>
 
@@ -143,12 +145,21 @@
 
 <subsection><title>2. Use the properties of logarithms</title>
 
+<introduction><p>The three properties of lagarithms are helpful in making computations involving logs.
+
+<assemblage><title>Properties of Logarithms</title>
+    <p>If <m>x</m>, <m>y</m>, <m>b \gt 0</m>, and <m>b\ne 1</m>, then <ol label="1">>
+        <li><p><m>\log_{b}{(xy)} = \log_{b}{x} + \log_{b}{y}</m></p></li>
+        <li><p><m>\log_{b}\dfrac{x}{y} = \log_b x - \log_b y</m></p></li>
+        <li><p><m>\log_b {x^k} = k \log_b x </m></p></li></ol></p></assemblage>
+</p></introduction>
+
 <subsubsection><title>Examples</title>
 
 <example><statement><p>If <m>\log_b 10 = 2.303</m> and <m>\log_b 2 = 0.693</m>, what is <m>\log_b 5</m>?</p></statement>
 
 <solution><p>Because <m>5 = \dfrac{10}{2}</m>,
-    <me>\log_b 5 = \log_b (\dfrac{10}{2}) = \log_b 10 - \log_b 2 = 2.303 - 0.693 = 1.61</me></p></solution></example>
+    <me>\log_b 5 = \log_b \left(\dfrac{10}{2}\right) = \log_b 10 - \log_b 2 = 2.303 - 0.693 = 1.61</me></p></solution></example>
 
 <example><statement><p>If <m>\log_b 10 = 2.303</m> and <m>\log_b 2 = 0.693</m>, what is <m>\log_b 20</m>?</p></statement>
 
@@ -193,6 +204,8 @@
 
 <subsection><title>3. Write expressions to compare quantities</title>
 
+<introduction><p>There is often more than one way to express a comparison with mathematical notation.</p></introduction>
+
 <subsubsection><title>Example</title>
 
 <example><statement><p>When we say that "<m>A</m> is 3 times larger than <m>B</m>," we mean that <m>A=3B</m>.</p>
@@ -222,7 +235,7 @@
 <exercise><statement><p>From the list above, match all the correct algebraic expressions to the phrase "<m>x</m> is 5 times as large as <m>H</m>."</p></statement>
     <answer>(a), (i), (l)</answer></exercise>
 
-<exercise><statement><p>From the list above, match all the correct algebraic expressions to the phrase "<m>x</m> is 5 moe than <m>H</m>."</p></statement>
+<exercise><statement><p>From the list above, match all the correct algebraic expressions to the phrase "<m>x</m> is 5 more than <m>H</m>."</p></statement>
     <answer>(c), (g)</answer></exercise>
 </subsubsection>
 </subsection>

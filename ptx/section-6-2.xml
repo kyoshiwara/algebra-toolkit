@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="SolvingQuadratic" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 6.2 Solving Quadratic Equations </title>
+<section xml:id="SolvingQuadratic" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Solving Quadratic Equations </title>
                  
 <subsection><title>1. Combine fractions</title>
 
-<introduction><p>To multiply two fractions together, we multiply their numerators together, and multiply their denominators together. We can divide out any common factors in numerator and denominator before we multiply.</p></introduction>
+<introduction><p>To solve a quadratic equation by completint the square, we often have to work with fractions.</p>
+
+<p>To multiply two fractions together, we multiply their numerators together, and multiply their denominators together. We can divide out any common factors in numerator and denominator before we multiply.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -80,7 +82,9 @@
 
 <subsection><title>2. Recognize squares of binomials</title>
 
-<introduction><me>\blert{(x+p)^2 = x^2 + 2px + p^2}</me></introduction>
+<introduction><p>To solve a quadratic equation by completint the square, we create the square of a binomial:
+
+    <me>\blert{(x+p)^2 = x^2 + 2px + p^2}</me></p></introduction>
 
 <subsubsection><title>Example</title>
 
@@ -89,10 +93,10 @@
     <li><m>x^2-5x+\dfrac{25}{4}</m></li></ol></p></statement>
 
 <solution><p><ol label="a">
-    <li><p><m>2p=6</m> and <m>p^2=9</m>, so <m>p=\alert{3}</m>, and 
+    <li><p>In the formula above, note that the coefficient of <m>x</m> is <m>2p</m> and the constant term is <m>p^2</m>. In this example, <m>2p=6</m> and <m>p^2=9</m>, so <m>p=\alert{3}</m>, and 
     <me>x^2+6x+9 = (x+\alert{3})^2</me></p></li>
-    <li><p><m>2p=-5</m> and <m>p^2=\dfrac{25}{4}</m>, so <m>p=\alert{\dfrac{-5}{2}}</m>, and 
-    <me>x^2-5x+\dfrac{25}{4} = (x-\alert{\dfrac{5}{2}})^2</me></p></li></ol></p>
+    <li><p>The coefficient of <m>x</m> is <m>2p=-5</m> and the constant terms is <m>p^2=\dfrac{25}{4}</m>, so <m>p=\alert{\dfrac{-5}{2}}</m>, and 
+    <me>x^2-5x+\dfrac{25}{4} = \left(x-\alert{\dfrac{5}{2}}\right)^2</me></p></li></ol></p>
 </solution></example>
 </subsubsection>
 
@@ -114,6 +118,8 @@
 
 <subsection><title>3. Simplify square roots</title>
 
+<introduction><p>Be careful when simplifying radicals after extracting roots.</p></introduction>
+
 <subsubsection><title>Example</title>
 
 <example><statement><p>Can you simplify the first expression into the second expression? 
@@ -126,9 +132,9 @@
 <solution><p><ol label="a">
     <li><p>If the expressions are equivalent, they must be equal for every value of the variable. Let's test with <m>x=3</m>.  Then
         <md><mrow>\sqrt{4+x^2} \amp = \sqrt{4+9} = \sqrt{13} \approx 3.6</mrow>
-            <mrow> \text{but}~~~ 2+x \amp = 2+3 = 5</mrow></md> 
+            <mrow> \text{but}~~~~~~~~~ 2+x \amp = 2+3 = 5</mrow></md> 
         No, the expressions are not equivalent.</p></li>
-    <li><p>Because <m>(\dfrac{x}{3})^2 = \dfrac{x}{3} \cdot \dfrac{x}{3} = \dfrac{x^2}{3^2} = \dfrac{x^2}{9}</m>, it is also true that <m>\sqrt{\dfrac{x^2}{9}} = \dfrac{x}{3}</m>. Yes, the expressions are equivalent.</p></li>
+    <li><p>Because <m>\left(\dfrac{x}{3}\right)^2 = \dfrac{x}{3} \cdot \dfrac{x}{3} = \dfrac{x^2}{3^2} = \dfrac{x^2}{9}</m>, it is also true that <m>\sqrt{\dfrac{x^2}{9}} = \dfrac{x}{3}</m>. Yes, the expressions are equivalent.</p></li>
     <li><p>Let <m>w=16</m>. Then
         <md><mrow>\sqrt{w-3} \amp = \sqrt{16-3} = \sqrt{13} \approx 3.6</mrow>
             <mrow> \text{but}~~~ \sqrt{w}-\sqrt{3} \amp = \sqrt{16}-\sqrt{3} \approx 4-1.7 = 2.3</mrow></md> 
