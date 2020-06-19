@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="PropertiesLogarithms" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 4.4 Properties of Logarithms</title>
+<section xml:id="PropertiesLogarithms" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Properties of Logarithms</title>
                  
 <subsection><title>1. Apply the distributive law</title>
+
+<introduction><p>We have met several types of algebraic properties before treating logarithms.  Here is a review of the most common ones.</p></introduction>
 
 <subsubsection><title>Example</title>
 
 <example><statement><p>Which equation is a correct application of the distributive law?<ol label="a">
-    <li><m>2(5 \cdot 3^x) = 10 \cdot 6^x~</m> or <m>~2(5+3^x) = 10+2 \cdot 3^x</m></li>
-    <li><m>\log (x+10) = \log {x} + \log {10}~</m> or <m>~\dfrac{1}{x}(x+10) = 1 +\dfrac{10}{x}</m></li></ol>
+    <li><m>2(5 \cdot 3^x) = 10 \cdot 6^x~~~~~</m> or <m>~~~~~2(5+3^x) = 10+2 \cdot 3^x</m></li>
+    <li><m>\log (x+10) = \log {x} + \log {10}~~~~~</m> or <m>~~~~~\dfrac{1}{x}(x+10) = 1 +\dfrac{10}{x}</m></li></ol>
 </p></statement>
  
 <solution><p><ol label="a">
     <li><p>The distributive law applies to multiplying a sum or difference, not a product. In the first equation, <m>5 \cdot 3^x</m> is a product, so the distributive law does not apply.  (We can, however, simplfy that expression with the associative law:
-        <me>2(5 \cdot 3^x) = (2\cdot 5)\cdot 3^x = 10 \cdot 3^x</me>
-    You can check that the first equation is false and the second equation is true by substituting <m>x=1</m>.</p></li>
-    <li>The distributive law applies only to multiplying a sum or product, not to other operations, such as taking logs.  You can check that the first equation is false by substituting <m>x=10</m>. The second equation is a correct application of the distributive law. </li></ol></p>
+        <me>2(5 \cdot 3^x) = (2\cdot 5)\cdot 3^x = 10 \cdot 3^x</me></p>
+    <p>The second equation is a correct application of the distributive law. You can check that the first equation is false and the second equation is true by substituting <m>x=1</m>.</p></li>
+    <li><p>The distributive law applies only to multiplying a sum or product, not to other operations, such as taking logs.  You can check that the first equation is false by substituting <m>x=10</m>.</p>
+    <p> The second equation is a correct application of the distributive law.</p> </li></ol></p>
 </solution></example>
 </subsubsection>
 
@@ -31,7 +34,7 @@
     <answer><p>Not correct</p></answer></exercise>
 
 <exercise><statement><m>2(P_0 a^t) \rightarrow 2P_0 +2a^t</m></statement>
-    <answer><m>2(P_0 a^t) = 2P_0 a^t</m></answer></exercise>
+    <answer>Not correct. <m>~~2(P_0 a^t) = 2P_0 a^t</m></answer></exercise>
 
 <exercise><statement><m>25(1+r)^8 \rightarrow (25+25r)^8</m></statement>
     <answer><p>Not correct</p></answer></exercise>
@@ -41,16 +44,22 @@
 
 <subsection><title>2. Apply the laws of exponents</title>
 
+<introduction><p>Be careful to avoid tempting but false operations with exponents.</p></introduction>
+
 <subsubsection><title>Example</title>
 
 <example><statement><p>Which equation is a correct application of the laws of exponents?<ol label="a">
-    <li><m>20(1+r)^4 = 20+20r^4~</m> or <m>~(ab^t)^3 = a^3b^{3t}</m></li>
-    <li><m>2^{t/5} = (2^{1/5})^t~</m> or <m>~6.8(10)^t = 68^t</m></li></ol>
+    <li><m>20(1+r)^4 = 20+20r^4~~~~~</m> or <m>~~~~~(ab^t)^3 = a^3b^{3t}</m></li>
+    <li><m>2^{t/5} = (2^{1/5})^t~~~~~</m> or <m>~~~~~6.8(10)^t = 68^t</m></li></ol>
 </p></statement>
 
 <solution><p><ol label="a">
-    <li>The first statement is incorrect. There is no law that says <m>(a+b)^n</m> is equivalent to <m>a^n+b^n</m>, so <m>(1+r)^4</m> is not equivalent to <m>1^4+r^4</m> or <m>1+r^4</m>. However, it is true that <m>(ab)^n = a^nb^n</m>, so in particular <m>(ab^t)^3 = a^3(b^t)^3 = a^3b^{3t}</m>.</li> 
-    <li>The first statement is correct. If we start with <m>(2^{1/5})^t</m>, we can apply the third law, <m>(a^m)^n = a^{mn}</m>, to find <m>(2^{1/5})^t = 2^{(1/5)t} = 2^{t/5}</m>. In the second statement, 6.8 is not raised to power <m>t</m>, so we cannot multiply 6.8 times 10.</li></ol>
+    <li><p>The first statement is not correct. There is no law that says <m>(a+b)^n</m> is equivalent to <m>a^n+b^n</m>, so <m>(1+r)^4</m> is not equivalent to <m>1^4+r^4</m> or <m>1+r^4</m>.</p>
+    <p> However, it is true that <m>(ab)^n = a^nb^n</m>, so in particular the second statement is true: 
+        <me>~~(ab^t)^3 = a^3(b^t)^3 = a^3b^{3t}</me></p></li> 
+    <li><p>The first statement is correct. If we start with <m>(2^{1/5})^t</m>, we can apply the third law, <m>(a^m)^n = a^{mn}</m>, to find 
+        <me>(2^{1/5})^t = 2^{(1/5)t} = 2^{t/5}</me>.</p>
+    <p> In the second statement, 6.8 is not raised to power <m>t</m>, so we cannot multiply 6.8 times 10.</p></li></ol>
 </p></solution></example>
 </subsubsection>
 
@@ -62,28 +71,39 @@
     <answer><p>Not correct</p></answer></exercise>
 
 <exercise><statement><m>25(2^t) \cdot 4(2^t) \rightarrow 100 \cdot 2^{t^2}</m></statement>
-    <answer><m>25(2^t) \cdot 4(2^t) = 100(2^{2t})</m></answer></exercise>
+    <answer>Not correct. <m>~25(2^t) \cdot 4(2^t) = 100(2^{2t})</m></answer></exercise>
 
 <exercise><statement><m>a(b^{1/8})^{2t} \rightarrow ab^{t/4}</m></statement>
     <answer><p>Correct</p></answer></exercise>
 
 <exercise><statement><m>N(0.94)^{1/8.3} \rightarrow \dfrac{N}{(0.94)^{8.3}}</m></statement>
-    <answer><m>N(0.94)^{-8.3} = \dfrac{N}{(0.94)^{8.3}}</m></answer></exercise>
+    <answer>Not correct, but <m>~N(0.94)^{-8.3} = \dfrac{N}{(0.94)^{8.3}}</m></answer></exercise>
 </subsubsection>
 </subsection>
 
 <subsection><title>3. Apply the properties of radicals</title>
 
+<assemblage><title>Rules for Radicals</title>
+    <p>Product Rule
+   <me>\sqrt[n]{ab}=\sqrt[n]{a}~\sqrt[n]{b}~~~~~~~\text{for } a, b \ge 0</me></p> 
+
+<p>Quotient Rule
+<me>\sqrt[n]{\frac{a}{b}}=\frac{\sqrt[n]{a}}{\sqrt[n]{b}}~~~~~~~\text{for } a\ge 0,~~ b \gt 0</me></p>
+
+<p>In general, it is <em>not</em> true that <m>\sqrt[n]{a+b}</m> is equivalent to <m>\sqrt[n]{a}+\sqrt[n]{b}</m>, or that <m>\sqrt[n]{a-b}</m> is equivalent to <m>\sqrt[n]{a}-\sqrt[n]{b}</m>.</p></assemblage>
+
 <subsubsection><title>Examples</title>
 
 <example><statement><p>Which equation is a correct application of the properties of radicals?<ol label="a">
-    <li><m>\sqrt{x^4+81} = x^2 + 9~</m> or <m>~\sqrt[3]{P^2}\sqrt[3]{1+r} = \sqrt[3]{P^2(1+r)}</m></li>
-    <li><m>\dfrac{\sqrt{x+y}}{\sqrt{x}} = \sqrt{y}~</m> or <m>~\dfrac{x+y}{\sqrt{x+y}} = \sqrt{x+y}</m></li></ol>
+    <li><m>\sqrt{x^4+81} = x^2 + 9~~~~~</m> or <m>~~~~~\sqrt[3]{P^2}~\sqrt[3]{1+r} = \sqrt[3]{P^2(1+r)}</m></li>
+    <li><m>\dfrac{\sqrt{x+y}}{\sqrt{x}} = \sqrt{y}~~~~~</m> or <m>~~~~~\dfrac{x+y}{\sqrt{x+y}} = \sqrt{x+y}</m></li></ol>
 </p></statement>
  
 <solution><p><ol label="a">
-    <li>The first statement is incorrect. There is no property that says <m>~\sqrt[n]{a+b} = \sqrt[n]{a} + \sqrt[n]{b}</m>. However, it is true that <m>~\sqrt[n]{a} \sqrt[n]{b} = \sqrt[n]{ab}~</m>, so the second statement is correct.</li> 
-    <li>The first statement is incorrect, because <m>\dfrac{x+y}{x}</m> is not equivalent to <m>y</m>. The second statement is correct, <m>\sqrt{x+y}\sqrt{x+y} = x+y</m>.</li></ol></p>
+    <li><p>The first statement is incorrect. There is no property that says <m>~\sqrt[n]{a+b} = \sqrt[n]{a} + \sqrt[n]{b}</m>.</p> 
+    <p>However, it is true that <m>~\sqrt[n]{a}~ \sqrt[n]{b} = \sqrt[n]{ab}~</m>, so the second statement is correct.</p></li> 
+    <li><p>The first statement is incorrect, because <m>\dfrac{x+y}{x}</m> is not equivalent to <m>y</m>.</p>
+    <p> The second statement is correct, because <m>~\sqrt{x+y}~\sqrt{x+y} = x+y</m>.</p></li></ol></p>
 </solution></example>
 </subsubsection>
 
@@ -98,7 +118,7 @@
     <answer><p>Correct</p></answer></exercise>
 
 <exercise><statement><m>\sqrt[3]{t^4} + \sqrt[3]{t^4} \rightarrow \sqrt[3]{2t^4}</m></statement>
-    <answer><m>\sqrt[3]{t^4} + \sqrt[3]{t^4} = 2\sqrt[3]{t^4}</m></answer></exercise>
+    <answer>Not correct.<m>~\sqrt[3]{t^4} + \sqrt[3]{t^4} = 2\sqrt[3]{t^4}</m></answer></exercise>
 
 <exercise><statement><m>\dfrac{\sqrt{2p}}{\sqrt{4p+8p^2}} \rightarrow \dfrac{1}{\sqrt{2+4p}}</m></statement>
     <answer><p>Correct</p></answer></exercise>

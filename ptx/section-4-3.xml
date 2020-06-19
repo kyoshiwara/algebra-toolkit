@@ -3,7 +3,7 @@
 
 <section xml:id="Logarithms" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Logarithms</title>
                  
-<subsection><title>1. Convert radicals to powers</title>
+<subsection><title>1. Convert between radicals and powers</title>
 
 <subsubsection><title>Examples</title>
 
@@ -123,13 +123,15 @@
 
 <subsection><title>3. Apply the laws of exponents</title>
 
+<introduction><p>The laws of exponents still apply to variable exponents. (If you would like to review the laws of exponents, they are listed in Section 3.2.)</p></introduction>
+
 <subsubsection><title>Examples</title>
 
 <example><statement><p>Use the laws of exponents to simplify.<ol label="a" cols="2">
     <li><m>1.35^6(1.35^4)</m></li>
     <li><m>0.64^5(0.64^n)</m></li></ol></p></statement>
  
-<solution><p>When multiplying two powers with the same base, we add the exponents.<ol label="a">
+<solution><p>When multiplying two powers with the same base, we add the exponents. Notice that the base does not change.<ol label="a">
     <li><m>1.35^6(1.35^4) = 1.35^{6+4}=1.35^{10}</m></li>
     <li><m>0.64^5(0.64^n) = 0.64^{5+n}</m></li></ol></p>
 </solution></example>

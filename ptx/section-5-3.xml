@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="NaturalBase" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 5.3 The Natural Base</title>
+<section xml:id="NaturalBase" xmlns:xi="http://www.w3.org/2001/XInclude"><title>The Natural Base</title>
                  
-<subsection><title>1. Using base <m>e</m></title>
+<subsection><title>1. Using growth and decay laws with base <m>e</m></title>
 
 <subsubsection><title>Examples</title>
+
+<introduction><p>We can write exponential growth and decay laws using bas <m>e</m>.
+
+<assemblage><title>Exponential Growth and Decay</title>
+    <p>The function
+        <me>P(t) = P_0 e^{kt}</me>
+        describes exponential growth if <m>k \gt 0</m>, and exponential decay if <m>k \lt 0</m>.</p>    
+</assemblage></p></introduction>
                     
 <example><statement><p>A colony of bees grows at a rate of 8% annually. Write its growth law using base <m>e</m>.</p></statement>
 
@@ -43,6 +51,8 @@ The growth law is <m>~P(t) = P_0 e^{0.077t}</m>.</p>
 </subsection>
 
 <subsection><title>2. Graphing <m>y=e^x</m> and <m>y=\ln x</m></title>
+
+<introduction><p>The graphs of the natural exponential function and the natural log function have some special properties.</p></introduction>
 
 <subsubsection><title>Exercises</title>
 
