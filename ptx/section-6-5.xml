@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="QuadraticInequalities" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 6.5 Quadratic Inequalities </title>
+<section xml:id="QuadraticInequalities" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Quadratic Inequalities </title>
                  
 <subsection><title>1. Solve a linear inequality</title>
+
+<introduction><p>First, let's review solving linear inqualities.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -46,21 +48,23 @@ The graph of the solutions is shown below.
 
 <subsection><title>2. Simplify square roots</title>
 
-<subsubsection><title>Examples</title>
+<introduction><p>When solving quadratic equations and inequalities, we often encounter square roots.</p>
 
-<introduction><p>Recall the product and quotient rules for radicals:
+<p>Recall the product and quotient rules for radicals:
     <me>\text{If}~ a,~b \ge 0,~\text{then}~~~~\blert{\sqrt{ab} = \sqrt{a} \sqrt{b}}</me>
     <me>\text{If}~ a \ge 0,~ b \gt 0,~ \text{then}~~~~\blert{\sqrt{\dfrac{a}{b}} = \dfrac{\sqrt{a}}{\sqrt{b}}}</me>
 </p></introduction>
 
+<subsubsection><title>Examples</title>
+
 <example><statement><p>Simplify <m>\sqrt{45}</m></p></statement>
 
-<solution><p>We remove any perfect squares from the radical.
+<solution><p>We remove any perfect squares from the radical. The largest perfect square that is a factor of 45 is 9.
     <me>\sqrt{45} = \sqrt{9 \cdot 5}= \sqrt{9} \sqrt{5} = 3\sqrt{5}</me></p></solution></example>
 
 <example><statement><p>Simplify <m>\sqrt{\dfrac{75}{16}}</m></p></statement>
 
-<solution><p>
+<solution><p>We can simplify the numerator and denominator separately.
     <me>\sqrt{\dfrac{75}{16}} = \dfrac{\sqrt{75}}{\sqrt{16}} = \dfrac{\sqrt{25} \sqrt{3}}{\sqrt{16}} = \dfrac{5\sqrt{3}}{4}</me>
 </p></solution></example>
 </subsubsection>
@@ -82,6 +86,8 @@ The graph of the solutions is shown below.
 </subsection>
 
 <subsection><title>3. Find the <m>x</m>-intercepts of a parabola</title>
+
+<introduction><p>To solve a quadratic inequality, we first find the <m>x</m>-intercepts of the graph. Remember that there are four different methods for solving a quadratic equation.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -130,7 +136,7 @@ The <m>x</m>-intercepts are <m>(\dfrac{-3 + \sqrt{15}}{2},0)</m> and <m>(\dfrac{
 
 <subsubsection><title>Exercises</title>
 
-<introduction><p>Find the <m>x</m>-intercepts of the parabola. Remember that there are four different methods for solving a quadratic equation.</p></introduction>
+<introduction><p>Find the <m>x</m>-intercepts of the parabola. </p></introduction>
 
 <exercise><statement><p><m>~y=2x^2-7x+3</m></p></statement>
     <answer><m>(\dfrac{1}{2},0),~(3,0)</m></answer></exercise>

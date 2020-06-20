@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="CurveFitting" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 6.6 Curve Fitting </title>
+<section xml:id="CurveFitting" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Curve Fitting </title>
                  
 <subsection><title>1. Write an equation for a point on a graph</title>
+
+<introduction><p>If a curve passes through a given point, the coordinates of the point satisfy the equation of the curve.</p></introduction>
 
 <subsubsection><title>Example</title>
 
@@ -32,6 +34,8 @@
 </subsection>
 
 <subsection><title>2. Solve a 2x2 linear system</title>
+
+<introduction><p>For fitting a parabola through given points, we'll solve systems using the method of elimination.</p></introduction>
 
 <subsubsection><title>Example</title>
 
@@ -71,6 +75,8 @@ The solution to the system is <m>(4,-1)</m>. </p></solution></example>
 </subsection>
 
 <subsection><title>3. Solve a (special) 3x3 linear system</title>
+
+<introduction><p>In this special case of solving a 3x3 system, we can eliminate <m>c</m> to create a 2x2 system.</p></introduction>
 
 <subsubsection><title>Example</title>
 

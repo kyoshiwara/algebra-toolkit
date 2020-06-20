@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="ProblemSolving" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 6.4 Problem Solving </title>
+<section xml:id="ProblemSolving" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Problem Solving </title>
                  
 <subsection><title>1. Complete the square</title>
+
+<introduction><p>To write a quadratic equation in vertex form, we need to complete the square.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -38,13 +40,15 @@ Next, complete the square inside parentheses.
 
 <subsection><title>2. Graph parabolas in vertex form</title>
 
+<introduction><p>We can sketch the graph of a parabola with the vertex, the <m>y</m>-intercept, and its symmetric point.</p></introduction>
+
 <subsubsection><title>Examples</title>
 
 <example><statement><p>Graph the equation <m>~y=\dfrac{-1}{2}(x+3)^2-2</m></p></statement>
 
 <solution><p>The vertex is the point <m>(-3,2)</m>.  We can find the <m>y</m>-intercept by setting <m>x=0</m>.
     <me>y = \dfrac{-1}{2}(\alert{0}+3)^2-2 = \dfrac{-9}{2}-2 = -6\dfrac{1}{2}</me>
-    The <m>y</m>-intercept is the point <m>(0, -6\dfrac{1}{2})</m>. The axis of symmetry is the vertical line <m>x=-3</m>, and there is a symmetric point equidistant from the axis, namely <m>(-6, -6\dfrac{1}{2})</m>. We plot these three points and sketch the parabola through them.</p>
+    The <m>y</m>-intercept is the point <m>\left(0, -6\dfrac{1}{2}\right)</m>. The axis of symmetry is the vertical line <m>x=-3</m>, and there is a symmetric point equidistant from the axis, namely <m>\left(-6, -6\dfrac{1}{2}\right)</m>. We plot these three points and sketch the parabola through them.</p>
     <sidebyside  width="30%"><image source="images/fig-6-4-1.png"><description>parabola</description></image></sidebyside>
 </solution></example>
 
@@ -76,6 +80,8 @@ The <m>x</m>-intercepts are <m>(9,0)</m> and <m>(21,0)</m>. We plot these three 
 </subsection>
 
 <subsection><title>3. Solve an equation for a parameter</title>
+
+<introduction><p>We can find the equation for a parabola if we know, for example, the vertex and one other point.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
