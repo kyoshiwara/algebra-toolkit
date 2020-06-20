@@ -52,7 +52,7 @@
 <exercise><statement><p> Write each radical expression in exponential form and simplify.<ol label="a" cols="3">
     <li><m>\sqrt[10]{n^9}</m></li>
     <li><m>\sqrt{h}\sqrt[4]{h}</m></li>
-    <li><m>(\sqrt[3]{t^2})^4</m></li></ol></p></statement>
+    <li><m>\left(\sqrt[3]{t^2}\right)^4</m></li></ol></p></statement>
     <answer><p><ol label="a">
         <li><m>n^{9/10}</m></li>
         <li><m>h^{3/4}</m></li>

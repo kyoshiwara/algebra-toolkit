@@ -73,7 +73,7 @@
 <exercise><statement><m>25(2^t) \cdot 4(2^t) \rightarrow 100 \cdot 2^{t^2}</m></statement>
     <answer>Not correct. <m>~25(2^t) \cdot 4(2^t) = 100(2^{2t})</m></answer></exercise>
 
-<exercise><statement><m>a(b^{1/8})^{2t} \rightarrow ab^{t/4}</m></statement>
+<exercise><statement><m>a\left(b^{1/8}\right)^{2t} \rightarrow ab^{t/4}</m></statement>
     <answer><p>Correct</p></answer></exercise>
 
 <exercise><statement><m>N(0.94)^{1/8.3} \rightarrow \dfrac{N}{(0.94)^{8.3}}</m></statement>
