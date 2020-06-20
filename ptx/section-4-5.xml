@@ -102,24 +102,79 @@ The doubling time is 18.59 years.</p></solution></example>
 
 <subsubsection><title>Examples</title>
 
-<example><statement><p>The graph shows the population, <m>P</m>, of a herd of llamas <m>t</m> years after 2000.<ol label="a">
-    <li>How many llamas were there in 2000?</li>
-    <li>What is the doubling time for the population?</li>
-    <li>What is the annual growth rate for the population?</li></ol></p>
-    <sidebyside width="35%"><image source="images/fig-4-5-1.png"><description>graph</description></image></sidebyside>
-</statement>
- 
-<solution><p><ol label="a">
-    <li> The initial value of the population is given by the <m>P</m>-intercept of the graph, <m>(0,15)</m>. There were 15 llamas in 2000.</li>
-    <li>Look for the time when the initial llama population doubles. When <m>t=4,~P=30</m>, and when <m>t=8,~P=60</m>, so the llama population doubles every 4 years.</li>
-    <li>The growth factor for the population is <m>2^{1/4} = 1.189</m>, so the annual growth rate is 18.9%.</li></ol>
-</p></solution></example>
+<example>
+    <statement>
+        <p>The graph shows the population, <m>P</m>, of a herd of llamas <m>t</m> years after 2000.<ol label="a">
+            <li>How many llamas were there in 2000?</li>
+            <li>What is the doubling time for the population?</li>
+            <li>What is the annual growth rate for the population?</li></ol>
+        </p>
+        <sidebyside width="35%">
+            <image xml:id="fig-llama-population">
+                <description>exponential growth</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [xscale=.45, yscale=.5]
+                \draw[cyan, thin] (0,0) grid (10,10);
+                \draw[black,very thick, ->, >=stealth'] (0,0)--(10.7,0) node[right]{$t$};
+                \draw[black,very thick, ->, >=stealth'] (0,0)--(0,10.7) node[above]{$P$};
+                \foreach \x  in  {5,10} {
+                 \draw[cyan!80!black,very thick] (\x,0) -- ++(0,10);
+                 \draw[black] (\x,.3) --++(0,-.6) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \foreach \x [evaluate=\x as \xi using int(10*\x)] in {5,10} {
+                 \draw[cyan!80!black,very thick] (0,\x) -- ++(10,0);
+                 \draw[black] (.3,\x) --++(-.6,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+                }
+                \draw[samples=65,domain={0:10},smooth,variable=\x,red,very thick, ->,>=stealth'] plot ( {\x}, {1.5* 2^(\x/4) });
+                \end{tikzpicture}]]>
+                </latex-image>
+            </image>
+        </sidebyside>
+    </statement>
+    <solution>
+        <p><ol label="a">
+            <li> The initial value of the population is given by the <m>P</m>-intercept of the graph, <m>(0,15)</m>. There were 15 llamas in 2000.</li>
+            <li>Look for the time when the initial llama population doubles. When <m>t=4,~P=30</m>, and when <m>t=8,~P=60</m>, so the llama population doubles every 4 years.</li>
+            <li>The growth factor for the population is <m>2^{1/4} = 1.189</m>, so the annual growth rate is 18.9%.</li></ol>
+        </p>
+    </solution>
+</example>
 
-<example><statement><p>Write a decay law for the graph shown below, where <m>t</m> is in hours and <m>N</m> is in milligrams.</p>
-<sidebyside width="40%"><image source="images/fig-4-5-2.png"><description>graph</description></image></sidebyside>
-</statement>
-
-<solution><p>The initial value is given by the vertical intercept of the graph, <m>(0,600)</m>, so <m>N_0 = 600</m>.</p>  <p>When <m>t=5,~N=300</m>, so the half-life of the substance is 5 hours. Thus the decay law is <m>N(t)=600(0.5)^{t/5}</m>, or <m>N(t)=600(0.87)^t</m>.</p></solution></example> 
+<example>
+    <statement>
+        <p>Write a decay law for the graph shown below, where <m>t</m> is in hours and <m>N</m> is in milligrams.</p>
+        <sidebyside width="40%">
+            <image xml:id="fig-exponential-decay">
+                <description>exponential decay</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [xscale=.4, yscale=.45]
+                \draw[cyan, thin] (0,0) grid (15,12);
+                \draw[black,very thick, ->, >=stealth'] (0,0)--(15.9,0) node[right]{$t$};
+                \draw[black,very thick, ->, >=stealth'] (0,0)--(0,12.9) node[above]{$N$};
+                \foreach \x  in  {5,10,15} {
+                 \draw[cyan!80!black,very thick] (\x,0) -- ++(0,12);
+                 \draw[black] (\x,.3) --++(0,-.6) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \foreach \x [evaluate=\x as \xi using int(50*\x)] in {4,8,12} {
+                 \draw[cyan!80!black,very thick] (0,\x) -- ++(15,0);
+                 \draw[black] (.3,\x) --++(-.6,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+                }
+                \draw[samples=65,domain={0:15},smooth,variable=\x,red,very thick, ->,>=stealth'] plot ( {\x}, {12* 2^(-\x/5) });
+                \end{tikzpicture}]]>
+                </latex-image>
+            </image>
+        </sidebyside>
+    </statement>
+    <solution>
+        <p>The initial value is given by the vertical intercept of the graph, <m>(0,600)</m>, so <m>N_0 = 600</m>.</p>  <p>When <m>t=5,~N=300</m>, so the half-life of the substance is 5 hours. Thus the decay law is <m>N(t)=600(0.5)^{t/5}</m>, or <m>N(t)=600(0.87)^t</m>.</p>
+    </solution>
+</example> 
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
@@ -127,7 +182,30 @@ The doubling time is 18.59 years.</p></solution></example>
 <exercise><statement><p><ol label="a">
     <li>Write a growth law for the population whose graph is shown, where <m>t</m> is in years.</li>
     <li>What is the annual growth rate for the population?</li></ol></p>
-   <sidebyside width="35%"><image source="images/fig-4-5-3.png"><description>graph</description></image></sidebyside>
+   <sidebyside width="35%">
+            <image xml:id="fig-population-growth">
+                <description>exponential growth</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [xscale=.45, yscale=.5]
+                \draw[cyan, thin] (0,0) grid (10,10);
+                \draw[black,very thick, ->, >=stealth'] (0,0)--(10.7,0) node[right]{$t$};
+                \draw[black,very thick, ->, >=stealth'] (0,0)--(0,10.7) node[above]{$P$};
+                \foreach \x  in  {5,10} {
+                 \draw[cyan!80!black,very thick] (\x,0) -- ++(0,10);
+                 \draw[black] (\x,.3) --++(0,-.6) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \foreach \x [evaluate=\x as \xi using int(10*\x)] in {5,10} {
+                 \draw[cyan!80!black,very thick] (0,\x) -- ++(10,0);
+                 \draw[black] (.3,\x) --++(-.6,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+                }
+                \draw[samples=65,domain={0:10},smooth,variable=\x,red,very thick, ->,>=stealth'] plot ( {\x}, {1.5* 2^(\x/4) });
+                \end{tikzpicture}]]>
+                </latex-image>
+            </image>
+        </sidebyside>
 </statement>
 <answer><p><ol label="a">
     <li><m>P(t) = 10(2^{t/2.5})</m></li>
@@ -136,7 +214,33 @@ The doubling time is 18.59 years.</p></solution></example>
 <exercise><statement><p><ol label="a">
     <li>Write a decay law for the population whose graph is shown, where <m>t</m> is in days.</li>
     <li>What is the daily decay rate for the population?</li></ol></p>
-   <sidebyside width="35%"><image source="images/fig-4-5-4.png"><description>graph</description></image></sidebyside>
+   <sidebyside width="35%">
+            <image xml:id="fig-population-decay-exercise">
+                <description>exponential decay</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.5]
+                \draw[cyan, thin] (0,0) grid (10,12);
+                \draw[black,very thick, ->, >=stealth'] (0,0)--(10.7,0) node[right]{$t$};
+                \draw[black,very thick, ->, >=stealth'] (0,0)--(0,12.7) node[above]{$P$};
+                \foreach \x  in  {5,10} {
+                 \draw[cyan!80!black,very thick] (\x,0) -- ++(0,12);
+                 \draw[black] (\x,.3) --++(0,-.6) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+                }
+                \foreach \x [evaluate=\x as \xi using int(10*\x)] in {5,10} {
+                 \draw[cyan!80!black,very thick] (0,\x) -- ++(10,0);
+                 \draw[black] (.3,\x) --++(-.6,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+                }
+                \draw[samples=65,domain={0:10},smooth,variable=\x,red,very thick, ->,>=stealth'] plot ( {\x}, { 12*2^(-\x/3) });
+                \filldraw[red] (0,12) circle (.12);
+                \filldraw[red] (3,6) circle (.12);
+                \filldraw[red] (6,3) circle (.12);
+                \end{tikzpicture}]]>
+                </latex-image>
+            </image>
+        </sidebyside>
 </statement>
 <answer><p><ol label="a">
     <li><m>P(t) = 120(0.5^{t/3})</m></li>
