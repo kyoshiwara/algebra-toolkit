@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="GraphingParabolas" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 6.3 Graphing Parabolas </title>
+<section xml:id="GraphingParabolas" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Graphing Parabolas </title>
                  
 <subsection><title>1. Find the coordinates of points on a parabola</title>
+
+<introduction><p>To find the <m>x</m>-coordinate of a point on a parabola, we usually need to solve a quadratic equation.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -42,7 +44,7 @@ The <m>y</m>-coordinate is 32, and the point is <m>(-3,32)</m>.</p></solution></
 <subsection><title>2. Find the average of two numbers</title>
 
 <introduction><p>The average of two numbers lies half-way between them on a number line.  To find their average, we take one-half of their sum. That is, the average of <m>p</m> and <m>q</m> is 
-    <me>\dfrac{1}{2}(p+q)~~~~\text{or}~~~~|dfrac{p+q}{2}</me></p></introduction>
+    <me>\dfrac{1}{2}(p+q)~~~~\text{or}~~~~\dfrac{p+q}{2}</me></p></introduction>
 
 <subsubsection><title>Example</title>
 
@@ -53,7 +55,7 @@ The <m>y</m>-coordinate is 32, and the point is <m>(-3,32)</m>.</p></solution></
     <me>\dfrac{1}{2}(-8+4) = \dfrac{1}{2}(-4) = -2</me></p></statement></example>
 
 <example><statement><p>The average of <m>\dfrac{5}{2}</m> and <m>\dfrac{-3}{4}</m> is
-    <me>\dfrac{1}{2}(\dfrac{5}{2}-\dfrac{3}{4}) = \dfrac{1}{2}(\dfrac{10}{4}-\dfrac{3}{4}) = \dfrac{1}{2}(\dfrac{10}{4}) = \dfrac{7}{8}</me></p></statement></example>
+    <me>\dfrac{1}{2}\left(\dfrac{5}{2}-\dfrac{3}{4}\right) = \dfrac{1}{2}\left(\dfrac{10}{4}-\dfrac{3}{4}\right) = \dfrac{1}{2}\left(\dfrac{10}{4}\right) = \dfrac{7}{8}</me></p></statement></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
