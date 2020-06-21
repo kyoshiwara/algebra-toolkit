@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="EquationswithFractions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 7.5 Equations that Include Algebraic Fractions</title>
+<section xml:id="EquationswithFractions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Equations that Include Algebraic Fractions</title>
                  
 <subsection><title>1. Solve equations graphically</title>
+
+<introduction><p>If we can't solve an equation algebraically, we may be able use a graph to find at least an approximation for the solution.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -33,8 +35,9 @@
 
 <subsection><title>2. Solve proportions</title>
 
-<introduction><p>
-    <assemblage><title>Property of Proportions</title>
+<introduction><p>Cross-multiplying is a short-cut method for clearing the fractions from a proportion.  Remember that it works only on proportions, not on other types of equations or operations on fractions!</p>
+
+    <p><assemblage><title>Property of Proportions</title>
         <p>We can clear the fractions from a proportion by cross-multiplying.
             <me>\text{If}~~~~\dfrac{a}{b} = \dfrac{c}{d},~~~~\text{then}~~~~ad=bc.</me></p></assemblage>
 </p></introduction>
@@ -72,6 +75,8 @@ You will need 40 pounds of coffee beans.</p></solution></example>
 
 <subsection><title>3. Solve quadratic equations</title>
 
+<introduction><p>Once we have cleared the fractions from an equation, we may have a quadratic equation to solve. We can choose the easiest method to solve:  factoring, extracting roots, or the quadratic formula.</p></introduction>
+
 <subsubsection><title>Example</title>
 
 <example><statement><p>Solve each quadratic equation by the easiest method. <ol label="a">
@@ -95,12 +100,12 @@ You will need 40 pounds of coffee beans.</p></solution></example>
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Solve each equation by the easiest method. <ol label = "1">
+<exercise><statement><p>Solve each equation by the easiest method. <ol label = "a">
     <li><m>3x^2+10x=8</m></li>
     <li><m>x^2+6x+9=8</m></li>
     <li><m>81x^2-18x+1=0</m></li>
     <li><m>9x^2+18x=27</m></li></ol></p></statement>
-<answer><p><ol label="1">
+<answer><p><ol label="a">
     <li><m>x=-4,~\dfrac{2}{3}</m></li>
     <li><m>x=-2\pm2\sqrt{2}</m></li>
     <li><m>x=\dfrac{1}{9},~\dfrac{1}{9}</m></li>

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="RationalFunctions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 7.4 Rational Functions</title>
-                 
+<section xml:id="RationalFunctions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Rational Functions</title>
+   
+<introduction><p>Rational functions are algebraic fractions, so in this lesson we review the basic operations with algebraic fractions.</p></introduction>
+
 <subsection><title>1. Multiply and divide fractions</title>
 
 <subsubsection><title>Examples</title>

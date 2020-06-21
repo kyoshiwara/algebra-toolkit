@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="ComplexNumbers" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 7.3 Complex Numbers</title>
+<section xml:id="ComplexNumbers" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Complex Numbers</title>
                  
 <subsection><title>1. Rationalize denominators</title>
+
+<introduction><p>Irrational numbers are harder to approximate if there is a radical in the denominator. So we remove those radicals by "rationalizing the denominator." </p></introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -15,7 +17,7 @@
                     
 <example><statement><p>Rationalize the denominator <m>~\dfrac{x}{\sqrt{2}+\sqrt{x}}</m></p></statement>
 
-<solution><p>We multiply numerator and denominator by the conjugate of the denominator, <m>\sqrt{2}-\sqrt{x}</m>.  
+<solution><p>When there are two terms in the denominator, we multiply numerator and denominator by the conjugate of the denominator, in this case <m>~\sqrt{2}-\sqrt{x}</m>.  
     <me>\dfrac{x\blert{(\sqrt{2}-\sqrt{x})}}{(\sqrt{2}+\sqrt{x})\blert{(\sqrt{2}-\sqrt{x})}}=\dfrac{x({\sqrt{2}-\sqrt{x})}}{2-x}</me> 
 We have used the formula for the differnce of two squares, <m>~(a+b)(a-b)=a^2-b^2,~</m> to simplify <m>~(\sqrt{2}+\sqrt{x})(\sqrt{2}-\sqrt{x})~</m> to <m>~2-x~</m>.</p></solution></example>
 </subsubsection>
@@ -39,13 +41,15 @@ We have used the formula for the differnce of two squares, <m>~(a+b)(a-b)=a^2-b^
 
 <subsection><title>2. Work with radicals</title>
 
+<introduction><p>Remember that <m>~~\blert{i = \sqrt{-1}}~~</m>, and thus  <m>~~\blert{i^2 = -1}</m>.</p></introduction>
+
 <subsubsection><title>Example</title>
 
 <example><statement><p>Define <m>~w=\dfrac{-1}{2}+\dfrac{i\sqrt{3}}{2}.~</m>  Calculate <m>~w^2</m>. </p></statement>
     
 <solution><p>Use the formula <m>~(a-b)^2=a^2-2ab+b^2~</m> with <m>~a=\dfrac{i\sqrt{3}}{2}~</m> and <m>~b=\dfrac{1}{2}.~</m>
     <md><mrow>(a-b)^2 \amp = a^2-2ab+b^2</mrow>
-        <mrow>(\dfrac{i\sqrt{3}}{2}-\dfrac{1}{2})^2 \amp = (\dfrac{i\sqrt{3}}{2})^2-2(\dfrac{i\sqrt{3}}{2})(\dfrac{1}{2})+(\dfrac{1}{2})^2</mrow>
+        <mrow>\left(\dfrac{i\sqrt{3}}{2}-\dfrac{1}{2}\right)^2 \amp = \left(\dfrac{i\sqrt{3}}{2}\right)^2-2\left(\dfrac{i\sqrt{3}}{2}\right)\left(\dfrac{1}{2}\right)+\left(\dfrac{1}{2}\right)^2</mrow>
         <mrow> \amp = \dfrac{-3}{4}-\dfrac{i\sqrt{3}}{2}+\dfrac{1}{4}</mrow>
         <mrow> \amp = \dfrac{-1}{2}-\dfrac{i\sqrt{3}}{2}</mrow></md></p>
     </solution></example>

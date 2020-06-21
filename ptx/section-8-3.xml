@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="Matrices" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 8.3 Solving Linear Systems Using Matrices</title>
+<section xml:id="Matrices" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Solving Linear Systems Using Matrices</title>
                  
 <subsection><title>1. Use new vocabulary</title>
 
@@ -27,29 +27,21 @@
             <mrow>x+y+2z \amp = 7</mrow></md></p> 
     </statement>
 <answer><p>The coefficient matrix for this system is
-    <me>
-        \left[ \begin{array}{@{}ccc}
+    <me>\left[ \begin{array}{@{}ccc}
             1\amp 3\amp -1 \\ 3 \amp -1 \amp  2 \\ 1 \amp 1\amp 2  
-        \end{array}\right]
-            </me>
+        \end{array}\right]</me>
 It has order 3x3. The entry in the first row, first column is 1.  The augmented matrix is
-    <me>
-        \left[ \begin{array}{@{}ccc|c@{}}
+    <me>\left[ \begin{array}{@{}ccc|c@{}}
             1\amp 3\amp -1 \amp 5\\ 3 \amp -1 \amp  2 \amp 5\\ 1 \amp 1\amp 2  \amp 7
-        \end{array}\right]
-            </me>
+        \end{array}\right]</me>
 To reduce the matrix, we use the elementary row operations, for example, we subtract three times the first row from the second row. Continuing, we obtain nonzero entries on the diagonal and zero entries below the diagonal. 
-    <me>
-        \left[ \begin{array}{@{}ccc|c@{}}
+    <me>\left[ \begin{array}{@{}ccc|c@{}}
             1\amp 3\amp -1 \amp 5\\ 0 \amp 2 \amp  -1 \amp 2\\ 0 \amp 0 \amp 2  \amp 4
-        \end{array}\right]
-            </me> 
+        \end{array}\right]</me> 
 This matrix is in upper triangular form, or row echelon form. If we continue and obtain zeros above the diagonal, we put the matrix into reduced row echelon form, in which the solutions of the system appear.
-    <me>
-        \left[ \begin{array}{@{}ccc|c@{}}
+    <me>\left[ \begin{array}{@{}ccc|c@{}}
             1\amp 0\amp 0 \amp 1\\ 0 \amp 1 \amp  0 \amp 2\\ 0 \amp 0 \amp 1  \amp 2
-        \end{array}\right]
-            </me>
+        \end{array}\right]</me>
 </p></answer></exercise>
 </subsubsection>
 </subsection>
