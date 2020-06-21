@@ -44,10 +44,10 @@
     
 <solution><p><ol label="a">
     <li><p>We multiply both sides of the equation by <m>\alert{4}</m>.
-        <md><mrow>\alert{4} \cdot (\dfrac{1}{4}x+z) \amp = (\dfrac{3}{4}) \cdot \alert{4}</mrow>
+        <md><mrow>\alert{4} \cdot \left(\dfrac{1}{4}x+z\right) \amp = \left(\dfrac{3}{4}\right) \cdot \alert{4}</mrow>
             <mrow>x+4z \amp = 3</mrow></md></p></li> 
     <li><p>We multiply both sides of the equation by the LCD of the fractions, <m>\alert{6}</m>.
-        <md><mrow>\alert{6} \cdot (\dfrac{2}{3}x-2y+\dfrac{1}{2}z) \amp = (3) \cdot \alert{6}</mrow>
+        <md><mrow>\alert{6} \cdot \left(\dfrac{2}{3}x-2y+\dfrac{1}{2}z\right) \amp = (3) \cdot \alert{6}</mrow>
             <mrow>4x-12y+3z \amp = 18</mrow></md></p></li></ol>  
 </p></solution></example>
 

@@ -31,7 +31,7 @@ In interval notation, the solution set is <m>(-6,\infty)</m>.</p>
 <answer><m>[0,7]  </m></answer></exercise>
 
 <exercise><statement><p>Solve <m>~~\dfrac{-9}{2} \lt \dfrac{5-2n}{-4} \le -1.~~</m> Write the solution with interval notation.</p> </statement>
-<answer><m>(\dfrac{-13}{2}, \dfrac{1}{2}]  </m></answer></exercise>
+<answer><m>\left(\dfrac{-13}{2}, \dfrac{1}{2}\right]  </m></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -48,10 +48,55 @@ In interval notation, the solution set is <m>(-6,\infty)</m>.</p>
     
 <solution><p><ol label="a">
     <li><p>This equation is in the form <m>Ax+By=C</m>, so the intercept method of graphing is convenient. The intercepts are <m>(150,0)</m> and <m>(0,-75)</m>. The graph is shown below.</p>
-    <sidebyside  width="40%"><image source="images/fig-8-4-1.png"><description>line </description></image></sidebyside>
+    <sidebyside  width="45%">
+    <image xml:id="fig-5x-minus-10y-eq750">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan, thin] (-2,-4) grid (8,2);
+        \draw[black,very thick, ->, >=stealth'] (-2,0)--(8.6,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-4)--(0,2.6) node[above]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(25*\x)] in {-2,4,8} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(25*\x)] in  {-4,-2,2} {
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[red,very thick,<->, >=stealth'] (-2, -4)--(8,1);
+        \filldraw[red] (0,-3) circle (.15);
+        \filldraw[red] (6,0) circle (.15);
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside>
 </li> 
     <li><p>This equation is in the form <m>y=mx+b</m>, so the slope-intercept method of graphing is convenient. The <m>y</m>-intercept is <m>(0,400)</m>, and the slope is <m>-25</m>. The graph is shown below.</p>
-    <sidebyside  width="40%"><image source="images/fig-8-4-2.png"><description>line </description></image></sidebyside>
+    <sidebyside  width="40%">
+    <image xml:id="y-eq-400-minus25x">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.5]
+        \draw[cyan, thin] (-2,-2) grid (10,10);
+        \draw[black,very thick, ->, >=stealth'] (-2,0)--(10.8,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-2)--(0,10.8) node[above]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(2*\x)] in {5,10} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(50*\x)] in  {2,4,6,8,10} {
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[red,very thick,<->, >=stealth'] (-2, 10)--(10,-2);
+        \filldraw[red] (0,8) circle (.15);
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside>
 </li></ol>  
 </p></solution></example>
 </subsubsection>
@@ -59,16 +104,108 @@ In interval notation, the solution set is <m>(-6,\infty)</m>.</p>
 <subsubsection><title>Exercise</title>
 
 <exercise><statement><p>Graph the equation <m>~~24x+9y=432</m></p></statement>
-    <answer><sidebyside  width="40%"><image source="images/fig-8-4-3.png"><description>line </description></image></sidebyside></answer></exercise>
+    <answer><sidebyside  width="40%" margins="0% 5%">
+    <image xml:id="fig-24x-plus9y-eq432">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.5]
+        \draw[cyan, thin] (-2,-1) grid (10,11);
+        \draw[black,very thick, ->, >=stealth'] (-2,0)--(10.8,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-1)--(0,11.8) node[above]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(2*\x)] in {5,10} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(5*\x)] in  {2,4,6,8,10} {
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[red,very thick,<->, >=stealth'] (-2.65/2, 11)--(10,{-48/(9*5)});
+        \filldraw[red] (0,48/5) circle (.15);
+        \filldraw[red] (9,0) circle (.15);
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside>
+</answer></exercise>
 
 <exercise><statement><p>Graph the equation <m>~~y=12x+60</m></p></statement>
-    <answer><sidebyside  width="35%"><image source="images/fig-8-4-4.png"><description>line </description></image></sidebyside></answer></exercise>
+    <answer><sidebyside  width="40%" margins="0% 5%">
+    <image xml:id="y-eq-12x-plus60">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan, thin] (-5,-2) grid (5,8);
+        \draw[black,very thick, ->, >=stealth'] (-5,0)--(5.8,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-2)--(0,8.8) node[above]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(2*\x)] in {-4,-2,2,4} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(10*\x)] in  {-2,2,4,6,8} {
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[red,very thick,<->, >=stealth'] (-10/3, -2)--(5/6,8);
+        \filldraw[red] (0,6) circle (.15);
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside>
+</answer></exercise>
 
 <exercise><statement><p>Graph the equation <m>~~y=600-1.25x</m></p></statement>
-    <answer><sidebyside  width="35%"><image source="images/fig-8-4-5.png"><description>line </description></image></sidebyside></answer></exercise>
+    <answer><sidebyside  width="40%" margins="0% 5%">
+    <image xml:id="y-eq-600-minus-1pt25x">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan, thin] (-2,-2) grid (6,8);
+        \draw[black,very thick, ->, >=stealth'] (-2,0)--(6.8,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-2)--(0,8.8) node[above]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(100*\x)] in {-2,5} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(100*\x)] in  {-2,5} {
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[red,very thick,<->, >=stealth'] (-1.6, 8)--(6,-1.5);
+        \filldraw[red] (0,6) circle (.15);
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside>
+</answer></exercise>
 
-<exercise><statement><p>Graph the equation <m>~~75x-30y=15</m></p></statement>
-    <answer><sidebyside  width="35%"><image source="images/fig-8-4-6.png"><description>line </description></image></sidebyside></answer></exercise>
+<exercise><statement><p>Graph the equation <m>~~45x-30y=15</m></p></statement>
+    <answer><sidebyside  width="40%" margins="0% 5%">
+    <image xml:id="fig-45x-minus30y-eq15">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.6, yscale=.5]
+        \draw[cyan, thin] (-2,-2) grid (6,9);
+        \draw[black,very thick, ->, >=stealth'] (-2,0)--(6.8,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-2)--(0,9.8) node[above]{$y$};
+        \foreach \x  in {-2,5} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x  in  {-2,5} {
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick,<->, >=stealth'] (-1, -2)--(6,255/30);
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside>
+</answer></exercise>
 
 </subsubsection>
 </subsection>

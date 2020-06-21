@@ -20,19 +20,33 @@ By trial and error we find <m>~p=-5~</m> and <m>~q=2~</m>, so
 and thus
     <me>4x^3y-12x^2y-40xy = 4xy(x-5)(x+2)</me></p></solution></example>
                     
-<example><statement><p>Factor the quadratic trinomial <m>~8x^2-21x-9</m></p></statement>
-
-<solution><p>We want to find two factors so that  <m>~8x^2-21x-9 = (ax+b)(cx+d)</m>. Now 
-    <me>~(ax+b)(cx+d) = adx^2 +(ad+bc)x + bd~</me> 
-so  <m>~adbc=8(-9)=-72~</m> and <m>~ad+bc=-21.~</m></p>  
-<p>To simplify the calculations, we let <m>~p=ad~</m> and <m>~q=bc~</m>. We need to find the two numbers <m>p</m> and <m>q</m> that satisfy 
-    <me>~pq=-72~~~~ \text{and}~~~~ p+q=-21~</me> 
-By trying different factors of <m>-72</m>, we find that <m>~p=-24~</m> and <m>~q=3~</m>.</p>
-<p> Finally, we write the trinomial as <m>~8x^2-24x+3x-9~</m>, and factor by grouping:
-    <md><mrow>(8x^2-24x)+(3x-9)~~~~~~~~ \amp \blert{\text{Factor out the greatest common factor from each group.}}</mrow>
-        <mrow>8x\alert{(x-3)}+3\alert{(x-3)}~~~~~~~~ \amp \blert{\text{Factor out the common binomial.}}</mrow>
-        <mrow>(x-3)(8x+3)~~~~~~~~</mrow></md>
-Thus, <m>~8x^2-21x-9 = (x-3)(8x+3).</m></p></solution></example>
+<example>
+    <statement>
+        <p>Factor the quadratic trinomial <m>~8x^2-21x-9</m></p>
+    </statement>
+    <solution>
+        <p>
+            We want to find two factors so that  <m>~8x^2-21x-9 = (ax+b)(cx+d)</m>. Now 
+            <me>~(ax+b)(cx+d) = adx^2 +(ad+bc)x + bd~</me> 
+            so  <m>~(ad)(bc)=8(-9)=-72~</m> and <m>~ad+bc=-21.~</m></p>  
+            <p>To simplify the calculations, we let <m>~p=ad~</m> and <m>~q=bc~</m>. We need to find the two numbers <m>p</m> and <m>q</m> that satisfy 
+                <me>~pq=-72~~~~ \text{and}~~~~ p+q=-21~</me> 
+            By trying different factors of <m>-72</m>, we find that <m>~p=-24~</m> and <m>~q=3~</m>.</p>
+            <p> Finally, we write the trinomial as <m>~8x^2-24x+3x-9~</m>, and factor by grouping:
+            <md>
+                <mrow>(8x^2-24x)+(3x-9) \amp\amp\amp
+                    \begin{array}{l}
+                        \blert{\text{Factor out the greatest common factor }}\\
+                        \blert{\text{from each group.}}
+                    \end{array}
+                </mrow>
+                <mrow>8x\alert{(x-3)}+3\alert{(x-3)}\amp\amp\amp \blert{\text{Factor out the common binomial.}}</mrow>
+                <mrow>(x-3)(8x+3)</mrow>
+            </md>
+            Thus, <m>~8x^2-21x-9 = (x-3)(8x+3).</m>
+        </p>
+    </solution>
+</example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
@@ -116,26 +130,46 @@ Thus,
 
 <subsubsection><title>Example</title>
 
-<example><statement><p>Divide <m>~\dfrac{2x^2+x-7}{x+3}</m> </p></statement>
-    
-<solution><p>First write
-    <me>x+3~)\overline{~2x^2+x-7}</me>
-and divide <m>2x^2</m> (the first term of the numerator) by <m>x</m> (the first term of the denominator) to obtain <m>x</m>.  (It may be helpful to write down the division: <m>\dfrac{2x^2}{x}=2x</m>.)  Write <m>\alert{2x}</m> above the quotient bar as the first term of the quotient, as shown below.</p>
-<p>Next, multiply <m>x+3</m> by <m>2x</m> to obtain <m>2x^2+6x</m>, and subtract this product from <m>2x^2+x-7</m>.
-    <md><mrow>\amp ~\alert{2x} </mrow>
-        <mrow>x+3~)\amp \overline{~2x^2+~x-7}</mrow>
-        <mrow>- \amp \underline{(2x^2+6x)}</mrow>
-        <mrow>\amp ~~~~~~~~-5x-7</mrow></md>
-Repeating the process, divide <m>-5x</m> by <m>x</m> to obtain <m>-5</m>.  Write <m>-5</m> as the second term of the quotient.  Then multiply <m>x+3</m> by <m>-5</m> to obtain <m>-5x-15</m>, and subtract:
-    <md><mrow>\amp ~2x~\alert{-5} </mrow>
-        <mrow>x+3~)\amp \overline{~2x^2+~x-7}</mrow>
-        <mrow>- \amp \underline{(2x^2+6x)}</mrow>
-        <mrow>\amp ~~~~~~~~-5x-7</mrow>
-        <mrow>\amp ~~~-\underline{(-5x-15)}</mrow>
-        <mrow>\amp ~~~~~~~~~~~~~~~~~~~~~~~~8</mrow></md>
-The remainder is 8. Because the degree of 8 is less than the degree of <m>x+3</m>, the division is finished.  The quotient is <m>2x-5</m>, with a remainder of 8.  We write the remainder as a fraction to obtain
-    <me>\dfrac{2x^2+x-7}{x+3} = 2x-5 + \dfrac{8}{x+3}</me></p>
-</solution></example>
+<example>
+    <statement>
+        <p>Divide <m>~\dfrac{2x^2+x-7}{x+3}</m> </p>
+    </statement>
+    <solution>
+        <p>
+            First write
+            <md>
+                <mrow>\require{enclose}x+3 \enclose{longdiv}{2x^2+x-7}\kern-.2ex 
+                </mrow>
+            </md>
+            and divide <m>2x^2</m> (the first term of the numerator) by <m>x</m> (the first term of the denominator) to obtain <m>x</m>.  (It may be helpful to write down the division: <m>\dfrac{2x^2}{x}=2x</m>.)  Write <m>\alert{2x}</m> above the quotient bar as the first term of the quotient, as shown below.</p>
+            <p>Next, multiply <m>x+3</m> by <m>2x</m> to obtain <m>2x^2+6x</m>, and subtract this product from <m>2x^2+x-7</m>.
+            <md><mrow>
+                \require{enclose}
+                \begin{array}[t]{rll}
+                    \alert{2x} \hphantom{1+x-7}&amp;&amp;  \\[-3pt]
+                   x+3 \enclose{longdiv}{2x^2+x-7}\kern-.2ex \\[-3pt]
+                  \underline{-(2x^2+6x)\phantom{11}} &amp;&amp; \blert{\text{Multiply } x+3 \text{ by } 2x \text{, and}}\\[-3pt]
+                  -5x-7 &amp;&amp; \blert{\text{subtract the result}.}
+              \end{array}
+            </mrow></md>
+            Repeating the process, divide <m>-5x</m> by <m>x</m> to obtain <m>-5</m>.  Write <m>-5</m> as the second term of the quotient.  Then multiply <m>x+3</m> by <m>-5</m> to obtain <m>-5x-15</m>, and subtract:
+            <md>
+                <mrow>
+                    \require{enclose}
+                    \begin{array}[t]{rll}
+                        2x\alert{-5} \hphantom{x-11}&amp;&amp;  \\[-3pt]
+                       x+3 \enclose{longdiv}{2x^2+x-7}\kern-.2ex \phantom{11}&amp;&amp; \\[-3pt]
+                      \underline{-(2x^2+6x)\phantom{11}} \phantom{11}&amp;&amp; \\[-3pt]
+                      -5x-7\phantom{11}\\[-3pt]
+                      \underline{-(-5x-15)} &amp;&amp; \blert{\text{Multiply } x+3 \text{ by }{-5} \text{, and}}  \\[-3pt]
+                      8\phantom{11}  &amp;&amp;\blert{\text{subtract the result}.}
+                  \end{array}
+                </mrow>
+            </md>
+            The remainder is 8. Because the degree of 8 is less than the degree of <m>x+3</m>, the division is finished.  The quotient is <m>2x-5</m>, with a remainder of 8.  We write the remainder as a fraction to obtain
+                <me>\dfrac{2x^2+x-7}{x+3} = 2x-5 + \dfrac{8}{x+3}</me></p>
+    </solution>
+</example>s
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
