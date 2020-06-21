@@ -67,7 +67,7 @@
     <answer><m>x=\dfrac{27}{y^3}-6</m></answer></exercise>
 
 <exercise><statement><p>Solve <m>~y=(2x-3)^3+1~</m> for <m>x</m> in terms of <m>y</m>.</p></statement>
-    <answer><m>x=\dfrac{1}{2}(3+\sqrt[3]{y-1})</m></answer></exercise>
+    <answer><m>x=\dfrac{1}{2}\left(3+\sqrt[3]{y-1}\right)</m></answer></exercise>
 
 <exercise><statement><p>Solve <m>~y=\dfrac{3x-1}{2x+1}~</m> for <m>x</m> in terms of <m>y</m>.</p></statement>
     <answer><m>x=\dfrac{y+1}{3-2y}</m></answer></exercise>

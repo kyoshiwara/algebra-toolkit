@@ -9,12 +9,21 @@
 
 <subsubsection><title>Examples</title>
 
-<example><statement><p>Multiply <m>~\dfrac{4y^2-1}{4-y^2} \cdot \dfrac{y^2-2y}{4y+2}</m></p> </statement>
-
-<solution><p>We factor each numerator and denominator, and look for common factors. 
-    <md><mrow>\dfrac{4y^2-1}{4-y^2} \cdot \dfrac{y^2-2y}{4y+2} \amp = \dfrac{(2y-1)\cancel{(2y+1)}}{\cancel{(2-y)}(2+y)} \cdot \dfrac{y(-1)\cancel{(y-2)}}{2\cancel{(2y+1)}} \amp \amp \blert{\text{Divide out common factors.}}</mrow>
-        <mrow> \amp = \dfrac{-y(2y-1)}{2(y+2)} \amp \amp \blert{\text{Note:}~~y-2=-(2-y)}</mrow></md>
-</p></solution></example>
+<example>
+    <statement>
+        <p>Multiply <m>~\dfrac{4y^2-1}{4-y^2} \cdot \dfrac{y^2-2y}{4y+2}</m></p>
+    </statement>
+    <solution>
+        <p>
+            We factor each numerator and denominator, and look for common factors. 
+            <md>
+                <mrow>\amp \dfrac{4y^2-1}{4-y^2} \cdot \dfrac{y^2-2y}{4y+2} \amp </mrow>
+                <mrow>\amp\qquad=\dfrac{(2y-1)\cancel{(2y+1)}}{\cancel{(2-y)}(2+y)} \cdot \dfrac{y(-1)\cancel{(y-2)}}{2\cancel{(2y+1)}} \amp \amp \blert{\text{Divide out common factors.}}</mrow>
+                <mrow>\amp\qquad = \dfrac{-y(2y-1)}{2(y+2)} \amp \amp \blert{\text{Note:}~~y-2=-(2-y)}</mrow>
+            </md>
+        </p>
+    </solution>
+</example>
                     
 <example><statement><p>Divide <m>~\dfrac{6ab}{2a+b} \div (4a^2b)</m></p></statement>
 
@@ -89,7 +98,7 @@ Step 4:  Reduce the fraction to find
 <example><statement><p>Simplify <m>~\dfrac{x+\dfrac{3}{4}}{x-\dfrac{1}{2}}</m></p></statement>
 
 <solution><p>Consider all the simple fractions that appear in the complex fraction; in this case their LCD is 4. We multiply each term of the numerator and each term of the denominator by 4.
-    <me>\dfrac{\alert{4}(x+\dfrac{3}{4})}{\alert{4}(x-\dfrac{1}{2})} =\dfrac{\alert{4}(x)+\alert{4}(\dfrac{3}{4})}{\alert{4}(x)-\alert{4}(\dfrac{1}{2})} = \dfrac{4x+3}{4x-2}</me>
+    <me>\dfrac{\alert{4}\left(x+\dfrac{3}{4}\right)} {\alert{4}\left(x-\dfrac{1}{2}\right)} =\dfrac{\alert{4}(x)+\alert{4}\left(\dfrac{3}{4}\right)}{\alert{4}(x)-\alert{4}\left(\dfrac{1}{2}\right)} = \dfrac{4x+3}{4x-2}</me>
 The original complex fraction is equivalent tp the simple fraction <m>\dfrac{4x+3}{4x-2}</m>.</p></solution></example>
 </subsubsection>
 

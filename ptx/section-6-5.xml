@@ -130,7 +130,7 @@ The <m>x</m>-intercepts are <m>(2,0)</m> and <m>(1,0)</m>.</p>
         <mrow>\amp = \dfrac{12 \pm \sqrt{144+96}}{-8}</mrow>
         <mrow> \amp = \dfrac{12 \pm \sqrt{240}}{-8} = \dfrac{12 \pm 4\sqrt{15}}{-8} \amp \amp \blert{\sqrt{240} = \sqrt{16 \cdot 15} = 4\sqrt{15}}</mrow>
         <mrow>\amp =\dfrac{-3 \pm \sqrt{15}}{2} </mrow></md>
-The <m>x</m>-intercepts are <m>(\dfrac{-3 + \sqrt{15}}{2},0)</m> and <m>(\dfrac{-3 - \sqrt{15}}{2},0)</m>, or about <m>(0.44,0)</m> and <m>(-3.44,0)</m>.</p>
+The <m>x</m>-intercepts are <m>\left(\dfrac{-3 + \sqrt{15}}{2},0\right)</m> and <m>\left(\dfrac{-3 - \sqrt{15}}{2},0\right)</m>, or about <m>(0.44,0)</m> and <m>(-3.44,0)</m>.</p>
 </solution></example>
 </subsubsection>
 
@@ -139,10 +139,10 @@ The <m>x</m>-intercepts are <m>(\dfrac{-3 + \sqrt{15}}{2},0)</m> and <m>(\dfrac{
 <introduction><p>Find the <m>x</m>-intercepts of the parabola. </p></introduction>
 
 <exercise><statement><p><m>~y=2x^2-7x+3</m></p></statement>
-    <answer><m>(\dfrac{1}{2},0),~(3,0)</m></answer></exercise>
+    <answer><m>\left(\dfrac{1}{2},0\right),~(3,0)</m></answer></exercise>
 
 <exercise><statement><p><m>~y=7x-2x^2</m></p></statement>
-    <answer><m>(0,0),~(\dfrac{7}{2},0)</m></answer></exercise>
+    <answer><m>(0,0)</m>, <m>\left(\dfrac{7}{2},0\right)</m></answer></exercise>
 
 <exercise><statement><p><m>~y=10-2x^2</m></p></statement>
     <answer><m>(2.24,0),~(-2.24,0)</m></answer></exercise>

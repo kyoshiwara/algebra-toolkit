@@ -289,8 +289,8 @@
 
 <example><statement><p><m>f(x)=\log_6 x</m><ol label="a">
     <li>What is <m>~f^{-1}(x)</m>?</li>
-    <li>Evaluate and simplify <m>~f(f^{-1}(4))</m></li>
-    <li>Evaluate and simplify <m>~f^{-1}(f(5))</m></li></ol></p></statement>
+    <li>Evaluate and simplify <m>~f\left(f^{-1}(4)\right)</m></li>
+    <li>Evaluate and simplify <m>~f^{-1}\left(f(5)\right)</m></li></ol></p></statement>
 
 <solution><p><ol label="a">
     <li><m>~f^{-1}(x) = 6^x</m></li>
