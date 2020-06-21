@@ -5,6 +5,8 @@
                  
 <subsection><title>1. Solve a linear inequality</title>
 
+<introduction><p>Before we solve inequalities in two variables, let's review solving linear inequalities in one variable.</p></introduction>
+
 <subsubsection><title>Example</title>
 
 <example><statement><p>Solve <m>~3k-13 \lt 5+6k</m></p></statement> 
@@ -34,6 +36,8 @@ In interval notation, the solution set is <m>(-6,\infty)</m>.</p>
 </subsection>
 
 <subsection><title>2. Graph a line </title>
+
+<introduction><p>The boundary of the solution set for a linear inequality in two variables is made up of portions of straight lines.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -70,6 +74,8 @@ In interval notation, the solution set is <m>(-6,\infty)</m>.</p>
 </subsection>
 
 <subsection><title>3. Solve a 2x2 system </title>
+
+<introduction><p>To find the vertices of the boundary of the solution set, we solve a linear 2x2 system.</p></introduction>
 
 <subsubsection><title>Examples</title>
 

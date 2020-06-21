@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="ThreebyThreeSystems" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 8.2 Systems of Linear Equations in Three Variables</title>
+<section xml:id="ThreebyThreeSystems" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Systems of Linear Equations in Three Variables</title>
                  
 <subsection><title>1. Write an equation in standard form</title>
+
+<introduction><p>Before we can use Gaussian reduction, we must write each equation in standard form.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -30,6 +32,8 @@
 </subsection>
 
 <subsection><title>2. Clear fractions from an equation</title>
+
+<introduction><p>It is easier to use Gaussian reduction if the equations have integer coefficients.</p></introduction>
 
 <subsubsection><title>Examples</title>
 

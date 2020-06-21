@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="TwobyTwoSystems" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 8.1 Systems of Linear Equations in Two Variables</title>
+<section xml:id="TwobyTwoSystems" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Systems of Linear Equations in Two Variables</title>
                  
 <subsection><title>1. Identify the solution of a system</title>
+
+<introduction><p>Recall that a solution to a system makes each equation in the system true.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -39,6 +41,8 @@ Yes, <m>(3,-2)</m> is a solution</p></solution></example>
 
 <subsection><title>2. Write equations in two variables</title>
 
+<introduction><p>Applied problems that involve more than one unknown are often easier to model and solve with a system of equations.</p></introduction>
+
 <subsubsection><title>Examples</title>
 
 <example><statement><p>Write equations about the number of tables and the number of chairs:<ol label="a">
@@ -47,7 +51,7 @@ Yes, <m>(3,-2)</m> is a solution</p></solution></example>
 </p></statement>
     
 <solution><p>Let <m>x</m> be the number of tables and <m>y</m> the number of chairs.<ol label="a">
-    <li>The number of chairs is 4 times the number of tables: <m>y=4x</m>.</li> 
+    <li>The number of chairs is 4 times the number of tables: <m>~y=4x</m>.</li> 
     <li><m>125y+350x=10,200</m></li></ol>  
 </p></solution></example>
 
@@ -80,6 +84,8 @@ Yes, <m>(3,-2)</m> is a solution</p></solution></example>
 </subsection>
 
 <subsection><title>3. Use formulas</title>
+
+<introduction><p>Some familiar formulas are useful in writing equations to solve a problem.</p></introduction>
 
 <subsubsection><title>Example</title>
 

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="GraphingPolynomials" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 7.2 Graphing Polynomial Functions</title>
+<section xml:id="GraphingPolynomials" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Graphing Polynomial Functions</title>
                  
 <subsection><title>1. Factor polynomials</title>
+
+<intorduction><p>Factoring can help us analyze a polynomial.  In particular, for polynomials in one variable, factoring may help us find the <m>x</m>-intercepts of the graph.</p></intorduction>
 
 <subsubsection><title>Examples</title>
 
@@ -57,8 +59,9 @@ Thus, <m>~8x^2-21x-9 = (x-3)(8x+3).</m></p></solution></example>
 
 <subsection><title>2. Factor special products</title>
 
-<introduction><p>
-    <assemblage><title>Quadratic Polynomials</title>
+<introduction><p>Here is more practice using formulas to factor the special quadratic and cubic polynomials.</p>
+
+    <p><assemblage><title>Quadratic Polynomials</title>
         <p><ol label="1">
             <li><m>(a+b)^2=a^2+2ab+b^2</m></li>
             <li><m>(a-b)^2=a^2-2ab+b^2</m></li>
@@ -107,7 +110,9 @@ Thus,
 </subsubsection>
 </subsection>
 
-<subsection><title>3. Divide polynoials</title>
+<subsection><title>3. Divide polynomials</title>
+
+<introduction><p>If a polynomial cannot be factored, we can use a process like long division to write it as a quotient plus a remainder.</p></introduction> 
 
 <subsubsection><title>Example</title>
 
