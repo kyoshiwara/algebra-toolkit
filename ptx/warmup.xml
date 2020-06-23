@@ -1,214 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="WarmUp"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Warm-Up</title>
+<section xml:id="WarmUp"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Graphs and Equatioms</title>
 
-<introduction><p>We begin by refreshing some basic skills for working with equations and graphs.</p></introduction>
-                 
-<subsection><title>1. Solve a linear equation</title>
-
-<introduction><p>Recall that to solve an equation we want to "isolate" the variable on one side of the equals sign. We "undo" each operation performed on the variable by performing the opposite operation on both sides of the equation.</p></introduction>
-
-<subsubsection><title>Examples</title>
-                    
-<example><statement><p>Solve the equation <m>~~\dfrac{2}{3}x-5=7</m> </p></statement>
-                    
-<solution><me>\begin{aligned}[t]
-                \dfrac{2}{3}x-5 \amp = 7 \amp \amp \blert{\text{Add 5 to both sides.}}\\
-                \dfrac{2}{3}x \amp = 12 \amp \amp \blert{\text{To divide both sides by } \dfrac{2}{3}, \text{we:}}\\
-                \dfrac{3}{2}\left(\dfrac{2}{3}x\right) \amp =\dfrac{3}{2}(12) \amp \amp \blert{\text{Multiply by the reciprocal of }\dfrac{2}{3}.}\\
-                x \amp = 18 \amp \amp \blert{\text{The solution is 18.}}
-                \end{aligned}</me></solution></example>
-
-<example><statement><p>Solve the equation <m>~~2x+7=4x-3</m></p></statement>
-
-<solution>To begin, we must get both variable terms on the same side of the equation.
-    <me>\begin{aligned}[t]
-                2x+7 \amp = 4x-3 \amp \amp \blert{\text{Subtract}~2x~\text{from both sides.}}\\
-                7 \amp = 2x-3 \amp \amp \blert{\text{Add 3 to both sides.}}\\
-                10 \amp =2x   \amp \amp \blert{\text{Divide both sides by 2.}}\\
-                5 \amp = x \amp \amp \blert{\text{The solution is 5.}}
-                \end{aligned}</me></solution></example>
-</subsubsection>
-
-<subsubsection><title>Exercises</title>
-
-<exercise><statement><p>Solve the equation <m>~~10=1-\dfrac{3x}{7}</m></p></statement>
-    <answer><m>-21</m></answer></exercise>
-
-<exercise><statement><p>Solve the equation <m>~~6p-8=-3p-26</m> </p></statement>
-    <answer><m>-2</m></answer></exercise>
-
-<exercise><statement><p>Solve the equation <m>~~12=\dfrac{7u+4}{5}</m> </p>
-<p>Hint:  Start by clearing the fraction:  multiply both sides by 5.</p></statement>
-    <answer><m>8</m></answer></exercise>
-
-<exercise><statement><p>Solve the equation <m>~~0=13q+25-17q+7</m> </p>
-<p>Hint:  Start by combining like terms.</p></statement>
-    <answer><m>8</m></answer></exercise>
-</subsubsection>
-</subsection>
-
-<subsection><title>2. Solve a linear inequality</title>
-
-<introduction><p>The rules for solving an inequality are the same as those for solving an equation, with one important difference:</p>
-
-<assemblage><p>If we multiply or divide both sides by a negative number, we must reverse the direction of the inequality.</p></assemblage></introduction>
-
-<subsubsection><title>Examples</title>
-
-<example>
-    <statement><p>Solve <m>~~-3x+1 \gt 7~~</m> and graph the solutions on a number line.</p></statement>
-    <solution><p>
-    <md>
-        <mrow>
-             -3x+1 \amp \gt 7 \amp \amp ~\blert{\text{ Subtract 1 from both sides.}}
-        </mrow>
-        <mrow>
-            -3x \amp \gt 6 \amp \amp\ 
-            \begin{array}{l}
-                \blert{\text{Divide both sides by }{-3}\text{, and reverse }}\\
-                \blert{\text{the direction of the inequality.}}
-                \end{array}
-        </mrow>
-        <mrow>
-            x \amp \gt -2
-        </mrow>
-    </md>
-    The solutions are all the numbers less than <m>-2</m>.
-    The graph of the solutions is shown below.</p>
-    <sidebyside width="70%"><image source="images/fig-wu-1.png"><description>line graph</description></image></sidebyside>
-</solution></example>
-
-<example><statement><p>Solve <m>~~-3 \lt 2x-5 \le 6~~</m> and graph the solutions on a number line.</p></statement>
-
-<solution><p>
-    <md>
-        <mrow>
-             -3 \amp \lt 2x-5 \le 6 \amp \amp \blert{\text{Add 5 on all three sides of the inequality.}}
-        </mrow>
-        <mrow>
-            2 \amp \lt 2x \le 11 \amp \amp \blert{\text{Divide each side by 2.}}
-        </mrow>
-        <mrow>
-            1 \amp \lt x \le \dfrac{11}{2}   \amp \amp  \blert{\text{Notice that we did not reverse the inequality.}}
-        </mrow>
-    </md>
-The solutions are all the numbers greater than 1 but less than 5.5.
-The graph of the solutions is shown below.</p>
-    <sidebyside width="70%"><image source="images/fig-wu-2.png"><description>line graph</description></image></sidebyside>
-</solution></example>
-
-<p>Recall that a solid dot on a number line indicates that the number is part of the solution; an open dot means that the number is not part of the solution.</p>
-</subsubsection>
-
-<subsubsection><title>Exercises</title>
-
-<exercise><statement><p>Solve the inequality <m>~~8-4x \gt -2~~</m> and graph the solutions on a number line.</p></statement>
-    <answer>
-        <sidebyside widths="15% 55%" margins="0% 5%" valigns="middle middle">
-            <p><m>x \lt \dfrac{5}{2}</m></p>
-            <image xml:id="fig-numline-x-lt-5halves">
-                <description>number line</description>
-                <latex-image>
-                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                <![CDATA[\tikzset{%
-                }
-                \begin{tikzpicture}
-                \draw[black,very thick, ->, >=stealth'] (-2.5,0) -- (5.5,0) ;
-                \foreach \x in {-2,-1, ...,5} {
-                 \draw[black] (\x,.15) -- ++(0,-.15) node[below] {$\x$};
-                }
-                \draw[red, line width=0.8mm, ->, >=stealth'] (5/2,0) -- (-2.5,0);
-                \draw[red, fill=white] (5/2,0) circle (.1) node[above, yshift=2] {$\frac{5}{2}$};
-                \end{tikzpicture}]]>
-                </latex-image>
-            </image>
-        </sidebyside>
-    </answer>
-</exercise>
-
-<exercise><statement><p>Solve the inequality <m>~~-6 \le \dfrac{4-x}{3} \lt 2~~</m> and graph the solutions on a number line.</p></statement>
-    <answer>
-        <sidebyside widths="15% 55%" margins="0% 5%" valigns="middle middle">
-            <p><m>22 \ge x \gt -2</m></p>
-            <image xml:id="fig-numline-x-btwn-neg2-and22">
-                <description>number line</description>
-                <latex-image>
-                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                <![CDATA[\tikzset{%
-                }
-                \begin{tikzpicture} [scale=.25]
-                \draw[black,very thick, ->, >=stealth'] (-5.5,0) -- (25.5,0) ;
-                \foreach \x in {-5,-4, ..., 25} {
-                 \draw[black] (\x,.3) -- ++(0,-.3);
-                }
-                \foreach \x in {-5,5,10,15,20} {
-                 \draw[black] (\x,.5) -- ++(0,-.5) node[below] {$\x$};
-                }
-                \draw[red, line width=0.8mm] (-2,0) -- (22,0);
-                \draw[red, fill=white] (-2,0) circle (.3) node[above, yshift=2] {$-2$};
-                \filldraw[red] (22,0) circle (.3) node[above, yshift=2] {$22$};
-                \end{tikzpicture}]]>
-                </latex-image>
-            </image>
-        </sidebyside>
-    </answer>
-</exercise>
-
-<exercise><statement><p>Solve the inequality <m>~~3x-5 \lt -6x+7~~</m> and graph the solutions on a number line.</p></statement>
-
-    <answer>
-        <sidebyside widths="15% 55%" margins="0% 5%" valigns="middle middle">
-            <p><m>x \lt \dfrac{4}{3}</m></p>
-            <image xml:id="fig-numline-x-lt-4thirds">
-                <description>number line</description>
-                <latex-image>
-                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                <![CDATA[\tikzset{%
-                }
-                \begin{tikzpicture}
-                \draw[black,very thick, ->, >=stealth'] (-2.5,0) -- (5.5,0) ;
-                \foreach \x in {-2,-1, ...,5} {
-                 \draw[black] (\x,.15) -- ++(0,-.15) node[below] {$\x$};
-                }
-                \draw[red, line width=0.8mm, ->, >=stealth'] (4/3,0) -- (-2.5,0);
-                \draw[red, fill=white] (4/3,0) circle (.1) node[above, yshift=2] {$\frac{4}{3}$};
-                \end{tikzpicture}]]>
-                </latex-image>
-            </image>
-        </sidebyside>
-    </answer>
-</exercise>
-
-<exercise><statement><p>Solve the inequality <m>~~-6 \gt 4-5b \gt -21~~</m> and graph the solutions on a number line.</p></statement>
-    <answer>
-        <sidebyside widths="15% 55%" margins="0% 5%" valigns="middle middle">
-            <p><m>2 \lt b \lt 5</m></p>
-            <image xml:id="ffig-numline-b-btwn-2-and5">
-                <description>number line</description>
-                <latex-image>
-                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-                <![CDATA[\tikzset{%
-                }
-                \begin{tikzpicture} 
-                \draw[black,very thick, ->, >=stealth'] (-1.5,0) -- (6.5,0) ;
-                \foreach \x in {-1,0, ...,6} {
-                 \draw[black] (\x,.15) -- ++(0,-.15) node[below] {$\x$};
-                }
-                \draw[red, line width=0.8mm] (2,0) -- (5,0);
-                \draw[red, fill=white] (2,0) circle (.1);
-                \draw[red, fill=white] (5,0) circle (.1);
-                \end{tikzpicture}]]>
-                </latex-image>
-            </image>
-        </sidebyside>
-    </answer>
-</exercise>
-</subsubsection>
-</subsection>
-
-<subsection><title>3. Verify a solution</title>
+             
+<subsection><title>1. Verify a solution</title>
 <introduction><p>We can always check a solution to an equation by verifying that it makes the equation true.</p></introduction>
 
 <subsubsection><title>Examples</title>
@@ -253,7 +49,61 @@ The left side of the equation does not equal 8 when <m>x=-3</m>, so <m>x=-3</m> 
 </subsubsection>
 </subsection>
 
-<subsection><title>4. Solve an equation in two variables</title>
+<subsection><title>2. Solve linear equations and inequalities with parentheses</title>
+
+<assemblage><title>Strategy for solving linear equations</title>
+    <p><ol label="1">
+<li>Simplify each side of the equation:  
+    apply the distributive law, combine like terms.</li>
+<li>Use addition and subtraction to get all the variable terms on one 
+    side of the equation, and all constsnt terms on the other side.</li>
+<li>Divide both sides by the coefficient of the variable.</li>
+</ol></p></assemblage>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Solve <m>~~3(2a-4) \ge 4-(1-3a)</m></p></statement>
+
+<solution><p>First, we remove parentheses by applying the distributive law.  Then we can combine like terms on each side of the equation.</p>
+<p> Note that the minus sign in front of the parentheses on the right side of the equation applies to both terms inside the parentheses.
+    <md><mrow>3(2a-4) \amp \ge 4-(1-3a) \amp \amp \blert{\text{Apply the distributive law.}}</mrow>
+        <mrow>6a-12 \amp \ge 4\alert{-}1\alert{+}3a \amp \amp \blert{\text{Simplify the right side.}}</mrow>
+        <mrow>6a-12 \amp \ge 3+3a   \amp \amp \blert{\text{Subtract}~ 3a~ \text{from both sides.}}</mrow>
+        <mrow>3a-12 \amp \ge 3   \amp \amp \blert{\text{Add 12 to both sides.}}</mrow>
+        <mrow>3a \amp \ge 15   \amp \amp \blert{\text{Divide both sides by 3.}}</mrow>
+        <mrow>a \amp \ge 5</mrow></md>
+</p></solution></example>
+
+<example><statement><p>Solve the inequality <m>~~25-6x \gt 3x-2(4-x)</m></p></statement>
+
+<solution><p>We begin by the same way we solve an equation. For this example, we start by removing the parentheses.
+    <md><mrow>25-6x \amp \gt 3x-2(4-x) \amp \amp \blert{\text{Apply the distributive law.}}
+        </mrow>
+        <mrow>25-6x \amp \gt 3x-8+2x \amp \amp \blert{\text{Combine like terms.}}</mrow>
+        <mrow>25-6x \amp \gt 5x-8   \amp \amp \blert{\text{Subtract}~ 5x~ \text{from both sides.}}</mrow>
+        <mrow>25-11x \amp \gt -8   \amp \amp \blert{\text{Subtract 25 from both sides.}}</mrow>
+        <mrow>-11x \amp \gt -33   \amp \amp \blert{\text{Divide both sides by -11.}}</mrow>
+        <mrow>x \amp \alert{\lt} 3   \amp \amp  \blert{\text{Don't forget to reverse the inequality symbol.}}</mrow></md>
+    Recall that if we multiply or divide both sides of an inequality by a negative number, we must reverse the direction of the inequality symbol.</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Solve the inequality <m>~~-4(x+2)+3(x-2) \ge -2</m> </p></statement>
+    <answer><m>x \le -12</m></answer></exercise>
+
+<exercise><statement><p>Solve the equation <m>~~4(2-3w)=9-3(2w-1)</m> </p></statement>
+    <answer><m>\dfrac{-1}{2}</m></answer></exercise>
+
+<exercise><statement><p>Solve the inequality <m>~~2(3h-6) \lt 5-(h-4)</m> </p></statement>
+    <answer><m>h \lt 3</m></answer></exercise>
+
+<exercise><statement><p>Solve the equation <m>~~0.25(x+3)-0.45(x-3)=0.30</m> </p></statement>
+    <answer><m>9</m></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>3. Solve an equation in two variables</title>
 
 <introduction><p>A solution of an equation in two variables <m>x</m> and <m>y</m> is written as an <term>ordered pair</term>, <m>(x,y)</m>.  For example, the solution <m>(-2,5)</m> means that <m>x=-2</m> and <m>y=5</m>.</p></introduction>
 
@@ -271,9 +121,7 @@ The ordered pair <m>(-3,2)</m> satisfies the equation, so it is a solution.</p><
         <li><m>(-5,0)</m></li>
         <li><m>(1,-4)</m></li>
         <li><m>(-1,-6)</m></li></ol></p>
-    <image xml:id="y-eq-xsq-plus-2x-minus6">
-        <description>parabola</description>
-        <latex-image>
+    <image xml:id="y-eq-xsq-plus-2x-minus6"><description>parabola</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -289,10 +137,9 @@ The ordered pair <m>(-3,2)</m> satisfies the equation, so it is a solution.</p><
         }
         \draw[samples=65,domain={-5:3},smooth,variable=\x,magenta!90!black,very thick, <->,>=stealth'] plot ( {\x}, {(\x)^2+2*\x-5});
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
+        </latex-image></image></sidebyside>
 </statement>
+
 <solution><p>The graph of an equation is just a picture of its solutions, so points that lie on the graph are solutions of the equation.</p>
 <p> The points <m>(-3,-2)</m> and <m>(-1,-6)</m> lie on the graph, so they represent solutions of the equation. The points <m>(-5,0)</m> and <m>(1,-4)</m> do not lie on the graph, so they are not solutions of the equation.
 </p></solution></example>
