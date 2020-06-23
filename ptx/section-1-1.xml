@@ -59,10 +59,10 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
 
 <subsection><title>1. Plot points and graph a line</title>
 
-<example><statement><p>Make a table of values, plot the points, and graph the equation <m>y=-2x+6</m>.
+<example><statement><p>Make a table of values, plot the points, and graph the equation <m>y=-2x+6</m>.</p></statement>
 
-<solution><p>Choose both positive and negative values for <m>x</m>.  Calculate the <m>y</m>-value for each <m>x</m>-value by substituting the <m>x</m>-value into the equation.</p>
-
+<solution><p>Choose both positive and negative values for <m>x</m>.  Calculate the <m>y</m>-value for each <m>x</m>-value by substituting the <m>x</m>-value into the equation.</p></solution></example>
+</subsection>
 
 <subsection><title>3. Solve a linear equation</title>
 
