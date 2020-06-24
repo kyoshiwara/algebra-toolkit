@@ -49,7 +49,7 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
 <exercise><statement><p>Asa has typed 220 words of his term paper, and is still typing at a rate of 20 words per minute.  How many words, <m>W</m>, will Asa have typed after <m>m</m> more minutes?</p></statement>
     <answer><m>W=220+20m</m></answer></exercise>
 
-<exercise><statement><p>The temperature in Nome was <m>-12 \degree</m> F at noon. It has been rising at a rate of 2 <m>\degree</m> F per hour all day. Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</p></statement>
+<exercise><statement><p>The temperature in Nome was <m>-12 \degree</m> F at noon. It has been rising at a rate of <m>2 \degree</m> F per hour all day. Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</p></statement>
     <answer><m>T=-12+2h</m></answer></exercise>
 
 <exercise><statement><p>Francine borrowed money from her mother, and she owes her $750 right now. She has been paying off the debt at a rate of $50 per month. Write an equation for Francine's financial status, <m>F</m>, in terms of <m>m</m>, the number of months from now.</p></statement>
@@ -57,11 +57,190 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
 </subsubsection>
 </subsection>
 
-<subsection><title>1. Plot points and graph a line</title>
+<subsection><title>2. Plot points and graph a line</title>
+
+<introduction><p>The simplest way to graph a line is to make a table and plot points. We will learn more efficient methods short.ly.</p></introduction>
+
+<subsubsection><title>Examples</title>
 
 <example><statement><p>Make a table of values, plot the points, and graph the equation <m>y=-2x+6</m>.</p></statement>
 
-<solution><p>Choose both positive and negative values for <m>x</m>.  Calculate the <m>y</m>-value for each <m>x</m>-value by substituting the <m>x</m>-value into the equation.</p></solution></example>
+<solution><p>Choose both positive and negative values for <m>x</m>.  Calculate the <m>y</m>-value for each <m>x</m>-value by substituting the <m>x</m>-value into the equation.
+
+<sidebyside widths="50% 40%">
+    <stack><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+    <col /><col/><col halign="left" />            
+                    <row>
+                        <cell><m>x</m></cell>
+                        <cell><m>y</m></cell>
+                        <cell ><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>-3</m></cell>
+                        <cell><m>12</m></cell>
+                        <cell><m>y=-2(\alert{-3})+6=12</m></cell></row>
+                    <row> 
+                        <cell><m>-2</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>y=-2(\alert{-2})+6=10</m></cell></row>
+                    <row>
+                        <cell><m>-1</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>y=-2(\alert{-1})+6=8</m></cell></row>
+                    <row>
+                        <cell><m>0</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>y=-2(\alert{0})+6=6</m></cell></row>
+                    <row>
+                        <cell><m>1</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>y=-2(\alert{1})+6=4</m></cell></row>
+                    <row>
+                        <cell><m>2</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>y=-2(\alert{2})+6=2</m></cell></row>
+                    <row>
+                        <cell><m>3</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>y=-2(\alert{3})+6=0</m></cell></row>
+                    <row>
+                        <cell><m>4</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>y=-2(\alert{4})+6=-2</m></cell></row>
+                    </tabular>
+    <p>Next, sketch a Cartesian coordinate system with appropriate scales on the <m>x</m>- and <m>y</m>-axes. Plot each of the points in the table of values and connect them with a straight line. The completed graph is shown at right.</p></stack> 
+    <image source="images/fig-1-1-1alg.png"><description>graph</description></image></sidebyside>
+</p></solution></example>
+
+<example><statement><p>Byron borrowed $6000 from his uncle to help pay for his college education.  Now that he has graduated and has a job, he is paying back the loan at $100 per month.<ol label="a">    
+    <li>Write an equation showing the amount of money, <m>y</m>, that Byron still owes his uncle after <m>x</m> months.</li>
+    <li>Graph your equation.</li></ol></p></statement>
+
+<solution><p><ol label="a">
+    <li><m>y=6000-100x</m></li>
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+    <col /><col/><col halign="left" />            
+                    <row>
+                        <cell><m>x</m></cell>
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>0</m></cell>
+                        <cell><m>6000</m></cell>
+                        <cell><m>y=6000-100(\alert{0})=6000</m></cell></row>
+                    <row> 
+                        <cell><m>10</m></cell>
+                        <cell><m>5000</m></cell>
+                        <cell><m>y=6000-100(\alert{10})=5000</m></cell></row>
+                    <row>
+                        <cell><m>20</m></cell>
+                        <cell><m>4000</m></cell>
+                        <cell><m>y=6000-100(\alert{20})=4000</m></cell></row> 
+        </tabular></sidebyside></li></ol></p>
+    <sidebyside widths="40% 40%"><p>Now choose appropriate scales for the axes.  A good choice would be to scale the <m>x</m>-axis by 10's and the <m>y</m>-axis by 1000's.</p> 
+    <image source="images/fig-1-1-2alg.png"><description>graph</description></image></sidebyside>
+</solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Graph <m>~y=\dfrac{3}{4}x-3</m>.</p>
+
+<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-8</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>6</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside>
+    <sidebyside width="50%"><image source="images/fig-1-5-3.png"><description>grid</description></image></sidebyside></statement>
+
+<answer><sidebyside width="30%"><image source="images/fig-1-1-5alg.png"><description>grid</description></image></sidebyside></answer>
+</exercise>
+
+<exercise><statement><p>Graph <m>~y=-3x+2</m>.</p>
+
+<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside>
+    <sidebyside width="50%"><image source="images/fig-1-5-3.png"><description>grid</description></image></sidebyside></statement>
+
+<answer><sidebyside width="30%"><image source="images/fig-1-1-6alg.png"><description>grid</description></image></sidebyside></answer>
+</exercise>
+
+<exercise><statement><p>Stuart invested $800 in a computer and now makes $5 a page typing research papers. Let <m>x</m> represent the number of pages Stuart has typed, and let <m>y</m> represent his profit.  
+<ol label="a">
+    <li>Write an equation for <m>y</m> in terms of <m>x</m>.</li>
+    <li>Complete the table and graph your equation.</li></ol>
+
+        <sidebyside widths="40% 50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <row>
+                        <cell><m>x</m></cell>
+                        <cell><m>y</m></cell></row>
+                    <row>
+                        <cell><m>0</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>50</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>100</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>200</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row></tabular>
+    <image source="images/fig-1-1-3alg.png"><description>grid</description></image></sidebyside></p></statement>
+
+<answer><sidebyside width="40%"><image source="images/fig-1-1-7alg.png"><description>grid</description></image></sidebyside></answer>
+</exercise>
+
+<exercise><statement><p>Ludmilla earns a commission of 5% of her real estate sales.  Let <m>x</m> represent her sales in thousands of dollars, and let <m>y</m> represent the commission she earns from her sales, in thousands of dollars.
+<ol label="a">
+    <li>Write an equation for <m>y</m> in terms of <m>x</m>.</li>
+    <li>Complete the table and graph the equation.</li></ol>
+
+        <sidebyside widths="40% 50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <row>
+                        <cell><m>x</m></cell>
+                        <cell><m>y</m></cell></row>
+                    <row>
+                        <cell><m>250</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>600</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>800</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>1000</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row></tabular>
+    <image source="images/fig-1-1-4alg.png"><description>grid</description></image></sidebyside></p></statement>
+
+<answer><sidebyside width="40%"><image source="images/fig-1-1-8alg.png"><description>grid</description></image></sidebyside></answer></exercise>
+
+</subsubsection>
 </subsection>
 
 <subsection><title>3. Solve a linear equation</title>
@@ -112,7 +291,8 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
 
 <introduction><p>The rules for solving an inequality are the same as those for solving an equation, with one important difference:</p>
 
-<assemblage><p>If we multiply or divide both sides by a negative number, we must reverse the direction of the inequality.</p></assemblage></introduction>
+<assemblage> <title>Solving a Linear Inequality</title>
+<p>If we multiply or divide both sides of a linear inequality by a negative number, we must reverse the direction of the inequality symbol.</p></assemblage></introduction>
 
 <subsubsection><title>Examples</title>
 

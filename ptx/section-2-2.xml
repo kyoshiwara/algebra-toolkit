@@ -1,161 +1,131 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="BasicFunctions"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Some Basic Functions</title>
+<section xml:id="LinearSystems" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Linear Systems</title>
                  
-<subsection><title>1. Evaluate cube roots</title>
+<subsection><title>1. Identify the solution of a system</title>
+
+<introduction><p>Recall that a solution to a system makes each equation in the system true.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
-<introduction><p>It is a good idea to become familiar with the first few perfect cubes:
-    <me>2^3=8~~~~~~3^3=27~~~~~~4^3=64~~~~~~5^3=125~~~~~~6^3=216</me>
-and so on.</p></introduction>
+<example><statement><p>Decide whether <m>(3,-2)</m> is a solution of the system 
+    <md><mrow>x = 5y+13</mrow>
+        <mrow>2x+3y=0</mrow></md></p> </statement>
 
-<example><statement><p>Evaluate each cube root.<ol label="a" cols="2">  
-    <li><m>\sqrt[3]{64}</m></li>
-    <li><m>\sqrt[3]{-125}</m></li>
-    <li><m>\sqrt[3]{1}</m></li>
-    <li><m>\sqrt[3]{\dfrac{-1}{8}}</m></li>
-</ol></p></statement>
- 
-<solution><p><ol label="a">
-    <li><m>4^3=64,~</m> so <m>~\sqrt[3]{64}=4</m></li>
-    <li><p>The cube root of a negative number is negative.
-        <me>(-5)^3=-125,~~\text{so}~~\sqrt[3]{-125}=-5</me></p></li>
-    <li><m>1^3=1,~</m> so <m>~\sqrt[3]{1}=1</m></li>
-    <li><p>We can take the cube root of a fraction by taking the cube root of its numerator and denominator.
-        <me>\sqrt[3]{\dfrac{-1}{8}} = \dfrac{\sqrt[3]{-1}}{\sqrt[3]{8}} = \dfrac{-1}{2}</me></p></li>
-</ol></p></solution></example>
+<solution><p>A solution must satisfy both equations.  We substitute <m>x=\alert{3}</m> and <m>y=\alert{-2}</m> into the equations. 
+    <md><mrow>\alert{3} = 5(\alert{-2})+13 ? \amp \amp \text{Yes}</mrow>
+        <mrow> 2(\alert{3})+3(\alert{-2})=0 ? \amp \amp \text{Yes}</mrow></md>
+Yes, <m>(3,-2)</m> is a solution</p></solution></example>
+                    
+<example><statement><p>Find the solution of the system graphed below.</p>
+    <sidebyside  width="35%"><image source="images/fig-8-1-1.png"><description>graph</description></image></sidebyside>
+</statement>
+    
+<solution><p>The solution must lie on both graphs, so it is the intersection point, <m>P</m>. The coordinates of point <m>P</m> are <m>(50, 1300)</m>, so the solution of the system is <m>t=50,~y=1300</m>. </p></solution></example>
+</subsubsection>
 
-<example><statement><p>Use a calculator to evaluate the cube root.  Round to thousandths.<ol label="a">
-    <li><m>\sqrt[3]{347}</m></li>    
-    <li><m>\sqrt[3]{0.85}</m></li>
-    <li><m>\sqrt[3]{-9}</m></li></ol>
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Decide whether <m>(-3,-2)</m> is a solution of the system 
+    <md><mrow>x + 3y \amp = -9</mrow>
+        <mrow>3x+2y \amp = -5</mrow></md></p></statement>
+<answer><p>No</p></answer></exercise>
+
+<exercise><statement><p>Find the solution of the system graphed below.</p>
+    <sidebyside  width="40%"><image source="images/fig-8-1-2.png"><description>graph</description></image></sidebyside></statement>
+<answer><m>(300, 24)</m></answer></exercise>
+
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Use the formula for profit, <m>P=R-C</m></title>
+
+<introduction>
+
+<assemblage><title>Profit</title>
+<p>To find the profit earned by a company we subtract the costs from the revenue.
+    <me>\text{Profit} = \text{Revenue} - \text{Cost}~~~~~~~~P=R-C</me></p></assemblage>
+
+<p>"Revenue" is the amount of money a company takes in from selling its product.  A negative profit is the same as a loss.</p></introduction>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>The owner of a sandwich shop spent $800 last week for labor and supplies.  She received $1150 in revenue.  What was her profit?</p></statement>
+
+<solution><p>We evaluate the formula with <m>R=1150</m> and <m>C=800</m> to find
+    <md><mrow>P \amp = R-C</mrow>
+        <mrow> \amp = 1150 - 800 = 350</mrow></md>
+The owner's profit was $350.</p></solution></example>
+
+<example><statement><p>EcoGreen made $1848 profit on low-flow shower heads last year, and spent $3426 in costs.  What was their revenue from shower heads?</p></statement>
+
+<solution><p>We usse the profit formula and solve the equation
+    <me>1848 = R - 3246</me>
+to find that <m>R=5094</m>.  Their revenue was $5094.</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p><ol label="a">
+    <li>The Earth Alliance made $6000 in revenue from selling tickets to Earth Day, an educational event for children.  Write an expression for their profit in terms of their costs.</li>  
+    <li>What was their profit if their costs were $2500?</li></ol></p></statement>
+
+<answer><p><ol label="a">
+    <li><m>P=6000-C </m></li>
+    <li>$3500</li></ol></p></answer></exercise>
+
+<exercise><statement><p>Last week Moe's Auto Shop took in $5400 in revenue, but experienced a loss of $800.  What were Moe's costs last week? </p></statement>
+
+<answer>$6200</answer></exercise>
+</subsubsection>
+
+</subsection>
+
+<subsection><title>3. Write equations in two variables</title>
+
+<introduction><p>Applied problems that involve more than one unknown are often easier to model and solve with a system of equations.</p></introduction>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Write equations about the number of tables and the number of chairs:<ol label="a">
+    <li>There are four chairs for each table.</li>
+    <li>Chairs cost $125 each; a table costs $350.  Darryl spent $10,200 on tables and chairs.</li></ol> 
+</p></statement>
+    
+<solution><p>Let <m>x</m> be the number of tables and <m>y</m> the number of chairs.<ol label="a">
+    <li>The number of chairs is 4 times the number of tables: <m>~y=4x</m>.</li> 
+    <li><m>125y+350x=10,200</m></li></ol>  
+</p></solution></example>
+
+<example><statement><p>Write equations about the dimensions of a rectangle:<ol label="a">
+    <li>The perimeter of the rectangle is 42 meters.</li>
+    <li>The length is 3 meters more than twice the width.</li></ol>
 </p></statement>
 
-<solution><p>On a scientific calculator, look for the key labeled <m>\boxed{\sqrt[3]{\hphantom{1}\vphantom{1}}}</m>. On a graphing calculator, press <kbd>MATH</kbd> <kbd>4</kbd><ol label="a">
-    <li><m>\sqrt[3]{347} \approx 7.027</m></li>    
-    <li><m>\sqrt[3]{0.85} \approx 0.947</m></li>
-    <li><m>\sqrt[3]{-9} \approx -2.080</m></li></ol></p>
-</solution></example>
-
+<solution><p>Let <m>x</m> be the width of the rectangle and <m>y</m> its length.<ol label="a">
+    <li><m>2x+2y=42</m></li>  
+    <li><m>y=3+2x</m></li></ol>  
+</p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Evaluate <m>\sqrt[3]{-0.5}</m>. Round to thousandths.</p></statement>
-    <answer><m>-0.794</m></answer></exercise>
+<exercise><statement><p>Write equations about the number of calories in a hamburger and in a chocolate shake.<ol label="a">    <li>A hamburger and a chocolate shake together contain 1020 calories.</li>
+    <li>Two shakes and three hamburgers contain 2710 calories.</li></ol></p></statement>
+    <answer><ol label="a">
+        <li><m>x+y=1020</m></li>
+        <li><m>3x+2y=2710</m></li></ol></answer></exercise>
 
-<exercise><statement><p>Evaluate <m>\sqrt[3]{81}</m>. Round to thousandths.</p></statement>
-    <answer><m>4.327</m></answer></exercise>
+<exercise><statement><p>Write equations about the vertex angle and the base angles of an isosceles triangle.<ol label="a">
+   <li>The vertex angle is <m>15 \degree</m> less than each base angle.</li>
+    <li>The sum of the angles in a triangle is <m>180 \degree</m>.</li></ol></p></statement>
+    <answer><p><ol label="a">
+        <li><m>y=x-5</m></li>
+        <li><m>2x+y=180</m></li></ol></p></answer></exercise>
 </subsubsection>
 </subsection>
 
-<subsection><title>2. Evaluate absolute values</title>
-
-<subsubsection><title>Examples</title>
-
-<introduction><p>The definition of how to take an absolute value may look complicated, but it just says two things:<ol label="1">
-    <li>If the number is positive, leave it alone.</li>
-    <li>If the number is negative, put another negative in front, which will make the number positive.</li></ol></p>
-</introduction>
-
-<example><statement><p>Simplify each expression.<ol label="a" cols="2">
-    <li><m>|-3|</m></li>
-    <li><m>-|3|</m></li>
-    <li><m>-(-3)</m></li>
-    <li><m>-|-3|</m></li></ol></p></statement>
-
-<solution><p>The absolute value of any number is positive (or zero).  We can think of the absolute value of a number as its distnce from  on a number line.<ol label="a">
-    <li><m>-3</m> is 3 units from 0, so <m>|-3|=3</m>.</li>
-    <li><m>-|3|</m> is the opposite of <m>|3|</m>, so <m>-|3|=-3</m>.</li>
-    <li>The opposite of <m>-3</m> is <m>3</m>, so <m>-(-3)=3</m>.</li>
-    <li><m>-|-3|</m> is the opposite of <m>|-3|</m>, so <m>-|-3|=-3</m>.</li></ol>
-</p></solution></example>
-
-<example><statement><p>Suppose <m>x</m> represents <m>-8</m>. Evaluate each expression.<ol label="a">
-    <li><m>-x</m></li>
-    <li><m>|x|</m></li>
-    <li><m>|-x|</m></li></ol></p></statement>
-
-<solution><p><ol label="a">
-    <li><m>-x = -(-8) = 8</m></li>
-    <li><m>|x| = |-8| = 8</m></li>
-    <li><m>|-x| = |-(-8)| = 8</m></li></ol></p></solution></example>
-</subsubsection>
-
-<subsubsection><title>Exercises</title>
-
-<exercise><statement><p>Simplify <m>-|-12|</m>.</p></statement>
-    <answer><m>-12</m></answer></exercise>
-
-<exercise><statement><p>Simplify <m>|-25|</m>.</p></statement>
-    <answer><m>25</m></answer></exercise>
-
-<exercise><statement><p>Simplify <m>-(-90)|</m>.</p></statement>
-    <answer><m>90</m></answer></exercise>
-</subsubsection>
-</subsection>
-
-<subsection><title>3. Use the order of operations in evaluation</title>
-
-<introduction><p>Recall the order of operations: <ol label="1">
-    <li>Simplify what's inside parentheses (or absolute value bars) first.</li>
-    <li>Next evaluate all powers and roots.</li>
-    <li>Then perform all multiplications and divisions in order from left to right.</li>
-    <li>Finally, perform all additionas and subtractions in order from left to right.</li></ol></p></introduction>
-
-<subsubsection><title>Examples</title>
-
-<example><statement><p>Simplify <m>~|2|-4|3-8|</m></p></statement>
-
-<solution><p>Absolute value bars are a grouping device. We simplify expressions within absolute value bars first.
-    <md>
-        <mrow>
-            |2|-4|\alert{3-8}| \amp = |2|- 4|\alert{-5}| \amp \amp \blert{\text{Evaluate absolute values.}}
-        </mrow>
-        <mrow>
-            \amp = 2-4(5) \amp \amp \blert{\text{Multiply.}}
-        </mrow>
-        <mrow>
-            \amp =2-20=18
-        </mrow>
-    </md>
-</p></solution></example>
-
-<example><statement><p>Simplify <m>~\dfrac{8-2\sqrt[3]{11.375+2.5^3}}{8-4}</m></p></statement>
-
-<solution><p>Simplify the expression under the radical first.
-    <md>
-        <mrow>
-            \dfrac{8-2\sqrt[3]{\alert{11.375+2.5^3}}}{8-4} \amp = \dfrac{8-2\sqrt[3]{\alert{27}}}{8-4} \amp \amp ~\blert{\text{Evaluate the radical.}}
-        </mrow>
-        <mrow>
-            \amp =\dfrac{8-2(3)}{8-4}  \amp \amp \begin{array}{l}
-                \blert{\text{Simplify numerator }}\\
-                \blert{\text{and denominator.}}
-                \end{array}
-        </mrow>
-        <mrow>
-            \amp =\dfrac{8-6}{4}
-        </mrow>
-        <mrow>
-            \amp = \dfrac{2}{4}  = \dfrac{1}{2}
-        </mrow>
-    </md>
-</p></solution></example>
-
-</subsubsection>
-
-<subsubsection><title>Exercises</title>
- 
-<exercise><statement><p>Simplify <m>~~3\sqrt[3]{\dfrac{125}{216}} + \dfrac{4}{5} \sqrt[3]{-512}~~~</m>. Follow the order of operations.</p></statement>
-    <answer><p><m>\dfrac{-39}{10}</m></p></answer></exercise>
-
-<exercise><statement><p>Simplify <m>~~-3|3-6|-4|-4-3|~~~</m>. Follow the order of operations.</p></statement>
-    <answer><p><m>-37</m></p></answer></exercise>
-</subsubsection>
-</subsection>
 
 </section>
 <!-- </book>  </pretext> -->
