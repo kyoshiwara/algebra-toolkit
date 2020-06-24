@@ -388,7 +388,7 @@ The graph of the solutions is shown below.</p>
     
 <answer><sidebyside widths="15% 55%" margins="0% 5%" valigns="middle middle">
     <p><m>2 \lt b \lt 5</m></p>
-        <image xml:id="ffig-numline-b-btwn-2-and5"><description>number line</description><latex-image>
+        <image xml:id="fig-numline-b-btwn-2-and5"><description>number line</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
