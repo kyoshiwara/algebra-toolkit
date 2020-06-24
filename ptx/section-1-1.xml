@@ -138,7 +138,28 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
         </mrow></md>
 The solutions are all the numbers greater than 1 but less than 5.5.
 The graph of the solutions is shown below.</p>
-    <sidebyside width="70%"><image source="images/fig-wu-2.png"><description>line graph</description></image></sidebyside>
+    <sidebyside width="80%"><image xml:id="fig-numline-betw1-and-11halves">
+        <description>number line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.8]
+        \draw[black,very thick, ->, >=stealth'] (-7.5,0) -- (7.8,0) ;
+        \foreach \x in {-7,-6, ...,7} {
+         \draw[black] (\x,.2) -- ++(0,-.2) node[below,yshift=-2] {$\x$};
+        }
+        \foreach \x in {-5,0, 5} {
+         \draw[black] (\x,.3) -- ++(0,-.3);
+        }
+        \draw[red, line width=1mm] (1,0) -- (5.5,0);
+        \draw[red, fill=white] (1,0) circle (.15);
+        \filldraw[red] (11/2,0) circle (.15) node[above, yshift=2] {$\frac{11}{2}$};
+
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside>
 </solution></example>
 
 <p>Recall that a solid dot on a number line indicates that the number is part of the solution; an open dot means that the number is not part of the solution.</p>
@@ -208,7 +229,7 @@ The graph of the solutions is shown below.</p>
     
 <answer><sidebyside widths="15% 55%" margins="0% 5%" valigns="middle middle">
     <p><m>2 \lt b \lt 5</m></p>
-        <image xml:id="ffig-numline-b-btwn-2-and5"><description>number line</description><latex-image>
+        <image xml:id="fig-numline-b-btwn-2-and5"><description>number line</description><latex-image>
                 <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
                 <![CDATA[\tikzset{%
                 }
