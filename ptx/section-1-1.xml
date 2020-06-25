@@ -65,7 +65,7 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
 
 <example><statement><p>Make a table of values, plot the points, and graph the equation <m>y=-2x+6</m>.</p></statement>
 
-<solution><p>Choose both positive and negative values for <m>x</m>.  Calculate the <m>y</m>-value for each <m>x</m>-value by substituting the <m>x</m>-value into the equation.
+<solution><p>Choose both positive and negative values for <m>x</m>.  Calculate the <m>y</m>-value for each <m>x</m>-value by substituting the <m>x</m>-value into the equation.</p>
 
 <sidebyside widths="50% 40%">
     <stack><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -108,8 +108,36 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
                         <cell><m>y=-2(\alert{4})+6=-2</m></cell></row>
                     </tabular>
     <p>Next, sketch a Cartesian coordinate system with appropriate scales on the <m>x</m>- and <m>y</m>-axes. Plot each of the points in the table of values and connect them with a straight line. The completed graph is shown at right.</p></stack> 
-    <image source="images/fig-1-1-1alg.png"><description>graph</description></image></sidebyside>
-</p></solution></example>
+    <image xml:id="y-eq-neg2x-plus6">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.45]
+        \draw[cyan] (-6,-6) grid (6,14);
+        \draw[black,very thick, ->, >=stealth'] (-6,0)--(6.8,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-4)--(0,14.8) node[left, xshift=2]{$y$};
+        \foreach \x  in  {-5,5} {
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x  in  {-5,5,10} {
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[magenta!90!black,very thick, <->,>=stealth'] (-4,14)--(6,-6);
+        \filldraw[magenta!90!black] (-3,12) circle (.15) node[below left, xshift=-2,text=black, fill=white, inner sep=2] {$(-3,12)$};
+        \filldraw[magenta!90!black] (-2,10) circle (.15) node[below left, xshift=-2,text=black, fill=white, inner sep=2] {$(-2,10)$};
+        \filldraw[magenta!90!black] (-1,8) circle (.15) node[below left, xshift=-2,text=black, fill=white, inner sep=2] {$(-1,8)$};
+        \filldraw[magenta!90!black] (0,6) circle (.15) node[above right, xshift=2,text=black, fill=white, inner sep=2] {$(0,6)$};
+        \filldraw[magenta!90!black] (2,2) circle (.15) node[above right, xshift=2,text=black, fill=white, inner sep=2] {$(2,2)$};
+        \filldraw[magenta!90!black] (1,4) circle (.15) node[above right, xshift=2,text=black, fill=white, inner sep=2] {$(1,4)$};
+        \filldraw[magenta!90!black] (3,0) circle (.15) node[below left, xshift=-2,text=black, fill=white, inner sep=2] {$(3,0)$};
+        \filldraw[magenta!90!black] (4,-2) circle (.15) node[below left, xshift=-2,text=black, fill=white, inner sep=2] {$(4,-2)$};
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside>
+</solution></example>
 
 <example><statement><p>Byron borrowed $6000 from his uncle to help pay for his college education.  Now that he has graduated and has a job, he is paying back the loan at $100 per month.<ol label="a">    
     <li>Write an equation showing the amount of money, <m>y</m>, that Byron still owes his uncle after <m>x</m> months.</li>
@@ -137,12 +165,34 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
                         <cell><m>y=6000-100(\alert{20})=4000</m></cell></row> 
         </tabular></sidebyside></li></ol></p>
     <sidebyside widths="40% 40%"><p>Now choose appropriate scales for the axes.  A good choice would be to scale the <m>x</m>-axis by 10's and the <m>y</m>-axis by 1000's.</p> 
-    <image source="images/fig-1-1-2alg.png"><description>graph</description></image></sidebyside>
+    <image xml:id="y-eq-6000-minus-100x">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.8, yscale=.5]
+        \draw[cyan] (0,0) grid (7,7);
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(7.6,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(0,7.6) node[left, xshift=2]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(10*\x)] in  {2,4,6} {
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(1000*\x)] in  {5} {
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[magenta!90!black,very thick] (0,6)--(6,0);
+        \filldraw[magenta!90!black] (0,6) ellipse (.125 and .2);
+        \filldraw[magenta!90!black] (1,5) ellipse (.125 and .2);
+        \filldraw[magenta!90!black] (2,4) ellipse (.125 and .2);
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside>
 </solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
-
 <exercise><statement><p>Graph <m>~y=\dfrac{3}{4}x-3</m>.</p>
 
 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -161,9 +211,50 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside>
-    <sidebyside width="50%"><image source="images/fig-1-5-3.png"><description>grid</description></image></sidebyside></statement>
+    <sidebyside width="50%"><image source="images/fig-10x10-grid"><description>grid</description></image></sidebyside></statement>
 
-<answer><sidebyside width="30%"><image source="images/fig-1-1-5alg.png"><description>grid</description></image></sidebyside></answer>
+<answer><sidebyside widths="45% 40%" margins="0% 0%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-8</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>6</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>-9</m></cell>
+                        <cell><m>-6</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1.5</m></cell></row>
+                    </tabular>
+        <image xml:id="y-eq-3fourths-x-minus3">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \draw[cyan, thin] (-10,-10) grid (10,10);
+        \draw[black,very thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[magenta!90!black,very thick, <->, >=stealth'] (-28/3,-10)--(10,9/2);
+        \filldraw[red] (-8,-9) circle (.2);
+        \filldraw[red] (-4,-6) circle (.2);
+        \filldraw[red] (0,-3) circle (.2);
+        \filldraw[red] (4,0) circle (.2);
+        \filldraw[red] (6,3/2) circle (.2);
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside></answer>
 </exercise>
 
 <exercise><statement><p>Graph <m>~y=-3x+2</m>.</p>
@@ -184,17 +275,58 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside>
-    <sidebyside width="50%"><image source="images/fig-1-5-3.png"><description>grid</description></image></sidebyside></statement>
+    <sidebyside width="50%"><image source="images/fig-10x10-grid"><description>grid</description></image></sidebyside></statement>
 
-<answer><sidebyside width="30%"><image source="images/fig-1-1-6alg.png"><description>grid</description></image></sidebyside></answer>
+<answer><sidebyside widths="45% 40%" margins="0% 0%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>-10</m></cell></row>
+                    </tabular>
+        <image xml:id="y-eq-neg3x-plus2">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \draw[cyan, thin] (-10,-10) grid (10,10);
+        \draw[black,very thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[magenta!90!black,very thick, <->, >=stealth'] (4,-10)--(-8/3,10);
+        \filldraw[red] (-2,8) circle (.2);
+        \filldraw[red] (-1,5) circle (.2);
+        \filldraw[red] (0,2) circle (.2);
+        \filldraw[red] (2,-4) circle (.2);
+        \filldraw[red] (4,-10) circle (.2);
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside></answer>
 </exercise>
 
 <exercise><statement><p>Stuart invested $800 in a computer and now makes $5 a page typing research papers. Let <m>x</m> represent the number of pages Stuart has typed, and let <m>y</m> represent his profit.  
 <ol label="a">
     <li>Write an equation for <m>y</m> in terms of <m>x</m>.</li>
-    <li>Complete the table and graph your equation.</li></ol>
+    <li>Complete the table and graph your equation.</li></ol></p>
 
-        <sidebyside widths="40% 50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+        <sidebyside widths="40% 50%" margins="0% 0%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row>
                         <cell><m>x</m></cell>
                         <cell><m>y</m></cell></row>
@@ -210,17 +342,81 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
                     <row>
                         <cell><m>200</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row></tabular>
-    <image source="images/fig-1-1-3alg.png"><description>grid</description></image></sidebyside></p></statement>
+        <image xml:id="fig-typing-profit-grid">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan, thin] (0,-5) grid (10,5);
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(10.6,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-5)--(0,5.6) node[left, xshift=2]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(25*\x)] in  {2,4,6,8, 10} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(200*\x)] in  {-4,-2,2,4} {
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$}
+         }
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+</sidebyside></statement>
 
-<answer><sidebyside width="40%"><image source="images/fig-1-1-7alg.png"><description>grid</description></image></sidebyside></answer>
+<answer><p><ol label="a">
+    <li><m>y=5x-800</m></li>
+    <li><sidebyside widths="40% 45%" margins="0% 10%" valigns="middle middle">
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+            <row>
+                <cell><m>x</m></cell>
+                <cell><m>y</m></cell></row>
+            <row>
+                <cell><m>0</m></cell>
+                <cell><m>-800</m></cell></row>
+            <row> 
+                <cell><m>50</m></cell>
+                <cell><m>-550</m></cell></row>
+            <row>
+                <cell><m>100</m></cell>
+                <cell><m>-300</m></cell></row>
+            <row>
+                <cell><m>200</m></cell>
+                <cell><m>200</m></cell></row>
+        </tabular>
+        <image xml:id="fig-typing-profit">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan, thin] (0,-5) grid (10,5);
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(10.6,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-5)--(0,5.6) node[left, xshift=2]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(25*\x)] in  {2,4,6,8, 10} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(200*\x)] in  {-4,-2,2,4} {
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[magenta!90!black,very thick, ->, >=stealth'] (0,-4)--(10,9/4);
+        \filldraw[red] (0,-4) circle (.15);
+        \filldraw[red] (2,-2.75) circle (.15);
+        \filldraw[red] (4,-3/2) circle (.15);
+        \filldraw[red] (8,1) circle (.15);
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside></li>
+</ol></p></answer>
 </exercise>
 
 <exercise><statement><p>Ludmilla earns a commission of 5% of her real estate sales.  Let <m>x</m> represent her sales in thousands of dollars, and let <m>y</m> represent the commission she earns from her sales, in thousands of dollars.
 <ol label="a">
     <li>Write an equation for <m>y</m> in terms of <m>x</m>.</li>
-    <li>Complete the table and graph the equation.</li></ol>
+    <li>Complete the table and graph the equation.</li></ol></p>
 
-        <sidebyside widths="40% 50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+        <sidebyside widths="40% 45%" margins="0% 0%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row>
                         <cell><m>x</m></cell>
                         <cell><m>y</m></cell></row>
@@ -236,9 +432,71 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
                     <row>
                         <cell><m>1000</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row></tabular>
-    <image source="images/fig-1-1-4alg.png"><description>grid</description></image></sidebyside></p></statement>
+    <image xml:id="fig-Ludmilla-commission-grid">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan, thin] (0,0) grid (10,10);
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(10.6,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(0,10.6) node[left, xshift=2]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(100*\x)] in  {2,4,6,8, 10} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(10*\x)] in  {5,10} {
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside></statement>
 
-<answer><sidebyside width="40%"><image source="images/fig-1-1-8alg.png"><description>grid</description></image></sidebyside></answer></exercise>
+<answer><p><ol label="a">
+    <li><m>y=0.05x</m></li>
+    <li><sidebyside widths="40% 45%" margins="0% 10%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+        <row>
+            <cell><m>x</m></cell>
+            <cell><m>y</m></cell></row>
+        <row>
+            <cell><m>250</m></cell>
+            <cell><m>12.5</m></cell></row>
+        <row> 
+            <cell><m>600</m></cell>
+            <cell><m>30</m></cell></row>
+        <row>
+            <cell><m>800</m></cell>
+            <cell><m>40</m></cell></row>
+        <row>
+            <cell><m>1000</m></cell>
+            <cell><m>50</m></cell></row></tabular>
+        <image xml:id="fig-Ludmilla-commission">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan, thin] (0,0) grid (10,10);
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(10.6,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(0,10.6) node[left, xshift=2]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(100*\x)] in  {2,4,6,8, 10} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(10*\x)] in  {5,10} {
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[magenta!90!black,very thick, ->, >=stealth'] (0,0)--(10,5);
+        \filldraw[red] (2.5,1.25) circle (.15);
+        \filldraw[red] (6,3) circle (.15);
+        \filldraw[red] (8,4) circle (.15);
+        \filldraw[red] (10,5) circle (.15);
+        \draw[magenta!90!black,very thick, ->, >=stealth'] (0,0)--(10,5);
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+    </sidebyside></li>
+</ol></p></answer></exercise>
 
 </subsubsection>
 </subsection>
