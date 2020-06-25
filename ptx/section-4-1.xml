@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="ExponentialGrowth" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Exponential Growth and Decay</title>
+<section xml:id="QuadraticFormula" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Quadratic Formula</title>
                  
-<subsection><title>1. Compute percent increase and decrease</title>
+<subsection><title>1. Multiply algebraic fractions</title>
 
-<introduction><p>To calculate an increase of <m>r</m>%, we write the percent as a decimal and multiply the old amount by <m>1+r</m>.  To calculate a decrease we multiply the old amount by <m>1-r</m>.</p></introduction>  
+<introduction><p>To multiply two fractions together, we multiply their numerators together, and multiply their denominators together. We can divide out any common factors in numerator and denominator before we multiply.</p></introduction>  
 
 <subsubsection><title>Examples</title>
 
-<example><statement><p>A loaf of bread cost $3.00 last month, but this year the price rose by 6%. What should you multiply by to find the new price? What is the new price?</p></statement>
+<example><statement><p>Multiply  <m>~\dfrac{1}{2}\left(\dfrac{P}{Q}\right)</m></p></statement>
  
-<solution><p>To get the new price, we multiply by 1.06 to get 
-    <me>1.06(3.00)=3.18</me> 
-    The new price is $3.18.</p>
-</solution></example>
+<solution><m>\dfrac{1}{2}\left(\dfrac{P}{Q}\right) = \dfrac{1 \cdot P}{2 \cdot Q} = \dfrac{P}{2Q}</m></solution></example>
 
-<example><statement><p>Priceco is offering a 15% discount off the regular price of $180 for a ceiling fan. What should you multiply by to find the new price? What is the new price?
-</p></statement>
+<example><statement><p>Multiply <m>~4 \left(\dfrac{b}{c})</m></p></statement>
  
-<solution><p>To get the new price, we multiply by <m>1-0.15</m>, or 0.85, to get 
-<me>0.85(180)=153</me> 
-so the new price is $153.</p></solution></example>
+<solution><m>4 \left(\dfrac{b}{c}) = \dfrac{4}{1} \left(\dfrac{b}{c}) = \dfrac{4 \cdot b}{1 \cdot c} = \dfrac{4b}{c}</m></solution></example>
+
+
+
+
 </subsubsection>
 
 <subsubsection><title>Exercises</title>

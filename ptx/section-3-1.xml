@@ -1,307 +1,358 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="Variation" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Variation</title>
+<section xml:id="ExtractionofRoots"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Extraction of Roots</title>
                  
-<subsection><title>1. Solve a variation equation</title>
+<subsection><title>1. Evaluate quadratic expressions</title>
 
-<introduction><p>We have encountered equations of this form before. Here is a quick review.</p></introduction>
-
-<subsubsection><title>Examples</title>
-
-<introduction><p>In these examples, we assume all variables are positive. We round answers to tenths.</p></introduction>
-
-<example>
-    <statement><p>Solve <m>~231.90=18.85r^2~</m>.</p></statement>
-    <solution><p>The equation is quadratic.  We solve by extraction of roots.
-        <md>
-            <mrow>
-                231.90 \amp = 18.85 r^2 \amp\amp \blert{\text{Isolate the squared expression.}}
-            </mrow>
-            <mrow>
-                12.302 \amp = r^2 \amp\amp \blert{\text{Take square roots.}}
-            </mrow>
-            <mrow>
-                r \amp = 35
-            </mrow>
-        </md>
-</p></solution></example>
-
-<example>
-    <statement><p>Solve <m>~2.8125 = \dfrac{36}{n}</m>.</p></statement>
-    <solution><p>We must first get the variable out of the denominator.
-        <md>
-            <mrow>
-                n(2.8125) \amp = \dfrac{36}{n} n \amp\amp \blert{\text{Multiply boyh sides by}~n.}
-            </mrow>
-            <mrow>
-                2.8125n \amp = 36 \amp\amp \blert{\text{Divide both sides by 2.8125.}}
-            </mrow>
-            <mrow>
-                n \amp = 12.8
-            </mrow>
-        </md>
-</p></solution></example>
-
-<example>
-    <statement><p>Solve <m>~0.5547 = \dfrac{1500}{d^2}</m>.</p></statement>
-    <solution><p>We must first get the variable out of the denominator.
-        <md>
-            <mrow>
-                 d^2(0.5547) \amp = \dfrac{1500}{d^2} d^2 \amp\amp \blert{\text{Multiply boyh sides by}~d^2.}
-            </mrow>
-            <mrow>
-                0.5547d^2 \amp = 1500 \amp\amp \blert{\text{Divide both sides by 0.5547.}}
-            </mrow>
-            <mrow>
-                d^2 \amp = 2704.16  \amp\amp \blert{\text{Take square roots.}}
-            </mrow>
-            <mrow>
-               d \amp = 52 
-            </mrow>
-        </md>
-</p></solution></example>
-</subsubsection>
-
-<subsubsection><title>Exercises</title>
-
-<exercise><statement><p>Solve <m>~1371.8=25R^3</m>.</p></statement>
-<answer><m>3.8</m></answer></exercise>
-
-<exercise><statement><p>Solve <m>~13.03=\dfrac{380}{h^2}</m>.</p></statement>
-<answer><m>5.4</m></answer></exercise>
-
-<exercise><statement><p>Solve <m>~0.065=\dfrac{12}{p}</m>.</p></statement>
-<answer><m>184.6</m></answer></exercise>
-</subsubsection>
-</subsection>
-
-<subsection><title>2. Sketch a variation graph</title>
-
-<introduction><p>The graphs of variations are transformations of the basic graphs <m>y=x^n</m> and <m>y=\dfrac{1}{x^n}</m>.</p></introduction>
+<introduction><p>When squaring a negative number, don't forget to enclose it in parentheses. For example, if <m>x=-4</m>, then <me>x^2=(-4)^2 = (-4)(-4) = 16</me>  If we write <m>-4^2</m>, then only the 4 is squared, so we have <me>-4^2 = - (4)(4) = -16</me></p></introduction>
 
 <subsubsection><title>Examples</title>
 
-<example>
-    <statement><p>Sketch a graph of <m>V=0.2s^3</m>.</p></statement>
-    <solution><p>We know that the graph has the shape of the basic function <m>y=x^3</m>, so all we need are a few points to "anchor" the graph.
-    <md>
-        <mrow>
-            \text{If } s=1, \amp V = 0.2(1)^3 = 0.2
-        </mrow>
-        <mrow>
-            \text{If } s=2, \amp V = 0.2(2)^3 = 1.6
-        </mrow>
-        <mrow>
-            \text{If } s=3, \amp V = 0.2(3)^3 = 5.4 
-        </mrow>
-    </md>
-The graph is shown below.</p>
-<sidebyside width="30%">
-    <image xml:id="V-eq-pt2-s-cubed">
-        <description>cubic</description>
-        <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
-        \begin{tikzpicture} [scale=.6]
-        \draw[cyan] (0,0) grid (5,5);
-        \draw[black,very thick, ->, >=stealth'] (0,0)--(5.5,0) node[right]{$s$};
-        \draw[black,very thick, ->, >=stealth'] (0,0)--(0,5.5) node[above]{$V$};
-        \foreach \x [evaluate=\x as \xi using int(2*\x)] in  {2,4} {
-        \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
-        }
-        \draw[samples=65,domain={0:50^(1/3)},smooth,variable=\x,magenta!90!black,very thick, ->,>=stealth'] plot ( {\x}, {(\x)^3/10});
-        \end{tikzpicture}]]>
-        </latex-image>
-    </image>
-</sidebyside>
-</solution></example>
+<example><statement><p>Evaluate for <m>x=-6</m>.<ol label="a" cols="2">  
+    <li><m>2x^2</m></li>
+    <li><m>2-x^2</m></li>
+    <li><m>(2x)^2</m></li>
+    <li><m>(2-x)^2</m></li>
+</ol></p></statement>
+ 
+<solution><p>Enclose <m>-6</m> in parentheses, and follow the order of operations.<ol label="a">
+    <li>Square first, then multiply by 2:  <m>~~2x^2=2(-6)^2=2(36)=72</m></li>
+    <li>Square first, then subtract from 2:  <m>~~2-x^2=2-(-6)^2=2-36=-34</m></li>
+    <li>Multiply by 2 first, then square:  <m>~~(2x)^2=[2(-6)]^2=[-12]^2=144</m></li>
+    <li>Subtract from 2 first, then square:  <m>~~(2-x)^2=[2-(-6)^2=[8]^2=64</m></li>
+</ol></p></solution></example>
 
-<example>
-    <statement><p>Sketch a graph of <m>H=\dfrac{48}{w}</m>.</p></statement>
-    <solution><p>We know that the graph has the shape of the basic function <m>y=\dfrac{1}{x}</m>, so all we need are a few points to "anchor" the graph.
-    <md>
-        <mrow>
-            \text{If } w=2, \amp H = \dfrac{48}{2} = 24
-        </mrow>
-        <mrow>
-            \text{If } w=6, \amp H = \dfrac{48}{6} = 8
-        </mrow>
-        <mrow>
-            \text{If } w=12, \amp H = \dfrac{48}{12} = 4 
-        </mrow>
-    </md>
-The graph is shown below.</p>
-<sidebyside width="30%"><image xml:id="H-eq-48-over-w">
-        <description>cubic</description>
-        <latex-image>
+<example><statement><p>Make a table of values for <m>y=x^2+2x-8</m>, and graph the equation.</p></statement>
+
+<solution><p>We plot the points from the table and connect them with a smooth curve.</p>
+    <sidebyside widths="65% 35%" valigns="middle middle"><p><tabular left="minor">             
+        <col top="minor" right="minor"  bottom="minor" halign="center"/><col top="minor" right="minor"  bottom="minor" halign="center"/><col/><col top="none" halign="left" right="none" bottom="none"/>
+                    <row>
+                        <cell bottom="minor"><m>x</m></cell>
+                        <cell bottom="minor"><m>y</m></cell>
+                        <cell></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>-5</m></cell>
+                        <cell bottom="minor"><m>7</m></cell>
+                        <cell></cell>
+                        <cell><m>(-5)^2+2(-5)-8=25-10-8</m></cell></row>
+                    <row> 
+                        <cell bottom="minor"><m>-4</m></cell>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell></cell>
+                        <cell><m>(-4)^2+2(-4)-8=16-8-8</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>-3</m></cell>
+                        <cell bottom="minor"><m>-5</m></cell>
+                        <cell></cell>
+                        <cell><m>(-3)^2+2(-3)-8=9-6-8</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>-2</m></cell>
+                        <cell bottom="minor"><m>-8</m></cell>
+                        <cell></cell>
+                        <cell><m>(-2)^2+2(-2)-8=4-4-8</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>-1</m></cell>
+                        <cell bottom="minor"><m>-9</m></cell>
+                        <cell></cell>
+                        <cell><m>(-1)^2+2(-1)-8=1-2-8</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>-8</m></cell>
+                        <cell></cell>
+                        <cell><m>(0)^2+2(0)-8=0+0-8</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>1</m></cell>
+                        <cell bottom="minor"><m>-5</m></cell>
+                        <cell></cell>
+                        <cell><m>(1)^2+2(1)-8=1+2-8</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>2</m></cell>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell></cell>
+                        <cell><m>(2)^2+2(2)-8=4+4-8</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>3</m></cell>
+                        <cell bottom="minor"><m>7</m></cell>
+                        <cell></cell>
+                        <cell><m>(3)^2+2(3)-8=9+6-8</m></cell></row>
+                    </tabular></p>
+    <image xml:id="y-eq-xsq-plus-2x-minus8"><description>parabola y=xsqd+2x-8</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
-        \begin{tikzpicture} [scale=.75]
-        \draw[cyan] (0,0) grid (6,6);
-        \draw[black,very thick, ->, >=stealth'] (0,0)--(6.5,0) node[right]{$w$};
-        \draw[black,very thick, ->, >=stealth'] (0,0)--(0,6.5) node[above]{$H$};
-        \foreach \x [evaluate=\x as \xi using int(4*\x)] in  {3,6} {
+        \begin{tikzpicture} [scale=.45]
+        \draw[cyan] (-5,-5) grid (5,5);
+        \draw[black,very thick, ->, >=stealth'] (-5,0)--(5.8,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-5)--(0,5.8) node[above]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(2*\x)] in  {-5, 5} {
         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
          \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
         }
-        \draw[samples=65,domain={1/2:6},smooth,variable=\x,magenta!90!black,very thick, <->,>=stealth'] plot ( {\x}, {3/(\x)});
+        \draw[samples=65,domain={(-sqrt(19)-1)/2:(sqrt(19)-1)/2},smooth,variable=\x,magenta!90!black,very thick, <->,>=stealth'] plot ( {\x}, {((\x*2)^2+2*2*\x-8)/2});
         \end{tikzpicture}]]>
-        </latex-image>
-    </image>
-</sidebyside>
-</solution></example>
+        </latex-image></image></sidebyside></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Plot three points and sketch a graph of <m>B=\dfrac{0.8}{d^2}</m>.</p>
-<sidebyside width="30%"><image xml:id="B-eq-pt8-over-d-sq-grid">
-        <description>reciprocal squared</description>
-        <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
-        \begin{tikzpicture} [scale=.8]
-        \draw[cyan] (0,0) grid (4,4);
-        \draw[black,very thick, ->, >=stealth'] (0,0)--(4.5,0) node[right]{$d$};
-        \draw[black,very thick, ->, >=stealth'] (0,0)--(0,4.5) node[above]{$B$};
-        \foreach \x [evaluate=\x as \xi using int(1/2*\x)] in  {2,4} {
-        \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
-        }
-        \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
-</statement>
-    <answer><m>(1,0.8),~(2,0.2),~(4,0.05)</m>
-        <sidebyside width="30%"><image xml:id="B-eq-pt8-over-d-sq">
-        <description>reciprocal squared</description>
-        <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
-        \begin{tikzpicture} [scale=.8]
-        \draw[cyan] (0,0) grid (4,4);
-        \draw[black,very thick, ->, >=stealth'] (0,0)--(4.5,0) node[right]{$d$};
-        \draw[black,very thick, ->, >=stealth'] (0,0)--(0,4.5) node[above]{$B$};
-        \foreach \x [evaluate=\x as \xi using int(1/2*\x)] in  {2,4} {
-        \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
-        }
-        \draw[samples=65,domain={sqrt(.4):4},smooth,variable=\x,magenta!90!black,very thick, <->,>=stealth'] plot ( {\x}, {2*.8/(\x)^2});
-        \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
-    </answer>
-</exercise>
+<exercise><statement><p>Evaluate for <m>w=-9</m><ol label="a" cols="2">
+    <li><m>(2w)^2</m></li>
+    <li><m>36-(2w)^2</m></li>
+    <li><m>-2(4-w)^2</m></li>
+    <li><m>2-w^2</m></li></ol></p></statement>
+    <answer><p><ol label="a">
+        <li><m>324</m></li>
+        <li><m>-288</m></li>
+        <li><m>-338</m></li>
+        <li><m>-79</m></li></ol></p></answer></exercise>
 
-<exercise><statement><p>Plot three points and sketch a graph of <m>d=\dfrac{3}{8}t^2</m>.</p>
-<sidebyside width="30%"><image xml:id="d-eq-3eighths-t-sq-grid">
-        <description>grid</description>
-        <latex-image>
+<exercise><statement><p>Evaluate for <m>a=-3,~b=-4</m><ol label="a" cols="2">
+    <li><m>ab^2</m></li>
+    <li><m>a-b^2</m></li>
+    <li><m>(a-b^2)^2</m></li>
+    <li><m>ab(a^2-b^2)</m></li></ol></p></statement>
+    <answer><p><ol label="a">
+        <li><m>-48</m></li>
+        <li><m>-19</m></li>
+        <li><m>361</m></li>
+        <li><m>-84</m></li></ol></p></answer></exercise>
+
+<exercise><statement><p>Evaluate for <m>h=-2,~g=-5</m><ol label="a" cols="2">
+    <li><m>h^2-2hg+g^2</m></li>
+    <li><m>(h-g)^2</m></li>
+    <li><m>h^2-g^2</m></li>
+    <li><m>(h-g)(h+g)</m></li></ol></p></statement>
+    <answer><p><ol label="a">
+        <li><m>9</m></li>
+        <li><m>9</m></li>
+        <li><m>-21</m></li>
+        <li><m>-21</m></li></ol></p></answer></exercise>
+
+<exercise><statement><p>Make a table of values for <m>y=x^2-x-6</m>, and graph the equation.</p>
+    <sidebyside widths="10% 50%" valigns="middle middle"><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                    <row>
+                        <cell bottom="minor"><m>x</m></cell>
+                        <cell bottom="minor"><m>y</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>-3</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell bottom="minor"><m>-2</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>-1</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>1</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>2</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>3</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>4</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>5</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    </tabular></p>
+        <image source="images/fig-10x10-grid"><description>grid</description></image></sidebyside></statement>
+    <answer><sidebyside widths="10% 35%" valigns="middle middle"><p><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                    <row>
+                        <cell bottom="minor"><m>x</m></cell>
+                        <cell bottom="minor"><m>y</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>-3</m></cell>
+                        <cell bottom="minor"><m>6</m></cell></row>
+                    <row> 
+                        <cell bottom="minor"><m>-2</m></cell>
+                        <cell bottom="minor"><m>0</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>-1</m></cell>
+                        <cell bottom="minor"><m>-4</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>-6</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>1</m></cell>
+                        <cell bottom="minor"><m>-6</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>2</m></cell>
+                        <cell bottom="minor"><m>-4</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>3</m></cell>
+                        <cell bottom="minor"><m>0</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>4</m></cell>
+                        <cell bottom="minor"><m>6</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>5</m></cell>
+                        <cell bottom="minor"><m>14</m></cell></row>
+                    </tabular></p>
+    <image xml:id="y-eq-xsq-minus-x-minus6"><description>parabola</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
-        \begin{tikzpicture} [scale=.8]
-        \draw[cyan] (0,0) grid (4,4);
-        \draw[black,very thick, ->, >=stealth'] (0,0)--(4.5,0) node[right]{$t$};
-        \draw[black,very thick, ->, >=stealth'] (0,0)--(0,4.5) node[above]{$d$};
-        \foreach \x in  {2,4} {
-        \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        \begin{tikzpicture} [scale=.3]
+        \draw[cyan, thin] (-10,-10) grid (10,10);
+        \draw[black,very thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
         }
+        \draw[samples=65,domain={-sqrt(65)/2+1/2:sqrt(65)/2+1/2},smooth,variable=\x,magenta!90!black,very thick, <->,>=stealth'] plot ( {\x}, {(\x)^2-\x-6});
         \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
-</statement>
-    <answer><m>\left(1,\dfrac{3}{8}\right)</m>, <m>\left(2,\dfrac{3}{2}\right)</m>, <m>(4,6)</m>
-        <sidebyside width="30%"><image xml:id="d-eq-3eighths-t-sq">
-        <description>parabola</description>
-        <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
-        \begin{tikzpicture} [scale=.8]
-        \draw[cyan] (0,0) grid (4,4);
-        \draw[black,very thick, ->, >=stealth'] (0,0)--(4.5,0) node[right]{$t$};
-        \draw[black,very thick, ->, >=stealth'] (0,0)--(0,4.5) node[above]{$d$};
-        \foreach \x in  {2,4} {
-        \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
-        }
-        \draw[samples=65,domain={0:sqrt(32/3)},smooth,variable=\x,magenta!90!black,very thick, ->,>=stealth'] plot ( {\x}, {3/8*(\x)^2});
-        \end{tikzpicture}]]>
-        </latex-image>
-        </image>
-    </sidebyside>
-    </answer>
-</exercise>
+        </latex-image></image></sidebyside></answer></exercise>
 </subsubsection>
 </subsection>
 
-<subsection><title>3. Find the constant of variation</title>
+<subsection><title>2. Use square roots</title>
 
-<introduction><p>If we know the type of variation and the coordinates of one point ont the graph, we can find the variation equation.</p></introduction>
+<introduction><p>The simplest quadratic equations have the form
+        <me>ax^2+c=0</me>
+They are missing a linear term, <m>bx</m>, and are not difficult to solve.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
-<example>
-    <statement>
-        <p>Find the constant of variation and the variation equation:</p>
-        <p><m>~~~y</m> varies directly with the square of <m>x</m>, and <m>y=100</m> when <m>x=2.5</m>.</p>
-    </statement>
-    <solution>
-        <p>Because <m>y</m> varies directly with the square of <m>x</m>, we know that <m>y=kx^2</m>. We substitute the given values to find
-        <md>
-            <mrow>
-                100 \amp = k(2.5)^2  \amp\amp \blert{\text{Solve for}~k.}
-            </mrow>
-            <mrow>
-                 k \amp = \dfrac{100}{2.5^2} = 16
-            </mrow>
-        </md>
-        The constant of variation is 16, and the variation equation is <m>~y=16x^2</m>.</p>
-    </solution>
-</example>
+<example><statement><p>Solve <m>~3y^2-40=35~</m> by extraction of roots.</p></statement>
 
-<example>
-    <statement>
-        <p>Find the constant of variation and the variation equation:</p>
-        <p><m>~~~y</m> varies inversely with the square of <m>x</m>, and <m>y=4687.5</m> when <m>x=0.16</m>.</p>
-    </statement>
-    <solution>
-        <p>Because <m>y</m> varies inversely with the square of <m>x</m>, we know that <m>y=\dfrac{k}{x^2}</m>. We substitute the given values to find
-        <md>
-            <mrow>
-                4687.5 \amp = \dfrac{k}{0.16^2}  \amp\amp \blert{\text{Solve for}~k.}
-            </mrow>
-            <mrow>
-                k \amp  = 4687.5(0.16)^2=120
-            </mrow>
-        </md>
-        The constant of variation is 120, and the variation equation is <m>~y=\dfrac{120}{x^2}</m>.</p>
-    </solution>
-</example>
+<solution><p>We isolate the quadratic term, <m>y^2</m>, and then extract roots.
+    <md><mrow>3y^2-40 \amp = 35  \amp \amp \blert{\text{Add 40 to both sides.}}</mrow>
+        <mrow>3y^2 \amp = 75 \amp \amp \blert{\text{Divide both sides by 3.}}</mrow>
+        <mrow>y^2 \amp = 25 \amp \amp \blert{\text{Take the square root of both sides.}}</mrow>
+        <mrow>y \amp = \pm \sqrt{25} \amp \amp \blert{\text{Simplify.}}</mrow>
+        <mrow>y \amp = \pm 5 \amp \amp \blert{\text{Remeber that a positive number has two square roots.}}</mrow></md>
+The solutions are <m>5</m> and <m>-5</m>.</p></solution></example>
+
+<example><statement><p>A cone is 16 cm tall and its volume is 500 cm<m>^3</m>.  What is the radius of the base of the cone?</p></statement>
+
+<solution><p>We substitute <m>h=16</m> and <m>V=500</m> into the formula for the volume of a cone, and solve for <m>r</m>.
+    <md><mrow>\dfrac{1}{3} \pi r^2(\alert{16}) \amp = \alert{500} \amp \amp \blert{\text{Multiply both sides by 3.}}</mrow>
+        <mrow>16 \pi r^2 \amp = 1500 \amp \amp \blert{\text{Divide both sides by}~16 \pi.}</mrow>
+        <mrow>r^2 \amp = 29.842 \amp \amp \blert{\text{Take the square root of both sides.}}</mrow>
+        <mrow>r \amp = 5.46</mrow></md>
+The radius of the cone is 5.46 cm.</p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Find the constant of variation and the variation equation:</p>
-<p>  <m>y</m> varies inversely with <m>x</m>, and <m>y=31.25</m> when <m>x=640</m>.</p></statement> 
-    <answer><m>k=20,000</m> and <m>y=\dfrac{20,000}{x}</m></answer></exercise> 
+<exercise><statement><p>Solve by extraction of roots.<ol label="a" cols="2">
+    <li><m>98=2a^2</m></li>
+    <li><m>0=3n^2-15</m></li>
+    <li><m>144 = \dfrac{h^2}{9} = 169</m></li>
+    <li><m>12-5v^2=2</m></li></ol></p></statement>
 
-<exercise><statement><p>Find the constant of variation and the variation equation:</p>  
-<p><m>y</m> varies directly with the cube of <m>x</m>, and <m>y=119,164</m> when <m>x=6.2</m>.</p></statement> 
-    <answer><m>k=500</m> and <m>y=500x^3</m></answer></exercise>  
+<solution><p><ol label="a" cols="2">
+    <li><m>\pm 7</m></li>
+    <li><m> \pm \sqrt{5}</m></li>
+    <li><m>\pm 15</m></li>
+    <li><m>\pm \sqrt{2}</m></li></ol></p></solution></exercise>
+
+<exercise><statement><p>A cylindrical syringe holds 100 cc (cubic centimeters) of fluid.  If the syringe is 10 centimeters long, what is its radius?</p></statement>
+
+<solution><p>1.78 cm</p></solution></exercise>
 </subsubsection>
 </subsection>
+
+
+<subsection><title>3. Use the Pythagorean theorem</title>
+
+<introduction><p>If <m>a</m> and <m>b</m> are the lengths of the legs of a right triangle and <m>c</m> is the length of the hypotenuse, then 
+<me>a^2 + b^2 = c^2</me>
+Note that the theorem is true only for right triangles -- ones that have a 90<m>\degree</m> angle.</p></introduction>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><sidebyside widths="50% 30%"><p>Find the unknown side in the right triangle.</p>
+    <image xml:id="fig-12-35-37-triangle"><description> right triangle</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=1.1]
+        \draw[gray] (0,1.2) rectangle ++(.25,-.25);
+        \draw[blue, thick] (0,0) -- (0, 1.2) -- (3.5,1.2)-- cycle;
+        \node[text=black] at (1.75,1.5) {$35$}; 
+        \node[text=red, font=\bf] at (1.75,0.3) {\large$z$}; 
+        \node[text=black] at (-0.35,0.6) {$12$}; 
+        \end{tikzpicture}]]>
+        </latex-image></image></sidebyside>
+</statement>
+<solution><p>The unknown side is the hypotenuse, so we apply the Pythagorean theorem with <m>c=z,~a=12</m>, and <m>b=35</m>.
+    <md><mrow>a^2 + b^2 \amp = c^2</mrow>
+        <mrow>12^2+35^2 \amp =z^2 \amp \amp \blert{\text{Simplify the left side.}}</mrow>
+        <mrow>1369 \amp = z^2   \amp \amp  \blert{\text{Take the square root of both sides.}}</mrow>
+        <mrow>\pm 37 \amp = z</mrow></md>
+The length of the hypotenuse is a positive number, so <m>z=37</m>.</p></solution></example>
+
+<example><statement><p>A 25-foot ladder is placed against a wall so that its foot is 7 feet from the base of the wall.  How far up the wall does the ladder reach?</p></statement>
+
+<solution><sidebyside widths="75% 15%"><stack><p>We make a sketch and label the known dimensions, calling the unknown height <m>h</m>.  The ladder forms the hypotenuse of a right triangle, so we apply the Pythagorean theorem, substituting 25 for <m>c</m>, 7 for <m>b</m>, and <m>h</m> for <m>a</m>.
+    <md><mrow>a^2 + b^2 \amp = c^2</mrow>
+        <mrow>h^2 + 7^2 \amp = 25^2</mrow></md>
+</p></stack>
+<image source="images/ladder"><description>ladder</description></image></sidebyside><p>We solve the equation by extraction of roots:
+    <md><mrow>h^2 + 49 \amp = 625 \amp \amp \blert{\text{Subtract 49 from both sides.}}</mrow>
+        <mrow>h^2 \amp =576 \amp \amp \blert{\text{Extract roots.}}</mrow>
+        <mrow>h \amp =\pm \sqrt{576}   \amp \amp  \blert{\text{Simplify the radical.}}</mrow>
+        <mrow>h \amp \pm 24</mrow></md>
+The height must be a positive number, so the ladder reaches 24 feet up the wall.</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>A baseball diamond is a square whose sides are 90 feet long.  Find the straight-line distance from home plate to second base.
+        <ol label="a">
+            <li>Make a sketch of the situation and label a right triangle.</li>
+            <li>Write an equation and solve.</li>
+        </ol></p></statement>
+<answer><p><ol label="a" cols="2">
+    <li><sidebyside width="95%">
+        <image xml:id="fig-baseball-diamond"><description>baseball diamond</description><latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture} [scale=.75]
+                \draw[gray,thin] (3,0) rectangle ++(-.25,.25);
+                \draw[black, thick] (0,0) node[below left, align=center] {\small  Home\\ plate} -- (3,0) node[below right] {\small 1st base} --  (3,3) node[above right] {\small 2nd base} -- (0,3) node[above left] {\small 3rd base} -- cycle;
+                \draw[blue,thick] (0,0) -- (3,3) node[above,midway, xshift=-2] {$x$};
+                \node[text=blue] at (1.5,-.4) {\small 90 ft};
+                \node[text=blue] at (3.8,1.5) {\small 90 ft};
+                \end{tikzpicture}]]>
+                </latex-image></image></sidebyside></li>
+        <li>127.28 ft</li></ol></p></answer></exercise>
+
+<exercise><statement><p>How long a wire is needed to stretch from the top of a 40-foot telephone pole to a point on the ground 20 feet from the base of the pole?
+        <ol label="a">
+            <li>Make a sketch of the situation and label a right triangle.</li>
+            <li>Write an equation and solve.</li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+    <li><sidebyside width="45%"><image xml:id="fig-telephone-pole"><description>telephone pole and wire</description>
+                <latex-image>
+                <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+                <![CDATA[\tikzset{%
+                }
+                \begin{tikzpicture}
+                \draw[lightgray,thin] (0,0) rectangle ++(.25,.25);
+                \draw[black, thick] (0,0)  -- (0,4) node[left, midway] {40 ft} -- (2,0) -- cycle node[below, midway] {20 ft};
+                \node[text=blue] at (1.4,2) {$x$};
+                \end{tikzpicture}]]>
+                </latex-image></image></sidebyside></li>
+    <li>44.72 ft</li></ol></p></answer></exercise>
+
+</subsubsection>
+</subsection>
+
 
 
 </section>

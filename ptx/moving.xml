@@ -258,3 +258,90 @@ the height of a basketball above the ground, <m>h</m>, in feet, is given by
 
 
 
+<subsection><title>3. Calculate volume</title>
+<introduction>
+<p>The volume of a box is measured in cubic units and can be calculated using the formula <m>V=lwh</m>, where <m>l,~w,</m> and <m>h</m> stand for the length, width, and height of the box. Volume measures the amount of space inside an object by telling us how many blocks 1 unit on a side will fit inside the space. For example, the volume of the box below, whose dimensions are given in centimeters, is</p>
+<sidebyside widths="40% 60%" ><image source="images/fig-2-1-5.png"><description>box</description></image>
+<p><md><mrow>V \amp = lwh </mrow>
+    <mrow>\amp = (6)(4)(3) = 72~ \text{cubic centimeters}</mrow></md></p></sidebyside>
+
+<p>It may seem difficult to measure the inside of a round object like a sphere or a cone in cubic units, but you can imagine filling the object with liquid and then pouring the liquid into a box to measure its volume.</p>
+<sidebyside width="90%"><image source="images/fig-2-1-6.png"><description>solids</description></image></sidebyside>
+</introduction>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>An aquarium is 24 inches long and 10 inches wide.  What is the area of its base?  How much water is needed to fill it to a depth of 5 inches?
+</p></statement>
+
+<solution><p>The area of the base is
+    <me>A=lw=(24~ \text{in})(10~ \text{in})=240~ \text{in}^2</me>
+To calculate the volume of water, we can multiply the area of the base, <m>lw</m>, by the height of the water, <m>h</m>. 
+    <me>V=(lw)h=Ah=(240~ \text{in}^2)(5~ \text{in})=1200~ \text{in}^3</me></p></solution></example>
+
+<example><statement><p>The diameter of a spherical wax candle is 5 inches.  What is the volume of wax in the candle?
+</p></statement>
+
+<solution><p>The radius of the candle is half its diameter, or 2.5 inches.  The volume of the candle is
+    <me>V=\dfrac{4}{3}\pi r^3=\dfrac{4}{3}\pi(2.5~ \text{in})^3=65.45~\text{in}^3</me></p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+ 
+<exercise><statement><p>Find the volume of a cylindrical water tank whose diameter is 20 feet and whose height is 20 feet.
+</p></statement>
+    <answer><p>6283.2 cubic feet</p></answer></exercise>
+
+<exercise><statement><p>The diameter of the Earth is about 7920 miles.  Find its volume.</p></statement>
+    <answer><p>About 260,120,000,000 cubic miles</p></answer></exercise>
+</subsubsection>
+</subsection>
+
+
+
+
+
+
+<subsection><title>3. Simplify square roots</title>
+
+<introduction><p>Be careful when simplifying radicals after extracting roots.  Recall the properties of radicals reviewed in Section 4.4.</p></introduction>
+
+<subsubsection><title>Example</title>
+
+<example><statement><p>Can you simplify the first expression into the second expression? 
+    (Decide whether the expressions are equivalent.) <ol label="a">
+    <li>Is <m>~~\sqrt{4+x^2}~~</m> equivalent to <m>~~2+x</m>?</li>
+    <li>Is <m>~~\sqrt{\dfrac{x^2}{9}}~~</m> equivalent to <m>~~\dfrac{x}{3}~~</m> for <m>~x \ge 0</m>?</li>
+    <li>Is <m>~~\sqrt{w-3}~~</m> equivalent to <m>~~\sqrt{w} - \sqrt{3}</m>?</li></ol>
+</p></statement>
+ 
+<solution><p><ol label="a">
+    <li><p>If the expressions are equivalent, they must be equal for every value of the variable. Let's test with <m>x=3</m>.  Then
+        <md><mrow>\sqrt{4+x^2} \amp = \sqrt{4+9} = \sqrt{13} \approx 3.6</mrow>
+            <mrow> \text{but}~~~~~~~~~ 2+x \amp = 2+3 = 5</mrow></md> 
+        No, the expressions are not equivalent.</p></li>
+    <li><p>Because <m>\left(\dfrac{x}{3}\right)^2 = \dfrac{x}{3} \cdot \dfrac{x}{3} = \dfrac{x^2}{3^2} = \dfrac{x^2}{9}</m>, it is also true that <m>\sqrt{\dfrac{x^2}{9}} = \dfrac{x}{3}</m>. Yes, the expressions are equivalent.</p></li>
+    <li><p>Let <m>w=16</m>. Then
+        <md><mrow>\sqrt{w-3} \amp = \sqrt{16-3} = \sqrt{13} \approx 3.6</mrow>
+            <mrow> \text{but}~~~ \sqrt{w}-\sqrt{3} \amp = \sqrt{16}-\sqrt{3} \approx 4-1.7 = 2.3</mrow></md> 
+        No, the expressions are not equivalent.</p></li></ol>
+ </p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<introduction><p>Decide whether the expressions are equivalent. Assume all variables are positive.</p></introduction>
+
+<exercise><statement><p><m>\sqrt{b^2-81}~</m> and <m>~b-9</m></p></statement>
+<answer>No</answer></exercise> 
+
+<exercise><statement><p><m>\sqrt{64x^2y^2}~</m> and <m>~8xy</m></p></statement>
+<answer>Yes</answer></exercise>
+
+<exercise><statement><p><m>\sqrt{64+x^2y^2}~</m> and <m>~8+xy</m></p></statement>
+<answer>No</answer></exercise> 
+
+<exercise><statement><p><m>\sqrt{\dfrac{c^2+d^2}{4b^2}}~</m> and <m>~\dfrac{\sqrt{c^2+d^2}}{2b}</m></p></statement>
+<answer>Yes</answer></exercise>
+</subsubsection>
+</subsection>
