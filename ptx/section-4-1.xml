@@ -13,333 +13,127 @@
  
 <solution><m>\dfrac{1}{2}\left(\dfrac{P}{Q}\right) = \dfrac{1 \cdot P}{2 \cdot Q} = \dfrac{P}{2Q}</m></solution></example>
 
-<example><statement><p>Multiply <m>~4 \left(\dfrac{b}{c})</m></p></statement>
+<example><statement><p>Multiply <m>~4 \left(\dfrac{b}{c}\right)</m></p></statement>
  
-<solution><m>4 \left(\dfrac{b}{c}) = \dfrac{4}{1} \left(\dfrac{b}{c}) = \dfrac{4 \cdot b}{1 \cdot c} = \dfrac{4b}{c}</m></solution></example>
+<solution><m>4 \left(\dfrac{b}{c}\right) = \dfrac{4}{1} \left(\dfrac{b}{c}\right) = \dfrac{4 \cdot b}{1 \cdot c} = \dfrac{4b}{c}</m></solution></example>
 
+<example><statement><p>Multiply  <m>~\dfrac{t}{w} \cdot \dfrac{w}{3t^2}</m></p></statement>
+ 
+<solution><m>\dfrac{t}{w} \cdot \dfrac{w}{3t^2} = \dfrac{\cancel{t}}{\cancel{w}} \cdot \dfrac{\cancel{w}}{3t \cdot \cancel{t}} = \dfrac{1}{3t}</m></solution></example>
 
-
+<example><statement><p>Multiply  <m>~\dfrac{a}{2} \cdot \dfrac{1-b}{b}</m></p></statement>
+ 
+<solution><m>\dfrac{a}{2} \cdot \dfrac{1-b}{b} = \dfrac{a(1-b)}{2 \cdot b} = \dfrac{a-ab}{2b}</m></solution></example>
 
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Muriel's rent was increased by 8% from $650 per month.  What should you multiply by to find her new rent?  What is her new rent? </p></statement>
-    <answer><p><m>1.08</m>, $702</p></answer></exercise>
+<exercise><statement><p>Multiply  <m>~\dfrac{3}{2a}\left(\dfrac{a^2}{6}\right)</m></p></statement>
+    <answer><p><m>\dfrac{a}{9}</m></p></answer></exercise>
 
-<exercise><statement><p>A brand new SUV loses 18% of its value as soon as you drive it off the lot.  If your SUV cost $35,000, what should you multiply to find its new value?  What is its new value?</p></statement>
-    <answer><p><m>0.82</m>, $28,700</p></answer></exercise>
+<exercise><statement><p>Multiply  <m>~8\left(\dfrac{m}{4x^2}\right)</m></p></statement>
+    <answer><p><m>\dfrac{2m}{x^2}</m></p></answer></exercise>
+
+<exercise><statement><p>Multiply  <m>~\dfrac{3}{4} \cdot \dfrac{t^2-2}{cw^2}</m></p></statement>
+    <answer><p><m>\dfrac{3t^2-6}{4cw^2}</m></p></answer></exercise>
+
+<exercise><statement><p>Multiply  <m>~\dfrac{n}{n-1} \cdot \dfrac{p+1}{n^2}</m></p></statement>
+    <answer><p><m>\dfrac{p+1}{n^2-n}</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
-<subsection><title>2. Use the order of operations</title>
+<subsection><title>2. Add or subtract algebraic fractions</title>
 
-<introduction><p>Recall that evaluating powers comes before multiplication in the order of operations.</p></introduction>
+<introduction>
+
+<assemblage><title>To add or subtract unlike fractions</title><p><ol label="1">
+<li>Find the LCD for the fractions.</li>
+<li>Build each fraction to an equivalent one with the LCD as its denominator.</li>
+<li>Add or subtract the numerators. Keep the same denominator.</li></ol></p></assemblage></introduction>
 
 <subsubsection><title>Examples</title>
 
-<example><statement><p>Simplify.<ol label="a" cols="3">
-    <li><m>-4-2^3</m></li>
-    <li><m>-4(-2)^3</m></li>
-    <li><m>(-4-2)^3</m></li></ol></p></statement>
+<example><statement><p>Subtract <m>~\dfrac{2x}{w} - \dfrac{3x}{w}</m></p></statement>
 
-<solution><p><ol label="a">
-    <li>Compute <m>2^3</m> first, then subtract the result from <m>-4</m>:
-        <me>-4-2^3=-4-8=-12</me></li>
-    <li>Compute <m>(-2)^3</m> first, then multiply the result by <m>-4</m>:
-        <me>-4(-2)^3=-4(-8)=32</me></li>
-    <li>Compute <m>(-4-2)</m> first, then cube the result:
-        <me>(-4-2)^3=(-6)^3=-216</me></li></ol>
-</p></solution></example>
+<solution><p>These are like fractions, so we need only combine their numerators.
+    <me>\dfrac{2x}{w} - \dfrac{3x}{w} = \dfrac{2x-3x}{w} = \dfrac{-x}{w}</me></p></solution></example>
 
-<example><statement><p> Evaluate for<m>x=6</m>.  Round your answers to hundredths.<ol label="a" cols="2">
-    <li><m>12(1.05)^x</m></li>
-    <li><m>12(1+x/100)^5</m></li></ol></p></statement>
+<example><statement><p>Subtract <m>~\dfrac{3}{a} - \dfrac{a+2}{a}</m></p></statement>
 
-<solution><p><ol label="a">
-    <li><p>Follow the order of operations.  Compute the power first:
-        <me>12(1.05)^{\alert{6}} = 12(1.3400956...) = 16.08</me></p></li>
-    <li><p>Follow the order of operations.  Compute the power first:
-        <me>12(1+\alert{6}/100)^5 = 12(1.06)^5 = 12(1.3382255...) = 16.06</me></p></li></ol></p>
+<solution><p>These are like fractions, so we need only combine their numerators. Be careful to subtract both terms of the second numerator.
+    <me>\dfrac{3}{a} - \dfrac{a+2}{a} = \dfrac{3-(a+2)}{a} = \dfrac{1-a}{a}</me></p></solution></example>
+
+<example><statement><p>Add <m>~2 + \dfrac{1}{x}</m></p></statement>
+
+<solution><p>We write 2 as a fraction, <m>\dfrac{2}{1}</m>, and build it to the LCD, <m>x</m>.
+    <me>\dfrac{2}{1} \cdot \alert{\dfrac{x}{x}} + \dfrac{1}{x} = \dfrac{2x}{x}  + \dfrac{1}{x} = \dfrac{2x+1}{x}</me></p>
 </solution></example>
+
+<example><statement><p>Subtract <m>~\dfrac{a}{2b} - \dfrac{3}{b^2}</m></p></statement>
+
+<solution><p>We build each fraction to the LCD, <m>2b^2</m>.
+    <md><mrow>\dfrac{a}{2b} - \dfrac{3}{b^2} \amp = \dfrac{a}{2b} \cdot \alert{\dfrac{b}{b}} - \dfrac{3}{b^2} \cdot \alert{\dfrac{2}{2}}</mrow>
+        <mrow> \amp = \dfrac{ab}{2b^2} - \dfrac{6}{2b^2} = \dfrac{ab-6}{2b^2}</mrow></md></p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Simplify. Round your answers to the nearest whole number.<ol label="a" cols="2">
-    <li><m>450(1-0.12)^4</m></li>
-    <li><m>180-80(1+0.25)^3</m></li></ol>
-</p></statement>
-    <answer><p><ol label="a">
-        <li><m>270</m></li>
-        <li><m>24</m></li></ol></p></answer></exercise>
+<exercise><statement><p>Subtract <m>~\dfrac{4a}{b^2} - \dfrac{c}{b^2}</m></p></statement>
+<answer><m>\dfrac{4a-c}{b^2}</m></answer></exercise>
 
-<exercise><statement><p>Evaluate for <m>x=-3,~y=-2</m>.<ol label="a" cols="2">
-    <li><m>-2x^2+y^3</m></li>
-    <li><m>4(x-y)(x+2y)</m></li></ol></p></statement>
-    <answer><p><ol label="a">
-        <li><m>-26</m></li>
-        <li><m>28</m></li></ol></p></answer></exercise>
+<exercise><statement><p>Subtract <m>~\dfrac{p+2}{2q} - \dfrac{p-1}{2q}</m></p></statement>
+<answer><m>\dfrac{3}{2q}</m></answer></exercise>
+
+<exercise><statement><p>Add <m>~N + \dfrac{2}{N}</m></p></statement>
+<answer><m>\dfrac{N^2+2}{N}</m></answer></exercise>
+
+<exercise><statement><p>Add <m>~\dfrac{2}{xy} - \dfrac{y}{3x}</m></p></statement>
+<answer><m>\dfrac{6+y^2}{3xy}</m></answer></exercise>
 </subsubsection>
 </subsection>
 
-<subsection><title>3. Raise fractions to powers</title>
+<subsection><title>3. Simplify square roots</title>
 
-<subsubsection><title>Examples</title>
+<introduction><p>Be careful when simplifying radicals after extracting roots.</p></introduction>
 
-<example><statement><p>Complete the table of powers.  As the exponent increases, do the powers increase or decrease?
-<ol label="a" cols="2">
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>~~x~~</m></cell>
-                        <cell><m>~~1~~</m></cell>
-                        <cell><m>~~2~~</m></cell>
-                        <cell><m>~~3~~</m></cell>
-                        <cell><m>~~4~~</m></cell></row>
-                    <row> 
-                        <cell><m>\left(\dfrac{2}{3}\right)^x</m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell></row>
-                    </tabular></sidebyside></li>
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>~~x~~</m></cell>
-                        <cell><m>~~1~~</m></cell>
-                        <cell><m>~~2~~</m></cell>
-                        <cell><m>~~3~~</m></cell>
-                        <cell><m>~~4~~</m></cell></row>
-                    <row> 
-                        <cell><m>\left(\dfrac{5}{4}\right)^x</m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell></row>
-                    </tabular></sidebyside></li></ol></p></statement>
+<subsubsection><title>Example</title>
+
+<example><statement><p>Can you simplify the first expression into the second expression? 
+    (Decide whether the expressions are equivalent.) <ol label="a">
+    <li>Is <m>~~\sqrt{4+x^2}~~</m> equivalent to <m>~~2+x</m>?</li>
+    <li>Is <m>~~\sqrt{\dfrac{x^2}{9}}~~</m> equivalent to <m>~~\dfrac{x}{3}~~</m> for <m>~x \ge 0</m>?</li>
+    <li>Is <m>~~\sqrt{w-3}~~</m> equivalent to <m>~~\sqrt{w} - \sqrt{3}</m>?</li></ol>
+</p></statement>
  
 <solution><p><ol label="a">
-     <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>~~x~~</m></cell>
-                        <cell><m>~~1~~</m></cell>
-                        <cell><m>~~2~~</m></cell>
-                        <cell><m>~~3~~</m></cell>
-                        <cell><m>~~4~~</m></cell></row>
-                    <row> 
-                        <cell><m>\left(\dfrac{2}{3}\right)^x</m></cell>
-                        <cell><m>\dfrac{2}{3}</m></cell>
-                        <cell><m>\dfrac{4}{9}</m></cell>
-                        <cell><m>\dfrac{8}{27}</m></cell>
-                        <cell><m>\dfrac{16}{81}</m></cell></row>
-                    </tabular></sidebyside></p>
-        <p>When we multiply a number by <m>\dfrac{2}{3}</m>, the product is smaller than the original number, so the powers of <m>\dfrac{2}{3}</m> decrease as the exponent increases. We can compare the powers more easily by converting the fractions to decimals, rounded to three places: 
-        <me>\dfrac{2}{3} = 0.667,~\dfrac{4}{9} = 0.444,~\dfrac{8}{27} = 0.296,~\dfrac{16}{81} = 0.198</me></p></li>
-    <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>~~x~~</m></cell>
-                        <cell><m>~~1~~</m></cell>
-                        <cell><m>~~2~~</m></cell>
-                        <cell><m>~~3~~</m></cell>
-                        <cell><m>~~4~~</m></cell></row>
-                    <row> 
-                        <cell><m>\left(\dfrac{5}{4}\right)^x</m></cell>
-                        <cell><m>\dfrac{5}{4}</m></cell>
-                        <cell><m>\dfrac{25}{16}</m></cell>
-                        <cell><m>\dfrac{125}{64}</m></cell>
-                        <cell><m>\dfrac{625}{256}</m></cell></row>
-                    </tabular></sidebyside></p>
-        <p>When we multiply a number by <m>\dfrac{5}{4}</m>, the product is larger than the original number, so the powers of <m>\dfrac{5}{4}</m> increase as the exponent increases. We can compare the powers more easily by converting the fractions to decimals, rounded to three places: 
-        <me>\dfrac{5}{4} = 1.25,~\dfrac{25}{16} = 1.563,~\dfrac{125}{64} = 1.953,~\dfrac{625}{256} = 2.441</me></p></li></ol> </p></solution></example>
-
-<example><statement><p>Complete the table of powers. As the exponent increases, do the powers increase or decrease?<ol label="a" cols="2">
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>~~x~~</m></cell>
-                        <cell><m>~~1~~</m></cell>
-                        <cell><m>~~2~~</m></cell>
-                        <cell><m>~~3~~</m></cell>
-                        <cell><m>~~4~~</m></cell></row>
-                    <row> 
-                        <cell><m>0.2^x</m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell></row>
-                    </tabular></sidebyside></li>
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>~~x~~</m></cell>
-                        <cell><m>~~1~~</m></cell>
-                        <cell><m>~~2~~</m></cell>
-                        <cell><m>~~3~~</m></cell>
-                        <cell><m>~~4~~</m></cell></row>
-                    <row> 
-                        <cell><m>1.2^x</m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell></row>
-                    </tabular></sidebyside></li></ol></p></statement>
-
-<solution><p> <ol label="a">
-        <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>~~x~~</m></cell>
-                        <cell><m>~~1~~</m></cell>
-                        <cell><m>~~2~~</m></cell>
-                        <cell><m>~~3~~</m></cell>
-                        <cell><m>~~4~~</m></cell></row>
-                    <row> 
-                        <cell><m>0.2^x</m></cell>
-                        <cell><m>0.2</m></cell>
-                        <cell><m>0.04</m></cell>
-                        <cell><m>0.008</m></cell>
-                        <cell><m>0.0016</m></cell></row>
-                    </tabular></sidebyside>
-            The powers decrease.</li>
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>~~x~~</m></cell>
-                        <cell><m>~~1~~</m></cell>
-                        <cell><m>~~2~~</m></cell>
-                        <cell><m>~~3~~</m></cell>
-                        <cell><m>~~4~~</m></cell></row>
-                    <row> 
-                        <cell><m>1.2^x</m></cell>
-                        <cell><m>1.2</m></cell>
-                        <cell><m>1.44</m></cell>
-                        <cell><m>1.728</m></cell>
-                        <cell><m>2.0736</m></cell></row>
-                    </tabular></sidebyside>
-            The powers increase.</li></ol></p></solution></example>
+    <li><p>If the expressions are equivalent, they must be equal for every value of the variable. Let's test with <m>x=3</m>.  Then
+        <md><mrow>\sqrt{4+x^2} \amp = \sqrt{4+9} = \sqrt{13} \approx 3.6</mrow>
+            <mrow> \text{but}~~~~~~~~~ 2+x \amp = 2+3 = 5</mrow></md> 
+        No, the expressions are not equivalent.</p></li>
+    <li><p>Because <m>\left(\dfrac{x}{3}\right)^2 = \dfrac{x}{3} \cdot \dfrac{x}{3} = \dfrac{x^2}{3^2} = \dfrac{x^2}{9}</m>, it is also true that <m>\sqrt{\dfrac{x^2}{9}} = \dfrac{x}{3}</m>. Yes, the expressions are equivalent.</p></li>
+    <li><p>Let <m>w=16</m>. Then
+        <md><mrow>\sqrt{w-3} \amp = \sqrt{16-3} = \sqrt{13} \approx 3.6</mrow>
+            <mrow> \text{but}~~~ \sqrt{w}-\sqrt{3} \amp = \sqrt{16}-\sqrt{3} \approx 4-1.7 = 2.3</mrow></md> 
+        No, the expressions are not equivalent.</p></li></ol>
+ </p></solution></example>
 </subsubsection>
 
-<subsubsection><title>Exercise</title>
+<subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Complete the table of powers. As the exponent increases, do the powers increase or decrease?<ol label="a" cols="2">
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>~~x~~</m></cell>
-                        <cell><m>~~1~~</m></cell>
-                        <cell><m>~~2~~</m></cell>
-                        <cell><m>~~3~~</m></cell>
-                        <cell><m>~~4~~</m></cell></row>
-                    <row> 
-                        <cell><m>\left(\dfrac{3}{4}\right)^x</m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell></row>
-                    </tabular></sidebyside></li>
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>~~x~~</m></cell>
-                        <cell><m>~~1~~</m></cell>
-                        <cell><m>~~2~~</m></cell>
-                        <cell><m>~~3~~</m></cell>
-                        <cell><m>~~4~~</m></cell></row>
-                    <row> 
-                        <cell><m>\left(\dfrac{4}{3}\right)^x</m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell></row>
-                    </tabular></sidebyside></li></ol></p></statement> 
-    <answer><p><ol label="a">
-        <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>~~x~~</m></cell>
-                        <cell><m>~~1~~</m></cell>
-                        <cell><m>~~2~~</m></cell>
-                        <cell><m>~~3~~</m></cell>
-                        <cell><m>~~4~~</m></cell></row>
-                    <row> 
-                        <cell><m>\left(\dfrac{3}{4}\right)^x</m></cell>
-                        <cell><m>\dfrac{3}{4}</m></cell>
-                        <cell><m>\dfrac{9}{16}</m></cell>
-                        <cell><m>\dfrac{27}{64}</m></cell>
-                        <cell><m>\dfrac{81}{256}</m></cell></row>
-                    </tabular></sidebyside>
-                Decrease</li>
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>~~x~~</m></cell>
-                        <cell><m>~~1~~</m></cell>
-                        <cell><m>~~2~~</m></cell>
-                        <cell><m>~~3~~</m></cell>
-                        <cell><m>~~4~~</m></cell></row>
-                    <row> 
-                        <cell><m>\left(\dfrac{4}{3}\right)^x</m></cell>
-                        <cell><m>\dfrac{4}{3}</m></cell>
-                        <cell><m>\dfrac{16}{9}</m></cell>
-                        <cell><m>\dfrac{64}{27}</m></cell>
-                        <cell><m>\dfrac{257}{81}</m></cell></row>
-                    </tabular></sidebyside>
-                Increase</li></ol></p>
-    </answer></exercise> 
+<introduction><p>Decide whether the expressions are equivalent. Assume all variables are positive.</p></introduction>
 
-<exercise><statement><p>Complete the table of powers. As the exponent increases, do the powers increase or decrease?<ol label="a" cols="2">
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>~~x~~</m></cell>
-                        <cell><m>~~1~~</m></cell>
-                        <cell><m>~~2~~</m></cell>
-                        <cell><m>~~3~~</m></cell>
-                        <cell><m>~~4~~</m></cell></row>
-                    <row> 
-                        <cell><m>0.8^x</m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell></row>
-                    </tabular></sidebyside></li>
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>~~x~~</m></cell>
-                        <cell><m>~~1~~</m></cell>
-                        <cell><m>~~2~~</m></cell>
-                        <cell><m>~~3~~</m></cell>
-                        <cell><m>~~4~~</m></cell></row>
-                    <row> 
-                        <cell><m>1.5^x</m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell></row>
-                    </tabular></sidebyside></li></ol></p></statement>
-    <answer><p><ol label="a">
-        <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>~~x~~</m></cell>
-                        <cell><m>~~1~~</m></cell>
-                        <cell><m>~~2~~</m></cell>
-                        <cell><m>~~3~~</m></cell>
-                        <cell><m>~~4~~</m></cell></row>
-                    <row> 
-                        <cell><m>0.8^x</m></cell>
-                        <cell><m>0.8</m></cell>
-                        <cell><m>0.64</m></cell>
-                        <cell><m>0.512</m></cell>
-                        <cell><m>0.4096</m></cell></row>
-                    </tabular></sidebyside>
-            Decrease</li>
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>~~x~~</m></cell>
-                        <cell><m>~~1~~</m></cell>
-                        <cell><m>~~2~~</m></cell>
-                        <cell><m>~~3~~</m></cell>
-                        <cell><m>~~4~~</m></cell></row>
-                    <row> 
-                        <cell><m>1.5^x</m></cell>
-                        <cell><m>1.5</m></cell>
-                        <cell><m>2.25</m></cell>
-                        <cell><m>3.375</m></cell>
-                        <cell><m>5.0625</m></cell></row>
-                    </tabular></sidebyside>
-            Increase</li></ol></p>
-    </answer></exercise>
+<exercise><statement><p><m>\sqrt{b^2-81}~</m> and <m>~b-9</m></p></statement>
+<answer>No</answer></exercise> 
+
+<exercise><statement><p><m>\sqrt{64x^2y^2}~</m> and <m>~8xy</m></p></statement>
+<answer>Yes</answer></exercise>
+
+<exercise><statement><p><m>\sqrt{64+x^2y^2}~</m> and <m>~8+xy</m></p></statement>
+<answer>No</answer></exercise> 
+
+<exercise><statement><p><m>\sqrt{\dfrac{c^2+d^2}{4b^2}}~</m> and <m>~\dfrac{\sqrt{c^2+d^2}}{2b}</m></p></statement>
+<answer>Yes</answer></exercise>
 </subsubsection>
 </subsection>
 

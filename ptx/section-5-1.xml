@@ -1,165 +1,73 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="InverseFunctions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Section 5.1 Inverse Functions</title>
+<section xml:id="Functions"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Functions</title>
                  
-<subsection><title>1. Use new vocabulary</title>
+<subsection><title>1. New vocabulary</title>
 
 <subsubsection><title>Definitions</title>
                     
-<p>Write a definition or description for each term:<ol label="1">
-        <li>Inverse function</li>
-        <li>Inverse function notation</li>
-        <li>Horizontal line test</li>
-        <li>One-to-one function</li>
-        <li>Symmetric about <m>y=x</m></li>
+<p>Write a definition or description for each term.  You can find answers in Section 1.2 of your textbook.
+    <ol label="1">
+        <li>Function</li>
+        <li>Input variable</li>
+        <li>Output variable</li>
+        <li>Function value</li>
+        <li>Function notation</li>
     </ol></p>
 </subsubsection>
 
 <subsubsection><title>Exercise</title>
 
-<exercise><statement><p>Illustrate each term above for the following situation:</p>
-    <p>The sales tax <m>T</m> on an item that costs <m>p</m> dollars is given by the function <m>T=f(p)=1.15p</m></p>
-</statement>
+<exercise><statement><p>Identify each term above, or give an example, for this situation:  At time <m>t</m> seconds,
+the height of a basketball above the ground, <m>h</m>, in feet, is given by 
+    <me>~~h=-16t^2+20t+5</me>.</p></statement>
     <answer><p><ol label="1">
-        <li>The inverse function gives the price <m>p</m> of an item whose sales tax is <m>T</m> dollars.</li>
-        <li><m>p=f^{-1}(T)</m></li>
-        <li>The graph of <m>T=f(p)=1.15p</m> is linear, and so passes the horizontal line test.</li>
-        <li>A function that passes the horizontal line test is one-to-one: for each value of <m>p</m> there is only one value of <m>T</m>, and vice versa.</li>
-        <li><sidebyside  width="40%"><image source="images/fig-5-1-1.svg"><description>lines</description></image></sidebyside>  </li></ol>
-    </p></answer></exercise>
+        <li><m>h</m> is a function of <m>t</m>.</li>
+        <li>The input variable is <m>t</m>.</li>
+        <li>The output variable is <m>h</m>.</li>
+        <li>The function value for <m>t=1</m> is <m>h=9</m>.</li>
+        <li><m>h=f(t)</m></li></ol></p></answer></exercise>
 </subsubsection>
 </subsection>
 
-<subsection><title>2. Solve an equation for a variable</title>
+<subsection><title>2. Solve non-linear equations</title>
 
-<introduction><p>When finding a formual for an inverse function, we need to solve for one variable in terms of the other.</p></introduction>
+<introduction><p>To solve simple non-linear equations, we "undo" the operation performed on the variable.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
-<example><statement><p>Solve <m>~y=\sqrt{x^3-4}~</m> for <m>x</m> in terms of <m>y</m>.</p></statement>
+<example><statement><p>Solve the equation <m>~~5 \sqrt{t} = 83</m></p></statement>
 
-<solution><p>
-    <md><mrow>y \amp =\sqrt{x^3-4} \amp \amp \blert{\text{Square both sides.}}</mrow>
-        <mrow>y^2 \amp = x^3-4 \amp \amp \blert{\text{Add 4 to both sides.}}</mrow>
-        <mrow>y^2 + 4 \amp = x^3 \amp \amp \blert{\text{Take cube roots.}}</mrow>
-        <mrow> \sqrt[3]{y^2+4} \amp = x</mrow></md>
+<solution><p>To "undo" a square root, we square both sides of the equation. First, we isolate the square root.
+    <md><mrow>\dfrac{5 \sqrt{t}}{\alert{5}} \amp = \dfrac{83}{\alert{5}} \amp \amp \blert{\text{Divide both sides by 5.}}
+        </mrow>
+        <mrow>(\sqrt{t})^2 \amp =(16.6)^2 \amp \amp \blert{\text{Square both sides.}}</mrow>
+        <mrow>t \amp =275.56</mrow></md>
 </p></solution></example>
 
-<example><statement><p> Solve <m>~y=\dfrac{x+1}{x-2}~</m> for <m>x</m> in terms of <m>y</m>.</p></statement>
+<example><statement><p>Solve the equation <m>~~\dfrac{15}{y}=45</m> </p></statement>
 
-<solution><p>
-    <md><mrow>y \amp =\dfrac{x+1}{x-2} \amp \amp \blert{\text{Clear the fraction.}}</mrow>
-        <mrow>y(x-2) \amp = x+1 \amp \amp \blert{\text{Apply the distributive law.}}</mrow>
-        <mrow>xy-2y \amp = x+1 \amp \amp \blert{\text{Collect}~x~\text{terms.}}</mrow>
-        <mrow>xy-x \amp = 1+2y \amp \amp \blert{\text{Factor out}~x.}</mrow>
-        <mrow>x(y-1) \amp = 1+2y \amp \amp \blert{\text{Divide by}~y-1.}</mrow>
-        <mrow>x \amp = \dfrac{1+2y}{y-1}</mrow></md></p>
-</solution></example>
+<solution><p>If the variable is in the denominator of a fraction, we must first clear the fraction.
+    <md><mrow>\alert{y}(\dfrac{15}{y}) \amp = 45 \cdot \alert{y} \amp \amp \blert{\text{Multiply both sides by} ~y.}
+        </mrow>
+        <mrow>15 \amp = 45y \amp \amp \blert{\text{Divide both sides by 45.}}</mrow>
+        <mrow>y \amp =\dfrac{15}{45}=\dfrac{1}{3}</mrow></md>
+</p></solution></example>
+
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Solve <m>~y=5-4\sqrt{x+2}~</m> for <m>x</m> in terms of <m>y</m>.</p></statement>
-    <answer><m>x=\dfrac{(y-5)^2}{16}-2</m></answer></exercise>
+<exercise><statement><p>Solve the equation <m>~~\dfrac{4.8}{w}=3</m> </p></statement>
+    <answer><m>1.6</m></answer></exercise>
 
-<exercise><statement><p>Solve <m>~y=\dfrac{3}{\sqrt[3]{x+6}}~</m> for <m>x</m> in terms of <m>y</m>.</p></statement>
-    <answer><m>x=\dfrac{27}{y^3}-6</m></answer></exercise>
-
-<exercise><statement><p>Solve <m>~y=(2x-3)^3+1~</m> for <m>x</m> in terms of <m>y</m>.</p></statement>
-    <answer><m>x=\dfrac{1}{2}\left(3+\sqrt[3]{y-1}\right)</m></answer></exercise>
-
-<exercise><statement><p>Solve <m>~y=\dfrac{3x-1}{2x+1}~</m> for <m>x</m> in terms of <m>y</m>.</p></statement>
-    <answer><m>x=\dfrac{y+1}{3-2y}</m></answer></exercise>
+<exercise><statement><p>Solve the equation <m>~~18=36\sqrt{q}</m> </p></statement>
+    <answer><m>\dfrac{1}{4}</m></answer></exercise>
 </subsubsection>
 </subsection>
 
-<subsection><title>3. Use function notation</title>
 
-<introduction><p>Keep in mind that the notation for an inverse function, <m>f^{-1}(x)</m>, does not mean the reciprocal of the function.  This is a different use of the notation from how it is used as an exponent.</p></introduction> 
-
-<subsubsection><title>Examples</title>
-
-<example><statement><p><m>f(x)=2x-3~</m>. Find formulas for:<ol label="a" cols="3">
-    <li><m>g(x)=\dfrac{1}{f(x)}</m></li>
-    <li><m>h(x)=-f(x)</m></li>
-    <li><m>j(x)=f^{-1}(x)</m></li></ol>
-</p></statement>
- 
-<solution><p><ol label="a">
-    <li><m>g(x)</m> is the reciprocal of <m>f(x)</m>: <m>g(x)=\dfrac{1}{2x-3}</m></li>
-    <li><m>h(x)</m> is the negative or opposite of <m>f(x)</m>: <m>h(x)=3-2x</m></li>   
-    <li>To find the inverse function for <m>f(x)</m>, we write <m>~y = 2x-3~</m> and solve for <m>x</m>.
-        <md><mrow>y \amp = 2x-3 \amp \amp \blert{\text{Add 3 to both sides.}}</mrow>
-            <mrow>y+3 \amp = 2x \amp \amp \blert{\text{Divide both sides by 2.}}</mrow>
-            <mrow>\dfrac{y+3}{2} \amp = x</mrow></md>
-        We can use any variables for a function, so we switch back to <m>x</m> for the input and <m>y</m> for the output:  <m>~y = \dfrac{x+3}{2}~</m>. Thus, the inverse function is
-            <me>j(x)=\dfrac{x+3}{2}</me></li></ol> </p></solution></example>
-
-<example><statement><p><m>f(x)=\sqrt[3]{x-4}~</m>. Find formulas for:<ol label="a" cols="3">
-    <li><m>g(x)=\dfrac{1}{f(x)}</m></li>
-    <li><m>h(x)=-f(x)</m></li>
-    <li><m>j(x)=f^{-1}(x)</m></li></ol>
-</p></statement>
- 
-<solution><p><ol label="a">
-     <li><m>g(x)</m> is the reciprocal of <m>f(x)</m>: <m>~g(x)=\dfrac{1}{\sqrt[3]{x-4}}</m></li>
-      <li><m>h(x)</m> is the negative or opposite of <m>f(x)</m>: <m>~h(x)=-\sqrt[3]{x-4}</m></li>   
-      <li>To find the inverse function for <m>f(x)</m>, we write <m>~y = \sqrt[3]{x-4}~</m> and solve for <m>x</m>.
-        <md><mrow>y \amp = \sqrt[3]{x-4} \amp \amp \blert{\text{Cube both sides.}}</mrow>
-            <mrow>y^3 \amp = x-4 \amp \amp \blert{\text{Add 4 to both sides.}}</mrow>
-            <mrow>y^3+4 \amp = x</mrow></md>
-        We can use any variables for a function, so we switch back to <m>x</m> for the input and <m>y</m> for the output:  
-        <me>j(x)=x^3+4</me></li></ol> </p></solution></example>
-</subsubsection>
-
-<subsubsection><title>Exercise</title>
-
-<exercise><statement><p><m>f(x)=2-\dfrac{1}{2}x~</m>. Find formulas for:<ol label="a" cols="3">
-    <li><m>g(x)=\dfrac{1}{f(x)}</m></li>
-    <li><m>h(x)=-f(x)</m></li>
-    <li><m>j(x)=f^{-1}(x)</m></li></ol>
-</p></statement> 
-    <answer><p><ol label="a">
-     <li><m>g(x)=\dfrac{2}{4-x}</m></li>
-      <li><m>h(x)=\dfrac{1}{2}x-2</m></li>   
-      <li><m>j(x)=4-2x</m></li></ol> </p>
-    </answer></exercise> 
-
-<exercise><statement><p><m>f(x)=\dfrac{1}{x+2}~</m>. Find formulas for:<ol label="a" cols="3">
-    <li><m>g(x)=\dfrac{1}{f(x)}</m></li>
-    <li><m>h(x)=-f(x)</m></li>
-    <li><m>j(x)=f^{-1}(x)</m></li></ol>
-</p></statement> 
-    <answer><p><ol label="a">
-        <li><m>g(x)=x+2</m></li>
-        <li><m>h(x)=\dfrac{-1}{x+2}</m></li>
-        <li><m>j(x)=\dfrac{1-2x}{x}</m></li></ol></p>
-    </answer></exercise> 
-
-<exercise><statement><p><m>f(x)=x^{3/4}~</m>. Find formulas for:<ol label="a" cols="3">
-    <li><m>g(x)=\dfrac{1}{f(x)}</m></li>
-    <li><m>h(x)=-f(x)</m></li>
-    <li><m>j(x)=f^{-1}(x)</m></li></ol>
-</p></statement> 
-    <answer><p><ol label="a">
-        <li><m>g(x)=x^{-3/4}</m></li>
-        <li><m>h(x)=-x^{3/4}</m></li>
-        <li><m>j(x)=x^{4/3}</m></li></ol> </p>
-    </answer></exercise> 
-    
-<exercise><statement><p><m>f(x)=(x-1)^3+2~</m>. Find formulas for:<ol label="a" cols="3">
-    <li><m>g(x)=\dfrac{1}{f(x)}</m></li>
-    <li><m>h(x)=-f(x)</m></li>
-    <li><m>j(x)=f^{-1}(x)</m></li></ol>
-</p></statement> 
-    <answer><p><ol label="a">
-        <li><m>g(x)=\dfrac{1}{(x-1)^3+2}</m></li>
-        <li><m>h(x)=-(x-1)^3-2</m></li>
-        <li><m>j(x)=1+\sqrt[3]{x-2}</m></li></ol> </p>
-    </answer></exercise> 
-</subsubsection>
-</subsection>
 
 </section>
 <!-- </book>  </pretext> -->

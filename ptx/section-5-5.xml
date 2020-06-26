@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <pretext><book> -->
+
+<section xml:id="MathematicalModels"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Functions as Mathematical Models</title>
+
+<subsection><title>1. Properties of the basic functions</title>
+
+<introduction><p>The eight basic functions are often used as models.</p>
+
+<p>For these Examples, refer to the eight basic functions:
+    <md><mrow>f(x) \amp = x \amp   f(x) \amp = \abs{x}  \amp  f(x) \amp = x^2  \amp  f(x) \amp = x^3</mrow>
+        <mrow>f(x) \amp = \sqrt{x}  \amp  f(x) \amp = \sqrt[3]{x}  \amp  f(x) \amp = \dfrac{1}{x} \amp   f(x) \amp = \dfrac{1}{x^2}</mrow></md></p></introduction>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Which of the eight basic functions are always increasing?</p></statement>
+
+<solution><p><m>f(x)=x,~~~f(x)=x^3,~~~f(x)=\sqrt{x},~~~f(x)=\sqrt[3]{x}</m></p></solution></example>
+
+<example><statement><p>Which of the eight basic functions are concave up for positive <m>x</m>?</p></statement>
+
+<solution><p><m>f(x)=x^2,~~~f(x)=x^3,~~~f(x)=\dfrac{1}{x},~~~f(x)=\dfrac{1}{x^2}</m></p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Which of the eight basic functions are undefined at <m>x=0</m>?</p></statement>
+<answer><m>f(x)=\dfrac{1}{x},~~~f(x)=\dfrac{1}{x^2}</m></answer></exercise>
+
+<exercise><statement><p>Which of the eight basic functions are always non-negative?</p></statement>
+<answer><m>f(x)=\abs{x},~~~f(x)=x^2,~~~f(x)=\sqrt{x},~~~f(x)=\dfrac{1}{x^2}</m></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Recognize familiar formulas</title>
+
+<introduction><p>Here are some useful formulas often used in models.</p></introduction>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Write a formula for the volume of a rectangular box, and identify the variables.</p></statement>
+ 
+<solution><p><m>V=lwh~~</m></p>
+<p> <m>V</m> stands for volume, and <m>l,~w,</m> and <m>h</m> stand for, respectively, the length, width, and height of the box.</p></solution></example>
+
+<example><statement><p>Write a formula for the average of a number of scores, and identify the variables.</p></statement>
+ 
+<solution><p><m>A=\dfrac{S}{n}~~</m></p>
+<p> <m>A</m> stands for the average, <m>S</m> stands for the sum of the scores, and <m>n</m> stands for the number of scores.</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Choose the correct formula from the list below, and identify the variables.<ul cols="2">
+    <li><m>I=Prt</m></li>
+    <li><m>P=R-C</m></li>
+    <li><m>d=rt</m></li>
+    <li><m>P=rW</m></li></ul></p>
+    <p><ol label="a">
+        <li>The distance traveled at a constant speed.</li>
+        <li>The simple interest on an investment.</li>
+        <li>The part specified by a percentage.</li>
+        <li>The profit on sales of an item.</li></ol></p></statement>
+    <answer><p><ol label="a">
+    <li><p><m>d=rt</m></p>
+        <p><m>~~d</m> stands for the distance traveled at speed <m>r</m> for time <m>t</m>.</p></li>
+    <li><p><m>I=Prt</m></p>
+        <p><m>~~I</m> stands for the interest earned on an investment <m>P</m> at interest rate <m>r</m> after a time period <m>t</m>.</p></li>
+    <li><p><m>P=rW</m></p>
+        <p><m>~~P</m> stands for the quantity <m>r</m> percent of a whole amount <m>W</m>.</p></li>
+    <li><p><m>P=R-C</m></p>
+        <p><m>~~P</m> stands for the profit left after the costs <m>C</m> are subtracted from the revenue <m>R</m>.</p></li>
+</ol></p></answer></exercise>
+
+<exercise><statement><p>Choose the correct geometric formula from the list below, and identify the variables.<ul cols="2">
+    <li><m>A=lw</m></li>
+    <li><m>P=2l+2w</m></li>
+    <li><m>A=\pi r^2</m></li>
+    <li><m>C=\pi d</m></li>
+    <li><m>V=\pi r^2h</m></li>
+    <li><m>V=\dfrac{4}{3}\pi r^3</m></li></ul></p>
+    <p><ol label="a">
+        <li>The volume of a cylinder.</li>
+        <li>The area of a circle.</li>
+        <li>The area of a rectangle.</li>
+        <li>The perimeter of a rectangle.</li>
+        <li>The volume of a sphere.</li>
+        <li>The circumference of a circle.</li></ol></p></statement>
+    <answer><p><ol label="a">
+    <li><p><m>V=\pi r^2h</m></p>
+        <p><m>~~V</m> stands for the volume, <m>r</m> for the radius, and <m>h</m> for the height of the cylinder.</p></li>
+    <li><p><m>A=\pi r^2</m></p> 
+        <p><m>~~A</m> stands for the area and <m>r</m> for the radius of the circle.</p></li>
+    <li><p><m>A=lw</m></p> 
+        <p><m>~~A</m> stands for the area of the rectangle, <m>l</m> and <m>w</m> stand for its length and width.</p></li>
+    <li><p><m>P=2l+2w</m></p> 
+        <p><m>~~P</m> stands for the perimeter of the rectangle, <m>l</m> and <m>w</m> stand for its length and width.</p></li>
+    <li><p><m>V=\dfrac{4}{3}\pi r^3</m></p> 
+        <p><m>~~V</m> stands for the volume and <m>r</m> for the radius of the sphere.</p></li>
+    <li><p><m>C=\pi d</m></p> 
+        <p><m>~~C</m> stands for the circumference and <m>d</m> for the diameter of the circle.</p></li>
+</ol></p></answer></exercise>
+</subsubsection>
+</subsection>
+
+
+
+</section>
+<!-- </book>  </pretext> -->

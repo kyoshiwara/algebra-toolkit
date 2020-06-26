@@ -1,129 +1,121 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="PropertiesLogarithms" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Properties of Logarithms</title>
+<section xml:id="QuadraticInequalities" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Quadratic Inequalities </title>
                  
-<subsection><title>1. Apply the distributive law</title>
+<subsection><title>1. Solve a linear inequality</title>
 
-<introduction><p>We have met several types of algebraic properties before treating logarithms.  Here is a review of the most common ones.</p></introduction>
+<introduction><p>First, let's review solving linear inqualities.</p></introduction>
 
-<subsubsection><title>Example</title>
+<subsubsection><title>Examples</title>
 
-<example><statement><p>Which equation is a correct application of the distributive law?<ol label="a">
-    <li><m>2(5 \cdot 3^x) = 10 \cdot 6^x~~~~~</m> or <m>~~~~~2(5+3^x) = 10+2 \cdot 3^x</m></li>
-    <li><m>\log (x+10) = \log {x} + \log {10}~~~~~</m> or <m>~~~~~\dfrac{1}{x}(x+10) = 1 +\dfrac{10}{x}</m></li></ol>
-</p></statement>
+<example><statement><p>Solve <m>~-3x+1 \gt 7~</m> and graph the solutions on a number line.</p></statement>
  
-<solution><p><ol label="a">
-    <li><p>The distributive law applies to multiplying a sum or difference, not a product. In the first equation, <m>5 \cdot 3^x</m> is a product, so the distributive law does not apply.  (We can, however, simplfy that expression with the associative law:
-        <me>2(5 \cdot 3^x) = (2\cdot 5)\cdot 3^x = 10 \cdot 3^x</me></p>
-    <p>The second equation is a correct application of the distributive law. You can check that the first equation is false and the second equation is true by substituting <m>x=1</m>.</p></li>
-    <li><p>The distributive law applies only to multiplying a sum or product, not to other operations, such as taking logs.  You can check that the first equation is false by substituting <m>x=10</m>.</p>
-    <p> The second equation is a correct application of the distributive law.</p> </li></ol></p>
-</solution></example>
-</subsubsection>
+<solution><p> 
+    <md><mrow>-3x+1 \amp \gt 7 \amp \amp \blert{\text{Subtract 1 from both sides.}}</mrow>
+        <mrow>-3x \amp \gt 6  \amp \amp \blert{\text{Divide both sides by -3.}}</mrow>
+        <mrow>x \amp \lt -2 \amp \amp \blert{\text{Reverse the direction of the inequality.}}</mrow></md>
+The graph of the solutions is shown below.
+    <sidebyside width="50%"><image source="images/fig-6-5-1.png"><description>number line</description></image></sidebyside>
+</p></solution></example>
 
-<subsubsection><title>Exercises</title>
-
-<introduction><p>Decide whether each equation is a correct application of the distributive law. Write a correct statement if possible.</p></introduction>
-
-<exercise><statement><m>\dfrac{x+6}{3} \rightarrow \dfrac{x}{3} + \dfrac{6}{3}</m></statement>
-    <answer><p>Correct</p></answer></exercise>
-
-<exercise><statement><m>\dfrac{6}{x+3} \rightarrow \dfrac{6}{x} + \dfrac{6}{3}</m></statement>
-    <answer><p>Not correct</p></answer></exercise>
-
-<exercise><statement><m>2(P_0 a^t) \rightarrow 2P_0 +2a^t</m></statement>
-    <answer>Not correct. <m>~~2(P_0 a^t) = 2P_0 a^t</m></answer></exercise>
-
-<exercise><statement><m>25(1+r)^8 \rightarrow (25+25r)^8</m></statement>
-    <answer><p>Not correct</p></answer></exercise>
-
-</subsubsection>
-</subsection>
-
-<subsection><title>2. Apply the laws of exponents</title>
-
-<introduction><p>Be careful to avoid tempting but false operations with exponents.</p></introduction>
-
-<subsubsection><title>Example</title>
-
-<example><statement><p>Which equation is a correct application of the laws of exponents?<ol label="a">
-    <li><m>20(1+r)^4 = 20+20r^4~~~~~</m> or <m>~~~~~(ab^t)^3 = a^3b^{3t}</m></li>
-    <li><m>2^{t/5} = (2^{1/5})^t~~~~~</m> or <m>~~~~~6.8(10)^t = 68^t</m></li></ol>
-</p></statement>
-
-<solution><p><ol label="a">
-    <li><p>The first statement is not correct. There is no law that says <m>(a+b)^n</m> is equivalent to <m>a^n+b^n</m>, so <m>(1+r)^4</m> is not equivalent to <m>1^4+r^4</m> or <m>1+r^4</m>.</p>
-    <p> However, it is true that <m>(ab)^n = a^nb^n</m>, so in particular the second statement is true: 
-        <me>~~(ab^t)^3 = a^3(b^t)^3 = a^3b^{3t}</me></p></li> 
-    <li><p>The first statement is correct. If we start with <m>(2^{1/5})^t</m>, we can apply the third law, <m>(a^m)^n = a^{mn}</m>, to find 
-        <me>(2^{1/5})^t = 2^{(1/5)t} = 2^{t/5}</me>.</p>
-    <p> In the second statement, 6.8 is not raised to power <m>t</m>, so we cannot multiply 6.8 times 10.</p></li></ol>
+<example><statement><p>Solve <m>~-3 \lt 2x-5 \le 6~</m> and graph the solutions on a number line.</p></statement>
+ 
+<solution><p> 
+    <md><mrow>-3 \amp \lt 2x-5 \le 6 \amp \amp \blert{\text{Add 5 on all three sides.}}</mrow>
+        <mrow>2 \amp \lt 2x \le 11 \amp \amp \blert{\text{Divide each side by 2.}}</mrow>
+        <mrow>1 \amp \lt x \le \dfrac{11}{2} \amp \amp \blert{\text{Do not reverse the inequality.}}</mrow></md>
+ The graph of the solutions is shown below.
+    <sidebyside width="50%"><image source="images/fig-6-5-2.png"><description>number line</description></image></sidebyside>       
 </p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<introduction><p>Decide whether each equation is a correct application of the laws of exponents. Write a correct statement if possible.</p></introduction>
+<exercise><statement><p>Solve the inequality <m>~8-4x \gt -2~</m></p> </statement>
+    <answer><m>x \lt \dfrac{5}{2}</m></answer></exercise>
 
-<exercise><statement><m>P(1-r)^6 \rightarrow P-Pr^6</m></statement>
-    <answer><p>Not correct</p></answer></exercise>
+<exercise><statement><p>Solve the inequality <m>~-6 \le \dfrac{4-x}{3} \lt 2~</m></p> </statement>
+    <answer><m>22 \ge x \gt -2</m></answer></exercise>
 
-<exercise><statement><m>25(2^t) \cdot 4(2^t) \rightarrow 100 \cdot 2^{t^2}</m></statement>
-    <answer>Not correct. <m>~25(2^t) \cdot 4(2^t) = 100(2^{2t})</m></answer></exercise>
+<exercise><statement><p>Solve the inequality <m>~3x-5 \lt -6x+7~</m></p> </statement>
+    <answer><m>x \lt \dfrac{4}{3}</m></answer></exercise>
 
-<exercise><statement><m>a\left(b^{1/8}\right)^{2t} \rightarrow ab^{t/4}</m></statement>
-    <answer><p>Correct</p></answer></exercise>
-
-<exercise><statement><m>N(0.94)^{1/8.3} \rightarrow \dfrac{N}{(0.94)^{8.3}}</m></statement>
-    <answer>Not correct, but <m>~N(0.94)^{-8.3} = \dfrac{N}{(0.94)^{8.3}}</m></answer></exercise>
+<exercise><statement><p>Solve the inequality <m>~-6 \gt 4-5b \gt -21~</m></p> </statement>
+    <answer><m>2 \lt b \lt 5</m></answer></exercise>
 </subsubsection>
 </subsection>
 
-<subsection><title>3. Apply the properties of radicals</title>
 
-<assemblage><title>Rules for Radicals</title>
-    <p>Product Rule
-   <me>\sqrt[n]{ab}=\sqrt[n]{a}~\sqrt[n]{b}~~~~~~~\text{for } a, b \ge 0</me></p> 
 
-<p>Quotient Rule
-<me>\sqrt[n]{\frac{a}{b}}=\frac{\sqrt[n]{a}}{\sqrt[n]{b}}~~~~~~~\text{for } a\ge 0,~~ b \gt 0</me></p>
+<subsection><title>2. Find the <m>x</m>-intercepts of a parabola</title>
 
-<p>In general, it is <em>not</em> true that <m>\sqrt[n]{a+b}</m> is equivalent to <m>\sqrt[n]{a}+\sqrt[n]{b}</m>, or that <m>\sqrt[n]{a-b}</m> is equivalent to <m>\sqrt[n]{a}-\sqrt[n]{b}</m>.</p></assemblage>
+<introduction><p>To solve a quadratic inequality, we first find the <m>x</m>-intercepts of the graph. Remember that there are four different methods for solving a quadratic equation.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
-<example><statement><p>Which equation is a correct application of the properties of radicals?<ol label="a">
-    <li><m>\sqrt{x^4+81} = x^2 + 9~~~~~</m> or <m>~~~~~\sqrt[3]{P^2}~\sqrt[3]{1+r} = \sqrt[3]{P^2(1+r)}</m></li>
-    <li><m>\dfrac{\sqrt{x+y}}{\sqrt{x}} = \sqrt{y}~~~~~</m> or <m>~~~~~\dfrac{x+y}{\sqrt{x+y}} = \sqrt{x+y}</m></li></ol>
-</p></statement>
- 
-<solution><p><ol label="a">
-    <li><p>The first statement is incorrect. There is no property that says <m>~\sqrt[n]{a+b} = \sqrt[n]{a} + \sqrt[n]{b}</m>.</p> 
-    <p>However, it is true that <m>~\sqrt[n]{a}~ \sqrt[n]{b} = \sqrt[n]{ab}~</m>, so the second statement is correct.</p></li> 
-    <li><p>The first statement is incorrect, because <m>\dfrac{x+y}{x}</m> is not equivalent to <m>y</m>.</p>
-    <p> The second statement is correct, because <m>~\sqrt{x+y}~\sqrt{x+y} = x+y</m>.</p></li></ol></p>
+<example><statement><p>Find the <m>x</m>-intercepts of the parabola <m>~y=4x^2-12</m></p></statement>
+
+<solution><p>Set <m>y=0</m> and solve for <m>x</m>.  Use extraction of roots.
+    <md><mrow>4x^2-12 \amp = 0 </mrow>
+        <mrow>4x^2 \amp = 12 </mrow>
+        <mrow>x^2 \amp = 3 </mrow>
+        <mrow>x \amp = \pm \sqrt{3}</mrow></md>
+The <m>x</m>-intercepts are <m>(\sqrt{3},0)</m> and <m>(-\sqrt{3},0)</m>, or about <m>(1.7,0)</m> and <m>(-1.7,0)</m>.</p>
+</solution></example>
+
+<example><statement><p>Find the <m>x</m>-intercepts of the parabola <m>~y=-4x^2-12x</m></p></statement>
+
+<solution><p>Set <m>y=0</m> and solve for <m>x</m>.  Factor the right side.
+    <md><mrow>0 \amp = -4x^2-12x </mrow>
+        <mrow>0 \amp = -4x(x+3) \amp \amp \blert{\text{Set each factor equal to 0.}}</mrow>
+        <mrow>4x\amp = 0~~~~~~x+3 = 0 </mrow>
+        <mrow>x \amp = 0~~~~~~x=-3</mrow></md>
+The <m>x</m>-intercepts are <m>(0,0)</m> and <m>(-3,0)</m>.</p>
+</solution></example>
+
+<example><statement><p>Find the <m>x</m>-intercepts of the parabola <m>~y=4x^2-12x+8</m></p></statement>
+
+<solution><p>Set <m>y=0</m> and solve for <m>x</m>.  Factor the right side.
+    <md><mrow>0 \amp = 4x^2-12x+8 </mrow>
+        <mrow>0 \amp = 4(x^2-3x+2) </mrow>
+        <mrow>0 \amp = 4(x-2)(x-1) \amp \amp \blert{\text{Set each factor equal to 0.}}</mrow>
+        <mrow>x-2\amp = 0~~~~~~x-1 = 0 </mrow>
+        <mrow>x \amp = 2~~~~~~x=1</mrow></md>
+The <m>x</m>-intercepts are <m>(2,0)</m> and <m>(1,0)</m>.</p>
+</solution></example>
+
+<example><statement><p>Find the <m>x</m>-intercepts of the parabola <m>~y=12-12x-4x^2</m></p></statement>
+
+<solution><p>Set <m>y=0</m> and solve for <m>x</m>. Use the quadratic formula.
+    <md><mrow>0 \amp = -4x^2-12x+12 \amp \amp \blert{a=-4,~b=-12,~c=12}</mrow>
+        <mrow>x \amp = \dfrac{12 \pm \sqrt{(-12)^2-4(-4)(12)}}{2(-4)}</mrow>
+        <mrow>\amp = \dfrac{12 \pm \sqrt{144+96}}{-8}</mrow>
+        <mrow> \amp = \dfrac{12 \pm \sqrt{240}}{-8} = \dfrac{12 \pm 4\sqrt{15}}{-8} \amp \amp \blert{\sqrt{240} = \sqrt{16 \cdot 15} = 4\sqrt{15}}</mrow>
+        <mrow>\amp =\dfrac{-3 \pm \sqrt{15}}{2} </mrow></md>
+The <m>x</m>-intercepts are <m>\left(\dfrac{-3 + \sqrt{15}}{2},0\right)</m> and <m>\left(\dfrac{-3 - \sqrt{15}}{2},0\right)</m>, or about <m>(0.44,0)</m> and <m>(-3.44,0)</m>.</p>
 </solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<introduction><p>Decide whether each equation is a correct application of the properties of radicals. Write a correct statement if possible.</p></introduction>
+<introduction><p>Find the <m>x</m>-intercepts of the parabola. </p></introduction>
 
-<exercise><statement><m>\sqrt[4]{a^2-a^4} \rightarrow \sqrt[4]{a^2} - a</m></statement>
-    <answer><p>Not correct</p></answer></exercise>
+<exercise><statement><p><m>~y=2x^2-7x+3</m></p></statement>
+    <answer><m>\left(\dfrac{1}{2},0\right),~(3,0)</m></answer></exercise>
 
-<exercise><statement><m>\sqrt{b^4-16} \rightarrow \sqrt{b^2-4} \sqrt{b^2+4}</m></statement>
-    <answer><p>Correct</p></answer></exercise>
+<exercise><statement><p><m>~y=7x-2x^2</m></p></statement>
+    <answer><m>(0,0)</m>, <m>\left(\dfrac{7}{2},0\right)</m></answer></exercise>
 
-<exercise><statement><m>\sqrt[3]{t^4} + \sqrt[3]{t^4} \rightarrow \sqrt[3]{2t^4}</m></statement>
-    <answer>Not correct.<m>~\sqrt[3]{t^4} + \sqrt[3]{t^4} = 2\sqrt[3]{t^4}</m></answer></exercise>
+<exercise><statement><p><m>~y=10-2x^2</m></p></statement>
+    <answer><m>(2.24,0),~(-2.24,0)</m></answer></exercise>
 
-<exercise><statement><m>\dfrac{\sqrt{2p}}{\sqrt{4p+8p^2}} \rightarrow \dfrac{1}{\sqrt{2+4p}}</m></statement>
-    <answer><p>Correct</p></answer></exercise>
+<exercise><statement><p><m>~y=2x^2+10x+3</m></p></statement>
+    <answer><m>(-0.32,0),~(-4.68,0)</m></answer></exercise>
 </subsubsection>
 </subsection>
+
+
 
 </section>
 <!-- </book>  </pretext> -->

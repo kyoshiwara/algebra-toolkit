@@ -1,419 +1,121 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="LogFunctions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Logarithmic Functions</title>
+<section xml:id="GraphsofFunctions"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Graphs of Functions</title>
                  
-<subsection><title>1. Estimate logs</title>
+<subsection><title>1. New vocabulary</title>
+
+<introduction><p>We can use function notation to describe a graph.</p>
+                   
+<p>Fill in the blanks:<ol label="1">
+    <li>The point <m>(a,b)</m> lies on the graph of <m>f</m> if and only if <fillin characters="6"/>.</li>
+    <li>Each point on the graph of <m>y=f(x)</m> has coordinates <fillin characters="6"/>.</li>
+    <li>A graph of a function is increasing if the <fillin characters="6"/> values get larger as we read from left to right.</li>
+    <li>The maximum value of a function is the <fillin characters="6"/> of the highest point on the graph.</li>
+    </ol></p></introduction>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>How do you know that the point <m>(1,9)</m> lies on the graph of <m>f(t)=-16t^2+20t+5</m> ?</p></statement>
+    <answer><p>Because <m>f(1)=9</m>.</p></answer></exercise>
+
+<exercise><statement><p>What are the coordinates of any point on the graph of <m>h=f(t)</m> ?</p></statement>
+    <answer><p><m>(t, f(t))</m></p></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Solve equations and inequalities graphically</title>
 
 <subsubsection><title>Examples</title>
 
-<introduction><p>It is useful to be able to estimate mentally the value of a log.</p></introduction>
-                    
-<example><statement><p>Write each log equation in exponential form. Then use trial and error to estimate the log between two integers.<ol label="a" cols="2">
-        <li><m>\log_2 6=x</m></li>
-        <li><m>\log_2 24=x</m></li>
-        <li><m>\log_2 100=x</m></li>
-        <li><m>\log_2 0.3=x</m></li></ol></p></statement>
+<introduction><p>Every point on the graph of an equation <m>y=f(x)</m> tells us the solution of the equation for a particular value of <m>y</m>.</p></introduction>
 
-<solution><p><ol label="a">
-    <li><m>2^x=6.~</m> Because <m>~2^2=4~</m> and <m>~2^3=8</m>, <m>~2 \lt x \lt 3</m>.</li>
-    <li><m>2^x=24.~</m> Because <m>~2^4=16~</m> and <m>~2^5=32</m>, <m>~4 \lt x \lt 5</m>.</li> 
-    <li><m>2^x=100.~</m> Because <m>~2^6=64~</m> and <m>~2^7=128</m>, <m>~6 \lt x \lt 7</m>.</li> 
-    <li><m>2^x=0.3.~</m> Because <m>~2^{-2}=\dfrac{1}{4} = 0.25~</m> and <m>~2^{-1}=\dfrac{1}{2} = 0.5</m>, <m>~-2 \lt x \lt -1</m>.</li></ol> </p>
-</solution></example>
+<example><statement><p>Use the graph of <m>y=\dfrac{-2}{3}x-4</m> to solve the equation <me>\dfrac{-2}{3}x-4=-2</me>.</p></statement>
 
-<example><statement><p><ol label="a">
-    <li><p>Use computing technology to complete the table for <m>f(x)=5^x~</m>. Round the function values to tenths.
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>2.0</m></cell>
-                        <cell><m>2.1</m></cell>
-                        <cell><m>2.2</m></cell>
-                        <cell><m>2.3</m></cell>
-                        <cell><m>2.4</m></cell>
-                        <cell><m>2.5</m></cell>
-                        <cell><m>2.6</m></cell>
-                        <cell><m>2.7</m></cell>
-                        <cell><m>2.8</m></cell>
-                        <cell><m>2.9</m></cell>
-                        <cell><m>3.0</m></cell></row>
-                    <row> 
-                        <cell><m>f(x)</m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell></row>
-                    </tabular></sidebyside></p></li>
-    <li><p>Use your table from part (a) to make a table of values for the function <m>g(x) = \log_5 x</m>.
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>~x~</m></cell>
-                        <cell><m>~~~~</m></cell>
-                        <cell><m>~~~~</m></cell>
-                        <cell><m>~~~~</m></cell>
-                        <cell><m>~~~~</m></cell>
-                        <cell><m>~~~~</m></cell>
-                        <cell><m>~~~~</m></cell>
-                        <cell><m>~~~~</m></cell>
-                        <cell><m>~~~~</m></cell>
-                        <cell><m>~~~~</m></cell>
-                        <cell><m>~~~~</m></cell>
-                        <cell><m>~~~~</m></cell></row>
-                    <row> 
-                        <cell><m>g(x)</m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell></row>
-                    </tabular></sidebyside></p></li></ol></p></statement>
+<solution><sidebyside widths="50% 45%" vertical="bottom bottom"><stack><p>We see that <m>y</m> has been replaced by <m>-2</m> in the equation for the graph. So we look for the point on the graph that has <m>y</m>-coordinate <m>-2</m>.</p> 
+<p>This point, labeled <m>P</m> on the graph at right, has <m>x</m>-coordinate <m>-3</m>. Because it lies on the graph, the point <m>P(-3,-2)</m> is a solution of the equation <m>y=\dfrac{-2}{3}x-4</m>. </p></stack>
+    <image xml:id="y-eq-neg2x-over3-minus4"><description>line</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.35]
+        \draw[lightgray, thin] (-10,-10) grid (10,6);
+        \draw[black,very thick, ->, >=stealth'] (-10,0)--(11,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-10)--(0,7.5) node[left, xshift=2]{$y$};
+        \foreach \x in  {-10,-5,5,10} {
+         \draw[gray, thick] (\x,-10)--++(0,16);
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x in  {-10,-5,5} {
+         \draw[cyan!70!black, thick] (-10,\x)--++(20,0);
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[magenta!90!black,very thick, <->, >=stealth'] (-10,8/3)--(9,-10);
+        \filldraw[red] (-3,0) circle (.18) node[above, yshift=2, fill=white, inner sep=2] {$-3$};
+        \draw[blue!70!black, ultra thick, dashed, ->, >=stealth'] (0,-2)--(-3,-2);
+        \draw[blue!70!black, ultra thick, dashed, ->, >=stealth'] (-3,-2) -- (-3,0);
+        \filldraw[magenta!90!black] (-3,-2) circle (.2) node[text=black,below left, xshift=-2, yshift=-2, fill=white, inner sep=2] {$P$};
+        \filldraw[blue] (0,-2) circle (.18) node[right, xshift=2,fill=white, inner sep=2] {$-2$};
+        \filldraw[red] (-3,0) circle (.18) node[above, yshift=2, fill=white, inner sep=2] {$-3$};
+        \end{tikzpicture}]]>
+        </latex-image></image></sidebyside> 
+<p>But this statement also tells us that <m>-3</m> is a solution of the equation <m>\dfrac{-2}{3}x-4=2</m>.  You can check that substituting <m>x=-3</m> into this equation produces a true statement.</p></solution></example>
 
-<solution><p><ol label="a">
-    <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>2.0</m></cell>
-                        <cell><m>2.1</m></cell>
-                        <cell><m>2.2</m></cell>
-                        <cell><m>2.3</m></cell>
-                        <cell><m>2.4</m></cell>
-                        <cell><m>2.5</m></cell>
-                        <cell><m>2.6</m></cell>
-                        <cell><m>2.7</m></cell>
-                        <cell><m>2.8</m></cell>
-                        <cell><m>2.9</m></cell>
-                        <cell><m>3.0</m></cell></row>
-                    <row> 
-                        <cell><m>f(x)</m></cell>
-                        <cell><m>25</m></cell>
-                        <cell><m>29.4</m></cell>
-                        <cell><m>34.5</m></cell>
-                        <cell><m>40.5</m></cell>
-                        <cell><m>47.6</m></cell>
-                        <cell><m>55.9</m></cell>
-                        <cell><m>65.7</m></cell>
-                        <cell><m>77.1</m></cell>
-                        <cell><m>90.6</m></cell>
-                        <cell><m>106.4</m></cell>
-                        <cell><m>125</m></cell></row>
-                    </tabular></sidebyside></p></li>
-    <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>25</m></cell>
-                        <cell><m>29.4</m></cell>
-                        <cell><m>34.5</m></cell>
-                        <cell><m>40.5</m></cell>
-                        <cell><m>47.6</m></cell>
-                        <cell><m>55.9</m></cell>
-                        <cell><m>65.7</m></cell>
-                        <cell><m>77.1</m></cell>
-                        <cell><m>90.6</m></cell>
-                        <cell><m>106.4</m></cell>
-                        <cell><m>125</m></cell></row>
-                    <row>
-                        <cell><m>g(x)</m></cell>
-                        <cell><m>2.0</m></cell>
-                        <cell><m>2.1</m></cell>
-                        <cell><m>2.2</m></cell>
-                        <cell><m>2.3</m></cell>
-                        <cell><m>2.4</m></cell>
-                        <cell><m>2.5</m></cell>
-                        <cell><m>2.6</m></cell>
-                        <cell><m>2.7</m></cell>
-                        <cell><m>2.8</m></cell>
-                        <cell><m>2.9</m></cell>
-                        <cell><m>3.0</m></cell></row>                         
-                    </tabular></sidebyside></p></li></ol></p>
-</solution></example>
+<example><statement><p>Use the graph of <m>y=\dfrac{-2}{3}x-4</m> to solve the inequality <me>\dfrac{-2}{3}x-4 \le -2</me>.</p></statement>
+
+<solution><sidebyside widths="50% 45%" vertical="bottom bottom"><stack><p>We would like to find the <m>x</m>-coordinates of all points on the graph that have <m>y</m>-coordinate less than or equal to <m>-2</m>.  These points on the graph are indicated by the heavy portion of the line.</p>
+<p>The <m>x</m>-coordinates of these points are shown by the heavy portion of the <m>x</m>-axis.  The solution is <m>x \ge -3</m>, or in interval notation, <m>[-3,\infty)</m> .</p></stack>
+    <image xml:id="y-eq-neg2x-over3-minus4-inequality"><description>line</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.35]
+        \draw[lightgray, thin] (-10,-10) grid (10,6);
+        \draw[black,very thick, ->, >=stealth'] (-10,0)--(11,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-10)--(0,7.5) node[left, xshift=2]{$y$};
+        \foreach \x in  {-10,-5,5,10} {
+         \draw[gray, thick] (\x,-10)--++(0,16);
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x in  {-10,-5,5} {
+         \draw[cyan!70!black, thick] (-10,\x)--++(20,0);
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[magenta!90!black,thick, <->, >=stealth'] (-10,8/3)--(9,-10);
+        \draw[red,line width=1.2mm, ->, >=stealth'] (-3,-2)--(9,-10);
+        \filldraw[red] (-3,-2) circle (.2);
+        \filldraw[blue] (-3,0) circle (.2) node[above, yshift=2, fill=white, inner sep=2] {$-3$};
+        \draw[blue,line width=1.2mm, ->, >=stealth'] (-3,0)--(10,0);
+        \end{tikzpicture}]]>
+        </latex-image></image></sidebyside></solution></example>
+
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Write each log equation in exponential form. Then use trial and error to estimate the log, first between two integers, and then to the nearest tenth.<ol label="a" cols="2">
-        <li><m>\log_3 10=x</m></li>
-        <li><m>\log_3 20=x</m></li>
-        <li><m>\log_3 150=x</m></li>
-        <li><m>\log_3 0.5=x</m></li></ol></p></statement>
-    <answer><p><ol label="a">
-        <li><m>3^x = 10,~</m> between 2 and 3, <m>~2.1</m></li>
-        <li><m>3^x = 20,~</m> between 2 and 3, <m>~2.7</m></li>
-        <li><m>3^x = 150,~</m> between 4 and 5, <m>~4.6</m></li>
-        <li><m>3^x = 0.5,~</m> between <m>-1</m> and 0, <m>~-0.6</m></li></ol>
-    </p></answer></exercise>
+<exercise><statement><p>Use the graph to solve the equation or inequality. (Note the scales on the axes.) Show your solutions on the graph. Then verify your solutions by solving algebraically.<ol label="a">
+    <li><m>-9-\dfrac{x}{4}=-2</m></li>
+    <li><m>-9-\dfrac{x}{4} \ge -5</m></li>
+</ol></p>
+    <sidebyside width="45%"><image source="images/fig-1-3-3.png"><description>graph</description></image></sidebyside>
+</statement>
+    
+<answer><p><ol label = "a">
+        <li><m>x =-28</m></li>
+        <li><m>x \le -16</m></li>
+    </ol></p></answer></exercise>
 
-<exercise><statement><p><ol label="a">
-    <li><p>Use computing technology to complete the table for <m>f(x)=4^x~</m>.
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>-1</m></cell>
-                        <cell><m>-0.5</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>0.5</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>1.5</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>2.5</m></cell>
-                        <cell><m>3</m></cell>
-                        <cell><m>3.5</m></cell>
-                        <cell><m>4.0</m></cell></row>
-                    <row> 
-                        <cell><m>f(x)</m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell></row>
-                    </tabular></sidebyside></p></li>
-    <li><p>Use your table from part (a) to make a table of values for the function <m>g(x) = \log_4 x</m>.
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>~x~</m></cell>
-                        <cell><m>~~~~</m></cell>
-                        <cell><m>~~~~</m></cell>
-                        <cell><m>~~~~</m></cell>
-                        <cell><m>~~~~</m></cell>
-                        <cell><m>~~~~</m></cell>
-                        <cell><m>~~~~</m></cell>
-                        <cell><m>~~~~</m></cell>
-                        <cell><m>~~~~</m></cell>
-                        <cell><m>~~~~</m></cell>
-                        <cell><m>~~~~</m></cell>
-                        <cell><m>~~~~</m></cell></row>
-                    <row> 
-                        <cell><m>g(x)</m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell></row>
-                    </tabular></sidebyside></p></li>
-    <li><p>Use your table from part (b) to make a graph of <m>g(x) = \log_4 x</m>.</p>
-        <sidebyside width="50%"><image source="images/fig-5-2-1.svg"><description>grid </description></image></sidebyside>
-        </li></ol></p></statement>
- 
-<answer><p><ol label="a">
-    <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>-1</m></cell>
-                        <cell><m>-0.5</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>0.5</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>1.5</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>2.5</m></cell>
-                        <cell><m>3</m></cell>
-                        <cell><m>3.5</m></cell>
-                        <cell><m>4.0</m></cell></row>
-                    <row>                 
-                        <cell><m>f(x)</m></cell>
-                        <cell><m>0.25</m></cell>
-                        <cell><m>0.5</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>4</m></cell>
-                        <cell><m>8</m></cell>
-                        <cell><m>16</m></cell>
-                        <cell><m>32</m></cell>
-                        <cell><m>64</m></cell>
-                        <cell><m>128</m></cell>
-                        <cell><m>256</m></cell></row>
-                    </tabular></sidebyside></p></li>
-    <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>~x~</m></cell>
-                        <cell><m>0.25</m></cell>
-                        <cell><m>0.5</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>4</m></cell>
-                        <cell><m>8</m></cell>
-                        <cell><m>16</m></cell>
-                        <cell><m>32</m></cell>
-                        <cell><m>64</m></cell>
-                        <cell><m>128</m></cell>
-                        <cell><m>256</m></cell></row>
-                    <row> 
-                        <cell><m>g(x)</m></cell>
-                        <cell><m>-1</m></cell>
-                        <cell><m>-0.5</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>0.5</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>1.5</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>2.5</m></cell>
-                        <cell><m>3</m></cell>
-                        <cell><m>3.5</m></cell>
-                        <cell><m>4.0</m></cell></row>
-                    </tabular></sidebyside></p></li> 
-    <li><sidebyside width="50%"><image source="images/fig-5-2-2.svg"><description>graph</description></image></sidebyside></li></ol></p></answer></exercise>  
-
-</subsubsection>
-</subsection>
-
-<subsection><title>2. Use function notation</title>
-
-<introduction><p>A log function is the inverse of the exponential function with the same base, and vice versa.</p></introduction>
-
-<subsubsection><title>Examples</title>
-
-<example><statement><p><m>f(x)=\log_6 x</m><ol label="a">
-    <li>What is <m>~f^{-1}(x)</m>?</li>
-    <li>Evaluate and simplify <m>~f\left(f^{-1}(4)\right)</m></li>
-    <li>Evaluate and simplify <m>~f^{-1}\left(f(5)\right)</m></li></ol></p></statement>
-
-<solution><p><ol label="a">
-    <li><m>~f^{-1}(x) = 6^x</m></li>
-    <li><m>~f(f^{-1}(4)) = f(6^4) = \log_6 (6^4) = 4</m></li>
-    <li><m>~f^{-1}(\log_6 5) = 6^{\log_6 5} = 5</m></li></ol>
-</p></solution></example>
-
-<example><statement><p> For each function <m>~f(x)~</m>, decide whether <m>f(a+b)=f(a)+f(b)</m>.<ol label="a" cols="2">
-    <li><m>f(x)=3^x</m></li>
-    <li><m>f(x)=\log_3 x</m></li></ol>
-</p></statement>
-
-<solution><p><ol label="a">
-    <li><p><m>f(a+b)=3^{a+b},~</m> and <m>~f(a)+f(b) = 3^a+3^b.~</m></p>
-        <p> But <m>~3^{a+b}~</m> is not equivalent to <m>~3^a+3^b;~</m> in fact <m>~3^{a+b} =3^a \cdot 3^b.</m></p>
-        <p>So for this function, <m>f(a+b) \not= f(a)+f(b)</m>.</p></li>
-    <li><p><m>f(a+b)=\log_3 (a+b),~</m> and <m>~f(a)+f(b) = \log_3 a +\log_3 b.~</m></p>
-        <p> But <m>~\log_3 (a+b)~</m> is not equivalent to <m>~\log_3 a +\log_3 b;~</m> in fact <m>~\log_3 (ab) = \log_3 a +\log_3 b.</m></p>
-        <p>So for this function, <m>f(a+b) \not= f(a)+f(b)</m>.</p></li>
-    </ol></p>
-</solution></example>
-</subsubsection>
-
-<subsubsection><title>Exercises</title>
-
-<exercise><statement><p><m>h(x)=\log_4 x.~</m> Evaluate if possible.<ol label="a" cols="2">
-    <li><m>h(4)</m></li>
-    <li><m>h^{-1}(4)</m></li>
-    <li><m>h(0)</m></li>
-    <li><m>h^{-1}(0)</m></li></ol>
-</p></statement>
-    <answer><p><ol label="a">
-        <li><m>1</m></li>
-        <li><m>256</m></li>
-        <li>undefined</li>
-        <li><m>1</m></li></ol></p>
-    </answer></exercise>
-
-<exercise><statement><p><m>q(x)=9^x.~</m> Evaluate if possible.<ol label="a" cols="2">
-    <li><m>q\left(\dfrac{1}{2}\right)</m></li>
-    <li><m>q^{-1}(3)</m></li>
-    <li><m>q(0)</m></li>
-    <li><m>q^{-1}(0)</m></li></ol>
-</p></statement>
-    <answer><p><ol label="a">
-        <li><m>3</m></li>
-        <li><m>\dfrac{1}{2}</m></li>
-        <li><m>1</m></li>
-        <li>undefined</li></ol></p>
-    </answer></exercise>
-
-<exercise><statement><p><m>g(x)=5^x~</m>. Evaluate and simplify if possible.<ol label="a" cols="2">
-    <li><m>g(3+t)</m></li>
-    <li><m>g(3t)</m></li></ol>
-</p></statement>
-    <answer><p><ol label="a">
-        <li><m>125 \cdot 5^{t}</m></li>
-        <li><m>125^t</m></li></ol></p>
-    </answer></exercise>
-
-<exercise><statement><p><m>f(x)=\log_8 x~</m>. Evaluate and simplify if possible.<ol label="a" cols="2">
-    <li><m>f(64p)</m></li>
-    <li><m>f(64+p)</m></li></ol>
-</p></statement>
-    <answer><p><ol label="a">
-        <li><m>2+\log_8 p</m></li>
-        <li>cannot be simplified</li></ol></p>
-    </answer></exercise>
-</subsubsection>
-</subsection>
-
-<subsection><title>3. Graph log functions</title>
-
-<introduction><p>One way to graph a log function is to first make a table of values for its inverse function, the exponential function with the same base, then interchange the variables.</p></introduction>
-
-<subsubsection><title>Exercise</title>
-
-<exercise><statement><p><ol label="a">
-    <li><p>Complete the table of values and graph on the same grid: <m>~f(x)=x^2~</m> and <m>~g(x)=2^x~</m>
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>~~~x~~~</m></cell>
-                        <cell><m>~~~0~~~</m></cell>
-                        <cell><m>~~~1~~~</m></cell>
-                        <cell><m>~~~2~~~</m></cell>
-                        <cell><m>~~~3~~~</m></cell>
-                        <cell><m>~~~4~~~</m></cell>
-                        <cell><m>~~~5~~~</m></cell>
-                        <cell><m>~~~6~~~</m></cell>
-                        <cell><m>~~~8~~~</m></cell>
-                        <cell><m>~~10~~~</m></cell></row>
-                    <row> 
-                        <cell><m>~f(x)~</m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell></row>
-                    <row> 
-                        <cell><m>~g(x)~</m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell>
-                        <cell><m></m></cell></row>
-                    </tabular></sidebyside></p>
-    <sidebyside width="50%"><image source="images/fig-5-2-3.svg"><description>grid</description></image></sidebyside></li>
-    <li><p>Use your tables from part (a) to graph <m>~h(x)=\sqrt{x}~</m> and <m>~j(x)=\log_2 x~</m> on the same grid.</p>
-    <sidebyside width="50%"><image source="images/fig-5-2-5.svg"><description>grid</description></image></sidebyside></li>
-</ol></p></statement> 
-    <answer><p><ol label="a">
-     <li><sidebyside width="50%"><image source="images/fig-5-2-4.svg"><description>graph</description></image></sidebyside></li>
-      <li><sidebyside width="50%"><image source="images/fig-5-2-6.svg"><description>graph</description></image></sidebyside></li></ol> </p>
-    </answer></exercise>
-
+<exercise><statement><p>Use the graph to solve the equation or inequality. (Note the scales on the axes.) Show your solutions on the graph. Then verify your solutions by solving algebraically.<ol label="a">
+    <li><m>7-\dfrac{2x}{3}=3</m></li>
+    <li><m>7-\dfrac{2x}{3} \lt -1</m></li>
+</ol></p>
+    <sidebyside width="40%"><image source="images/fig-1-3-4.png"><description>graph</description></image></sidebyside>
+</statement>
+    
+<answer><p><ol label = "a">
+        <li><m>x =6</m></li>
+        <li><m>x \gt 12</m></li>
+    </ol></p></answer></exercise>
 </subsubsection>
 </subsection>
 

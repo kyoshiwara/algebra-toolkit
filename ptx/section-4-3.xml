@@ -1,172 +1,115 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="Logarithms" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Logarithms</title>
+<section xml:id="CurveFitting" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Curve Fitting </title>
                  
-<subsection><title>1. Convert between radicals and powers</title>
+<subsection><title>1. Write an equation for a point on a graph</title>
 
-<subsubsection><title>Examples</title>
+<introduction><p>If a curve passes through a given point, the coordinates of the point satisfy the equation of the curve.</p></introduction>
 
-<introduction><p>Because a logarithm is an exponent, it is helpful to convert easily between radical notation and exponent noatation.</p></introduction>
+<subsubsection><title>Example</title>
 
-<example><statement><p>Write each power as a radical. <ol label="a" cols="2">
-    <li><m>x^{2/3}</m></li>
-    <li><m>t^{-3/2}</m></li>
-    <li><m>w^{1.25}</m></li>
-    <li><m>z^{-0.4}</m></li></ol></p></statement>
+<example><statement><p>Write an equation to say that <m>(-3,8)</m> lies on the graph of<m>~y=ax^2+bx+c~</m>.</p></statement>
  
-<solution><p>Recall that the numerator of the exponent is the power and the denominator is the root.  A negative exponent indicates a reciprocal.<ol label="a">
-    <li><m>x^{2/3} = \sqrt[3]{x^2}</m></li>
-    <li><m>t^{-3/2} = \dfrac{1}{t^{3/2}} = \dfrac{1}{\sqrt{t^3}}</m></li>
-    <li><m>w^{1.25} = w^{5/4} = \sqrt[4]{w^5}</m></li>
-    <li><m>z^{-0.4} = \dfrac{1}{z^{4/10}} = \dfrac{1}{z^{2/5}} = \dfrac{1}{\sqrt[5]{z^2}}</m></li></ol></p>
-</solution></example>
-
-<example><statement><p> Write each radical expression in exponential form and simplify.<ol label="a" cols="2">
-    <li><m>\sqrt[4]{b^3}</m></li>
-    <li><m>\dfrac{1}{\sqrt[6]{a^3}}</m></li>
-    <li><m>x^2\sqrt[4]{x}</m></li>
-    <li><m>\dfrac{\sqrt[3]{v}}{\sqrt{v}}</m></li></ol></p></statement>
- 
-<solution><p><ol label="a">
-    <li><m>\sqrt[4]{b^3} = b^{3/4}</m></li>
-    <li><m>\dfrac{1}{\sqrt[6]{a^3}} = \dfrac{1}{a^{3/6}} = a^{-3/6} = a^{-1/2}</m></li>
-    <li><m>x^2\sqrt[4]{x} = x^2x^{1/4} = a^{2+1/4} = a^{9/4}</m></li>
-    <li><m>\dfrac{\sqrt[3]{v}}{\sqrt{v}} = \dfrac{v^{1/3}}{v^{1/2}} = v^{1/3-1/2} = v^{-1/6}</m></li></ol>
+<solution><p>Substitute <m>-3</m> for <m>x</m> and <m>8</m> for <m>y</m>. 
+    <md><mrow>8 \amp = a(-3)^2+b(-3)+c \amp \amp \blert{\text{Simplify.}}</mrow>
+        <mrow>8 \amp = 9a-3b+c</mrow></md>
 </p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Write each power as a radical. <ol label="a" cols="3">
-    <li><m>m^{-3/5}</m></li>
-    <li><m>p^{2.75}</m></li>
-    <li><m>x^{0.18}</m></li></ol>
- </p></statement>
-    <answer><p><ol label="a">
-        <li><m>\dfrac{1}{\sqrt[5]{m^3}}</m></li>
-        <li><m>\sqrt[4]{p^{11}}</m></li>
-        <li><m>\sqrt[50]{x^{9}}</m></li></ol>
-    </p></answer></exercise>
+<exercise><statement><p>Write an equation to say that <m>(-4,-18)</m> lies on the graph of<m>~y=ax^2+bx+c~</m>.</p> </statement>
+    <answer><m>-16a-4b+c=-18</m></answer></exercise>
 
-<exercise><statement><p> Write each radical expression in exponential form and simplify.<ol label="a" cols="3">
-    <li><m>\sqrt[10]{n^9}</m></li>
-    <li><m>\sqrt{h}\sqrt[4]{h}</m></li>
-    <li><m>\left(\sqrt[3]{t^2}\right)^4</m></li></ol></p></statement>
-    <answer><p><ol label="a">
-        <li><m>n^{9/10}</m></li>
-        <li><m>h^{3/4}</m></li>
-        <li><m>t^{8/3}</m></li></ol></p></answer></exercise>
+<exercise><statement><p>Write an equation to say that <m>(8,0)</m> lies on the graph of<m>~y=ax^2+bx+c~</m>.</p> </statement>
+    <answer><m>64a+8b+c=0</m></answer></exercise>
+
+<exercise><statement><p>Write an equation to say that <m>(0,-5)</m> lies on the graph of<m>~y=ax^2+bx+c~</m>.</p> </statement>
+    <answer><m>c=-5</m></answer></exercise>
+
+<exercise><statement><p>Write an equation to say that <m>(-60,400)</m> lies on the graph of<m>~y=ax^2+bx+c~</m>.</p> </statement>
+    <answer><m>3600a-60b+c=400</m></answer></exercise>
 </subsubsection>
 </subsection>
 
-<subsection><title>2. Find an unknown exponent</title>
+<subsection><title>2. Solve a 2x2 linear system</title>
 
-<introduction><p>If we can write both sides of an equation as powers with the same base, we can equate the exponents.</p></introduction>
+<introduction><p>For fitting a parabola through given points, we'll solve systems using the method of elimination.</p></introduction>
 
-<subsubsection><title>Examples</title>
+<subsubsection><title>Example</title>
 
-<example><statement><p> Find the value of the exponent.<ol label="a" cols="2">
-    <li><m>3^x=81</m></li>
-    <li><m>5^x=\dfrac{1}{125}</m></li>
-    <li><m>\left(\dfrac{3}{4}\right)^x=\dfrac{16}{9}</m></li>
-    <li><m>64^x=16</m></li></ol>
+<example><statement><p>Solve the system by elimination.
+    <md><mrow>5x-2y \amp = 22</mrow>
+        <mrow>2x-5y \amp = 13</mrow></md>
 </p></statement>
 
-<solution><p><ol label="a">
-    <li><p>We can write both sides with base 3.
-        <me>~~ 81 = 3^4,~~~\text{so} ~~x=4</me>.</p></li>
-    <li><p>We can write both sides with base 5.
-        <me>~~125 = 5^3,~~~ \text{so}~~~5^{-3} = \dfrac{1}{125},~~~ \text{and} ~~x=-3</me>.</p></li>
-    <li><m>\left(\dfrac{3}{4}\right)^2 = \dfrac{9}{16}~</m>, so <m>~\left(\dfrac{3}{4}\right)^{-2} = \dfrac{16}{9}~~</m>, and <m>~x=-2</m>.</li>
-    <li><p>We can write both sides with base 4.
-        <me>64 = 4^3~~~ \text{and}~~~16 = 4^2</me>, 
-        so 
-        <md> <mrow>~(4^3)^x \amp = 4^2 \amp\amp \blert{\text{Multiply exponents.}}</mrow>
-            <mrow>4^{3x} \amp = 4^2  \amp\amp \blert{\text{Equate exponents.}}</mrow>
-            <mrow>3x \amp = 2</mrow>
-            <mrow>x \amp =\dfrac{2}{3}</mrow></md></p></li>    </ol>
-</p></solution></example>
-
-<example><statement><p> By using trial and error, estimate the value of the exponent to the nearest tenth.<ol label="a" cols="2">
-    <li><m>2^x=15</m></li>
-    <li><m>3^x=65</m></li>
-    <li><m>10^x=0.03</m></li>
-    <li><m>0.5^x = 0.20</m></li></ol>
-</p></statement>
-
-<solution><p><ol label="a">
-    <li><m>2^4=16~</m>, so we try a slightly smaller exponent and find that <m>2^{3.9} = 14.9285~</m>, so <m>x \approx 3.9</m>.</li>
-    <li> 65 is between <m>3^3=27</m> and <m>3^4=81</m>, so <m>x</m> must be between 3 and 4. By trying exponents 3.1, 3.2, 3.3, and so on, we find that <m>3^{3.8}=65.022</m>, so <m>x \approx 3.8</m>.</li>
-    <li><m>10^{-1}=0.1</m> and <m>10^{-2}=0.01</m>, so <m>-2 \lt x \lt -1</m>. By trying exponents between <m>-2</m> and <m>-1</m>, we find that <m>10^{-1.5} = 0.0316</m>, so <m>x \approx -1.5</m>.</li>
-    <li><m>0.5^2 = 0.25</m>, and as we increase the exponent on <m>0.5</m>, the result will be smaller. By trial and error we find that <m>0.5^{2.3} = 0.2031</m>, so <m>x \approx 2.3</m>.</li></ol></p>
-</solution></example>
+<solution><p>To eliminate the <m>x</m>-terms,look for the smallest integer that both 2 and 5 divide into evenly, namely, 10. Multiply the first equation by 2 and the second equation by <m>-5</m>.
+    <md><mrow>\blert{2}(5x-2y \amp = 22) \amp\amp \rightarrow \amp 10x-4y \amp = 44</mrow>
+        <mrow>\blert{-5}(2x-5y \amp = 13) \amp\amp \rightarrow \amp -10x+25y \amp = -65</mrow></md>
+Add these new equations to obtain an equation in <m>y</m>.
+    <md><mrow>10x-~4y \amp = 44</mrow>
+        <mrow>\underline{-10x+25y} \amp \underline{{}= -65 \vphantom{-10x+25y}}</mrow>
+        <mrow> 21y \amp = -21</mrow></md>
+Solve for <m>y</m> to find <m>y=-1</m>. Finally, substitute <m>y=\alert{-1}</m> into the first equation and solve for <m>x</m>.
+    <md><mrow>5x-2(\alert{-1}) \amp = 22</mrow>
+        <mrow>5x+2 \amp = 22</mrow>
+        <mrow> x \amp = 4</mrow></md>
+The solution to the system is <m>(4,-1)</m>. </p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Find the value of the exponent.<ol label = "a" cols="2">
-    <li><m>2^x = \dfrac{1}{1024}</m></li>
-    <li><m>125^x = 25</m></li></ol></p></statement>
-<answer><p><ol label="a">
-        <li><m>10</m></li>
-        <li><m>\dfrac{2}{3}</m></li></ol></p></answer></exercise>
+<exercise><statement><p>Solve the system by elimination.
+    <md><mrow>2x-9y \amp = 3</mrow>
+        <mrow>4x-5y \amp = -7</mrow></md>
+</p></statement>
+    <answer><m>(-3,-1)</m></answer></exercise>
 
-<exercise><statement><p>By using trial and error, estimate the value of the exponent to the nearest tenth.<ol label = "a" cols="2">
-    <li><m>10^x = 50</m></li>
-    <li><m>1.08^x = 1.5</m></li></ol></p></statement>
-<answer><p><ol label="a">
-        <li><m>1.7</m></li>
-        <li><m>5.3</m></li></ol></p></answer></exercise>
+<exercise><statement><p>Solve the system by elimination.
+    <md><mrow>5x+2y \amp = 5</mrow>
+        <mrow>4x+3y \amp = -3</mrow></md>
+</p></statement>
+    <answer><m>(3,-5)</m></answer></exercise>
 </subsubsection>
 </subsection>
 
-<subsection><title>3. Apply the laws of exponents</title>
+<subsection><title>3. Solve a (special) 3x3 linear system</title>
 
-<introduction><p>The laws of exponents still apply to variable exponents. (If you would like to review the laws of exponents, they are listed in Section 3.2.)</p></introduction>
+<introduction><p>In this special case of solving a 3x3 system, we can eliminate <m>c</m> to create a 2x2 system.</p></introduction>
 
-<subsubsection><title>Examples</title>
+<subsubsection><title>Example</title>
 
-<example><statement><p>Use the laws of exponents to simplify.<ol label="a" cols="2">
-    <li><m>1.35^6(1.35^4)</m></li>
-    <li><m>0.64^5(0.64^n)</m></li></ol></p></statement>
- 
-<solution><p>When multiplying two powers with the same base, we add the exponents. Notice that the base does not change.<ol label="a">
-    <li><m>1.35^6(1.35^4) = 1.35^{6+4}=1.35^{10}</m></li>
-    <li><m>0.64^5(0.64^n) = 0.64^{5+n}</m></li></ol></p>
-</solution></example>
+<example><statement><p>Solve the system by elimination.
+    <md><mrow>a+b+c \amp = 3 \amp \amp \text{(1)}</mrow>
+        <mrow>4a-2b+c \amp = 18 \amp \amp \text{(2)}</mrow>
+        <mrow>9a+3b+c \amp = 13 \amp \amp \text{(3)}</mrow></md></p></statement>
 
-<example><statement><p>Use the laws of exponents to simplify.<ol label="a" cols="2">
-    <li><m>\dfrac{0.32^8}{0.32^2}</m></li>
-    <li><m>\dfrac{0.32^t}{0.32^x}</m></li></ol></p></statement>
-
-<solution><p> When dividing two powers with the same base, we subtract the exponents.<ol label="a" cols="2">
-    <li><m>\dfrac{0.32^8}{0.32^2} = 0.32^{8-2} = 0.32^6</m></li>
-    <li><m>\dfrac{0.32^t}{0.32^x} = 0.32^{t-x}</m></li></ol></p>
-</solution></example>
-
-<example><statement><p>Use the laws of exponents to simplify.<ol label="a" cols="2">
-    <li><m>(1.07^5)^3</m></li>
-    <li><m>(1.07^4)^p</m></li></ol></p></statement>
-
-<solution><p> When raising a power to a power, we multiply the exponents.<ol label="a">
-    <li><m>(1.07^5)^3 = 1.07^{15}</m></li>
-    <li><m>(1.07^4)^p = 1.07^{4p}</m></li></ol></p>
+<solution><p>Eliminate <m>c</m> by subtracting (1) from (2), then eliminate <m>c</m> again by subtracting (1) from (3), to get a 2x2 system:
+    <md><mrow>3a-3b \amp = 15 </mrow>
+        <mrow>8a+2b \amp = 10 </mrow></md>
+Divide the first equation by 3 and the second equation by 2, then add.
+    <md><mrow>a-b \amp = 5 </mrow>
+        <mrow>\underline{4a+b} \amp \underline{{}= 5 \vphantom{4a+b}} </mrow>
+        <mrow>5a \amp = 10 </mrow></md>
+We see that <m>a=2</m>. Substituting <m>a=2</m> into the equation <m>a-b=5</m>, we find that <m>b=-3</m>. Finally, we substitue <m>a=2</m> and <m>b=-3</m> into equation (1) to find
+    <md><mrow>2-3+c \amp = 3 </mrow>
+        <mrow>c \amp = 4 </mrow></md>
+The solution is <m>a=2,~b=-3</m>, and <m>c=4</m>.</p>
 </solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercise</title>
 
-<exercise><statement><p>Use the laws of exponents to simplify <m>~2.5^{2t}(2.5^3)</m>.</p></statement> 
-    <answer><m>2.5^{2t+3}</m></answer></exercise> 
-
-<exercise><statement><p>Use the laws of exponents to simplify <m>~(0.94^4)^{m-2}</m>.</p></statement>
-    <answer><m>0.94^{4m-8}</m></answer></exercise>
-
-<exercise><statement><p>Use the laws of exponents to simplify <m>~\dfrac{1.13^{8x}}{1.13^{5x}}</m>.</p></statement>
-    <answer><m>1.13^{3x}</m></answer></exercise>
+<exercise><statement><p>Solve the system by elimination.
+    <md><mrow>a+b+c \amp = 5</mrow>
+        <mrow>4a-2b+c \amp = -7</mrow>
+        <mrow>16a+4b+c \amp = -37 </mrow></md></p></statement>
+    <answer><m>a=-3,~b=1,~c=7</m></answer></exercise>
 </subsubsection>
 </subsection>
+
+
 
 </section>
 <!-- </book>  </pretext> -->
