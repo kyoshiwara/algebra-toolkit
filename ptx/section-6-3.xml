@@ -1,78 +1,148 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="GraphingParabolas" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Graphing Parabolas </title>
+<section xml:id="RationalExponents" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Rational Exponents</title>
                  
-<subsection><title>1. Find the coordinates of points on a parabola</title>
+<subsection><title>1. Perform operations on fractions</title>
 
-<introduction><p>To find the <m>x</m>-coordinate of a point on a parabola, we usually need to solve a quadratic equation.</p></introduction>
+<introduction><p>When working with rational exponents, we will need to perform operations on fractions.</p></introduction> 
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Add <m>~\dfrac{-3}{4}+\left(\dfrac{-5}{8}\right)</m></p></statement>
+    
+<solution><p>The LCD for the fractions is 8, so we build the first fraction:
+    <me>\dfrac{-3}{4} \cdot \alert{\dfrac{2}{2}} = \dfrac{-6}{8}</me>
+Then we combine like fractions:
+    <me>\dfrac{-6}{8}+\left(\dfrac{-5}{8}\right) = \dfrac{-6+(-5)}{8} = \dfrac{-11}{8}</me></p></solution></example>
+
+<example><statement><p>Subtract <m>~\dfrac{-5}{6}-\left(\dfrac{-3}{4}\right)</m></p></statement>
+    
+<solution><p>The LCD for the fractions is 12, so we build each fraction:
+        <me>\dfrac{-5}{6} \cdot \alert{\dfrac{2}{2}} = \dfrac{-10}{12};~~~~\dfrac{-3}{4} \cdot \alert{\dfrac{3}{3}} = \dfrac{-9}{12}</me>
+Then we combine like fractions:
+        <me>\dfrac{-10}{12}-\left(\dfrac{-9}{12}\right) = \dfrac{-10+9}{12} = \dfrac{-1}{12}</me></p></solution></example>
+
+<example><statement><p>Multiply <m>~\dfrac{-2}{3}\left(\dfrac{5}{4}\right)</m></p></statement>
+    
+<solution><p>We multiply numerators together, and multiply denominators together:
+        <me>\dfrac{-2}{3}\left(\dfrac{5}{4}\right) = \dfrac{-2 \cdot 5}{3 \cdot 4} = \dfrac{-10}{12}</me>
+Then we reduce:
+        <me>\dfrac{-10}{12} = \dfrac{-5 \cdot \cancel{2}}{6 \cdot \cancel{2}} = \dfrac{-5}{6}</me></p></solution>
+</example>
+
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Add <m>~\dfrac{-3}{4}+\dfrac{1}{3}</m></p></statement>
+    <answer><p><m>\dfrac{-5}{12}</m></p></answer></exercise>
+
+<exercise><statement><p>Subtract <m>~\dfrac{3}{8}-\left(\dfrac{-1}{6}\right)</m></p></statement>
+    <answer><p><m>\dfrac{13}{24}</m></p></answer></exercise>
+
+<exercise><statement><p>Multiply <m>~\dfrac{3}{8} \cdot \left(\dfrac{-1}{6}\right)</m></p></statement>
+    <answer><p><m>\dfrac{-1}{16}</m></p></answer></exercise>
+
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Convert between fractions and decimals</title>
+
+<introduction><p>Rational exponents may also be written in decimal form.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
-<example><statement><p>Find the <m>y</m>-coordinate of the point on the graph of <m>~y=2x^2-3x+5~</m> with <m>x</m>-coordinate <m>-3</m>.</p></statement>
- 
-<solution><p>Substitute <m>x=\alert{-3}</m> into the equation, and evaluate.
-    <me>y=2(\alert{-3})^2-3(\alert{-3})+5 = 18+9+5 = 32</me>
-The <m>y</m>-coordinate is 32, and the point is <m>(-3,32)</m>.</p></solution></example>
+<example><statement><p>Convert <m>~0.016~</m> to a common fraction.</p></statement>
 
-<example><statement><p>Find the <m>x</m>-coordinates of all points on the graph of <m>~y=20-3x^2~</m> with <m>y</m>-coordinate <m>-28</m>.</p></statement>
- 
-<solution><p>Substitute <m>y=\alert{-28}</m> into the equation, and solve.
-    <md><mrow>\alert{-28} \amp = 20-3x^2 \amp \amp \blert{\text{Subtract 20 from both sides.}}</mrow>
-        <mrow>-48 \amp =-3x^2 \amp \amp \blert{\text{Divide both sides by}~-3.}</mrow>
-        <mrow>16 \amp = x^2 \amp \amp \blert{\text{Extract roots.}}</mrow>
-        <mrow> \pm 4 \amp = x</mrow></md>
-    The points are <m>(4, -28)</m> and <m>(-4,-28)</m>.</p></solution></example>
+<solution><p>The numerator of the fraction is 016, or 16. The last digit, 6, is in the thousandths place, so the denominator of the fraction is 1000. Thus, <m>0.016=\dfrac{16}{1000}</m>.  We can reduce this fraction by dividing top and bottom by 8: 
+    <me>~ \dfrac{16}{1000} = \dfrac{\cancel{8} \cdot 2}{\cancel{8} \cdot 125} = \dfrac{2}{125}</me>
+</p></solution></example>
+
+<example><statement><p>Convert <m>~\dfrac{5}{16}~</m> to a decimal fraction.</p></statement>
+
+<solution>
+    <p>Using a calculator, divide 5 by 16:</p>
+    <p><m>\qquad\qquad 5</m> <kbd name="obelus"/> <m>16 = 0.3125</m></p>
+</solution></example>
+
+<example><statement><p>Convert <m>~\dfrac{5}{11}~</m> to a decimal fraction.</p></statement>
+
+<solution><p>Using a calculator, divide 5 by 11:</p>
+    <p><m>\qquad\qquad 5</m> <kbd name="obelus"/> <m>11= 0.45454545 ... </m> </p>
+    <p>This is a nonterminating decimal, which we indicate by a repeater bar:
+    <me>\dfrac{5}{11}= 0.45454545 ... =  0.\overline{45}</me></p>
+</solution></example>
+
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Find the <m>y</m>-coordinate of the point on the graph of <m>~y=-x^2+6x+2~</m> with <m>x</m>-coordinate <m>-2</m>.</p> </statement>
-    <answer><m>-14</m></answer></exercise>
+<exercise><statement><p>Convert <m>~0.1062~</m> to a common fraction.</p></statement>
+    <answer><m>\dfrac{531}{5000}</m></answer></exercise>
 
-<exercise><statement><p>The <m>x</m>-coordinate of the vertex of <m>~y=2x^2-6x+1~</m> is <m>\dfrac{3}{2}</m>. Find the <m>y</m>-coordinate of the vertex.</p> </statement>
-    <answer><m>\dfrac{-7}{2}</m></answer></exercise>
+<exercise><statement><p>Convert <m>~2.08~</m> to a common fraction.</p></statement>
+    <answer><m>\dfrac{52}{25}</m></answer></exercise>
 
-<exercise><statement><p>Find the <m>x</m>-coordinates of all points on the graph of <m>~y=x^2-2x+5~</m> with <m>y</m>-coordinate 8.</p> </statement>
-    <answer><m>-1,~3</m></answer></exercise>
-
-<exercise><statement><p>Find the <m>x</m>-intercepts of the graph of <m>~y=\dfrac{1}{4}x^2-5x+24~</m>.</p> </statement>
-    <answer><m>(8,0),~(12,0)</m></answer></exercise>
+ <exercise><statement><p>Convert <m>~\dfrac{4}{15}~</m> to a decimal fraction.</p></statement>
+    <answer><m>0.2\overline{6}</m></answer></exercise> 
 </subsubsection>
 </subsection>
 
-<subsection><title>2. Find the average of two numbers</title>
+<subsection><title>3. Solve equations</title>
 
-<introduction><p>The average of two numbers lies half-way between them on a number line.  To find their average, we take one-half of their sum. That is, the average of <m>p</m> and <m>q</m> is 
-    <me>\dfrac{1}{2}(p+q)~~~~\text{or}~~~~\dfrac{p+q}{2}</me></p></introduction>
+<introduction><p>To solve an equation of the form  <m>~x^n = k</m>, we can raise both sides to the reciprocal of the exponent:
+    <md><mrow>(x^n)^{1/n} \amp = k^{1/n}</mrow>
+        <mrow> x \amp = k^{1/n}</mrow></md>
+because <m>~(x^n)^{1/n} = x^{n(1/n)} = x^1</m>.</p></introduction>
 
-<subsubsection><title>Example</title>
+<subsubsection><title>Examples</title>
 
-<example><statement><p>The average of 4 and 9 is
-    <me>\dfrac{1}{2}(4+9) = \dfrac{1}{2}(13) = \dfrac{13}{2},~~\text{or}~~6\dfrac{1}{2}</me></p></statement></example>
+<example><statement><p>Solve <m>~0.6x^4 = 578</m>. Round your answer to hundredths.</p></statement>
+    
+<solution><p> First, we isolate the power.
+    <md><mrow>0.6x^4 \amp = 578 \amp\amp \blert{\text{Divide both sides by 0.6.}}</mrow>
+        <mrow>x^4 \amp = 963.\overline{3} </mrow></md>
+We raise both sides to the reciprocal of the power.
+    <md><mrow>(x^4)^{1/4} \amp = (963.\overline{3})^{1/4} \amp\amp \blert{\text{By the third law of exponents,}~ (x^4)^{1/4}=x.}</mrow>
+        <mrow>x \amp = 5.57 </mrow></md>
+To evaluate <m>(963.\overline{3})^{1/4}</m>, enter  <m>~~\text{ANS}</m><kbd name="circumflex"/> <m>.25</m> <kbd>ENTER</kbd></p></solution></example>
 
-<example><statement><p>The average of <m>-8</m> and <m>4</m> is
-    <me>\dfrac{1}{2}(-8+4) = \dfrac{1}{2}(-4) = -2</me></p></statement></example>
+<example><statement><p>Solve <m>~x^{2/3}-4=60</m>.</p></statement>
+    
+<solution><p> First, we isolate the power.
+    <md><mrow>x^{2/3}-4 \amp = 60 \amp\amp \blert{\text{Add 4 to both sides.}}</mrow>
+        <mrow>x^{2/3} \amp = 64</mrow></md>
+We raise both sides to the reciprocal of the power.
+    <md><mrow>\left(x^{2/3}\right)^{3/2} \amp = 64^{3/2} \amp\amp \blert{64^{3/2}=\left(64^{1/2}\right)^3=8^3}</mrow>
+        <mrow>x \amp = 512</mrow></md>
+Or we can evaluate <m>~64^{3/2}~</m> by entering  <m>~~64</m> <kbd name="circumflex"/> <m>1.5</m> <kbd>ENTER</kbd></p></solution></example>
 
-<example><statement><p>The average of <m>\dfrac{5}{2}</m> and <m>\dfrac{-3}{4}</m> is
-    <me>\dfrac{1}{2}\left(\dfrac{5}{2}-\dfrac{3}{4}\right) = \dfrac{1}{2}\left(\dfrac{10}{4}-\dfrac{3}{4}\right) = \dfrac{1}{2}\left(\dfrac{10}{4}\right) = \dfrac{7}{8}</me></p></statement></example>
+<example><statement><p>Solve <m>~18x^{0.24} = 6.5</m>. Round your answer to thousandths.</p></statement>
+    
+<solution><p> First, we isolate the power.
+    <md><mrow>18x^{0.24} \amp = 6.5 \amp\amp \blert{\text{Divide both sides by 18.}}</mrow>
+        <mrow>x^{0.24} \amp = 0.36\overline{1}</mrow></md>
+We raise both sides to the reciprocal of the power.
+    <md><mrow>\left(x^{0.24}\right)^{1/0.24} \amp = (0.36\overline{1})^{1/0.24}</mrow>
+        <mrow>x \amp = 0.014</mrow></md>
+We evaluate <m>(0.36\overline{1})^{1/0.24}</m> by entering  <m>~~\text{ANS}</m> <kbd name="circumflex"/> <kbd name="left-paren"/> <m>1</m>  <kbd name="obelus"/> <m>.24</m> <kbd name="right-paren"/> <kbd>ENTER</kbd></p></solution>
+</example>
+
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Find the average of <m>-12</m> and <m>-7</m>.</p></statement>
-    <answer><m>\dfrac{-19}{2}</m></answer></exercise>
+<exercise><statement><p>Solve <m>~4x^5 = 1825~</m>. Round your answer to thousandths.</p></statement> 
+    <answer><m>3.403</m></answer></exercise> 
 
-<exercise><statement><p>Find the average of <m>-4</m> and <m>\dfrac{1}{2}</m>.</p></statement>
-    <answer><m>\dfrac{-7}{4}</m></answer></exercise>
+<exercise><statement><p>Solve <m>~\dfrac{3}{4}x^{3/4} = 36~</m>. Round your answer to thousandths.</p></statement>
+    <answer><m>174.444</m></answer></exercise>
 
-<exercise><statement><p>Find the average of <m>\dfrac{3}{2}</m> and <m>\dfrac{9}{2}</m>.</p></statement>
-    <answer><m>3</m></answer></exercise>
-
-<exercise><statement><p>Find the average of <m>\dfrac{9}{4}</m> and <m>\dfrac{-3}{4}</m>.</p></statement>
-    <answer><m>\dfrac{3}{4}</m></answer></exercise>
+ <exercise><statement><p>Solve <m>~0.2x^{1.4}+1.8=12.3~</m>. Round your answer to thousandths.</p></statement>
+    <answer><m>16.931</m></answer></exercise>   
 </subsubsection>
 </subsection>
+
 
 </section>
 <!-- </book>  </pretext> -->

@@ -1,118 +1,128 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="RationalFunctions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Rational Functions</title>
-   
-<introduction><p>Rational functions are algebraic fractions, so in this lesson we review the basic operations with algebraic fractions.</p></introduction>
+<section xml:id="PropertiesLogarithms" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Properties of Logarithms</title>
+                 
+<subsection><title>1. Apply the distributive law</title>
 
-<subsection><title>1. Multiply and divide fractions</title>
+<introduction><p>We have met several types of algebraic properties before treating logarithms.  Here is a review of the most common ones.</p></introduction>
 
-<subsubsection><title>Examples</title>
+<subsubsection><title>Example</title>
 
-<example>
-    <statement>
-        <p>Multiply <m>~\dfrac{4y^2-1}{4-y^2} \cdot \dfrac{y^2-2y}{4y+2}</m></p>
-    </statement>
-    <solution>
-        <p>
-            We factor each numerator and denominator, and look for common factors. 
-            <md>
-                <mrow>\amp \dfrac{4y^2-1}{4-y^2} \cdot \dfrac{y^2-2y}{4y+2} \amp </mrow>
-                <mrow>\amp\qquad=\dfrac{(2y-1)\cancel{(2y+1)}}{\cancel{(2-y)}(2+y)} \cdot \dfrac{y(-1)\cancel{(y-2)}}{2\cancel{(2y+1)}} \amp \amp \blert{\text{Divide out common factors.}}</mrow>
-                <mrow>\amp\qquad = \dfrac{-y(2y-1)}{2(y+2)} \amp \amp \blert{\text{Note:}~~y-2=-(2-y)}</mrow>
-            </md>
-        </p>
-    </solution>
-</example>
-                    
-<example><statement><p>Divide <m>~\dfrac{6ab}{2a+b} \div (4a^2b)</m></p></statement>
+<example><statement><p>Which equation is a correct application of the distributive law?<ol label="a">
+    <li><m>2(5 \cdot 3^x) = 10 \cdot 6^x~~~~~</m> or <m>~~~~~2(5+3^x) = 10+2 \cdot 3^x</m></li>
+    <li><m>\log (x+10) = \log {x} + \log {10}~~~~~</m> or <m>~~~~~\dfrac{1}{x}(x+10) = 1 +\dfrac{10}{x}</m></li></ol>
+</p></statement>
+ 
+<solution><p><ol label="a">
+    <li><p>The distributive law applies to multiplying a sum or difference, not a product. In the first equation, <m>5 \cdot 3^x</m> is a product, so the distributive law does not apply.  (We can, however, simplfy that expression with the associative law:
+        <me>2(5 \cdot 3^x) = (2\cdot 5)\cdot 3^x = 10 \cdot 3^x</me></p>
+    <p>The second equation is a correct application of the distributive law. You can check that the first equation is false and the second equation is true by substituting <m>x=1</m>.</p></li>
+    <li><p>The distributive law applies only to multiplying a sum or product, not to other operations, such as taking logs.  You can check that the first equation is false by substituting <m>x=10</m>.</p>
+    <p> The second equation is a correct application of the distributive law.</p> </li></ol></p>
+</solution></example>
+</subsubsection>
 
-<solution><p>We multiply the first fraction by the reciprocal of the second fraction.  
-    <md><mrow>\dfrac{6ab}{2a+b} \div (4a^2b) \amp = \dfrac{\blert{\cancel{2} \cdot 3}\cancel{ab}}{2a+b} \cdot \dfrac{1}{\blert{\cancel{2} \cdot 2}a \cdot \cancel{ab}} \amp \amp \blert{\text{Divide out common factors.}}</mrow>
-        <mrow> \amp = \dfrac{3}{2a(2a+b)}</mrow></md>
+<subsubsection><title>Exercises</title>
+
+<introduction><p>Decide whether each equation is a correct application of the distributive law. Write a correct statement if possible.</p></introduction>
+
+<exercise><statement><m>\dfrac{x+6}{3} \rightarrow \dfrac{x}{3} + \dfrac{6}{3}</m></statement>
+    <answer><p>Correct</p></answer></exercise>
+
+<exercise><statement><m>\dfrac{6}{x+3} \rightarrow \dfrac{6}{x} + \dfrac{6}{3}</m></statement>
+    <answer><p>Not correct</p></answer></exercise>
+
+<exercise><statement><m>2(P_0 a^t) \rightarrow 2P_0 +2a^t</m></statement>
+    <answer>Not correct. <m>~~2(P_0 a^t) = 2P_0 a^t</m></answer></exercise>
+
+<exercise><statement><m>25(1+r)^8 \rightarrow (25+25r)^8</m></statement>
+    <answer><p>Not correct</p></answer></exercise>
+
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Apply the laws of exponents</title>
+
+<introduction><p>Be careful to avoid tempting but false operations with exponents.</p></introduction>
+
+<subsubsection><title>Example</title>
+
+<example><statement><p>Which equation is a correct application of the laws of exponents?<ol label="a">
+    <li><m>20(1+r)^4 = 20+20r^4~~~~~</m> or <m>~~~~~(ab^t)^3 = a^3b^{3t}</m></li>
+    <li><m>2^{t/5} = (2^{1/5})^t~~~~~</m> or <m>~~~~~6.8(10)^t = 68^t</m></li></ol>
+</p></statement>
+
+<solution><p><ol label="a">
+    <li><p>The first statement is not correct. There is no law that says <m>(a+b)^n</m> is equivalent to <m>a^n+b^n</m>, so <m>(1+r)^4</m> is not equivalent to <m>1^4+r^4</m> or <m>1+r^4</m>.</p>
+    <p> However, it is true that <m>(ab)^n = a^nb^n</m>, so in particular the second statement is true: 
+        <me>~~(ab^t)^3 = a^3(b^t)^3 = a^3b^{3t}</me></p></li> 
+    <li><p>The first statement is correct. If we start with <m>(2^{1/5})^t</m>, we can apply the third law, <m>(a^m)^n = a^{mn}</m>, to find 
+        <me>(2^{1/5})^t = 2^{(1/5)t} = 2^{t/5}</me>.</p>
+    <p> In the second statement, 6.8 is not raised to power <m>t</m>, so we cannot multiply 6.8 times 10.</p></li></ol>
 </p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Multiply <m>~\dfrac{3xy}{4xy-6y^2} \cdot \dfrac{2x-3y}{12x}</m></p></statement>
-<answer><m>\dfrac{1}{8}</m></answer></exercise>
+<introduction><p>Decide whether each equation is a correct application of the laws of exponents. Write a correct statement if possible.</p></introduction>
 
-<exercise><statement><p>Multiply <m>~\dfrac{9x^2-25}{2x-2} \cdot \dfrac{x^2-1}{6x-10}</m></p></statement>
-<answer><m>\dfrac{(3x+5)(x+1)}{4}</m></answer></exercise>
+<exercise><statement><m>P(1-r)^6 \rightarrow P-Pr^6</m></statement>
+    <answer><p>Not correct</p></answer></exercise>
 
-<exercise><statement><p>Divide <m>~(x^2-9) \div \dfrac{x^2-6x+9}{3x}</m></p></statement>
-<answer><m>\dfrac{3x(x+3)}{x-3}</m></answer></exercise>
+<exercise><statement><m>25(2^t) \cdot 4(2^t) \rightarrow 100 \cdot 2^{t^2}</m></statement>
+    <answer>Not correct. <m>~25(2^t) \cdot 4(2^t) = 100(2^{2t})</m></answer></exercise>
 
-<exercise><statement><p>Divide <m>~\dfrac{x^2-1}{x+3} \div \dfrac{x^2-x-2}{x^2+5x+6}</m></p></statement>
-<answer><m>\dfrac{(x-1)(x+2)}{x-2}</m></answer></exercise>
+<exercise><statement><m>a\left(b^{1/8}\right)^{2t} \rightarrow ab^{t/4}</m></statement>
+    <answer><p>Correct</p></answer></exercise>
 
+<exercise><statement><m>N(0.94)^{1/8.3} \rightarrow \dfrac{N}{(0.94)^{8.3}}</m></statement>
+    <answer>Not correct, but <m>~N(0.94)^{-8.3} = \dfrac{N}{(0.94)^{8.3}}</m></answer></exercise>
 </subsubsection>
 </subsection>
 
-<subsection><title>2. Add and subtract fractions</title>
+<subsection><title>3. Apply the properties of radicals</title>
+
+<assemblage><title>Rules for Radicals</title>
+    <p>Product Rule
+   <me>\sqrt[n]{ab}=\sqrt[n]{a}~\sqrt[n]{b}~~~~~~~\text{for } a, b \ge 0</me></p> 
+
+<p>Quotient Rule
+<me>\sqrt[n]{\frac{a}{b}}=\frac{\sqrt[n]{a}}{\sqrt[n]{b}}~~~~~~~\text{for } a\ge 0,~~ b \gt 0</me></p>
+
+<p>In general, it is <em>not</em> true that <m>\sqrt[n]{a+b}</m> is equivalent to <m>\sqrt[n]{a}+\sqrt[n]{b}</m>, or that <m>\sqrt[n]{a-b}</m> is equivalent to <m>\sqrt[n]{a}-\sqrt[n]{b}</m>.</p></assemblage>
 
 <subsubsection><title>Examples</title>
 
-<example><statement><p>Subtract <m>~\dfrac{3x}{x+2} - \dfrac{2x}{x-3}</m></p></statement>
-    
-<solution><p>Step 1: The LCD for the fractions is <m>(x+2)(x-3)</m>.</p>
-<p>Step 2:  We build each fraction to an equivalent one with the LCD.
-    <me> \dfrac{3x\alert{(x-3)}}{(x+2)\alert{(x-3)}} = \dfrac{3x^2-9x}{x^2-x-6}~~~~\text{and}~~~~\dfrac{2x\alert{(x+2)}}{(x-3)\alert{(x+2)}} = \dfrac{2x^2+4x}{x^2-x-6}</me>
-Step 3:  Combine the numerators over the same denominator.
-    <md><mrow>\dfrac{3x}{x+2} - \dfrac{2x}{x-3} \amp = \dfrac{3x^2-9x}{x^2-x-6}-\dfrac{2x^2+4x}{x^2-x-6}  </mrow>
-        <mrow>\amp = \dfrac{(3x^2-9x)-(2x^2+4x)}{x^2-x-6} \amp \amp \blert{\text{Subtract the numerators.}}</mrow>
-        <mrow> \amp = \dfrac{x^2-13x}{x^2-x-6}</mrow> </md>
-Step 4:  Reduce the result, if possible.  We factor numerator and denominator to find
-    <me>\dfrac{x(x-13)}{(x-3)(x+2)}</me>
-The fraction cannot be reduced.</p></solution></example>
-
-<example><statement><p>Write as a single fraction <m>~1+\dfrac{2}{a} - \dfrac{a^2+2}{a^2+a}</m></p></statement>
-
-<solution><p>Step 1: By factoring each denominator, we find that the LCD for the fractions is <m>a(a+1)</m>.</p>
-<p>Step 2:  We build each fraction to an equivalent one with the LCD.
-    <md><mrow> 1=\dfrac{1\cdot\alert{a(a+1)}}{1\cdot\alert{a(a+1)}} \amp = \dfrac{a^2+a}{a(a+1)}</mrow>
-        <mrow> \dfrac{2}{a}=\dfrac{2\cdot\alert{(a+1)}}{a\cdot\alert{(a+1)}} \amp = \dfrac{2a+2}{a(a+1)}</mrow>
-        <mrow>\dfrac{a^2+2}{a^2+a}  \amp = \dfrac{a^2+2}{a(a+1)}</mrow></md>
-Step 3:  Combine the numerators over the same denominator.
-    <md><mrow>1+\dfrac{2}{a}-\dfrac{a^2+2}{a^2+a} \amp =\dfrac{a^2+a}{a(a+1)}+\dfrac{2a+2}{a(a+1)}-\dfrac{a^2+2}{a(a+1)}</mrow>
-        <mrow>\amp = \dfrac{(a^2+a)+(2a+2)-(a^2+2)}{a(a+1)} =\dfrac{3a}{a(a+1)}</mrow></md>
-Step 4:  Reduce the fraction to find
-    <me>\dfrac{3\cancel{a}}{\cancel{a}(a+1)} = \dfrac{3}{a+1}</me></p></solution></example>
+<example><statement><p>Which equation is a correct application of the properties of radicals?<ol label="a">
+    <li><m>\sqrt{x^4+81} = x^2 + 9~~~~~</m> or <m>~~~~~\sqrt[3]{P^2}~\sqrt[3]{1+r} = \sqrt[3]{P^2(1+r)}</m></li>
+    <li><m>\dfrac{\sqrt{x+y}}{\sqrt{x}} = \sqrt{y}~~~~~</m> or <m>~~~~~\dfrac{x+y}{\sqrt{x+y}} = \sqrt{x+y}</m></li></ol>
+</p></statement>
+ 
+<solution><p><ol label="a">
+    <li><p>The first statement is incorrect. There is no property that says <m>~\sqrt[n]{a+b} = \sqrt[n]{a} + \sqrt[n]{b}</m>.</p> 
+    <p>However, it is true that <m>~\sqrt[n]{a}~ \sqrt[n]{b} = \sqrt[n]{ab}~</m>, so the second statement is correct.</p></li> 
+    <li><p>The first statement is incorrect, because <m>\dfrac{x+y}{x}</m> is not equivalent to <m>y</m>.</p>
+    <p> The second statement is correct, because <m>~\sqrt{x+y}~\sqrt{x+y} = x+y</m>.</p></li></ol></p>
+</solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Subtract <m>~\dfrac{x+1}{x^2+2x} - \dfrac{x-1}{x^2-3x}</m></p></statement>
-    <answer><m>\dfrac{-3x-1}{x(x+2)(x-3)}</m></answer></exercise>
+<introduction><p>Decide whether each equation is a correct application of the properties of radicals. Write a correct statement if possible.</p></introduction>
 
-<exercise><statement><p>Write as a single fraction <m>~y-\dfrac{2}{y^2-1} + \dfrac{3}{y+1}</m> </p></statement>
-    <answer><m>\dfrac{y^3+2y-5}{y^2-1}</m></answer></exercise>
+<exercise><statement><m>\sqrt[4]{a^2-a^4} \rightarrow \sqrt[4]{a^2} - a</m></statement>
+    <answer><p>Not correct</p></answer></exercise>
+
+<exercise><statement><m>\sqrt{b^4-16} \rightarrow \sqrt{b^2-4} \sqrt{b^2+4}</m></statement>
+    <answer><p>Correct</p></answer></exercise>
+
+<exercise><statement><m>\sqrt[3]{t^4} + \sqrt[3]{t^4} \rightarrow \sqrt[3]{2t^4}</m></statement>
+    <answer>Not correct.<m>~\sqrt[3]{t^4} + \sqrt[3]{t^4} = 2\sqrt[3]{t^4}</m></answer></exercise>
+
+<exercise><statement><m>\dfrac{\sqrt{2p}}{\sqrt{4p+8p^2}} \rightarrow \dfrac{1}{\sqrt{2+4p}}</m></statement>
+    <answer><p>Correct</p></answer></exercise>
 </subsubsection>
-</subsection>
-
-<subsection><title>3. Simplify complex fractions</title>
-
-<subsubsection><title>Example</title>
-
-<example><statement><p>Simplify <m>~\dfrac{x+\dfrac{3}{4}}{x-\dfrac{1}{2}}</m></p></statement>
-
-<solution><p>Consider all the simple fractions that appear in the complex fraction; in this case their LCD is 4. We multiply each term of the numerator and each term of the denominator by 4.
-    <me>\dfrac{\alert{4}\left(x+\dfrac{3}{4}\right)} {\alert{4}\left(x-\dfrac{1}{2}\right)} =\dfrac{\alert{4}(x)+\alert{4}\left(\dfrac{3}{4}\right)}{\alert{4}(x)-\alert{4}\left(\dfrac{1}{2}\right)} = \dfrac{4x+3}{4x-2}</me>
-The original complex fraction is equivalent tp the simple fraction <m>\dfrac{4x+3}{4x-2}</m>.</p></solution></example>
-</subsubsection>
-
-<subsubsection><title>Exercises</title>
-
-<exercise><statement><p>Write the complex fraction as a simple fraction in lowest terms:  
-    <me>\dfrac{\dfrac{2}{y}+\dfrac{1}{2y}}{y+\dfrac{y}{2}}</me></p></statement>
-<answer><m>\dfrac{5}{3y^2}</m></answer></exercise>
-
-<exercise><statement><p>Write the complex fraction as a simple fraction in lowest terms:  
-    <me>\dfrac{H-T}{\dfrac{H}{T}-\dfrac{T}{H}}</me></p></statement>
-<answer><m>\dfrac{TH}{H+T}</m></answer></exercise>
-</subsubsection>
-
 </subsection>
 
 </section>

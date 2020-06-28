@@ -1,270 +1,119 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="ProblemSolving" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Problem Solving </title>
+<section xml:id="DistanceMidpoint" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Distance and Midpoint Formulas</title>
                  
-<subsection><title>1. Complete the square</title>
+<subsection><title>1. Use radicals</title>
 
-<introduction><p>To write a quadratic equation in vertex form, we need to complete the square.</p></introduction>
+<introduction><p>Because the distance formula is derived from the Pythagorean theorem, using it involves working with radicals.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
-<example>
-    <statement>
-        <p>Write the equation <m>~y=x^2+8x+10~</m> in vertex form.</p>
-    </statement>
-    <solution>
-        <p>
-            Complete the square on the variable terms. 
-            <md>
-                <mrow>y \amp =(x^2+8x+ <fillin characters="4"/>)+10 \amp \amp ~\blert{2p=8,~ \text{so}~p^2=4^2=16.}</mrow>
-                <mrow>y \amp =(x^2+8x+ \alert{16})+10 - \alert{16} \amp \amp ~\blert{\text{Add and subtract 16.}}</mrow>
-                <mrow>y \amp =(x+4)^2-6 \amp \amp 
-                    \begin{array}{l}
-                        \blert{\text{Write } x^2+8x+16 \text{ as the}}\\
-                        \blert{\text{square of a binomial.}}
-                    \end{array}
-                </mrow>
-            </md>
-        </p>
-    </solution>
-</example>
+<example><statement><sidebyside widths="60% 30%">
+	<p>In the right triangle shown, <m>a=8</m> and <m>b=6</m>.<ol label="a">
+	<li>Is <m>c=a+b</m>?  Why or why not?</li>
+	<li>Find thelength of <m>c</m>.</li></ol></p>
+	<image source="images/fig-6-4-pyth.png"><description>triangle</description></image></sidebyside></statement>
 
-<example>
-    <statement>
-        <p>Write the equation <m>~y=2x^2-12x+10~</m> in vertex form.</p>
-    </statement>
-    <solution>
-        <p>
-            First, factor 2 from the variable terms.
-            <me>y=2(x^2-6x)+10</me>
-            Next, complete the square inside parentheses. 
-            <md>
-                <mrow>y \amp =2(x^2-6x+ <fillin characters="4"/>)+10 \amp \amp \blert{2p=-6,~ \text{so}~p^2=(-3)^2=9.}</mrow>
-                <mrow>y \amp =2(x^2-6x+ \alert{9})+10 - 2(\alert{9}) \amp \amp \blert{\text{Add and subtract}~2(9).}</mrow>
-                <mrow>y \amp =2(x-3)^2-8 \amp \amp  
-                    \begin{array}{l}
-                        \blert{\text{Write } x^2-6x+9 \text{ as the}}\\
-                        \blert{\text{square of a binomial.}}
-                    \end{array}
-                </mrow>
-            </md>
-        </p>
-    </solution>
+<solution><p><ol label="a">
+	<li>No, the length of <m>c</m> is shorter than the lengths of <m>a</m> and <m>b</m> combined, so <m>c \lt a+b</m>.</li>
+	<li><p>We use the Pythagorean theorem:
+		<md><mrow>c^2 \amp = a^2+b^2 \amp \amp \blert{\text{Substitute }a=8~ \text{and }b=6~ \text{and evaluate.}}</mrow>
+			<mrow>c^2 \amp = 8^2+6^2=64+36=100 \amp \amp \blert{\text{Take square roots.}}</mrow>
+			<mrow> c \amp = \sqrt{100} = 10</mrow></md>
+		The hypotenuse is 10 cm long.</p></li></ol></p></solution></example>
+
+<example><statement><p>Is <m>\sqrt{a^2+b^2} = a+b</m>?</p></statement>
+
+<solution><p>No. In the previous example, <m>c=\sqrt{a^2+b^2}</m>, and we saw that <m>c \lt a+b</m>. We cannot simplify  <m>\sqrt{a^2+b^2}</m> by taking the square root of each term.</p></solution></example>
+
+
+<example><statement><p>If <m>r=\sqrt{14}</m>, write and simplify expressions for:<ol label="a">
+	<li><m>r \cdot r</m></li>
+	<li><m>r+r</m></li></ol></p></statement>
+
+<solution><p><ol label="a">
+	<li><m>r \cdot r = \left(\sqrt{14}\right)\left(\sqrt{14}\right) = 14</m>. Or, <m>r \cdot r = r^2 = \left(\sqrt{14}\right)^2 = 14</m>.</li>
+	<li><m>r+r = \sqrt{14} + \sqrt{14} = 2\sqrt{14}</m>.  Or, <m>r+r = 2r = 2\sqrt{14}</m>.</li></ol></p></solution>
 </example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Write the equation <m>~y=x^2-12x+24~</m> in vertex form.</p> </statement>
-    <answer><m>y=(x-6)^2-12</m></answer></exercise>
+<exercise><statement><p>Simplify if possible:  <m>~\sqrt{(x-4)^2+(y-2)^2}</m></p></statement>
+<answer><p>cannot be simplified</p></answer></exercise>
 
-<exercise><statement><p>Write the equation <m>~y=3x^2+12x+4~</m> in vertex form.</p> </statement>
-    <answer><m>y=3(x+2)^2-8</m></answer></exercise>
+<exercise><statement><p>Simplify if possible:  <m>~\sqrt{7^2+w^2}</m></p></statement>
+<answer><m>\sqrt{49+w^2}</m></answer></exercise>
+
+<exercise><statement><p>Simplify if possible:  <m>~\sqrt{7+w} \sqrt{7+w}</m></p></statement>
+<answer><m>7+w</m></answer></exercise>
 </subsubsection>
 </subsection>
 
-<subsection><title>2. Graph parabolas in vertex form</title>
+<subsection><title>2. Complete the square</title>
 
-<introduction><p>We can sketch the graph of a parabola with the vertex, the <m>y</m>-intercept, and its symmetric point.</p></introduction>
+<introduction><p>To find the center and radius of a circle, we may need to complete the square.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
-<example>
-    <statement>
-        <p>Graph the equation <m>~y=\dfrac{-1}{2}(x+3)^2-2</m></p>
-    </statement>
-    <solution>
-        <p>
-            The vertex is the point <m>(-3,2)</m>.  We can find the <m>y</m>-intercept by setting <m>x=0</m>.
-            <me>y = \dfrac{-1}{2}(\alert{0}+3)^2-2 = \dfrac{-9}{2}-2 = -6\dfrac{1}{2}</me>
-            The <m>y</m>-intercept is the point <m>\left(0, -6\dfrac{1}{2}\right)</m>. The axis of symmetry is the vertical line <m>x=-3</m>, and there is a symmetric point equidistant from the axis, namely <m>\left(-6, -6\dfrac{1}{2}\right)</m>. We plot these three points and sketch the parabola through them.
-        </p>
-        <sidebyside  width="30%">
-            <image xml:id="y-eq-neg-half-sq-of-x-plus3-minus2">
-            <description>parabola</description>
-            <latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-            <![CDATA[\tikzset{%
-            }
-            \begin{tikzpicture} [scale=.6]
-            \draw[cyan, thin] (-7,-8) grid (1,1);
-            \draw[black,very thick, ->, >=stealth'] (-7,0)--(1.6,0) node[right]{$x$};
-            \draw[black,very thick, ->, >=stealth'] (0,-8)--(0,1.6) node[above]{$y$};
-            \foreach \x  in  {-6,-4,-2} {
-             \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-            }
-            \foreach \x  in  {-8,-6,-4,-2} {
-             \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
-            }
-            \filldraw[magenta!90!black] (-3,-2) circle (.15);
-            \filldraw[magenta!90!black] (0,-13/2) circle (.15);
-            \filldraw[magenta!90!black] (-6,-13/2) circle (.15);
-            \draw[samples=65,domain={-sqrt(12)-3:sqrt(12)-3},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, { -1/2*(\x+3)^2-2 });
-            \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside>
-    </solution>
-</example>
+<example><statement><p>Write an equivalent equation in which the left side is a perfect square: <m>~x^2-6x=2</m></p></statement>
 
-<example>
-    <statement>
-        <p>Graph the equation <m>~y=2(x-15)^2-72</m></p>
-    </statement>
-    <solution>
-        <p>
-            The vertex is <m>(15,-72)</m>. We find the <m>y</m>-intercept by setting <m>x=0</m>:
-            <me>y=2(\alert{0}-15)^2-72=378</me>
-            The <m>y</m>-intercept is <m>(0, 378)</m>. We find the <m>x</m>-intercepts by setting <m>y=0</m>:
-                <md><mrow>2(x-15)^2-72 \amp = \alert{0}</mrow>
-                    <mrow>(x-15)^2 \amp = 36</mrow>
-                    <mrow>x \amp = \pm 6+15</mrow></md>
-            The <m>x</m>-intercepts are <m>(9,0)</m> and <m>(21,0)</m>. We plot these three points and sketch the parabola through them.
-        </p>
-        <sidebyside  width="30%">
-            <image xml:id="y-eq-2-sq-of-x-minus15-minus72">
-            <description>parabola</description>
-            <latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-            <![CDATA[\tikzset{%
-            }
-            \begin{tikzpicture} [xscale = .45, yscale=.4]
-            \draw[cyan, thin] (-1,-2) grid (7,10);
-            \draw[black,very thick, ->, >=stealth'] (-1,0)--(7.6,0) node[right]{$x$};
-            \draw[black,very thick, ->, >=stealth'] (0,-2)--(0,10.6) node[above]{$y$};
-            \foreach \x [evaluate=\x as \xi using int(5*\x)] in  {2,4,6} {
-             \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
-            }
-            \foreach \x [evaluate=\x as \xi using int(50*\x)] in  {-2,2,4,6,8,10} {
-             \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
-            }
-            \filldraw[magenta!90!black] (3,-72/50) circle (.15);
-            \filldraw[magenta!90!black] (0,378/50) circle (.15);
-            \filldraw[magenta!90!black] (9/5,0) circle (.15);
-            \filldraw[magenta!90!black] (21/5,0) circle (.15);
-            \draw[samples=65,domain={-sqrt(286)/5+3:sqrt(286)/5+3},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, { (2*(5*\x-15)^2-72)/50 });
-            \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside>
-    </solution>
-</example>
+<solution><p>We want to find a constant <m>p^2</m> so that <m>x^2\blert{-6x}+p^2</m> is a perfect square, namely <m>(x+p)^2</m>.  Now, <m>~(x+p)^2 = x^2\blert{+2px}+p^2~</m>, so <m>2p=-6</m>, and <m>p=-3</m>.  Thus, we add <m>p^2=\alert{9}</m> to both sides of the equation.
+	<me>x^2-6x+\alert{9} = 2+\alert{9}</me>
+Now we can write the left side as a perfect square:
+	<me>(x-3)^2 = 11</me></p></solution></example>
+
+<example><statement><p>Write an equivalent equation in which the left side is a perfect square: <m>~y^2+7y=5</m></p></statement>
+
+<solution><p>For this equation, <m>2p=7</m> so <m>p = \dfrac{7}{2}</m>.  We add <m>p^2=\left(\dfrac{7}{2}\right)^2=\alert{\dfrac{49}{4}}</m> to both sides of the equation.
+	<me>y^2+7y+\alert{\dfrac{49}{4}}=5+\alert{\dfrac{49}{4}}</me>
+We write the left sides as a perfect square, <m>(x+p)^2</m>, and simplify the right side.
+	<me>\left(x+\dfrac{7}{2}\right)^2=\dfrac{69}{4}~~~~~~~~~~~~\blert{5+\dfrac{49}{4}=\dfrac{20}{4}+\dfrac{49}{4}=\dfrac{69}{4}}</me>
+</p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise>
-    <statement>
-        <p>Find the vertex, the <m>y</m>-intercept, and the <m>x</m>-intercepts of <m>~y=(x-2)^2-5</m>, and sketch its graph.</p>
-        <sidebyside  width="45%"><image source="images/fig-10x10-grid"><description>grid</description></image></sidebyside>
-    </statement>
-    <answer>
-        <sidebyside  width="35%">
-            <image xml:id="y-eq-sq-of-x-minus2-minus5">
-            <description>parabola</description>
-            <latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-            <![CDATA[\tikzset{%
-            }
-            \begin{tikzpicture} [scale=.3]
-            \draw[cyan, thin] (-10,-10) grid (10,10);
-            \draw[black,very thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
-            \draw[black,very thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
-            \foreach \x in  {-5, 5, -10, 10} {
-             \draw[cyan, very thick] (\x,-10) --++(0,20);
-             \draw[cyan, very thick] (-10,\x) --++(20,0);
-             \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-             \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
-            }
-            \draw[samples=65,domain={-sqrt(15)+2:sqrt(15)+2},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, { ((\x-2)^2-5) });
-            \filldraw[magenta!90!black] (2,-5) circle (.25);
-            \filldraw[magenta!90!black] (0,-1) circle (.25);
-            \filldraw[magenta!90!black] ({2-sqrt(5)},0) circle (.25);
-            \filldraw[magenta!90!black] ({2+sqrt(5)},0) circle (.25);
-            \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside>
-    </answer>
-</exercise>
+<exercise><statement><p>Write an equivalent equation in which the left side is a perfect square: <m>~x^2+12x=-6</m></p></statement>
+<answer><m>(x+6)^2=30</m></answer></exercise>
 
-<exercise>
-    <statement>
-        <p>Find the vertex, the <m>y</m>-intercept, and the <m>x</m>-intercepts of <m>~y=-2(x+1)^2+3</m>, and sketch its graph.</p>
-        <sidebyside  width="45%"><image source="images/fig-10x10-grid"><description>grid</description></image></sidebyside>
-    </statement>
-    <answer>
-        <sidebyside  width="35%">
-            <image xml:id="y-eq-neg2-sq-of-x-plus1-plus3">
-            <description>parabola</description>
-            <latex-image>
-            <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-            <![CDATA[\tikzset{%
-            }
-            \begin{tikzpicture} [scale=.3]
-            \draw[cyan, thin] (-10,-10) grid (10,10);
-            \draw[black,very thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
-            \draw[black,very thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
-            \foreach \x in  {-5, 5, -10, 10} {
-             \draw[cyan, very thick] (\x,-10) --++(0,20);
-             \draw[cyan, very thick] (-10,\x) --++(20,0);
-             \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-             \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
-            }
-            \draw[samples=65,domain={-sqrt(13/2)-1:sqrt(13/2)-1},smooth,variable=\x,red,very thick, <->,>=stealth'] plot ( {\x}, { -2*(\x+1)^2+3) });
-            \filldraw[magenta!90!black] (-1,3) circle (.25);
-            \filldraw[magenta!90!black] (0,1) circle (.25);
-            \filldraw[magenta!90!black] ({-1-sqrt(3/2)},0) circle (.25);
-            \filldraw[magenta!90!black] ({-1+sqrt(3/2)},0) circle (.25);
-            \end{tikzpicture}]]>
-            </latex-image>
-            </image>
-        </sidebyside>
-    </answer>
-</exercise>
-
+<exercise><statement><p>Write an equivalent equation in which the left side is a perfect square: <m>~y^2-5y=3</m></p></statement>
+<answer><m>\left(y-\dfrac{5}{2}\right)^2=\dfrac{37}{4}</m></answer></exercise>
 </subsubsection>
 </subsection>
 
-<subsection><title>3. Solve an equation for a parameter</title>
+<subsection><title>3. Use the equation for a circle</title>
 
-<introduction><p>We can find the equation for a parabola if we know, for example, the vertex and one other point.</p></introduction>
+<introduction><p>The equation for a circle of radius <m>r</m> centered at <m>(h,k)</m> is
+	<me>\blert{(x-h)^2+(y-k)^2=r^2}</me></p></introduction>
 
 <subsubsection><title>Examples</title>
 
-<example><statement><p>The point <m>(6,2)</m> lies on the graph of <m>~y=a(x-4)^2+1.~</m> Solve for <m>a</m>.</p></statement>
+<example><statement><p>Does <m>(-1,5)</m> lie on the circle <m>~(x-1)^2+(y-3)^2=8~</m>?</p></statement>
 
-<solution><p>Substitute 6 for <m>x</m> and 2 for <m>y</m>, then solve for  <m>a</m>.
-    <md><mrow>\alert{2} \amp = a(\alert{6}-4)^2+1</mrow>
-        <mrow>2 \amp = a(4) + 1</mrow>
-        <mrow>1 \amp = 4a</mrow></md>
-The solution is <m>a = \dfrac{1}{4}</m>.</p></solution></example>
+<solution><p>We substitute <m>x=\alert{-1},~ y=\alert{5}</m> into the equation for the circle.
+	<me>(\alert{-1}-1)^2+(\alert{5}-3)^2 = (-2)^2+2^2 = 4+4 = 8</me> 
+The point <m>(-1,5)</m> satisfies the equation, so it does lie on the circle.</p></solution></example>
 
-<example><statement><p>The point <m>(-2,11)</m> lies on the graph of <m>~y=x^2+bx-3.~</m> Solve for <m>b</m>.</p></statement>
+<example><statement><p>Find a point with <m>x</m>-coordinate <m>-3</m> that lies on the circle <m>(x+2)^2+(y-4)^2=5</m>.</p></statement>
 
-<solution><p>Substitute -2 for <m>x</m> and 11 for <m>y</m>, then solve for  <m>b</m>.
-    <md><mrow>(\alert{-2})^2 +b(\alert{-2}) -3 \amp = 11</mrow>
-        <mrow>4-2b-3 \amp = 11</mrow>
-        <mrow>-2b \amp = 10</mrow></md>
-The solution is <m>b = -5</m>.</p></solution></example>
+<solution><p>We substitute <m>x=\alert{-3}</m> into the equation, and solve for <m>y</m>.
+	<md><mrow>(\alert{-3}+2)^2+(y-4)^2 \amp = 5 \amp \amp \blert{\text{Simplify.}}</mrow>
+		<mrow>(-1)^2 +(y-4)^2 \amp = 5 \amp \amp \blert{\text{Solve by extracting roots.}}</mrow>
+		<mrow>(y-4)^2 \amp = 4 \amp \amp \blert{\text{Take square roots.}}</mrow>
+		<mrow>y-4 \amp = \pm 2</mrow></md>
+We see that the solutions are <m>y=6</m> and <m>y=2</m>.  Thus, the points <m>(-3,6)</m> and <m>(-3,2)</m> lie on the circle.</p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>The point <m>(-6,10)</m> lies on the graph of <m>~y=a(x+3)^2-2.~</m> Solve for <m>a</m>.</p></statement>
-    <answer><m>a=\dfrac{4}{3}</m></answer></exercise>
+<exercise><statement><p>Does <m>(2,6)</m> lie on the circle <m>~(x+3)^2+(y-5)^2=26~</m>?</p></statement>
+<answer>Yes</answer></exercise>
 
-<exercise><statement><p>The point <m>(-3,8)</m> lies on the graph of <m>~y=-x^2+bx+5.~</m> Solve for <m>b</m>.</p></statement>
-    <answer><m>b=-4</m></answer></exercise>
-
-<exercise><statement><p>The point <m>(8,-12)</m> lies on the graph of <m>~y=ax^2-4x+36.~</m> Solve for <m>a</m>.</p></statement>
-    <answer><m>a=\dfrac{-1}{3}</m></answer></exercise>
-
-<exercise><statement><p>The point <m>(60,-480)</m> lies on the graph of <m>~y=\dfrac{-2}{3}(x-h)^2+120.~</m> Solve for <m>h</m>.</p></statement>
-    <answer><m>h=30</m></answer></exercise>
+<exercise><statement><p>Find a point with <m>y</m>-coordinate <m>-2</m> that lies on the circle <m>(x-2)^2+(y+1)^2=9</m>.</p></statement>
+<answer><p><m>(2+\sqrt{8}, -2)</m> and <m>(2-\sqrt{8}, -2)</m></p></answer></exercise>
 </subsubsection>
-</subsection>
 
+</subsection>
 </section>
-<!-- </book>  </pretext> -->
