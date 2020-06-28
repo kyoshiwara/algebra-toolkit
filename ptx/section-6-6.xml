@@ -1,115 +1,100 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="CurveFitting" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Curve Fitting </title>
+<section xml:id="RadicalEquations" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Radical Equations</title>
                  
-<subsection><title>1. Write an equation for a point on a graph</title>
+<subsection><title>1. Solve radical equations</title>
 
-<introduction><p>If a curve passes through a given point, the coordinates of the point satisfy the equation of the curve.</p></introduction>
+<introduction><p>To solve a simple radical equation, we raise both sides to the index of the radical.</p></introduction>
 
-<subsubsection><title>Example</title>
+<subsubsection><title>Examples</title>
 
-<example><statement><p>Write an equation to say that <m>(-3,8)</m> lies on the graph of<m>~y=ax^2+bx+c~</m>.</p></statement>
- 
-<solution><p>Substitute <m>-3</m> for <m>x</m> and <m>8</m> for <m>y</m>. 
-    <md><mrow>8 \amp = a(-3)^2+b(-3)+c \amp \amp \blert{\text{Simplify.}}</mrow>
-        <mrow>8 \amp = 9a-3b+c</mrow></md>
-</p></solution></example>
+<example><statement><p>Solve <m>~\sqrt{x-3} = 4</m></p></statement>
+
+<solution><p>We square both sides of the equation to produce an equation without radicals.
+	<md><mrow>\left(\sqrt{x-3}\right)^2 \amp = 4^2</mrow>
+		<mrow>x-3 \amp = 16</mrow>
+		<mrow>x \amp = 19</mrow></md>
+You can check that <m>x=19</m> satisfies the original equation.</p></solution></example>
+
+<example><statement><p>Solve <m>~-2\sqrt[3]{x-4} = -6</m></p></statement>
+
+<solution><p>We first isolate the cube root.
+		<md><mrow>-2\sqrt[3]{x-4} \amp = -6 \amp \amp \blert{\text{Divide both sides by}~-2.}</mrow>
+			<mrow>\sqrt[3]{x-4} \amp = 3</mrow></md>
+Next, we undo the cube root by cubing both sides of the equation.
+		<md><mrow>\left(\sqrt[3]{x-4}\right)^3 \amp = 3^3</mrow>
+			<mrow>x-4 \amp = 27</mrow></md>
+Finally, we add 4 to both sides to find the solution, <m>x=31</m>.  We do not have to check for extraneous solutions when we cube both sides of an equation, but it is a good idea to check the solution for accuracy anyway.</p>
+
+<p>Check: We substitute <m>\alert{31}</m> for <m>x</m> into the left side of the equation.
+	<me>2\sqrt[3]{\alert{31}-4} = -2\sqrt[3]{27} = -2(3) = -6</me>
+	The solutions checks.</p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Write an equation to say that <m>(-4,-18)</m> lies on the graph of<m>~y=ax^2+bx+c~</m>.</p> </statement>
-    <answer><m>-16a-4b+c=-18</m></answer></exercise>
+<exercise><statement><p>Solve <m>~\sqrt{x-6} = 2</m></p></statement>
+<answer><m>x=10</m></answer></exercise>
 
-<exercise><statement><p>Write an equation to say that <m>(8,0)</m> lies on the graph of<m>~y=ax^2+bx+c~</m>.</p> </statement>
-    <answer><m>64a+8b+c=0</m></answer></exercise>
-
-<exercise><statement><p>Write an equation to say that <m>(0,-5)</m> lies on the graph of<m>~y=ax^2+bx+c~</m>.</p> </statement>
-    <answer><m>c=-5</m></answer></exercise>
-
-<exercise><statement><p>Write an equation to say that <m>(-60,400)</m> lies on the graph of<m>~y=ax^2+bx+c~</m>.</p> </statement>
-    <answer><m>3600a-60b+c=400</m></answer></exercise>
+<exercise><statement><p>Solve <m>~3\sqrt[3]{4x-1} = -15</m></p></statement>
+<answer><m>x=-31</m></answer></exercise>
 </subsubsection>
 </subsection>
 
-<subsection><title>2. Solve a 2x2 linear system</title>
+<subsection><title>2. Square binomials containing radicals</title>
 
-<introduction><p>For fitting a parabola through given points, we'll solve systems using the method of elimination.</p></introduction>
+<introduction><p>We may encounter binomials when squaring both sides of an equation.</p></introduction>
 
-<subsubsection><title>Example</title>
+<subsubsection><title>Examples</title>
 
-<example><statement><p>Solve the system by elimination.
-    <md><mrow>5x-2y \amp = 22</mrow>
-        <mrow>2x-5y \amp = 13</mrow></md>
-</p></statement>
+<example><statement><p>Expand <m>~(\sqrt{x}-3)^2</m></p></statement>
 
-<solution><p>To eliminate the <m>x</m>-terms,look for the smallest integer that both 2 and 5 divide into evenly, namely, 10. Multiply the first equation by 2 and the second equation by <m>-5</m>.
-    <md><mrow>\blert{2}(5x-2y \amp = 22) \amp\amp \rightarrow \amp 10x-4y \amp = 44</mrow>
-        <mrow>\blert{-5}(2x-5y \amp = 13) \amp\amp \rightarrow \amp -10x+25y \amp = -65</mrow></md>
-Add these new equations to obtain an equation in <m>y</m>.
-    <md><mrow>10x-~4y \amp = 44</mrow>
-        <mrow>\underline{-10x+25y} \amp \underline{{}= -65 \vphantom{-10x+25y}}</mrow>
-        <mrow> 21y \amp = -21</mrow></md>
-Solve for <m>y</m> to find <m>y=-1</m>. Finally, substitute <m>y=\alert{-1}</m> into the first equation and solve for <m>x</m>.
-    <md><mrow>5x-2(\alert{-1}) \amp = 22</mrow>
-        <mrow>5x+2 \amp = 22</mrow>
-        <mrow> x \amp = 4</mrow></md>
-The solution to the system is <m>(4,-1)</m>. </p></solution></example>
+<solution><p><m>(\sqrt{x}-3)^2 = (\sqrt{x}-3)(\sqrt{x}-3)</m>, so we apply "FOIL" to get
+	<md><mrow>(\sqrt{x}-3)(\sqrt{x}-3) \amp = \sqrt{x}\sqrt{x}-3\sqrt{x}-3\sqrt{x}-3(-3) \amp \amp \blert{\text{Simplify.}}</mrow> 
+	<mrow>\amp = x-6\sqrt{x}+9</mrow></md></p></solution></example>
+
+<example><statement><p>Expand <m>~(8+\sqrt{t-2})^2</m></p></statement>
+
+<solution><p>We multiply <m>~(8+\sqrt{t-2})(8+\sqrt{t-2})~</m> to get
+	<md><mrow>8\cdot 8+8 \amp \sqrt{t-2}+8\sqrt{t-2}+\left(\sqrt{t-2}\right)\left(\sqrt{t-2}\right)</mrow>
+		<mrow> \amp = 64+\sqrt{t-2}+(t+2)</mrow>
+		<mrow> \amp = 66+16\sqrt{t-2}+t</mrow></md></p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Solve the system by elimination.
-    <md><mrow>2x-9y \amp = 3</mrow>
-        <mrow>4x-5y \amp = -7</mrow></md>
-</p></statement>
-    <answer><m>(-3,-1)</m></answer></exercise>
+<exercise><statement><p>Expand <m>~\left(6-\sqrt{3a+1}\right)^2</m></p></statement>
+<answer><m>37-12\sqrt{3a+1}+3a</m></answer></exercise>
 
-<exercise><statement><p>Solve the system by elimination.
-    <md><mrow>5x+2y \amp = 5</mrow>
-        <mrow>4x+3y \amp = -3</mrow></md>
-</p></statement>
-    <answer><m>(3,-5)</m></answer></exercise>
+<exercise><statement><p>Expand <m>~\left(2\sqrt{z+4}-5\right)^2</m></p></statement>
+<answer><m>4z+41-20\sqrt{z+4}</m></answer></exercise>
 </subsubsection>
 </subsection>
 
-<subsection><title>3. Solve a (special) 3x3 linear system</title>
+<subsection><title>3. Use absolute value</title>
 
-<introduction><p>In this special case of solving a 3x3 system, we can eliminate <m>c</m> to create a 2x2 system.</p></introduction>
+<subsubsection><title>Examples</title>
 
-<subsubsection><title>Example</title>
+<example><statement><p>Explain why <m>\sqrt{x^2}=x</m> is not true for all values of <m>x</m>.</p></statement>
 
-<example><statement><p>Solve the system by elimination.
-    <md><mrow>a+b+c \amp = 3 \amp \amp \text{(1)}</mrow>
-        <mrow>4a-2b+c \amp = 18 \amp \amp \text{(2)}</mrow>
-        <mrow>9a+3b+c \amp = 13 \amp \amp \text{(3)}</mrow></md></p></statement>
+<solution><p>Recall that the symbol <m>\sqrt{a}</m> means the <em>non-negative</em> square root of <m>a</m>.  If <m>x</m> is a negative number, for example <m>x=-6</m>, then <m>x^2=(-6)^2=36</m>, and not <m>\sqrt{x^2}=\sqrt{36}=6</m>, not <m>-6</m>.  So if <m>x</m> is a negative number, <m>\sqrt{x^2}\not= x</m> In fact, <m>\sqrt{x^2}= \abs{x}</m>.</p></solution>
+</example>
 
-<solution><p>Eliminate <m>c</m> by subtracting (1) from (2), then eliminate <m>c</m> again by subtracting (1) from (3), to get a 2x2 system:
-    <md><mrow>3a-3b \amp = 15 </mrow>
-        <mrow>8a+2b \amp = 10 </mrow></md>
-Divide the first equation by 3 and the second equation by 2, then add.
-    <md><mrow>a-b \amp = 5 </mrow>
-        <mrow>\underline{4a+b} \amp \underline{{}= 5 \vphantom{4a+b}} </mrow>
-        <mrow>5a \amp = 10 </mrow></md>
-We see that <m>a=2</m>. Substituting <m>a=2</m> into the equation <m>a-b=5</m>, we find that <m>b=-3</m>. Finally, we substitue <m>a=2</m> and <m>b=-3</m> into equation (1) to find
-    <md><mrow>2-3+c \amp = 3 </mrow>
-        <mrow>c \amp = 4 </mrow></md>
-The solution is <m>a=2,~b=-3</m>, and <m>c=4</m>.</p>
-</solution></example>
+<example><statement><p>For what values of <m>x</m> is <m>~\sqrt{(x-5)^2} = x-5~</m>?</p></statement>
+
+<solution><p><m>~\sqrt{(x-5)^2} = x-5~</m> when <m>x-5</m> is positive or zero, that is for <m>x \ge 5</m>.  If <m>x \lt 5</m>, then <m>x-5</m> is negative. But the <m>\sqrt{}</m> symbol returns only the positive root, so we use absolute value bars to indicate that the root is positive:
+	<me>\sqrt{(x-5)^2} = \abs{x-5}</me></p></solution></example>
 </subsubsection>
 
-<subsubsection><title>Exercise</title>
+<subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Solve the system by elimination.
-    <md><mrow>a+b+c \amp = 5</mrow>
-        <mrow>4a-2b+c \amp = -7</mrow>
-        <mrow>16a+4b+c \amp = -37 </mrow></md></p></statement>
-    <answer><m>a=-3,~b=1,~c=7</m></answer></exercise>
+<exercise><statement><p>For what values of <m>x</m> is <m>~\sqrt{(2x+8)^2} = 2x+8~</m>?</p></statement>
+<answer><m>x \ge -4</m></answer></exercise>
+
+<exercise><statement><p>For what values of <m>x</m> is <m>~\sqrt{(x-9)^2} = 9-x~</m>?</p></statement>
+<answer><m>x \le 9</m></answer></exercise>
 </subsubsection>
 </subsection>
-
-
 
 </section>
-<!-- </book>  </pretext> -->

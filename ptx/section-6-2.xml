@@ -1,164 +1,194 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="SolvingQuadratic" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Solving Quadratic Equations </title>
+<section xml:id="RootsRadicals" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Roots and Radicals</title>
                  
-<subsection><title>1. Combine fractions</title>
+<subsection><title>1. Use the definition of root</title>
 
-<introduction><p>To solve a quadratic equation by completing the square, we often have to work with fractions.</p>
-
-<p>To multiply two fractions together, we multiply their numerators together, and multiply their denominators together. We can divide out any common factors in numerator and denominator before we multiply.</p></introduction>
+<introduction><p>Because <m>~(\sqrt{a})(\sqrt{a})=a,~</m> it is also true that <m>~\dfrac{a}{\sqrt{a}}= \sqrt{a}</m>.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
-<example><statement><p>Multiply. <ol label="a" cols="2">
-    <li><m>\dfrac{3}{8} \cdot \dfrac{6}{5}</m></li>
-    <li><m>\dfrac{ab}{6} \cdot \dfrac{3a}{2b}</m></li></ol></p></statement>
+<example><statement><p>Simplify. Do not use a calculator!<ol label="a" cols="2">
+    <li><m>\left(\sqrt{7}\right)\left(\sqrt{7}\right)</m></li>
+    <li><m>\sqrt{n}(\sqrt{n})</m></li></ol></p></statement>
+ 
+<solution><p>By the definition of square root, <m>\sqrt{a}</m> is a number whose square is <m>a</m>.<ol label="a">
+    <li><m>\left(\sqrt{7}\right)\left(\sqrt{7}\right)=7</m></li>
+    <li><m>\sqrt{n}(\sqrt{n})=n</m></li></ol>
+</p></solution></example>
+
+<example><statement><p>Simplify. Do not use a calculator!<ol label="a" cols="2">
+    <li><m>\left(\sqrt[3]{5}\right)^3</m></li>
+    <li><m>\left(\sqrt[3]{4}\right)\left(\sqrt[3]{4}\right)\left(\sqrt[3]{4}\right)</m></li></ol></p></statement>
+ 
+<solution><p>By the definition of cube root, <m>\sqrt[3]{a}</m> is a number whose cube is <m>a</m>.<ol label="a">
+    <li><m>\left(\sqrt[3]{5}\right)^3=5</m></li>
+    <li><m>\left(\sqrt[3]{4}\right)\left(\sqrt[3]{4}\right)\left(\sqrt[3]{4}\right)=4</m></li></ol></p></solution></example>
+
+<example><statement><p>Simplify. Do not use a calculator!<ol label="a" cols="2">
+    <li><m>\dfrac{3}{\sqrt{3}}</m></li>
+    <li><m>\dfrac{p}{\sqrt{p}}</m></li></ol></p></statement>
  
 <solution><p><ol label="a">
-    <li><p>We can divide out a factor of 2.
-    <me>\dfrac{3}{8} \cdot \dfrac{6}{5} = \dfrac{3}{\cancel{2} \cdot 4} \cdot \dfrac{\cancel{2} \cdot 3}{5} = \dfrac{9}{20}</me></p></li>
-    <li><me>\dfrac{ab}{6} \cdot \dfrac{3a}{2b} = \dfrac{a \cancel{b}}{2 \cdot \cancel{3}} \cdot \dfrac{\cancel{3}a}{2 \cancel{b}} = \dfrac{a^2}{4}</me></li></ol></p>
-</solution></example>
+    <li><m>\dfrac{3}{\sqrt{3}} = \dfrac{\sqrt{3}\sqrt{3}}{\sqrt{3}} = \sqrt{3}</m></li>
+    <li><m>\dfrac{p}{\sqrt{p}} = \dfrac{\sqrt{p}\sqrt{p}}{\sqrt{p}} = \sqrt{p}</m></li></ol>
+</p></solution></example>
 
-<assemblage><title>To add or subtract unlike fractions</title><p><ol label="1">
-<li>Find the LCD for the fractions.</li>
-<li>Build each fraction to an equivalent one with the LCD as its denominator.</li>
-<li>Add or subtract the numerators. Keep the same denominator.</li></ol></p></assemblage>
-
-<example><statement><p>Add. <ol label="a" cols="2"> 
-    <li><m>\dfrac{7}{10} + \dfrac{5}{6}</m></li>
-    <li><m>6 + \dfrac{4}{9}</m></li></ol></p></statement>
- 
-<solution><p><ol label="a">
-    <li><p>Step1:  Find the LCD. Factor each denominator.
-        <md><mrow>10=2\cdot 5</mrow>
-            <mrow>6 = 2\cdot 3</mrow></md>
-    The LCD is <m>~2 \cdot 3 \cdot 5 = 30</m>.</p>
-    <p>Step2:  Build each fraction to a denominator of 30. The building factor for the first fraction is <m>\blert{3}</m>, and <m>\blert{5}</m> for the second fraction.
-        <me>\dfrac{7}{10} \cdot \blert{\dfrac{3}{3}} = \dfrac{21}{30}~~~~\text{and}~~~~\dfrac{5}{6} \cdot \blert{\dfrac{5}{5}} = \dfrac{25}{30}</me>
-    Step 3:  Add the two like fractions, and reduce.
-        <md><mrow>\dfrac{7}{10} + \dfrac{5}{6} \amp = \dfrac{21}{30} + \dfrac{25}{30} = \dfrac{46}{30}</mrow>
-            <mrow> \amp = \dfrac{\cancel{2} \cdot 23}{\cancel{2} \cdot 15} = \dfrac{23}{15}</mrow></md></p></li> 
-    <li><p>Step1:  The LCD is 9.</p>
-        <p>Step 2:  Build the whole number to a denominator of 9.
-            <me>\dfrac{6}{1} \cdot \blert{\dfrac{9}{9}} = \dfrac{54}{9}</me>
-        Step 3:  Add the two like fractions.
-            <me>6 + \dfrac{4}{9} = \dfrac{54}{9} + \dfrac{4}{9} = \dfrac{58}{9}</me></p>
-    </li></ol></p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Multiply. <ol label="a" cols="2">  
-    <li><m>\dfrac{2}{3} \cdot \dfrac{5}{7}</m></li>
-    <li><m>\dfrac{6}{7} \cdot \dfrac{14}{15}</m></li></ol> </p> </statement>
-    <answer><p><ol label="a">
-        <li><m>\dfrac{10}{21}</m></li>
-        <li><m>\dfrac{4}{5}</m></li></ol></p></answer></exercise>
+<exercise><statement><p>Simplify. Do not use a calculator!<ol label="a" cols="2">
+    <li><m>\sqrt{5}(\sqrt{5})</m></li>
+    <li><m>\sqrt{x}(\sqrt{x})</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+    <li><m>5</m></li>
+    <li><m>x</m></li></ol></p></answer></exercise>
 
-<exercise><statement><p>Multiply. <ol label="a" cols="2">  
-    <li><m>\dfrac{12x}{16y} \cdot \dfrac{18}{27xy}</m></li>
-    <li><m>\dfrac{9c^2}{10c} \cdot \dfrac{25cd}{12d^2}</m></li></ol> </p> </statement>
-    <answer><p><ol label="a">
-        <li><m>\dfrac{1}{2y^2}</m></li>
-        <li><m>\dfrac{15c^2}{8d}</m></li></ol></p></answer></exercise>
+<exercise><statement><p>Simplify. Do not use a calculator!<ol label="a" cols="2">
+    <li><m>\left(\sqrt[3]{9}\right)\left(\sqrt[3]{9}\right)\left(\sqrt[3]{9}\right)</m></li>
+    <li><m>\left(\sqrt[3]{20}\right)^3</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+    <li><m>9</m></li>
+    <li><m>20</m></li></ol></p></answer></exercise>
 
-<exercise><statement><p>Add or subtract. <ol label="a" cols="2">  
-    <li><m>\dfrac{5}{8} + \dfrac{1}{12}</m></li>
-    <li><m>3 - \dfrac{3}{4}</m></li></ol> </p> </statement>
-    <answer><p><ol label="a">
-        <li><m>\dfrac{17}{24}</m></li>
-        <li><m>\dfrac{9}{4}</m></li></ol></p></answer></exercise>
-
-<exercise><statement><p>Add or subtract. <ol label="a" cols="2">  
-    <li><m>\dfrac{5}{2} - \dfrac{5}{3}</m></li>
-    <li><m>4 + \dfrac{3}{8}</m></li></ol> </p> </statement>
-    <answer><p><ol label="a">
-        <li><m>\dfrac{5}{6}</m></li>
-        <li><m>\dfrac{35}{8}</m></li></ol></p></answer></exercise>
+<exercise><statement><p>Simplify. Do not use a calculator!<ol label="a" cols="2">
+    <li><m>\dfrac{10}{\sqrt{10}}</m></li>
+    <li><m>\dfrac{H}{\sqrt{H}}</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+    <li><m>\sqrt{10}</m></li>
+    <li><m>\sqrt{H}</m></li></ol></p></answer></exercise>
 </subsubsection>
 </subsection>
 
-<subsection><title>2. Recognize squares of binomials</title>
+<subsection><title>2. Approximate rational numbers</title>
 
-<introduction><p>To solve a quadratic equation by completint the square, we create the square of a binomial:
+<introduction><p>Rational numbers are the integers and common fractions; we can represent them precisely in decimal form. But the best we can do for an irrational number is to write an approximate decimal form by rounding.</p></introduction>   
 
-    <me>\blert{(x+p)^2 = x^2 + 2px + p^2}</me></p></introduction>
+<subsubsection><title>Examples</title>
 
-<subsubsection><title>Example</title>
-
-<example><statement><p>Write each trinomial as the square of a binomial.<ol label="a" cols="2">
-    <li><m>x^2+6x+9</m></li>
-    <li><m>x^2-5x+\dfrac{25}{4}</m></li></ol></p></statement>
+<example><statement><p>Identify each number as rational or irrational.<ol label="a" cols="2">
+    <li><m>\sqrt{6}</m></li>
+    <li><m>\dfrac{-5}{3}</m></li>
+    <li><m>\sqrt{16}</m></li>
+    <li><m>\sqrt{\dfrac{5}{9}}</m></li>
+</ol></p></statement>
 
 <solution><p><ol label="a">
-    <li><p>In the formula above, note that the coefficient of <m>x</m> is <m>2p</m> and the constant term is <m>p^2</m>. In this example, <m>2p=6</m> and <m>p^2=9</m>, so <m>p=\alert{3}</m>, and 
-    <me>x^2+6x+9 = (x+\alert{3})^2</me></p></li>
-    <li><p>The coefficient of <m>x</m> is <m>2p=-5</m> and the constant terms is <m>p^2=\dfrac{25}{4}</m>, so <m>p=\alert{\dfrac{-5}{2}}</m>, and 
-    <me>x^2-5x+\dfrac{25}{4} = \left(x-\alert{\dfrac{5}{2}}\right)^2</me></p></li></ol></p>
+    <li>Irrational:  <m>~\sqrt{6}~</m> is not the quotient of two integers.</li>
+    <li><p> Rational: <m>~\dfrac{-5}{3}~</m> is the quotient of two integers.</p></li>
+    <li>Rational:  <m>~\sqrt{16} = 4~</m> is an integer.</li>
+    <li><p> Irrational: <m>~\sqrt{\dfrac{5}{9}} = \dfrac{\sqrt{5}}{3}~</m>,  but <m>\sqrt{5}</m> is irrational.</p></li>
+</ol></p></solution></example>
+
+<example><statement><p>Give a decimal approximation rounded to thousandths.<ol label="a" cols="3">
+    <li><m>5\sqrt{3}</m></li>
+    <li><m>\dfrac{-2}{3}\sqrt{21}</m></li>
+    <li><m>2+\sqrt[3]{5}</m></li>
+</ol></p></statement>
+
+<solution><p>Use a calculator to evaluate.<ol label="a">
+    <li>Enter <m>~5~ \boxed{\sqrt{}}~3</m>  <kbd>ENTER</kbd> and round to three decimal places: <m>~8.660 </m></li>
+    <li>Enter <kbd>(-)</kbd> <m>2</m> <m>\boxed{\sqrt{}}~</m> <m>21</m> <kbd name="right-paren"/> <kbd name="obelus"/> <m>3</m> <kbd>ENTER</kbd> and round to three decimal places: <m>~-3.055</m></li>
+    <li>Enter <m>2</m> <kbd name="plus"/> <kbd>MATH</kbd> <kbd>4</kbd> <m>5</m> <kbd>ENTER</kbd> and round to three decimal places: <m>~3.710</m></li>
+</ol></p>
 </solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Write <m>~x^2+12x+36~</m> as the square of a binomial.</p></statement>
-    <answer><m>(x+6)^2</m></answer></exercise>
+<exercise><statement><p>Identify each number as rational or irrational.<ol label="a" cols="2">
+    <li><m>\sqrt{250}</m></li>
+    <li><m>\dfrac{\sqrt{3}}{2}</m></li>
+    <li><m>\dfrac{\sqrt{81}}{4}</m></li>
+    <li><m>\sqrt[3]{16}</m></li>
+</ol></p></statement>
+    <answer><p><ol label="a" cols="2">
+    <li>Irrational</li>
+    <li>Irrational</li>
+    <li>Rational</li>
+    <li>Irrational</li>
+</ol></p></answer></exercise>
 
-<exercise><statement><p>Write <m>~x^2-26x+169~</m> as the square of a binomial.</p></statement>
-    <answer><m>(x-13)^2</m></answer></exercise>
-
-<exercise><statement><p>Write <m>~a^2-9a+\dfrac{81}{4}~</m> as the square of a binomial.</p></statement>
-    <answer><m>(a-\dfrac{9}{2})^2</m></answer></exercise>
-
-<exercise><statement><p>Write <m>~t^2-\dfrac{4}{3}t+\dfrac{4}{9}~</m> as the square of a binomial.</p></statement>
-    <answer><m>(t-\dfrac{2}{3})^2</m></answer></exercise>
+<exercise><statement><p>Give a decimal approximation rounded to thousandths.<ol label="a" cols="3">
+    <li><m>-6\sqrt[3]{5}</m></li>
+    <li><m>\dfrac{3}{5}\sqrt{76}</m></li>
+    <li><m>7-\sqrt{19}</m></li>
+</ol></p></statement>
+    <answer><p><ol label="a" cols="3">
+    <li><m>-10.260</m></li>
+    <li><m>5.231</m></li>
+    <li><m>2.641</m></li></ol></p>
+    </answer></exercise>
 </subsubsection>
 </subsection>
 
-<subsection><title>3. Simplify square roots</title>
+<subsection><title>3. Use the order of operations</title>
 
-<introduction><p>Be careful when simplifying radicals after extracting roots.  Recall the properties of radicals reviewed in Section 4.4.</p></introduction>
+<introduction><p>In the order of operations, simplifying radicals comes after what's inside parentheses (or fraction bars) and before products and quotients.</p></introduction>
 
-<subsubsection><title>Example</title>
+<subsubsection><title>Examples</title>
 
-<example><statement><p>Can you simplify the first expression into the second expression? 
-    (Decide whether the expressions are equivalent.) <ol label="a">
-    <li>Is <m>~~\sqrt{4+x^2}~~</m> equivalent to <m>~~2+x</m>?</li>
-    <li>Is <m>~~\sqrt{\dfrac{x^2}{9}}~~</m> equivalent to <m>~~\dfrac{x}{3}~~</m> for <m>~x \ge 0</m>?</li>
-    <li>Is <m>~~\sqrt{w-3}~~</m> equivalent to <m>~~\sqrt{w} - \sqrt{3}</m>?</li></ol>
-</p></statement>
+<example><statement><p>Simplify each expression. Do not use a calculator!<ol label="a">
+    <li><m>\dfrac{4-\sqrt{64}}{2}</m></li>
+    <li><m>-2\left(3\sqrt{16}-\sqrt{3(27)}\right)</m></li>
+    <li><m>6-3\sqrt[3]{27-7(5)}</m></li>
+</ol></p></statement>
  
 <solution><p><ol label="a">
-    <li><p>If the expressions are equivalent, they must be equal for every value of the variable. Let's test with <m>x=3</m>.  Then
-        <md><mrow>\sqrt{4+x^2} \amp = \sqrt{4+9} = \sqrt{13} \approx 3.6</mrow>
-            <mrow> \text{but}~~~~~~~~~ 2+x \amp = 2+3 = 5</mrow></md> 
-        No, the expressions are not equivalent.</p></li>
-    <li><p>Because <m>\left(\dfrac{x}{3}\right)^2 = \dfrac{x}{3} \cdot \dfrac{x}{3} = \dfrac{x^2}{3^2} = \dfrac{x^2}{9}</m>, it is also true that <m>\sqrt{\dfrac{x^2}{9}} = \dfrac{x}{3}</m>. Yes, the expressions are equivalent.</p></li>
-    <li><p>Let <m>w=16</m>. Then
-        <md><mrow>\sqrt{w-3} \amp = \sqrt{16-3} = \sqrt{13} \approx 3.6</mrow>
-            <mrow> \text{but}~~~ \sqrt{w}-\sqrt{3} \amp = \sqrt{16}-\sqrt{3} \approx 4-1.7 = 2.3</mrow></md> 
-        No, the expressions are not equivalent.</p></li></ol>
- </p></solution></example>
+    <li><p>We start by simplifying the numerator.
+        <md><mrow>\dfrac{4-\sqrt{64}}{2} \amp = \dfrac{4-8}{2} \amp\amp \blert{\text{Evaluate the radical, then subtract.}}</mrow>
+            <mrow>\amp = \dfrac{-4}{2}=-2 \amp\amp \blert{\text{Reduce the fraction.}}</mrow></md></p></li>
+    <li><p>We start by simplifyng what's inside parentheses.
+        <md><mrow>-2\amp\left(3\sqrt{16} -\sqrt{3(27)}\right)  \amp\amp \blert{\text{Evaluate the radicals.}}</mrow>
+            <mrow>\amp   = -2(3 \cdot 4-\sqrt{81}) \amp\amp \blert{\text{Simplify inside the parentheses.}}</mrow>
+            <mrow>\amp   = -2(12-9)=-6</mrow></md></p></li>
+    <li><p>We start by simplifying the radicand.
+        <md><mrow>6-3\sqrt[3]{27-7(5)} \amp = 6-3\sqrt[3]{27-35}  \amp\amp \blert{\text{Subtract under the radical.}}
+        </mrow>
+        <mrow>\amp = 6-3\sqrt[3]{-8}  \amp\amp \blert{\text{Evaluate the radical.}}</mrow>
+        <mrow>\amp =6-3(-2)=12</mrow></md></p></li>
+</ol></p></solution></example>
+
+<example><statement><p>Simplify each expression. Round your answer to hundredths.<ol label="a" cols="2">
+    <li><m>\dfrac{8-2\sqrt{2}}{4}</m></li>
+    <li><m>2+6\sqrt[3]{-25}</m></li></ol></p></statement>
+
+<solution><p><ol label="a">
+    <li><p>Do not start with "<m>8-2</m>"! Evaluate <m>\sqrt{2}</m> first, then multiply by 2, and subtract the result from 8. Once the numerator is simplified, divide by 4.</p> 
+        <p>On a calculator, enter </p>
+        <p><m>\qquad\qquad</m> <kbd name="left-paren"/> <m>8</m> <kbd name="minus"/>  <m>2~\boxed{\sqrt{}}</m> <kbd name="right-paren"/> <kbd name="right-paren"/> <kbd name="obelus"/> <m>4</m> <kbd>ENTER</kbd></p>
+        <p>and round to two decimal places:  <m>~1.29</m></p></li>
+    <li><p>Evaluate the cube root, multiply by 6, then add the result to 2.</p>
+        <p>On a calculator, enter</p>
+        <p><m>\qquad\qquad 2</m> <kbd name="plus"/> <m>6</m> <kbd>MATH</kbd> <kbd>4</kbd> <kbd name="minus"/> <m>25</m> <kbd>ENTER</kbd></p>
+        <p>and round to two decimal places:  <m>~{-15.54}</m></p></li></ol></p></solution></example>
 </subsubsection>
 
-<subsubsection><title>Exercises</title>
+<subsubsection><title>Exercise</title>
 
-<introduction><p>Decide whether the expressions are equivalent. Assume all variables are positive.</p></introduction>
+<exercise><statement><p>Simplify each expression. Do not use a calculator!<ol label="a">
+    <li><m>\dfrac{36}{6+\sqrt{36}}</m></li>
+    <li><m>10+2(3-\sqrt{169})</m></li>
+    <li><m>\dfrac{3+\sqrt[3]{-729}}{6-\sqrt[3]{-27}}</m></li>
+</ol></p></statement> 
+    <answer><p><ol label="a">
+    <li><m>3</m></li>
+    <li><m>-10</m></li>
+    <li><m>\dfrac{-2}{3}</m></li>
+</ol></p></answer></exercise> 
 
-<exercise><statement><p><m>\sqrt{b^2-81}~</m> and <m>~b-9</m></p></statement>
-<answer>No</answer></exercise> 
-
-<exercise><statement><p><m>\sqrt{64x^2y^2}~</m> and <m>~8xy</m></p></statement>
-<answer>Yes</answer></exercise>
-
-<exercise><statement><p><m>\sqrt{64+x^2y^2}~</m> and <m>~8+xy</m></p></statement>
-<answer>No</answer></exercise> 
-
-<exercise><statement><p><m>\sqrt{\dfrac{c^2+d^2}{4b^2}}~</m> and <m>~\dfrac{\sqrt{c^2+d^2}}{2b}</m></p></statement>
-<answer>Yes</answer></exercise>
+<exercise><statement><p>Simplify each expression. Round your answer to hundredths.<ol label="a" cols="2">
+    <li><m>\dfrac{6+9\sqrt{3}}{3}</m></li>
+    <li><m>-1-3\sqrt[3]{120}</m></li>
+</ol></p></statement>
+    <answer><p><ol label="a">
+    <li><m>7.20</m></li>
+    <li><m>-15.80</m></li></ol></p></answer></exercise>
 </subsubsection>
 </subsection>
+
 
 </section>
 <!-- </book>  </pretext> -->
