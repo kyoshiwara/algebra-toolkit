@@ -9,9 +9,9 @@
 
 <subsubsection><title>Examples</title>
 
-<example><statement><p>Find the missiing factor.<ol label="a" cols="2">
+<example><statement><p>Find the missing factor.<ol label="a" cols="2">
 	<li><m>60x^9 = 3x^3 \cdot~</m> ?</li>
-	<li><m>9x^3 - 3x^9 \cdot~</m> ?</li></ol></p></statement>
+	<li><m>9x^3 - 3x^9 = 3x^3 \cdot~</m> ?</li></ol></p></statement>
 
 <solution><ol label="a">
 	<li>We mentally divide <m>60x^9</m> by <m>3x^3</m> to find <m>\dfrac{60x^9}{3x^3} = 20x^6</m>. The missing factor is <m>20x^6</m>.</li>

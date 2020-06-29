@@ -20,7 +20,7 @@ You can check that <m>x=19</m> satisfies the original equation.</p></solution></
 <example><statement><p>Solve <m>~-2\sqrt[3]{x-4} = -6</m></p></statement>
 
 <solution><p>We first isolate the cube root.
-		<md><mrow>-2\sqrt[3]{x-4} \amp = -6 \amp \amp \blert{\text{Divide both sides by}~-2.}</mrow>
+		<md><mrow>-2\sqrt[3]{x-4} \amp = -6 \amp \amp \blert{\text{Divide both sides by}~{-2}.}</mrow>
 			<mrow>\sqrt[3]{x-4} \amp = 3</mrow></md>
 Next, we undo the cube root by cubing both sides of the equation.
 		<md><mrow>\left(\sqrt[3]{x-4}\right)^3 \amp = 3^3</mrow>
@@ -78,7 +78,7 @@ Finally, we add 4 to both sides to find the solution, <m>x=31</m>.  We do not ha
 
 <example><statement><p>Explain why <m>\sqrt{x^2}=x</m> is not true for all values of <m>x</m>.</p></statement>
 
-<solution><p>Recall that the symbol <m>\sqrt{a}</m> means the <em>non-negative</em> square root of <m>a</m>.  If <m>x</m> is a negative number, for example <m>x=-6</m>, then <m>x^2=(-6)^2=36</m>, and not <m>\sqrt{x^2}=\sqrt{36}=6</m>, not <m>-6</m>.  So if <m>x</m> is a negative number, <m>\sqrt{x^2}\not= x</m> In fact, <m>\sqrt{x^2}= \abs{x}</m>.</p></solution>
+<solution><p>Recall that the symbol <m>\sqrt{a}</m> means the <em>non-negative</em> square root of <m>a</m>.  If <m>x</m> is a negative number, for example <m>x=-6</m>, then <m>x^2=(-6)^2=36</m>, and <m>\sqrt{x^2}=\sqrt{36}=6</m>, not <m>-6</m>.  So if <m>x</m> is a negative number, <m>\sqrt{x^2}\not= x</m> In fact, <m>\sqrt{x^2}= \abs{x}</m>.</p></solution>
 </example>
 
 <example><statement><p>For what values of <m>x</m> is <m>~\sqrt{(x-5)^2} = x-5~</m>?</p></statement>

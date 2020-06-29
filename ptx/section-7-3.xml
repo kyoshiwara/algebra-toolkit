@@ -146,12 +146,12 @@
 </solution></example>
 
 <example><statement><p>Use the laws of exponents to simplify.<ol label="a" cols="2">
-    <li><m>(1.07^5)^3</m></li>
-    <li><m>(1.07^4)^p</m></li></ol></p></statement>
+    <li><m>\left(1.07^5\right)^3</m></li>
+    <li><m>\left(1.07^4\right)^p</m></li></ol></p></statement>
 
 <solution><p> When raising a power to a power, we multiply the exponents.<ol label="a">
-    <li><m>(1.07^5)^3 = 1.07^{15}</m></li>
-    <li><m>(1.07^4)^p = 1.07^{4p}</m></li></ol></p>
+    <li><m>\left(1.07^5\right)^3 = 1.07^{15}</m></li>
+    <li><m>\left(1.07^4\right)^p = 1.07^{4p}</m></li></ol></p>
 </solution></example>
 </subsubsection>
 
@@ -160,7 +160,7 @@
 <exercise><statement><p>Use the laws of exponents to simplify <m>~2.5^{2t}(2.5^3)</m>.</p></statement> 
     <answer><m>2.5^{2t+3}</m></answer></exercise> 
 
-<exercise><statement><p>Use the laws of exponents to simplify <m>~(0.94^4)^{m-2}</m>.</p></statement>
+<exercise><statement><p>Use the laws of exponents to simplify <m>~\left(0.94^4\right)^{m-2}</m>.</p></statement>
     <answer><m>0.94^{4m-8}</m></answer></exercise>
 
 <exercise><statement><p>Use the laws of exponents to simplify <m>~\dfrac{1.13^{8x}}{1.13^{5x}}</m>.</p></statement>

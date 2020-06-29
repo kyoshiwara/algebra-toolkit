@@ -121,7 +121,7 @@ so the new price is $153.</p></solution></example>
                     </tabular></sidebyside></li></ol></p></statement>
  
 <solution><p><ol label="a">
-     <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+     <li><p><sidebyside width="40%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>
                         <cell><m>~~1~~</m></cell>
@@ -137,7 +137,7 @@ so the new price is $153.</p></solution></example>
                     </tabular></sidebyside></p>
         <p>When we multiply a number by <m>\dfrac{2}{3}</m>, the product is smaller than the original number, so the powers of <m>\dfrac{2}{3}</m> decrease as the exponent increases. We can compare the powers more easily by converting the fractions to decimals, rounded to three places: 
         <me>\dfrac{2}{3} = 0.667,~\dfrac{4}{9} = 0.444,~\dfrac{8}{27} = 0.296,~\dfrac{16}{81} = 0.198</me></p></li>
-    <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><p><sidebyside width="40%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>
                         <cell><m>~~1~~</m></cell>
@@ -185,7 +185,7 @@ so the new price is $153.</p></solution></example>
                     </tabular></sidebyside></li></ol></p></statement>
 
 <solution><p> <ol label="a">
-        <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <li><sidebyside width="45%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>
                         <cell><m>~~1~~</m></cell>
@@ -200,7 +200,7 @@ so the new price is $153.</p></solution></example>
                         <cell><m>0.0016</m></cell></row>
                     </tabular></sidebyside>
             The powers decrease.</li>
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><sidebyside width="45%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>
                         <cell><m>~~1~~</m></cell>
@@ -249,7 +249,7 @@ so the new price is $153.</p></solution></example>
                         <cell><m></m></cell></row>
                     </tabular></sidebyside></li></ol></p></statement> 
     <answer><p><ol label="a">
-        <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <li><sidebyside width="45%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>
                         <cell><m>~~1~~</m></cell>
@@ -264,7 +264,7 @@ so the new price is $153.</p></solution></example>
                         <cell><m>\dfrac{81}{256}</m></cell></row>
                     </tabular></sidebyside>
                 Decrease</li>
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><sidebyside width="45%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>
                         <cell><m>~~1~~</m></cell>
@@ -311,7 +311,7 @@ so the new price is $153.</p></solution></example>
                         <cell><m></m></cell></row>
                     </tabular></sidebyside></li></ol></p></statement>
     <answer><p><ol label="a">
-        <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <li><sidebyside width="45%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>
                         <cell><m>~~1~~</m></cell>
@@ -326,7 +326,7 @@ so the new price is $153.</p></solution></example>
                         <cell><m>0.4096</m></cell></row>
                     </tabular></sidebyside>
             Decrease</li>
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><sidebyside width="45%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>
                         <cell><m>~~1~~</m></cell>
