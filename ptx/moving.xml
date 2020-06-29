@@ -781,3 +781,43 @@ Next, complete the square inside parentheses.
 
 </subsubsection>
 </subsection>
+
+<subsection><title>2. Solve proportions</title>
+
+<introduction><p>Cross-multiplying is a short-cut method for clearing the fractions from a proportion.  Remember that it works only on proportions, not on other types of equations or operations on fractions!</p>
+
+    <p><assemblage><title>Property of Proportions</title>
+        <p>We can clear the fractions from a proportion by cross-multiplying.
+            <me>\text{If}~~~~\dfrac{a}{b} = \dfrac{c}{d},~~~~\text{then}~~~~ad=bc.</me></p></assemblage>
+</p></introduction>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Solve <m>~\dfrac{2.4}{1.5} = \dfrac{8.4}{x}</m></p></statement>
+    
+<solution><p>We apply the property of proportions and cross-multiply to get
+    <md><mrow>2.4x \amp = 1.5(8.4) \amp \amp \blert{\text{Divide both sides by 2.4.}}</mrow>
+        <mrow>x \amp = \dfrac{1.5(8.4)}{2.4}  \amp \amp \blert{\text{Simplify the right side.}}</mrow>
+        <mrow>x \amp = 5.25</mrow></md>
+</p></solution></example>
+
+<example><statement><p>If 3 pounds of coffee beans makes 225 cups, how many pounds of coffee beans will you need to make 3000 cups of coffee?</p></statement>
+
+<solution><p>We assume that the number of cups is proportional to the amount of coffee beans. That is, the ratio of cups to coffee beans is constant. So
+    <md><mrow>\dfrac{225~ \text{cups}}{3~ \text{pounds}} \amp = \dfrac{3000~ \text{cups}}{x~ \text{pounds}}</mrow>
+        <mrow>\dfrac{225}{3} \amp = \dfrac{3000}{x}</mrow></md>
+Cross-multiplying, we find
+    <md><mrow>225x \amp = 3(3000)</mrow>
+        <mrow>x \amp = \dfrac{3(3000)}{225}= 40</mrow></md>
+You will need 40 pounds of coffee beans.</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Solve <m>~\dfrac{182}{65} = \dfrac{21}{w}</m></p></statement>
+    <answer><m>w=7.5</m></answer></exercise>
+
+<exercise><statement><p>A cinnamon bread recipe calls for <m>1 \frac{1}{4}</m>tablespoons of cinnamon and 5 cups of flour. Write and solve a proportion to discover how much cinnamon would be needed with 8 cups of flour.</p></statement>
+    <answer><p><m>\dfrac{1.25}{5} = \dfrac{x}{8};~~2~</m> tablespoons</p></answer></exercise>
+</subsubsection>
+</subsection>

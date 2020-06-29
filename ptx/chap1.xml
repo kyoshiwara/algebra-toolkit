@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<chapter xml:id="chap1"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Functions and Their Graphs</title>
+<chapter xml:id="chap1"  xmlns:xi="http://www.w3.org/2001/XInclude"><title>Linear Models</title>
     
 
-<xi:include href="./warmup.xml" />
+
 <xi:include href="./section-1-1.xml" />
 <xi:include href="./section-1-2.xml" />
 <xi:include href="./section-1-3.xml" />
 <xi:include href="./section-1-4.xml" />
 <xi:include href="./section-1-5.xml" />
-<xi:include href="./section-1-6.xml" />       
+       
 </chapter> 
 <!-- </book>  </pretext> -->

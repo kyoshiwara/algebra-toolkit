@@ -1,51 +1,120 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="Matrices" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Solving Linear Systems Using Matrices</title>
+<section xml:id="OperationsonAlgebraicFractions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Operations on Algebraic Fractions</title>
                  
-<subsection><title>1. Use new vocabulary</title>
+<subsection><title>1. Use improper fractions</title>
 
-<subsubsection><title>Definitions</title>
+<introduction><p>An improper fraction is one in which the numerator is larger than the denominator.</p></introduction>
 
-<p>Write definitions or descriptions for each term.<ul cols="2">
-    <li>order</li>
-    <li>entry</li>
-    <li>coefficient matrix</li>
-    <li>augmented matrix</li>
-    <li>elementary row operation</li>
-    <li>upper triangular form</li>
-    <li>row echelon form</li>
-    <li>reduced row echelon form</li>
-</ul></p>                    
+<subsubsection><title>Examples</title>
+                    
+<example><statement><p>Write an improper fraction for the sum  <m>~2 + \dfrac{3}{8}</m></p></statement>
+
+<solution><p>We write the whole number with the same denominator as the fraction.  Thus,
+	<me>\blert{2} + \dfrac{3}{8} = \blert{\dfrac{16}{8}}+\dfrac{3}{8} = \dfrac{16+3}{8} = \dfrac{19}{8}</me></p></solution></example>
+
+<example><statement><p>Write an improper fraction for the difference  <m>~3 - \dfrac{1}{5}</m></p></statement>
+
+<solution><p>We write the whole number with the same denominator as the fraction.  Thus,
+	<me>\blert{3} - \dfrac{1}{5} = \blert{\dfrac{15}{5}}-\dfrac{1}{5} = \dfrac{15-1}{5} = \dfrac{14}{5}</me></p></solution></example>
 </subsubsection>
 
-<subsubsection><title>Exercise</title>
+<subsubsection><title>Exercises</title>
+                    
+<exercise><statement><p>Write an improper fraction for each sum or difference.<ol label="a" cols="2">
+	<li><m>1 + \dfrac{3}{4}</m></li>
+	<li><m>2 - \dfrac{3}{10}</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+	<li><m>\dfrac{7}{4}</m></li>
+	<li><m>\dfrac{17}{10}</m></li></ol></p></answer></exercise>
 
-<exercise><statement><p>Illustrate each term above for the following system.
-        <md><mrow>x+3y-z \amp = 5</mrow>
-            <mrow>3x-y+2z \amp = 5</mrow>
-            <mrow>x+y+2z \amp = 7</mrow></md></p> 
-    </statement>
-<answer><p>The coefficient matrix for this system is
-    <me>\left[ \begin{array}{@{}ccc}
-            1\amp 3\amp -1 \\ 3 \amp -1 \amp  2 \\ 1 \amp 1\amp 2  
-        \end{array}\right]</me>
-It has order 3x3. The entry in the first row, first column is 1.  The augmented matrix is
-    <me>\left[ \begin{array}{@{}ccc|c@{}}
-            1\amp 3\amp -1 \amp 5\\ 3 \amp -1 \amp  2 \amp 5\\ 1 \amp 1\amp 2  \amp 7
-        \end{array}\right]</me>
-To reduce the matrix, we use the elementary row operations, for example, we subtract three times the first row from the second row. Continuing, we obtain nonzero entries on the diagonal and zero entries below the diagonal. 
-    <me>\left[ \begin{array}{@{}ccc|c@{}}
-            1\amp 3\amp -1 \amp 5\\ 0 \amp 2 \amp  -1 \amp 2\\ 0 \amp 0 \amp 2  \amp 4
-        \end{array}\right]</me> 
-This matrix is in upper triangular form, or row echelon form. If we continue and obtain zeros above the diagonal, we put the matrix into reduced row echelon form, in which the solutions of the system appear.
-    <me>\left[ \begin{array}{@{}ccc|c@{}}
-            1\amp 0\amp 0 \amp 1\\ 0 \amp 1 \amp  0 \amp 2\\ 0 \amp 0 \amp 1  \amp 2
-        \end{array}\right]</me>
-</p></answer></exercise>
+<exercise><statement><p>Write an improper fraction for each sum or difference.<ol label="a" cols="2">
+	<li><m>1 - \dfrac{23}{100}</m></li>
+	<li><m>3 + \dfrac{3}{25}</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+	<li><m>\dfrac{77}{100}</m></li>
+	<li><m>\dfrac{78}{25}</m></li></ol></p></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Find an LCD</title>
+
+<introduction><p>The first step in adding unlike fractions is to find the lowest common denominator, or LCD.</p></introduction>
+
+<subsubsection><title>Examples</title>
+                    
+<example><statement><p>Find the LCD for the fractions  <m>~\dfrac{2}{5} + \dfrac{3}{10}</m></p></statement>
+
+<solution><p>We factor each denominator and line up any common factors vertically.  We use one factor from each column in the LCD.  
+	<md><mrow>15  \amp = \blert{3} ~~~\cdot~~~  5</mrow>
+		<mrow>10  \amp =  ~~~~~~~~~~~~\blert{5}~~~\cdot~~~\blert{2}</mrow></md>
+The LCD is <m>3 \cdot 5\cdot 2</m>, or 30.</p></solution></example>
+
+<example><statement><p>Find the LCD for the fractions  <m>~\dfrac{5}{6a} - \dfrac{2}{9a^2}</m></p></statement>
+
+<solution><p>We factor each denominator and line up any common factors vertically.  We use one factor from each column in the LCD.  
+	<md><mrow>6a \amp = \blert{2}~~~\cdot~~~ 3~~~\cdot~~~ a</mrow>
+		<mrow>9a^2 \amp = ~~~~~~~~~~~~\blert{3}~~~\cdot~~~\blert{3}~~~\cdot~~~ \blert{a}~~~\cdot~~~ \blert{a}</mrow></md>
+The LCd is <m>2 \cdot 3 \cdot 3 \cdot a \cdot a</m>, or <m>18a^2</m>.</p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+                    
+<exercise><statement><p>Find the LCD for the fractions<ol label="a" cols="2">
+	<li><m>\dfrac{7}{8} - \dfrac{1}{6}</m></li>
+	<li><m>\dfrac{52}{75} + \dfrac{13}{24}</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+	<li><m>24</m></li>
+	<li><m>600</m></li></ol></p></answer></exercise>
+
+<exercise><statement><p>Find the LCD for the fractions<ol label="a" cols="2">
+	<li><m>\dfrac{3}{4a^2b^2} + \dfrac{7}{10ab^3}</m></li>
+	<li><m>\dfrac{3}{8t^4} - \dfrac{3}{5t^2}</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+	<li><m>20a^2b^3</m></li>
+	<li><m>40t^4</m></li></ol></p></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>3. Build fractions</title>
+
+<introduction><p>Before we can add unlike fractions, we must build each fraction to an equivalent one with the LCD as denominator.</p></introduction>
+
+<subsubsection><title>Examples</title>
+                    
+<example><statement><p>Write an equivalent fraction with the new denominator:  
+	<me>~\dfrac{3}{s} = \dfrac{?}{2s^2}</me></p></statement>
+
+<solution><p>We first find the building factor for the fraction:  what must we mulitply the old denominator by to get the new denominator?  We factor the new denominator to see what factors are missing.</p>
+<p>The new denominator is <m>2 \cdot s \cdot 3</m>, so we need to multiply the old denominator by <m>2s</m>.  This is the building factor.  We multiply top and bottom of the old fraction by the building factor:
+	<me>\dfrac{3}{s} \cdot \blert{\dfrac{2s}{2s}} = \dfrac{6}{2s^2}</me></p></solution></example>
+
+<example><statement><p>Write an equivalent fraction with the new denominator:  
+	<me>~\dfrac{2}{t+1} = \dfrac{?}{t^2+t}</me></p></statement>
+
+<solution><p>The new denominator factors as <m>t(t+1)</m>, so the building factor is <m>t</m>.  We multiply top and bottom of the old fraction by <m>t</m> to obtain:
+	<me>\dfrac{2}{t+1} \cdot \blert{\dfrac{t}{t}} = \dfrac{2t}{t^2+t}</me></p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+                    
+<exercise><statement><p>Write an equivalent fraction with the new denominator.<ol label="a" cols="2">
+	<li><m>\dfrac{1}{n} = \dfrac{?}{n^2-n}</m></li>
+	<li><m>\dfrac{4}{a-1} = \dfrac{?}{a^2-1}</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+	<li><m>\dfrac{n-1}{n^2-n}</m></li>
+	<li><m>\dfrac{4a+4}{a^2-1}</m></li></ol></p></answer></exercise>
+
+<exercise><statement><p>Write an equivalent fraction with the new denominator.<ol label="a" cols="2">
+	<li><m>\dfrac{b}{b-2} = \dfrac{?}{(b+3)(b-2)}</m></li>
+	<li><m>\dfrac{x-1}{x^2+2x} = \dfrac{?}{(x^2-x)(x+2)}</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+	<li><m>\dfrac{b^2+3b}{(b+3)(b-2)}</m></li>
+	<li><m>\dfrac{x^2-2x+1}{(x^2-x)(x+2)}</m></li></ol></p></answer></exercise>
 </subsubsection>
 </subsection>
 
 
 </section>
-<!-- </book>  </pretext> -->
+
