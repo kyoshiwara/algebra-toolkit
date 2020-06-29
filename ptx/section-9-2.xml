@@ -1,252 +1,119 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="Arithmetic-and-Geometric-Sequences"   xmlns:xi="http://www.w3.org/2001/XInclude">
-            <title>Arithmetic and Geometric Sequences</title>
-                
-<subsection><title>Arithmetic Sequences</title>   
-                   
-<p> A charter tour bus service charges $50 plus $15 for each passenger. The cost of a tour is then a function of the number of passengers. Because the number of passengers, <m>n</m>, can only be a positive integer, the function is a sequence.
-If <m>C_n</m> represents the cost of a tour for  passengers, then
+<section xml:id="DistanceMidpoint" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Distance and Midpoint Formulas</title>
+                 
+<subsection><title>1. Use radicals</title>
 
-<!--*****--><me>\begin{aligned}[t]
-                C_1 \amp = 50 + 15(1)= 65\\
-                C_2 \amp = 50 + 15(2) = 80\\
-                C_3 \amp = 50 + 15(3) = 95\\ 
-                \end{aligned}</me><!--*****-->
-and in general
-<me>C_n = 50 + 15n</me></p>
+<introduction><p>Because the distance formula is derived from the Pythagorean theorem, using it involves working with radicals.</p></introduction>
 
-<p>Each term of this sequence can be obtained from the previous one by adding 15.  A sequence in which each term can be obtained from the previous term by adding a fixed amount is called an <term>arithmetic sequence</term>.</p>
-<p>The fixed amount that we add to each term is the difference between two successive terms and is called the <term>common difference</term>. In the example above the common difference is 15. If we denote the first term of an arithmetic sequence by <m>a</m> and the common difference by <m>d</m>, then the sequence can be defined recursively by
+<subsubsection><title>Examples</title>
 
-<!--*****--><me>\begin{aligned}[t]
-                a_1 \amp = a\\
-                a_{n+1} \amp = a_n + d\\ 
-                \end{aligned}</me><!--*****--></p>
+<example><statement><sidebyside widths="60% 30%">
+	<p>In the right triangle shown, <m>a=8</m> and <m>b=6</m>.<ol label="a">
+	<li>Is <m>c=a+b</m>?  Why or why not?</li>
+	<li>Find thelength of <m>c</m>.</li></ol></p>
+	<image source="images/fig-6-4-pyth.png"><description>triangle</description></image></sidebyside></statement>
 
-<example><statement>
-    <p>Find the first four terms of an arithmetic sequence with first term 6 and common difference 3.</p></statement>
+<solution><p><ol label="a">
+	<li>No, the length of <m>c</m> is shorter than the lengths of <m>a</m> and <m>b</m> combined, so <m>c \lt a+b</m>.</li>
+	<li><p>We use the Pythagorean theorem:
+		<md><mrow>c^2 \amp = a^2+b^2 \amp \amp \blert{\text{Substitute }a=8~ \text{and }b=6~ \text{and evaluate.}}</mrow>
+			<mrow>c^2 \amp = 8^2+6^2=64+36=100 \amp \amp \blert{\text{Take square roots.}}</mrow>
+			<mrow> c \amp = \sqrt{100} = 10</mrow></md>
+		The hypotenuse is 10 cm long.</p></li></ol></p></solution></example>
 
-    <solution>
-    <p>The first term is 6, so we have <m>a_1 = 6</m>. To find each subsequent term, we add  3 to the previous term:
+<example><statement><p>Is <m>\sqrt{a^2+b^2} = a+b</m>?</p></statement>
 
-        <!--*****--><me>\begin{aligned}[t]
-                a_2 \amp = a_1 + 3 = 6 + 3 = 9\\
-                a_3 \amp = a_2 + 3 = 9 + 3 = 12\\
-                a_4 \amp = a_3 + 3 = 12 + 3 = 15\\ 
-                \end{aligned}</me><!--*****-->
+<solution><p>No. In the previous example, <m>c=\sqrt{a^2+b^2}</m>, and we saw that <m>c \lt a+b</m>. We cannot simplify  <m>\sqrt{a^2+b^2}</m> by taking the square root of each term.</p></solution></example>
 
-        The first four terms are  6, 9, 12, and 15.</p></solution></example>
 
-<exercise><statement><p>Find the first four terms of an arithmetic sequence with first term <m>100</m> and common difference <m>-30</m>.</p></statement>
-    <answer><p>100, 70, 40, 10</p></answer></exercise>
+<example><statement><p>If <m>r=\sqrt{14}</m>, write and simplify expressions for:<ol label="a">
+	<li><m>r \cdot r</m></li>
+	<li><m>r+r</m></li></ol></p></statement>
 
-<p>An arithmetic sequence defines a linear function of <m>n</m>.  In the figure below, compare the graph of the linear function  <m>f(x) = 2x + 3</m>,  whose domain is the set of all real numbers, and the graph of the arithmetic sequence <m>a_n = 2n + 3</m>,  whose domain is the set of positive integers.</p>
+<solution><p><ol label="a">
+	<li><m>r \cdot r = \left(\sqrt{14}\right)\left(\sqrt{14}\right) = 14</m>. Or, <m>r \cdot r = r^2 = \left(\sqrt{14}\right)^2 = 14</m>.</li>
+	<li><m>r+r = \sqrt{14} + \sqrt{14} = 2\sqrt{14}</m>.  Or, <m>r+r = 2r = 2\sqrt{14}</m>.</li></ol></p></solution>
+</example>
+</subsubsection>
 
-<sidebyside width="70%"><image source="images/fig-9-2-1.png"><description>graphs</description></image></sidebyside>  
+<subsubsection><title>Exercises</title>
 
-<note><p>Notice that the common difference, 2, of the sequence corresponds to the slope of the linear function.</p></note>
+<exercise><statement><p>Simplify if possible:  <m>~\sqrt{(x-4)^2+(y-2)^2}</m></p></statement>
+<answer><p>cannot be simplified</p></answer></exercise>
 
+<exercise><statement><p>Simplify if possible:  <m>~\sqrt{7^2+w^2}</m></p></statement>
+<answer><m>\sqrt{49+w^2}</m></answer></exercise>
+
+<exercise><statement><p>Simplify if possible:  <m>~\sqrt{7+w} \sqrt{7+w}</m></p></statement>
+<answer><m>7+w</m></answer></exercise>
+</subsubsection>
 </subsection>
 
-<subsection><title>The General Term of an Arithmetic Sequence</title>
+<subsection><title>2. Complete the square</title>
 
-<p>We have found a recursive definition for an arithmetic sequence, but we can also find a non-recursive definition. That is, we can find a formula for the general term. Consider an arithmetic sequence with first term <m>a</m> and common difference <m>d</m>.  The 
+<introduction><p>To find the center and radius of a circle, we may need to complete the square.</p></introduction>
 
-<!--*****--><me>\begin{aligned}[t]
-                \text{first term is}~~~~~~ \amp  a\\
-                \text{second term is}~~~~~~ \amp  a + d\\
-                \text{third term is}~~~~~~ \amp  a + d + d = a + 2d\\ 
-                \text{fourth term is}~~~~~~ \amp  a + d + d + d = a + 3d\\
-                n^{\text{th}}~ \text{term is}~~~~~~ \amp a + d + d + \cdots + d = a + (n - 1)d
-                \end{aligned}</me><!--*****-->
+<subsubsection><title>Examples</title>
 
-  Thus, we have the following property.</p>
+<example><statement><p>Write an equivalent equation in which the left side is a perfect square: <m>~x^2-6x=2</m></p></statement>
 
-<assemblage><title>Arithmetic Sequence</title>
-<p>The <m>n^{\text{th}}</m> term of an arithmetic sequence is
-<me>a_n = a + (n-1)d</me></p></assemblage>
+<solution><p>We want to find a constant <m>p^2</m> so that <m>x^2\blert{-6x}+p^2</m> is a perfect square, namely <m>(x+p)^2</m>.  Now, <m>~(x+p)^2 = x^2\blert{+2px}+p^2~</m>, so <m>2p=-6</m>, and <m>p=-3</m>.  Thus, we add <m>p^2=\alert{9}</m> to both sides of the equation.
+	<me>x^2-6x+\alert{9} = 2+\alert{9}</me>
+Now we can write the left side as a perfect square:
+	<me>(x-3)^2 = 11</me></p></solution></example>
 
-<p>We can use this formula to find a particular term of an arithmetic sequence if we know the first term and the common difference.</p>
+<example><statement><p>Write an equivalent equation in which the left side is a perfect square: <m>~y^2+7y=5</m></p></statement>
 
-       
-<example><statement><p>Find the fourteenth term of the arithmetic sequence <m>-6,~-1,~4,~\cdots</m></p></statement>
-    
-<solution><p>First, we find the common difference by subtracting any term from its successor:
-<me>d = -1 - (-6) = 5</me>
-Then we use the formula with <m>n = 14</m> :
-<me>a_{14}= -6 + (14-1)(5)= 59</me>
-</p></solution></example> 
+<solution><p>For this equation, <m>2p=7</m> so <m>p = \dfrac{7}{2}</m>.  We add <m>p^2=\left(\dfrac{7}{2}\right)^2=\alert{\dfrac{49}{4}}</m> to both sides of the equation.
+	<me>y^2+7y+\alert{\dfrac{49}{4}}=5+\alert{\dfrac{49}{4}}</me>
+We write the left sides as a perfect square, <m>(x+p)^2</m>, and simplify the right side.
+	<me>\left(x+\dfrac{7}{2}\right)^2=\dfrac{69}{4}~~~~~~~~~~~~\blert{5+\dfrac{49}{4}=\dfrac{20}{4}+\dfrac{49}{4}=\dfrac{69}{4}}</me>
+</p></solution></example>
+</subsubsection>
 
-<exercise><statement><p>Find the 100th term of the arithmetic sequence  <m>1, 3, 5, 7, \cdots</m>.</p>
-</statement>
+<subsubsection><title>Exercises</title>
 
-<answer><m>199</m></answer></exercise>
+<exercise><statement><p>Write an equivalent equation in which the left side is a perfect square: <m>~x^2+12x=-6</m></p></statement>
+<answer><m>(x+6)^2=30</m></answer></exercise>
 
-<example><statement><p>You deposit $8000 in an account that pays 5%  simple annual interest.</p>
-<p><ol label = "a">  
-    <li>Find a formula for the amount of money in the account after <m>n</m> years.</li>
-    <li>How much money will be in the account after 20 years?</li></ol></p></statement>
-
-<solution><p><ol label = "a">
-    <li>Each year, 0.05(8000) or $400 interest is added to the account balance. Thus, the annual balances, <m>b_n</m>, form an arithmetic sequence whose first term is 8400 and whose common difference is 400. Hence,
-    <me>b_n = 8400 + (n-1)400</me></li>
-    <li>We substitute <m>n=20</m> into the formula for the general term found in part (a).
-    <me>b_{20} = 8400 + (19)400 = 16,000</me>
-    After 20 years there will be $16,000 in the account.</li></ol></p></solution></example>
-
- <exercise><statement><p>Find the first four terms of a geometric sequence  whose first term is 1000 and whose common ratio is 1.06.</p></statement>
-
- <answer>1000, 1060, 1123.6,  1191.016</answer></exercise>
-    
- </subsection>
-
-<subsection><title>Geometric Sequences</title>
- <p>A national junior chess tournament starts with 1024 invited contestants. At the end of each round, the winners move on to the next level. Thus, after each round there are half as many contestants as before, and the number of remaining contestants is a function of the number of rounds completed. Because the number of rounds <m>n</m> is a positive integer, the function is a sequence.</p>
-
- <p>If <m>C_n</m> represents the number of contestants after <m>n</m> rounds of competition, then
-
- <!--*****--><me>\begin{aligned}[t]
-                C_1 \amp = 1024 (\dfrac{1}{2}) = 512\\
-                C_2 \amp = 512 (\dfrac{1}{2}) = 1024 (\dfrac{1}{2})^2 = 256\\
-                C_3 \amp = 256 (\dfrac{1}{2}) = 1024 (\dfrac{1}{2})^3 = 128\\ 
-                \end{aligned}</me><!--*****-->
-
-In general
-<me>C_n = 1024 (\dfrac{1}{2})^n </me></p>
-
-<p>Each term of the sequence defined above can be obtained from the previous one by multiplying by <m>\dfrac{1}{2}</m>.  A sequence in which each term can be obtained from the previous term by multiplying by a fixed amount is called a <term>geometric sequence</term>.</p>
-<p>The fixed amount we multiply each term by is the ratio of two successive terms and is called the <term>common ratio</term>.  In the example above the common ratio is <m>\dfrac{1}{2}</m>. If we denote the first term of a geometric sequence by <m>a</m> and the common ratio by <m>r</m>, then the sequence can be defined recursively by
-
-<!--*****--><me>\begin{aligned}[t]
-                a_1 \amp = a\\
-                a_{n+1} \amp = r a_n\\ 
-                \end{aligned}</me><!--*****--></p>
-              
-<example><statement><p>Find the first four terms of a geometric sequence whose first term is 64 and whose common ratio is <m>\dfrac{5}{4}</m>.</p></statement>
-
-<solution><p>The first term is 64, so we have <m>a_1=64</m>. To find each subsequent term, we multipy the previous term by <m>\dfrac{5}{4}</m>.
-
-<!--*****--><me>\begin{aligned}[t]
-                a_2 \amp = (\dfrac{5}{4})a_1 = (\dfrac{5}{4})(64) = 80\\
-                a_3 \amp = (\dfrac{5}{4})a_2 = (\dfrac{5}{4})(80) = 100\\
-                a_4 \amp = (\dfrac{5}{4})a_3 = (\dfrac{5}{4})(100) = 125\\ 
-                \end{aligned}</me><!--*****-->
-
-The first four terms are  64, 80, 100, and 125.</p></solution></example>
-
-<exercise><statement><p>Find the first four terms of a geometric sequence  whose first term is 5 and whose common ratio is 2.
-</p></statement>
-
-<answer><p>5, 10, 20, 40</p></answer></exercise>
-
-<p>A geometric sequence defines an exponential function of <m>n</m>. In the figure below, compare the graphs of the exponential function <m>f(x) = 100(2)^{x-1}</m>, whose domain is the set of real numbers, and the geometric sequence <m>a_n = 100(2)^{n-1}</m>, whose domain is the set of positive integers.</p>
-
-<sidebyside width="70%"><image source="images/fig-9-2-2.png"><description>graphs</description></image></sidebyside>
-
-<note><p>Notice that the common ratio of the geometric sequence corresponds to the base of the exponential function.</p></note>
-
-<p>Recall that an arithmetic sequence defines a linear function whose slope corresponds to the common difference.  Just as an exponential function grows much faster in the long run than a linear function, so does a geometric sequence grow much faster than an arithmetic sequence.</p>
-
-<example><statement><p>Identify the following sequences as arithmetic, geometric, or neither.</p>
-<p><ol label = "a" cols="2">
-    <li><m>3,~5,~7,~\cdots</m></li>
-    <li><m>3,~-6,~12,~\cdots</m></li>
-    <li><m>3,~6,~10,~\cdots</m></li>
-    <li><m>3,~1,~\dfrac{1}{3},\cdots</m></li></ol></p></statement>
-
-<solution><p><ol label = "a">
-    <li>This sequence is arithmetic.  Each term is obtained from the previous term by adding 2.</li>
-    <li>This sequence is geometric.  Each term is obtained from the previous term by 
-        multiplying by <m>-2</m>.</li>
-    <li>This sequence is neither arithmetic or geometric.</li>
-    <li>This sequence is geometric.  Each term is obtained from the previous term by 
-        multiplying by <m>\dfrac{1}{3}</m>.</li></ol></p></solution></example>
-
-<exercise><statement><p> Identify each of the following sequences as arithmetic, geometric, or neither.</p>
-<p><ol label = "a">
-    <li><m>1, ~4, ~9, ~16, ~\cdots</m></li>
-    <li><m>2, ~6, ~18, ~54, ~\cdots</m></li>
-    <li><m>\dfrac{1}{3},~\dfrac{1}{2},~\dfrac{2}{3},~\dfrac{5}{6},~\cdots</m></li></ol></p></statement>
-
-<answer><p><ol label = "a">
-    <li>Neither</li>
-    <li>Geometric</li>
-    <li>Arithmetic</li></ol></p></answer></exercise>
-
+<exercise><statement><p>Write an equivalent equation in which the left side is a perfect square: <m>~y^2-5y=3</m></p></statement>
+<answer><m>\left(y-\dfrac{5}{2}\right)^2=\dfrac{37}{4}</m></answer></exercise>
+</subsubsection>
 </subsection>
 
-<subsection><title>The General Term of a Geometric Sequence</title>
+<subsection><title>3. Use the equation for a circle</title>
 
-<p>We can now find a non-recursive formula for the general term of a geometric sequence.  If we denote the first term of the geometric sequence by <m>a</m>, then the
+<introduction><p>The equation for a circle of radius <m>r</m> centered at <m>(h,k)</m> is
+	<me>\blert{(x-h)^2+(y-k)^2=r^2}</me></p></introduction>
 
-<!--*****--><me>\begin{aligned}[t]
-                \text{second term is}~~~~~~ \amp  ar\\
-                \text{third term is}~~~~~~ \amp  ar \cdot r = ar^2\\ 
-                \text{fourth term is}~~~~~~ \amp  ar^2 \cdot r = ar^3\\
-                n^{\text{th}}~ \text{term is}~~~~~~ \amp ar^{n-1}\\
-                \end{aligned}</me><!--*****--></p>
+<subsubsection><title>Examples</title>
 
-<p>In general we have the following property.</p>
+<example><statement><p>Does <m>(-1,5)</m> lie on the circle <m>~(x-1)^2+(y-3)^2=8~</m>?</p></statement>
 
-<assemblage><title>Geometric Sequence</title>
-<p>The <m>n^{\text{th}}</m> term of a geometric sequence is                
- <me>a_n = ar^{n-1}</me></p></assemblage>  
+<solution><p>We substitute <m>x=\alert{-1},~ y=\alert{5}</m> into the equation for the circle.
+	<me>(\alert{-1}-1)^2+(\alert{5}-3)^2 = (-2)^2+2^2 = 4+4 = 8</me> 
+The point <m>(-1,5)</m> satisfies the equation, so it does lie on the circle.</p></solution></example>
 
- <p>We can use the formula  to find a particular term of a geometric sequence if we know the first term and the common ratio.</p>
- 
+<example><statement><p>Find a point with <m>x</m>-coordinate <m>-3</m> that lies on the circle <m>(x+2)^2+(y-4)^2=5</m>.</p></statement>
 
-<example><statement><p>Find the ninth term of the geometric sequence <m>-24,~12,~-6,~\cdots</m>.</p></statement>
+<solution><p>We substitute <m>x=\alert{-3}</m> into the equation, and solve for <m>y</m>.
+	<md><mrow>(\alert{-3}+2)^2+(y-4)^2 \amp = 5 \amp \amp \blert{\text{Simplify.}}</mrow>
+		<mrow>(-1)^2 +(y-4)^2 \amp = 5 \amp \amp \blert{\text{Solve by extracting roots.}}</mrow>
+		<mrow>(y-4)^2 \amp = 4 \amp \amp \blert{\text{Take square roots.}}</mrow>
+		<mrow>y-4 \amp = \pm 2</mrow></md>
+We see that the solutions are <m>y=6</m> and <m>y=2</m>.  Thus, the points <m>(-3,6)</m> and <m>(-3,2)</m> lie on the circle.</p></solution></example>
+</subsubsection>
 
-<solution><p>First, we find the common ratio by dividing any term by its predecessor.
-<me>\dfrac{12}{-24}=\dfrac{-1}{2}</me>
-Then we use the formula with  <m>a = -24, ~r = \dfrac{-1}{2}</m>, and <m>n = 9</m>.
-<me>a_9 = -24(\dfrac{-1}{2})^8 = \dfrac{-3}{32}</me></p></solution></example>
+<subsubsection><title>Exercises</title>
 
-<exercise><statement><p> Find the 12th term of the arithmetic sequence <m>\dfrac{3}{32},~\dfrac{3}{16},~dfrac{3}{8},~ \dfrac{3}{4},~\cdots</m></p></statement>
+<exercise><statement><p>Does <m>(2,6)</m> lie on the circle <m>~(x+3)^2+(y-5)^2=26~</m>?</p></statement>
+<answer>Yes</answer></exercise>
 
-<answer><p>192</p></answer></exercise>
-
-<example><statement><p>You deposit $8000 in an account that pays 5% annual interest compounded annually.</p>  
-<p><ol label = "a">
-    <li>Find a formula for the amount of money in the account after <m>n</m> years.</li>
-    <li>How much money will be in the account after 20 years?</li></ol></p></statement>
-
-<solution><p><ol label = "a">
-    <li>Each year, the account balance is multiplied by 1.05. Thus, the annual balances <m>c_n</m> form a geometric sequence whose first term is 8400 and whose common ratio is 1.05. Hence,    
-    <me>c_n = 8400(1.05)^{n-1}</me></li>
-    <li>We substitute <m>n = 20</m> into the formula for the general term found in part (a).
-    <me>c_{20} = 8400(1.05)^{19} = 21,226.38164</me>
-    After 20 years, there will be $21,226.38 in the account.</li></ol></p></solution></example>
-
-
-<exercise><statement><p>Find a recursive definition for the sequence in the previous example.</p></statement>
-
-<answer><m>c_1=8400,~~c_{n+1}=1.05c_n</m></answer></exercise>
-
-<example><statement><p>Find a nonrecursive definition for each sequence.</p>
-    <p><ol label = "a">
-    <li><m>a_1=2,~~a_n = a_{n-1}+3</m></li>
-    <li><m>b_1=2,~~b_{n+1} = 3b_n</m></li></ol></p></statement>
-
-<solution><p><ol label = "a">
-    <li><p>From the definition we see that the first few terms of the sequence are 2, 5, 8, and 11. Because each new term is found by adding 3 to the previous term, we see that this is an arithmetic sequence with a common difference of 3.  This means that the sequence has the form
-    <me>a_n = 2 + (n-1)3~~~\text{or}~~~~a_n = 3n - 1</me></p></li>
-    <li><p>The first four terms of this sequence are 2, 6, 18, and 54. Because each new term is found by multiplying the previous term by 3, we see that this is a geometric sequence with a common ratio of 3. This means that the sequence has the form     
-    <me>b_n = 3\cdot 2^{n-1}</me></p></li></ol></p></solution></example>
-
-<exercise><statement><p>Find a nonrecursive definition for each sequence.</p>
-<p><ol label = "a">
-    <li><m>c_1 = 100,~~ c_{k+1} = 1.03 c_k</m></li>
-    <li><m>d_1 = 2,~~ d_k = d_{k-1} - 5</m></li></ol></p></statement>
-
-<answer><p><ol label = "a">
-    <li><m>c_k = 1.03c_{k-1}</m></li>
-    <li><m>d_k = 7-5k</m></li></ol></p></answer></exercise>    
+<exercise><statement><p>Find a point with <m>y</m>-coordinate <m>-2</m> that lies on the circle <m>(x-2)^2+(y+1)^2=9</m>.</p></statement>
+<answer><p><m>(2+\sqrt{8}, -2)</m> and <m>(2-\sqrt{8}, -2)</m></p></answer></exercise>
+</subsubsection>
 
 </subsection>
-
-
-</section> 
-<!-- </book>  </pretext> -->
+</section>
