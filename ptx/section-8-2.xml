@@ -61,7 +61,7 @@
 
 <example><statement><p>Which of these pairs of binomials are opposites?<ol label="a">
 	<li><m>3c-5</m> and <m>5+3c</m></li>
-	<li><m>5-3c</m> and <m>53-5c</m></li>
+	<li><m>5-3c</m> and <m>3-5c</m></li>
 	<li><m>5c-3</m> and <m>3-5c</m></li></ol></p></statement>
 
 <solution><p>The opposite of <m>5c-3</m> is <m>-(5c-3)=-5c+3</m>, or <m>3-5c</m>, so (c) is correct.</p></solution></example>
@@ -90,13 +90,49 @@
 <subsubsection><title>Examples</title>
                     
 <example><statement><p>Give the equation and slope of the line.</p>
-	<sidebyside width="30%"><image source="images/fig-8-2-1.png"><description>graph</description></image></sidebyside>
+	<sidebyside width="30%"><image xml:id="fig-x-eq-neg15">
+        <description>vertical line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+		\draw[cyan, thin] (-4,-4) grid (4,4);
+		\draw[black,very thick, ->, >=stealth'] (-4,0)--(4.8,0) node[right]{$x$};
+		\draw[black,very thick, ->, >=stealth'] (0,-4)--(0,4.8) node[above]{$y$};
+		\foreach \x [evaluate=\x as \xi using int(5*\x)] in {-4,-2,2,4} {
+		 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+		  \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\draw[magenta!90!black,ultra thick,<->, >=stealth'] (-3,-4)--(-3,4);
+        \end{tikzpicture}]]>
+        </latex-image>
+		</image>
+	</sidebyside>
 </statement>
 
 <solution><p>This line is a vertical line.  All the points on the line have <m>x</m>-coordinate <m>-15</m>, so the equation of the line is <m>x=-15</m>.  Because <m>\Delta x=0</m> between any two points on the line, its slope is undefined.</p></solution></example>
 
 <example><statement><p>Give the equation and slope of the line.</p>
-	<sidebyside width="30%"><image source="images/fig-8-2-2.png"><description>graph</description></image></sidebyside>
+	<sidebyside width="30%"><image xml:id="fig-y-eq-40">
+        <description>horizontal line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+		\draw[cyan, thin] (-2,-2) grid (6,6);
+		\draw[black,very thick, ->, >=stealth'] (-2,0)--(6.8,0) node[right]{$x$};
+		\draw[black,very thick, ->, >=stealth'] (0,-2)--(0,6.8) node[above]{$y$};
+		\foreach \x [evaluate=\x as \xi using int(10*\x)] in {6,-2,2,4} {
+		 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+		  \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\draw[magenta!90!black,ultra thick,<->, >=stealth'] (-2,4)--(6,4);
+        \end{tikzpicture}]]>
+        </latex-image>
+		</image>
+	</sidebyside>
 </statement>
 
 <solution><p>This line is a horizontal line.  All the points on the line have <m>y</m>-coordinate <m>04</m>, so the equation of the line is <m>y=40</m>.  Because <m>\Delta y=0</m> between any two points on the line, its slope is <m>0</m>.</p></solution></example>
@@ -105,22 +141,102 @@
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Give the equation and slope of the line.</p>
-	<sidebyside width="30%"><image source="images/fig-8-2-3.png"><description>graph</description></image></sidebyside>
+	<sidebyside width="30%"><image xml:id="fig-y-eq-neg16">
+        <description>horizontal line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+        \draw[cyan, thin] (-2,-4) grid (6,4);
+		\draw[black,very thick, ->, >=stealth'] (-2,0)--(6.8,0) node[right]{$x$};
+		\draw[black,very thick, ->, >=stealth'] (0,-4)--(0,4.8) node[above]{$y$};
+		\foreach \x [evaluate=\x as \xi using int(10*\x)] in {6,-2,2,4} {
+		 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(8*\x)] in {-4,-2,2,4} {
+		  \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\draw[magenta!90!black,ultra thick,<->, >=stealth'] (-2,-2)--(6,-2);
+        \end{tikzpicture}]]>
+        </latex-image>
+		</image>
+	</sidebyside>
 </statement>
 <answer><m>y=-16;~ m=0</m></answer></exercise>
 
 <exercise><statement><p>Give the equation and slope of the line.</p>
-	<sidebyside width="30%"><image source="images/fig-8-2-4.png"><description>graph</description></image></sidebyside>
+	<sidebyside width="30%"><image xml:id="fig-x-eq-30">
+        <description>vertical line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+		\draw[cyan, thin] (-2,-3) grid (6,5);
+		\draw[black,very thick, ->, >=stealth'] (-2,0)--(6.8,0) node[right]{$x$};
+		\draw[black,very thick, ->, >=stealth'] (0,-3)--(0,5.8) node[above]{$y$};
+		\foreach \x [evaluate=\x as \xi using int(10*\x)] in {6,-2,2,4} {
+		 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(15*\x)] in {-2,2,4} {
+		  \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\draw[magenta!90!black,ultra thick,<->, >=stealth'] (3,-3)--(3,5);
+        \end{tikzpicture}]]>
+        </latex-image>
+		</image>
+	</sidebyside>
 </statement>
 <answer><m>x=30;~ m~</m>is undefined</answer></exercise>
 
 <exercise><statement><p>Give the equation and slope of the line.</p>
-	<sidebyside width="30%"><image source="images/fig-8-2-5.png"><description>graph</description></image></sidebyside>
+	<sidebyside width="30%"><image xml:id="fig-y-eq-45">
+        <description>horizontal line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+		\draw[cyan, thin] (-2,-3) grid (6,5);
+		\draw[black,very thick, ->, >=stealth'] (-2,0)--(6.8,0) node[right]{$x$};
+		\draw[black,very thick, ->, >=stealth'] (0,-3)--(0,5.8) node[above]{$y$};
+		\foreach \x [evaluate=\x as \xi using int(10*\x)] in {6,-2,2,4} {
+		 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(15*\x)] in {-2,2,4} {
+		  \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\draw[magenta!90!black,ultra thick,<->, >=stealth'] (-2,3)--(6,3);
+        \end{tikzpicture}]]>
+        </latex-image>
+		</image>
+	</sidebyside>
 </statement>
 <answer><m>y=45; m=0</m></answer></exercise>
 
 <exercise><statement><p>Give the equation and slope of the line.</p>
-	<sidebyside width="30%"><image source="images/fig-8-2-6.png"><description>graph</description></image></sidebyside>
+	<sidebyside width="30%"><image xml:id="fig-x-eq-neg24">
+        <description>vertical line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.6]
+		\draw[cyan, thin] (-5,-3) grid (3,5);
+		\draw[black,very thick, ->, >=stealth'] (-5,0)--(3.8,0) node[right]{$x$};
+		\draw[black,very thick, ->, >=stealth'] (0,-3)--(0,5.8) node[above]{$y$};
+		\foreach \x [evaluate=\x as \xi using int(12*\x)] in {-4,-2,2} {
+		 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(15*\x)] in {-2,2,4} {
+		  \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\draw[magenta!90!black,ultra thick,<->, >=stealth'] (-2,-3)--(-2,5);
+        \end{tikzpicture}]]>
+        </latex-image>
+		</image>
+	</sidebyside>
 </statement>
 <answer><m>x=-24;~  m~</m>is undefined</answer></exercise>
 </subsubsection>
