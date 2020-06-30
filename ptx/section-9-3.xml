@@ -4,7 +4,7 @@
 <section xml:id="Series"   xmlns:xi="http://www.w3.org/2001/XInclude">
             <title>Series</title>
                 
-<introduction>   
+<subsection><title>Introduction</title>   
                    
 <p> Often we are more interested in the sum of a sequence than in the sequence itself.  For example, suppose that for 5 years you have made payments of $100 a month into a savings account that pays 12% annual interest compounded monthly. The sequence
 
@@ -33,7 +33,7 @@ is a sequence. The sum of those five terms is the series
 <exercise><statement><p>Find the series <m>S_5</m> for the sequence with general term <m>b_n = b^2</m>.</p></statement>
     <answer><p>55</p></answer></exercise>
 
-</introduction>
+</subsection>
 
 <subsection><title>Arithmetic Series</title>
 
