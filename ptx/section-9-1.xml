@@ -85,15 +85,81 @@ Now we can use the point-slope formula.
 
 <introduction><p>Analytic geometry uses algebra to help solve geometric problems.</p></introduction>
 
-<subsubsection><title>Examples</title>
+<subsubsection><title>Example</title>
 
-<example><statement><p>The figure shows isosceles triangle <m>ABC</m> and its altitude <m>\overline{AP}</m>. (Recall that the altitude of a triangle is the segment perpendicular to the base that passes through the opposite vertex.) For this problem, we'll use the following property:</p>
-<p>  In an isoceles triangle, the altitude bisects the base.</p> <p><ol label="a">
-    <li>Find the equation of the line that includes </m>\overline{AP}</m>.</li>
+<example><statement><sidebyside widths="55% 35%" valigns="middle middle"><stack><p>The figure shows isosceles triangle <m>ABC</m> and its altitude <m>\overline{AP}</m>. (Recall that the altitude of a triangle is the segment perpendicular to the base that passes through the opposite vertex.) For this problem, we'll use the following property:</p>
+<p>  In an isoceles triangle, the altitude bisects the base.</p></stack> 
+    <image source="images/fig-9-1-1.png"><description>triangle</description></image></sidebyside>
+<p><ol label="a">
+    <li>Find the equation of the line that includes <m>\overline{AP}</m>.</li>
     <li>Find the coordinates of point <m>P</m>.</li>
-    <li>Find the length of the segment </m>\overline{AP}</m>.</li></ol></p></statement> 
+    <li>Find the length of the segment <m>\overline{AP}</m>.</li></ol></p></statement>
 
-                   
+<solution><p><ol label="a">
+    <li><p>Because <m>\overline{AP}</m> is perpendicular to <m>\overline{BC}</m>, we can find its slope.  The coordinates of <m>B</m> and <m>C</m> are <m>(6,0)</m> and <m>(2,-6)</m>, so the slope of <m>\overline{BC}</m> is
+        <me>\dfrac{-6-0}{-2-6} = \dfrac{3}{4}</me>
+    The slope of <m>\overline{AP}</m> is the negative reciprocal of <m>\dfrac{3}{4}</m>, or <m>\dfrac{-4}{3}</m>.</p>
+    <p> Now we can use the point-slope formula with <m>m=\dfrac{-4}{3}</m> and the coordinates of <m>A(-4,5)</m> to calculate the equation of the line. 
+        <md><mrow>\dfrac{-4}{3} \amp = \dfrac{y-5}{x+4}  \amp \amp \blert{\text{Cross-multiply.}}</mrow>
+            <mrow> 3(y-5) \amp = -4(x+4)   \amp \amp \blert{\text{Apply the distributive law.}}</mrow>
+            <mrow> 3y-15 \amp = -4x-16  \amp \amp \blert{\text{Add 15 to both sides.}}</mrow>
+            <mrow> 3y \amp = -4x-1  \amp \amp \blert{\text{Divide both sides by 3.}}</mrow>
+            <mrow> y \amp = \dfrac{-4}{3}x - \dfrac{1}{3}</mrow></md></p></li>
+    <li><p>Because the altitude bisects the base, point <m>P</m> is the midpoint of <m>\overline{BC}</m>.  The coordinates of <m>B</m> and <m>C</m> are <m>(6,0)</m> and <m>(2,-6)</m>, so we use the midpoint formula to find the coordinates of <m>P</m>.
+        <md><mrow>x \amp = \dfrac{-2+6}{2} = 2</mrow>
+            <mrow>y \amp = \dfrac{-6+0}{2} = -3</mrow></md>
+    The coordinates of <m>P</m> are <m>(2,-3)</m>.</p></li>
+    <li><p>The coordinates of <m>P</m> are <m>(2,-3)</m>, and the coordinates of <m>A</m> are <m>(-4,5)</m>.  We use the distance formula to find the length of <m>\overline{AP}</m>.
+        <me>\overline{AP} = \sqrt{(-4-2)^2+(5+3)^2} = \sqrt{36+64} = 10</me></p></li></ol></p></solution></example>
+</subsubsection>
+
+<subsubsection><title>Exercises</title>
+                    
+<exercise><statement><sidebyside widths="55% 30%" valigns="middle middle"><stack><p>The line <m>y=-2x+9</m> is tangent at point <m>Q</m> to a circle with center <m>C(-4,2)</m>.  For this problem, use the following property:</p>
+<p> The tangent to a circle is perpendicular to the radius through the point of tangency.</p></stack>
+    <image source="images/fig-9-1-2.png"><description>circle</description></image></sidebyside>
+<p><ol label="a">
+    <li>Find the equation of the line through <m>C</m> and <m>Q</m>.</li>
+    <li>Find the coordinates of <m>Q</m>.</li>
+    <li>Find the radius of the circle, <m>r=CQ</m>.</li>
+    <li>Find the equation of the circle.</li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>y=\dfrac{1}{2}x=4</m></li>
+    <li><m>(2,5)</m></li>
+    <li><m>3\sqrt{5}</m></li>
+    <li><m>(x+4)^2+(y-2)^2=45</m></li></ol></p></answer></exercise>
+
+<exercise><statement><sidebyside widths="55% 25%" valigns="middle middle"><stack><p>In the right triangle shown, <m>\overline{ST}</m> is parallel to the shorter leg, and <m>h=\dfrac{9}{10}r</m>.  For this problem, use the following property:</p>
+<p>  A line parallel to the base of a triangle cuts off a similar triangle. (Recall that the sides of similar triangles are proportional.)</p></stack>
+    <image source="images/fig-9-1-3.png"><description>triangle</description></image></sidebyside>
+<p><ol label="a">
+    <li>Write an expression for <m>r</m> in terms of <m>h</m>.</li>
+    <li>Find an expression for <m>b</m> in terms of <m>h</m>.</li>
+    <li>If <m>OS=\dfrac{2}{3}h</m> find an expression for <m>ST</m> in terms of <m>h</m>.</li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>r=\dfrac{10}{9}h</m> </li>
+    <li><m>b=\dfrac{\sqrt{19}}{9}h</m></li>
+    <li><m>ST = \dfrac{2\sqrt{19}}{27}h</m></li></ol></p></answer></exercise>
+
+<exercise><statement><p>The quadrilateral <m>ABCD</m> has vertices <m>~A(-4,-1),~B(-2,5),~C(8,5)~</m> and <m>~D(6,-1).</m></p>
+    <sidebyside width="50%"><image source="images/fig-9-1-4.png"><description>parallelogram</description></image></sidebyside>
+<p><ol label="a">
+    <li>Show that <m>ABCD</m> is a parallelogram (its opposite sides are parallel).</li>
+    <li>Find equations for the lines through the diagonals, <m>\overline{AC}</m> and <m>\overline{BD}</m>.</li>
+    <li>Find the intersection of the diagonals, <m>P</m>.</li>
+    <li>Find the lengths of <m>\overline{AP}</m> and <m>\overline{PC}</m>, and the lengths of <m>\overline{BP}</m> and <m>\overline{PD}</m>.</li>
+    <li><p>This example illustrates the following property of parallelograms:</p>  
+
+        <p>The diagonals of a parallelogram <fillin characters="6"/> each other.</p></li></ol></p></statement>
+
+<answer><p><ol label="a">
+    <li><m>m_{\overline{AB}}=m_{\overline{CD}}=\dfrac{3}{2}; ~m_{\overline{AD}}=m_{\overline{BC}}=0</m></li>
+    <li><m>y=\dfrac{1}{2}x+1; ~y=\dfrac{-3}{4}x+\dfrac{7}{2}</m></li>
+    <li><m>(2,2)</m></li>
+    <li><m>AP=PC=3\sqrt{5}; ~BP=PD=5</m></li>
+    <li>bisect</li></ol></p></answer></exercise>
+</subsubsection>
+</subsection>                   
 
 </section> 
 <!-- </book>  </pretext> -->
