@@ -13,7 +13,21 @@
 	<p>In the right triangle shown, <m>a=8</m> and <m>b=6</m>.<ol label="a">
 	<li>Is <m>c=a+b</m>?  Why or why not?</li>
 	<li>Find thelength of <m>c</m>.</li></ol></p>
-	<image source="images/fig-6-4-pyth.png"><description>triangle</description></image></sidebyside></statement>
+	<image xml:id="fig-6-8-10-triangle">
+        <description>right triangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.8]
+		\draw[blue] (0,0) rectangle ++(-.4,.4);
+		\draw[magenta!90!black, ultra thick] (0,0) -- (0, 3) -- (-4,0)-- cycle;
+		\node[text=black, font=\bf] at (-2.4,1.7) {$c$}; 
+		\node[text=black, font=\bf] at (.5,1.5) {$b$}; 
+		\node[text=black, font=\bf] at (-2,-.5) {$a$}; 
+        \end{tikzpicture}]]>
+        </latex-image>
+		</image></sidebyside></statement>
 
 <solution><p><ol label="a">
 	<li>No, the length of <m>c</m> is shorter than the lengths of <m>a</m> and <m>b</m> combined, so <m>c \lt a+b</m>.</li>

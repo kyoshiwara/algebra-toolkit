@@ -28,7 +28,7 @@
 
 
     <!-- Prefix to enhance Sage notebook contents -->
-    <initialism>AT</initialism>
+    <initialism>Alg-tool</initialism>
 
       <latex-preamble>
         <package>cancel</package>
