@@ -9,10 +9,10 @@
 
 <subsubsection><title>Examples</title>
 
-<example><statement><sidebyside widths="60% 30%">
+<example><statement><sidebyside widths="60% 25%" margins="0% 5%">
 	<p>In the right triangle shown, <m>a=8</m> and <m>b=6</m>.<ol label="a">
 	<li>Is <m>c=a+b</m>?  Why or why not?</li>
-	<li>Find thelength of <m>c</m>.</li></ol></p>
+	<li>Find the length of <m>c</m>.</li></ol></p>
 	<image xml:id="fig-6-8-10-triangle">
         <description>right triangle</description>
         <latex-image>
