@@ -36,15 +36,16 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
     </colophon>
 
 <preface>
-<p>This "Algebra Toolkit" accompanies the textbook "Modeling, Functions, and Graphs." The book itself includes a fairly thorough review of elementary algebra in an appendix "Algebra Skills Refresher," which can support a co-requisite review course or be assigned as additional practice as needed.  However, we find that a brief review targeted specifically at new material is often more effective than rehashing a previous course.</p>
+<p>This "Toolkit" accompanies "Intermediate Algebra." College students who take a developmental algebra course arrive with different levels of preparation, especially now that many institutions allow only a single math course below college level. 
+The Toolkit provides students with a resource to support their knowledge of prerequisite skills. It can be used as a reference by individual students, or the instructor can use it as a supplement to the main text. We find that a brief review of half-forgotten skills, targeted specifically at new material, is often more effective than rehashing a previous course. </p>
 
 <p>Each section of the Toolkit is aligned to the corresponding section in the text, and addresses the algebra skills used in that particular section. The Toolkit section includes one or two examples of each skill and several exercises (with answers) for students to try. We think this approach has a number of advantages.<ul>
     <li>Students are usually more motivated to master a skill when they see an immediate need for it.</li>
     <li>Only two or three related skills are targeted in each lesson.</li>
-    <li>We can return to broadly defined ideas in particular settings. For example, factoring appears in several lessons, each with a different emphasis, which allows for reinforcement of the ideas.</li>
+    <li>We can return to broadly defined ideas in particular settings. For example, solving equations appears in several lessons, each with a different emphasis, which allows for reinforcement of the ideas.</li>
     <li>Another benefit of treating the same skill more than once is that similar algebraic computations can look quite different to students in different applications. Examples can help with transfer of learning.</li></ul></p>
 
-<p>Note: This year we added a Chapter 9 on sequences and series to the text, and this chapter is not reflected in the Toolkit because the material does not depend on algebraic skills beyond applying formulas.</p>    
+    
 
 
 
