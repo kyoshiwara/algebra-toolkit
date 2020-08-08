@@ -1,171 +1,302 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <pretext><book> -->
 
-<section xml:id="GraphsandEquations"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Graphs and Equatioms</title>
+<section xml:id="Intercepts"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Intercepts</title>
+              
+<subsection><title>1. Graph a linear equation by the intercept method</title>
 
-             
-<subsection><title>1. Verify a solution</title>
-<introduction><p>We can always check a solution to an equation by verifying that it makes the equation true.</p></introduction>
+<introduction><p>To graph a line by the intercept method, we find the <m>x</m>- and <m>y</m>-intercepts of the line and plot those points.</p></introduction> 
 
-<subsubsection><title>Examples</title>
+<example><statement><p>Graph the equation <m>3x+2y=7</m> by the intercept method.
+</p></statement>
 
-<example><statement><p>Verify that <m>x=-5</m> is a solution of the equation <me>~~x^2+2x-15=0</me> </p></statement>
+<solution><p>First, we find the <m>x</m>- and <m>y</m>-intercepts of the graph. To find the <m>y</m>-intercept, we substitute <m>0</m> for <m>x</m> and solve for <m>y</m>:
+        <md><mrow>3(\alert{0})+2y \amp =7 \amp \amp \blert{\text{Simpify the left side.}}</mrow>
+            <mrow>2y \amp =7 \amp \amp \blert{\text{Divide both sides by 2.}}</mrow>
+            <mrow>y \amp =\dfrac{7}{2}=3\dfrac{1}{2}</mrow></md>
+The <m>y</m>-intercept is the point <m>\left(0, 3\dfrac{1}{2}\right)</m>. To find the <m>x</m>-intercept, we substitute <m>0</m> for <m>y</m> and solve for <m>x</m>:
+        <md><mrow>3x+2(\alert{0}) \amp =7 \amp \amp \blert{\text{Simpify the left side.}}</mrow>
+            <mrow>3x \amp =7 \amp \amp \blert{\text{Divide both sides by 3.}}</mrow>
+            <mrow>x \amp =\dfrac{7}{3}=2\dfrac{1}{3}</mrow></md>
+The <m>x</m>-intercept is the point <m>\left(2\dfrac{1}{3}, 0\right)</m>.</p>
 
-<solution><p>We show that substituting <m>-5</m> for <m>x</m> makes the equation true.  When we substitute a negative number for a variable, we should enclose the number in parentheses.
-            <me>\begin{aligned}[t]
-                x^2+2x-15 \amp = (\alert{-5})^2+2(\alert{-5})-15\\
-                         \amp = 25-10-15=0
-                \end{aligned}</me>
-Because the expression does equal <m>0</m>, we see that <m>x=-5</m> is a solution.</p></solution></example>
-
-<example><statement><p>Verify that <m>x=-3</m> is not a solution of the equation <me>~~\sqrt{2x+10}-3x=8</me> </p></statement>
-
-<solution><p>We show that substituting <m>-3</m> for <m>x</m> does not make the equation true.
-            <me>\begin{aligned}[t]
-                \sqrt{2x+10}-3x \amp = \sqrt{2(\alert{-3})+10}-3(\alert{-3})\\
-                         \amp = \sqrt{4}+9=2+9=11 \not= 8
-                \end{aligned}</me>
-The left side of the equation does not equal 8 when <m>x=-3</m>, so <m>x=-3</m> is not a solution.</p></solution>
-</example>
-</subsubsection>
-
-<subsubsection><title>Exercises</title>
-
-<exercise><statement><p>Decide whether the given value is a solution of the equation.
-    <me>x^3-3x^2-4x+2=10;~~~~x=-2</me></p></statement>
-    <answer><p>Yes</p></answer></exercise>
-
-<exercise><statement><p>Decide whether the given value is a solution of the equation.
-    <me>\sqrt{3x+5}=10+\sqrt{x+7};~~~~x=9</me></p></statement>
-    <answer><p>No</p></answer></exercise>
-
-<exercise><statement><p>Decide whether the given value is a solution of the equation.
-    <me>\dfrac{2x-1}{x+1}+2=\dfrac{x+1}{x-1};~~~~x=2</me></p></statement>
-    <answer><p>Yes</p></answer></exercise>
-
-<exercise><statement><p>Decide whether the given value is a solution of the equation.
-    <me>9-4x=5\sqrt{x+3};~~~~x=6</me></p></statement>
-    <answer><p>No</p></answer></exercise>
-</subsubsection>
-</subsection>
-
-<subsection><title>2. Solve linear equations and inequalities with parentheses</title>
-
-<assemblage><title>Strategy for solving linear equations</title>
-    <p><ol label="1">
-<li>Simplify each side of the equation:  
-    apply the distributive law, combine like terms.</li>
-<li>Use addition and subtraction to get all the variable terms on one 
-    side of the equation, and all constsnt terms on the other side.</li>
-<li>Divide both sides by the coefficient of the variable.</li>
-</ol></p></assemblage>
-
-<subsubsection><title>Examples</title>
-
-<example><statement><p>Solve <m>~~3(2a-4) \ge 4-(1-3a)</m></p></statement>
-
-<solution><p>First, we remove parentheses by applying the distributive law.  Then we can combine like terms on each side of the equation.</p>
-<p> Note that the minus sign in front of the parentheses on the right side of the equation applies to both terms inside the parentheses.
-    <md><mrow>3(2a-4) \amp \ge 4-(1-3a) \amp \amp \blert{\text{Apply the distributive law.}}</mrow>
-        <mrow>6a-12 \amp \ge 4\alert{-}1\alert{+}3a \amp \amp \blert{\text{Simplify the right side.}}</mrow>
-        <mrow>6a-12 \amp \ge 3+3a   \amp \amp \blert{\text{Subtract}~ 3a~ \text{from both sides.}}</mrow>
-        <mrow>3a-12 \amp \ge 3   \amp \amp \blert{\text{Add 12 to both sides.}}</mrow>
-        <mrow>3a \amp \ge 15   \amp \amp \blert{\text{Divide both sides by 3.}}</mrow>
-        <mrow>a \amp \ge 5</mrow></md>
-</p></solution></example>
-
-<example><statement><p>Solve the inequality <m>~~25-6x \gt 3x-2(4-x)</m></p></statement>
-
-<solution><p>We begin by the same way we solve an equation. For this example, we start by removing the parentheses.
-    <md><mrow>25-6x \amp \gt 3x-2(4-x) \amp \amp \blert{\text{Apply the distributive law.}}
-        </mrow>
-        <mrow>25-6x \amp \gt 3x-8+2x \amp \amp \blert{\text{Combine like terms.}}</mrow>
-        <mrow>25-6x \amp \gt 5x-8   \amp \amp \blert{\text{Subtract}~ 5x~ \text{from both sides.}}</mrow>
-        <mrow>25-11x \amp \gt -8   \amp \amp \blert{\text{Subtract 25 from both sides.}}</mrow>
-        <mrow>-11x \amp \gt -33   \amp \amp \blert{\text{Divide both sides by -11.}}</mrow>
-        <mrow>x \amp \alert{\lt} 3   \amp \amp  \blert{\text{Don't forget to reverse the inequality symbol.}}</mrow></md>
-    Recall that if we multiply or divide both sides of an inequality by a negative number, we must reverse the direction of the inequality symbol.</p></solution></example>
-</subsubsection>
-
-<subsubsection><title>Exercises</title>
-
-<exercise><statement><p>Solve the inequality <m>~~-4(x+2)+3(x-2) \ge -2</m> </p></statement>
-    <answer><m>x \le -12</m></answer></exercise>
-
-<exercise><statement><p>Solve the equation <m>~~4(2-3w)=9-3(2w-1)</m> </p></statement>
-    <answer><m>\dfrac{-1}{2}</m></answer></exercise>
-
-<exercise><statement><p>Solve the inequality <m>~~2(3h-6) \lt 5-(h-4)</m> </p></statement>
-    <answer><m>h \lt 3</m></answer></exercise>
-
-<exercise><statement><p>Solve the equation <m>~~0.25(x+3)-0.45(x-3)=0.30</m> </p></statement>
-    <answer><m>9</m></answer></exercise>
-</subsubsection>
-</subsection>
-
-<subsection><title>3. Solve an equation in two variables</title>
-
-<introduction><p>A solution of an equation in two variables <m>x</m> and <m>y</m> is written as an <term>ordered pair</term>, <m>(x,y)</m>.  For example, the solution <m>(-2,5)</m> means that <m>x=-2</m> and <m>y=5</m>.</p></introduction>
-
-<subsubsection><title>Examples</title>
-
-<example><statement><p>Is <m>(-3,2)</m> a solution of the equation <m>~~x^2+4y^2=25</m> ?</p></statement>
-
-<solution><p>We substitute <m>x=\alert{-3}</m> and <m>y=\alert{2}</m> into the equation.
-    <me>(\alert{-3})^2+4(\alert{2})^2=9+4(4)=9+16=25</me>
-The ordered pair <m>(-3,2)</m> satisfies the equation, so it is a solution.</p></solution></example>
-
-<example><statement><sidebyside widths="65% 30%" margins="0% 0%"><p>Which of the following ordered pairs are solutions of the equation whose graph is shown?
-    <ol label="a" cols="2">
-        <li><m>(-3,-2)</m></li>
-        <li><m>(-5,0)</m></li>
-        <li><m>(1,-4)</m></li>
-        <li><m>(-1,-6)</m></li></ol></p>
-    <image xml:id="y-eq-xsq-plus-2x-minus6"><description>parabola</description><latex-image>
+<p>A table with the two intercepts is shown below. We plot the intercepts and connect them with a straight line.</p> 
+    <sidebyside widths="40% 35%" margins="0% 20%" valigns="middle middle">
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <row> <cell><m>x</m></cell><cell><m>y</m></cell></row>
+                <row> <cell><m>0</m></cell><cell><m>3\dfrac{1}{2}</m></cell></row>
+                <row> <cell><m>2\dfrac{1}{3}</m></cell><cell><m>0</m></cell></row>
+            </tabular>
+    <image xml:id="y-eq-neg3x-over2-plus7"><description>line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
-        \begin{tikzpicture} [xscale=.5, yscale=.25]
-        \draw[cyan] (-6,-10) grid[ystep=2] (4,10);
-        \draw[black,very thick, ->, >=stealth'] (-6,0)--(4.8,0) node[right]{$x$};
-        \draw[black,very thick, ->, >=stealth'] (0,-10)--(0,11.4) node[left, xshift=2]{$y$};
-        \foreach \x  in  {-4,4} {
+        \begin{tikzpicture} [scale=.5]
+        \draw[cyan] (-4,-4) grid (6,6);
+        \draw[black,very thick, ->, >=stealth'] (-4,0)--(6.8,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-4)--(0,6.8) node[left, xshift=2]{$y$};
+        \foreach \x  in  {-4,5} {
          \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
         }
-        \foreach \x  in  {-4,4,-8,8} {
+        \foreach \x  in  {-4,5} {
          \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
         }
-        \draw[samples=65,domain={-5:3},smooth,variable=\x,magenta!90!black,very thick, <->,>=stealth'] plot ( {\x}, {(\x)^2+2*\x-5});
+        \draw[magenta!90!black,very thick, <->,>=stealth'] (-5/3,6)--(5,-4);
         \end{tikzpicture}]]>
-        </latex-image></image></sidebyside>
-</statement>
+        </latex-image></image></sidebyside></solution></example>
 
-<solution><p>The graph of an equation is just a picture of its solutions, so points that lie on the graph are solutions of the equation.</p>
-<p> The points <m>(-3,-2)</m> and <m>(-1,-6)</m> lie on the graph, so they represent solutions of the equation. The points <m>(-5,0)</m> and <m>(1,-4)</m> do not lie on the graph, so they are not solutions of the equation.
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Graph the line <m>y=\dfrac{-4}{3}x+8</m> by the intercept method.</p>
+<sidebyside widths="30% 40%" valigns="middle middle">
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+        <row> <cell><m>x</m></cell><cell><m>y</m></cell></row>
+        <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
+        <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
+    </tabular>
+    <image xml:id="fig-8x8-grid"><description>8 by 8 grid</description><latex-image>
+    <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+    <![CDATA[\tikzset{%
+    }
+    \begin{tikzpicture} [scale=.35]
+        \draw[cyan] (-8,-8) grid (8,8);
+        \draw[black,very thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-8)--(0,9) node[left, xshift=2]{$y$};
+        \foreach \x  in  {-5, 5} {
+         \draw[cyan!70!black,  thick] (\x,-8) --++(0,16);
+         \draw[cyan!70!black,  thick] (-8,\x) --++(16,0);
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+    \end{tikzpicture}]]></latex-image></image></sidebyside></statement>
+<answer>
+    <sidebyside width="35%" margins="0% 0%"><image xml:id="y-eq-neg4-over3-x-plus8"><description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.35]
+        \draw[cyan] (-8,-8) grid (8,8);
+        \draw[black,very thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-8)--(0,9) node[left, xshift=2]{$y$};
+        \foreach \x  in  {-5, 5} {
+         \draw[cyan!70!black,  thick] (\x,-8) --++(0,16);
+         \draw[cyan!70!black,  thick] (-8,\x) --++(16,0);
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[magenta!90!black,very thick, <->,>=stealth'] (0,8)--(8,-8/3);
+        \end{tikzpicture}]]>
+        </latex-image></image></sidebyside></answer></exercise>
+
+<exercise><statement><p>Graph the line <m>\dfrac{x}{6}+\dfrac{y}{8}=-1</m> by the intercept method.</p>
+<sidebyside widths="30% 40%" valigns="middle middle">
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+            <row> <cell><m>x</m></cell><cell><m>y</m></cell></row>
+            <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
+            <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
+        </tabular>
+    <image source="images/fig-8x8-grid"><description>grid</description></image></sidebyside></statement>
+<answer>
+    <sidebyside width="35%" margins="0% 0%"><image xml:id="y-eq-neg4-over3-x-minus8"><description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.35]
+        \draw[cyan] (-8,-8) grid (8,8);
+        \draw[black,very thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-8)--(0,9) node[left, xshift=2]{$y$};
+        \foreach \x  in  {-5, 5} {
+         \draw[cyan!70!black,  thick] (\x,-8) --++(0,16);
+         \draw[cyan!70!black,  thick] (-8,\x) --++(16,0);
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[magenta!90!black,very thick, <->,>=stealth'] (0,-8)--(-8,8/3);
+        \end{tikzpicture}]]>
+        </latex-image></image></sidebyside></answer></exercise>
+</subsubsection>
+</subsection>
+
+<subsection><title>2. Interpret the intercepts</title>
+
+<introduction><p>The values of the variables at the intercepts often tell us something important about a linear model</p></introduction>
+
+<example><statement><p>The temperature, <m>T</m>, in Nome was <m>-12 \degree</m> at noon and has been rising at a rate of <m>2 \degree</m> per hour all day. <ul>
+    <li>Write and graph an equaton for <m>T</m> in terms of <m>h</m>, the number of hours after noon.</li>
+    <li>Find the intercepts of the graph and interpret their meaning in the context of the problem situation.</li>
+</ul></p></statement>
+
+<solution><sidebyside widths="50% 40%"><p>An equation for <m>T</m> at time <m>h</m> is
+        <me>T=-12 +2h</me>
+To find the <m>T</m>-intercept, we set <m>h=0</m> and solve for <m>T</m>.
+        <me>T=-12+2(\alert{0})=-12</me>  </p>
+    <image xml:id="T-eq-2h-minus12"><description>Temperature in Nome</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.4, yscale=.2]
+        \draw[cyan] (-4,-16) grid[ystep=2] (10,8);
+        \draw[black,very thick, ->, >=stealth'] (-4,0)--(10.8,0) node[right]{$h$};
+        \draw[black,very thick, ->, >=stealth'] (0,-16)--(0,9.5) node[left, xshift=2]{$T$};
+        \foreach \x  in  {10, 5} {
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x  in  {-10, 6} {
+         \draw[black] (.3,\x) --++(-.6,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[magenta!90!black,very thick, <->,>=stealth'] (-2,-16)--(10,8);
+        \end{tikzpicture}]]>
+        </latex-image></image></sidebyside> 
+<p>The <m>T</m>-intercept is <m>(0,-12)</m>. This point tells us that when <m>h=0, T=-12</m>, or the temperature at noon was <m>-12 \degree</m>. To find the <m>h</m>-intercept, we set <m>T=0</m> and solve for <m>h</m>. 
+        <md><mrow>\alert{0} \amp = -12+2h \amp \amp \blert{\text{Add 12 to both sides.}}</mrow>
+            <mrow>12 \amp = 2h \amp \amp \blert{\text{Divide both sides by 2.}}</mrow>
+            <mrow>6 \amp =h</mrow></md>
+The <m>h</m>-intercept is the point <m>(6,0)</m>. This point tells us that when <m>h=6, T=0</m>, or the temperature will reach zero degrees at six hours after noon, or 6 pm.</p></solution></example>
+
+<subsubsection><title>Exercises</title>
+
+<exercise><statement><p>Sheri bought a bottle of multivitamins for her family. The number of vitamins lt in the bottle after <m>d</m> days is given by
+    <me>N=300-5d</me></p>
+<sidebyside widths="50% 30%" valigns="bottom bottom"><p><ol label="a"> <li>Find the intercepts and use them to make a graph of the equation.
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <row> <cell><m>d</m></cell><cell><m>N</m></cell></row>
+                <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
+                <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
+            </tabular></li>
+    <li>Explain what each intercept tells us about the vitamins.</li></ol></p>
+<image xml:id="N-eq-300-minus5d-grid"><description>grid</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.5]
+        \draw[cyan] (0,0) grid (10,10);
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(10.8,0);
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(0,10.8);
+        \end{tikzpicture}]]>
+        </latex-image></image></sidebyside></statement>
+<answer><sidebyside widths="35% 60%"><image xml:id="N-eq-300-minus5d"><description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.5]
+        \draw[cyan] (0,0) grid (10,10);
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(10.8,0) node[right]{$d$};
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(0,10.8) node[left, xshift=2]{$N$};
+        \foreach \x [evaluate=\x as \xi using int(10*\x)] in  {2,4,...,10} {
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(50*\x)] in  {2,4,...,10} {
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[magenta!90!black,very thick] (0,6)--(6,0);
+        \end{tikzpicture}]]>
+        </latex-image></image>
+<p><ul><li><m>(0,300)</m> There were 300 vitamins to start.</li>               
+        <li><m>(60,0)</m> The vitamin bottle is empty after 60 days.</li></ul></p></sidebyside></answer></exercise>
+
+<exercise><statement><p>Delbert bought some equipment and went into the dog-grooming business.  His profit is increasing according to the equation 
+    <me>P=-600+40d</me>
+where <m>d</m> is the number of dogs he has groomed.</p>
+<sidebyside widths="50% 45%" valigns="bottom bottom">
+    <p><ol label="a"> <li>Find the intercepts and use them to make a graph of the equation.
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <row> <cell><m>d</m></cell><cell><m>P</m></cell></row>
+                <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
+                <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
+            </tabular></li>
+    <li>Explain what each intercept tells us about Delbert's dog-grooming business.</li></ol></p>
+    <image xml:id="P-eq-40d-minus600-grid"><description>grid</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.3]
+        \draw[cyan, thin] (0,-12) grid (20,8);
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(21,0) node[right]{$d$};
+        \draw[black,very thick, ->, >=stealth'] (0,-12)--(0,9.5) node[left, xshift=2]{$P$};
+        \foreach \x in  {5,10,20} {
+         \draw[cyan!70!black, thick] (\x,-12)--++(0,20);
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(50*\x)] in  {-12,-8,-4,4,8} {
+         \draw[cyan!70!black, thick] (0,\x)--++(20,0);
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \end{tikzpicture}]]>
+        </latex-image></image></sidebyside></statement>
+<answer><sidebyside widths="35% 60%">
+    <image xml:id="P-eq-40d-minus600"><description>grid</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.3]
+        \draw[cyan, thin] (0,-12) grid (20,8);
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(21,0) node[right]{$d$};
+        \draw[black,very thick, ->, >=stealth'] (0,-12)--(0,9.5) node[left, xshift=2]{$P$};
+        \foreach \x in  {5,10,20} {
+         \draw[cyan!70!black, thick] (\x,-12)--++(0,20);
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(50*\x)] in  {-12,-8,-4,4,8} {
+         \draw[cyan!70!black, thick] (0,\x)--++(20,0);
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[magenta!90!black,very thick, ->, >=stealth'] (0,-12)--(20,4);
+        \end{tikzpicture}]]>
+        </latex-image></image>
+    <p><ul><li><m>(0,-600)</m> To start, Delbert's profit is <m>-$600</m>. (He is $600 in debt.)</li>               
+        <li><m>(15,0)</m> Delbert breaks even after grooming 15 dogs.</li></ul></p>
+    </sidebyside>
+</answer></exercise>
+
+</subsubsection>
+</subsection>
+
+<subsection><title>3. Solve an equation for one of the variables</title>
+
+<introduction><p>It is usually easier to study a model and draw its graph if it is in the form 
+    <me>y = \text{starting value} + \text{rate} \times x</me>
+To put an equation into this form, we want to "isolate" the output variable on one side of the equation.</p></introduction>
+
+<subsubsection><title>Examples</title>
+
+<example><statement><p>Solve the equation <m>2x-3y=8</m> for <m>y</m>.</p></statement>
+
+<solution><p><md><mrow>2x-3y \amp = 8 \amp \amp \blert{\text{Subtract <m>2x</m> from both sides.}} </mrow>
+        <mrow>-3y \amp = 8-2x \amp \amp \blert{\text{Divide both sides by} -3.}</mrow>
+        <mrow>y \amp =\dfrac{8-2x}{-3}   \amp \amp  \blert{\text{Divide each term of the numerator by} -3.}</mrow>
+        <mrow>y \amp =\dfrac{8}{3}-\dfrac{2}{3}x</mrow></md>
+</p></solution></example>
+
+<example><statement><p>Solve the equation <m>A=\dfrac{h}{2}(b+c)</m> for <m>b</m>.</p></statement>
+
+<solution><p>It is nearly always best to clear fractions from an equation first, so we begin by multiplying both sides by 2.
+    <md><mrow>\alert{2}A \amp = \alert{\cancel{2}}\left(\dfrac{h}{\cancel{2}}(b+c)\right) \amp \amp \blert{\text{Multiply both sides by}~ \alert{2}.}</mrow>
+        <mrow>2A \amp = h(b+c) \amp \amp \blert{\text{Divide both sides by}~h.}</mrow>
+        <mrow>\dfrac{2A}{h} \amp = b+c   \amp \amp  \blert{\text{Subtract <m>c</m> from both sides.}}</mrow>
+        <mrow>\dfrac{2A}{h}-c \amp = b</mrow></md>
 </p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
-<exercise><statement><p>Find a solution of the equation with the given coordinate.
-    <me>6x-5y=-3,~~~~(2,?)</me></p></statement>
-    <answer><m>(2,3)</m></answer></exercise>
+<exercise><statement><p>Solve  <m>f=s+at</m>  for <m>t</m></p></statement>
+    <answer><m>t=\dfrac{f-a}{s}</m></answer></exercise>
 
-<exercise><statement><p>Find a solution of the equation with the given coordinate.
-    <me>y=\frac{3}{4}x+8,~~~~(?,-1)</me></p></statement>
-    <answer><m>(-12,-1)</m></answer></exercise>
+<exercise><statement><p>Solve  <m>2x-4y=k</m>  for <m>y</m></p></statement>
+    <answer><m>y=\dfrac{-1}{4}k+\dfrac{1}{2}x</m></answer></exercise>
 
-<exercise><statement><p>Find a solution of the equation with the given coordinate.</p>
-    <sidebyside width="40%"><image source="images/fig-wu-4.png"><description>graph</description></image></sidebyside>
-</statement>
-    <answer><m>(16,4)</m></answer></exercise>
+<exercise><statement><p>Solve  <m>P=2l+2w</m>  for <m>l</m></p></statement>
+    <answer><m>l=\dfrac{P}{2}-w</m></answer></exercise>
 
-<exercise><statement><p>Find a solution of the equation with the given coordinate.</p>
-    <sidebyside width="40%"><image source="images/fig-wu-5.png"><description>graph</description></image></sidebyside>
-</statement>
-    <answer><m>(2,-5)</m></answer></exercise>
+<exercise><statement><p>Solve  <m>\dfrac{x}{a}+\dfrac{y}{b}=1</m>  for <m>x</m></p></statement>
+    <answer><m>x=a-\dfrac{ay}{b}</m></answer></exercise>
 </subsubsection>
 
 </subsection>
+
+
 </section>
 <!-- </book>  </pretext> -->
