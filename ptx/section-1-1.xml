@@ -562,7 +562,7 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
                 \blert{\text{Divide both sides by }{-3}\text{, and reverse }}\\
                 \blert{\text{the direction of the inequality.}}
                 \end{array}</mrow>
-        <mrow>x \amp \gt -2</mrow></md>
+        <mrow>x \amp \lt -2</mrow></md>
     The solutions are all the numbers less than <m>-2</m>.
     The graph of the solutions is shown below.</p>
     <sidebyside width="70%"><image source="images/fig-wu-1.png"><description>line graph</description></image></sidebyside>
