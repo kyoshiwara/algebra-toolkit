@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="GraphsandEquations"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Graphs and Equations</title>
 
@@ -50,7 +49,7 @@ The left side of the equation does not equal 8 when <m>x=-3</m>, so <m>x=-3</m> 
 </subsection>
 
 <subsection><title>2. Solve linear equations and inequalities with parentheses</title>
-
+<introduction>
 <assemblage><title>Strategy for solving linear equations</title>
     <p><ol label="1">
 <li>Simplify each side of the equation:  
@@ -59,7 +58,7 @@ The left side of the equation does not equal 8 when <m>x=-3</m>, so <m>x=-3</m> 
     side of the equation, and all constsnt terms on the other side.</li>
 <li>Divide both sides by the coefficient of the variable.</li>
 </ol></p></assemblage>
-
+</introduction>
 <subsubsection><title>Examples</title>
 
 <example><statement><p>Solve <m>~~3(2a-4) \ge 4-(1-3a)</m></p></statement>
@@ -90,16 +89,16 @@ The left side of the equation does not equal 8 when <m>x=-3</m>, so <m>x=-3</m> 
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Solve the inequality <m>~~-4(x+2)+3(x-2) \ge -2</m> </p></statement>
-    <answer><m>x \le -12</m></answer></exercise>
+    <answer><p><m>x \le -12</m></p></answer></exercise>
 
 <exercise><statement><p>Solve the equation <m>~~4(2-3w)=9-3(2w-1)</m> </p></statement>
-    <answer><m>\dfrac{-1}{2}</m></answer></exercise>
+    <answer><p><m>\dfrac{-1}{2}</m></p></answer></exercise>
 
 <exercise><statement><p>Solve the inequality <m>~~2(3h-6) \lt 5-(h-4)</m> </p></statement>
-    <answer><m>h \lt 3</m></answer></exercise>
+    <answer><p><m>h \lt 3</m></p></answer></exercise>
 
 <exercise><statement><p>Solve the equation <m>~~0.25(x+3)-0.45(x-3)=0.30</m> </p></statement>
-    <answer><m>9</m></answer></exercise>
+    <answer><p><m>9</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -149,23 +148,22 @@ The ordered pair <m>(-3,2)</m> satisfies the equation, so it is a solution.</p><
 
 <exercise><statement><p>Find a solution of the equation with the given coordinate.
     <me>6x-5y=-3,~~~~(2,?)</me></p></statement>
-    <answer><m>(2,3)</m></answer></exercise>
+    <answer><p><m>(2,3)</m></p></answer></exercise>
 
 <exercise><statement><p>Find a solution of the equation with the given coordinate.
     <me>y=\frac{3}{4}x+8,~~~~(?,-1)</me></p></statement>
-    <answer><m>(-12,-1)</m></answer></exercise>
+    <answer><p><m>(-12,-1)</m></p></answer></exercise>
 
 <exercise><statement><p>Find a solution of the equation with the given coordinate.</p>
     <sidebyside width="40%"><image source="images/fig-wu-4.png"><description>graph</description></image></sidebyside>
 </statement>
-    <answer><m>(16,4)</m></answer></exercise>
+    <answer><p><m>(16,4)</m></p></answer></exercise>
 
 <exercise><statement><p>Find a solution of the equation with the given coordinate.</p>
     <sidebyside width="40%"><image source="images/fig-wu-5.png"><description>graph</description></image></sidebyside>
 </statement>
-    <answer><m>(2,-5)</m></answer></exercise>
+    <answer><p><m>(2,-5)</m></p></answer></exercise>
 </subsubsection>
 
 </subsection>
 </section>
-<!-- </book>  </pretext> -->

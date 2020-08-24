@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="TranslatedConics"   xmlns:xi="http://www.w3.org/2001/XInclude">
 
@@ -160,7 +159,7 @@
 
 <exercise> <statement><p>Find the equation of the ellipse with vertices at <m>(-7,1)</m> and <m>(-1,1)</m> and a minor axis of length 4.</p></statement>
     
-<answer><m>>\dfrac{(x+4)^2}{9} + \dfrac{(y-1)^2}{4} = 1</m></answer></exercise>   
+<answer><p><m>>\dfrac{(x+4)^2}{9} + \dfrac{(y-1)^2}{4} = 1</m></p></answer></exercise>   
 </subsection>
 
 <subsection><title>Hyperbolas</title>
@@ -346,9 +345,4 @@ We have considered the graphs of examples in which <m>B=0</m>. These graphs are 
 
 </subsection>
 
-
-<!-- <xi:include href="./summary-10-4.xml" /> summary  
-<xi:include href="./section-10-4-exercises.xml" /> exercises  -->
-
 </section> 
-<!-- </book>  </pretext> -->

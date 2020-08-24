@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="ExponentialGrowth" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Exponential Growth and Decay</title>
                  
@@ -121,7 +120,7 @@ so the new price is $153.</p></solution></example>
                     </tabular></sidebyside></li></ol></p></statement>
  
 <solution><p><ol label="a">
-     <li><p><sidebyside width="40%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+     <li><sidebyside width="40%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>
                         <cell><m>~~1~~</m></cell>
@@ -134,10 +133,10 @@ so the new price is $153.</p></solution></example>
                         <cell><m>\dfrac{4}{9}</m></cell>
                         <cell><m>\dfrac{8}{27}</m></cell>
                         <cell><m>\dfrac{16}{81}</m></cell></row>
-                    </tabular></sidebyside></p>
+                    </tabular></sidebyside>
         <p>When we multiply a number by <m>\dfrac{2}{3}</m>, the product is smaller than the original number, so the powers of <m>\dfrac{2}{3}</m> decrease as the exponent increases. We can compare the powers more easily by converting the fractions to decimals, rounded to three places: 
         <me>\dfrac{2}{3} = 0.667,~\dfrac{4}{9} = 0.444,~\dfrac{8}{27} = 0.296,~\dfrac{16}{81} = 0.198</me></p></li>
-    <li><p><sidebyside width="40%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><sidebyside width="40%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>
                         <cell><m>~~1~~</m></cell>
@@ -150,7 +149,7 @@ so the new price is $153.</p></solution></example>
                         <cell><m>\dfrac{25}{16}</m></cell>
                         <cell><m>\dfrac{125}{64}</m></cell>
                         <cell><m>\dfrac{625}{256}</m></cell></row>
-                    </tabular></sidebyside></p>
+                    </tabular></sidebyside>
         <p>When we multiply a number by <m>\dfrac{5}{4}</m>, the product is larger than the original number, so the powers of <m>\dfrac{5}{4}</m> increase as the exponent increases. We can compare the powers more easily by converting the fractions to decimals, rounded to three places: 
         <me>\dfrac{5}{4} = 1.25,~\dfrac{25}{16} = 1.563,~\dfrac{125}{64} = 1.953,~\dfrac{625}{256} = 2.441</me></p></li></ol> </p></solution></example>
 
@@ -199,7 +198,7 @@ so the new price is $153.</p></solution></example>
                         <cell><m>0.008</m></cell>
                         <cell><m>0.0016</m></cell></row>
                     </tabular></sidebyside>
-            The powers decrease.</li>
+            <p>The powers decrease.</p></li>
     <li><sidebyside width="45%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>
@@ -214,7 +213,7 @@ so the new price is $153.</p></solution></example>
                         <cell><m>1.728</m></cell>
                         <cell><m>2.0736</m></cell></row>
                     </tabular></sidebyside>
-            The powers increase.</li></ol></p></solution></example>
+            <p>The powers increase.</p></li></ol></p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercise</title>
@@ -263,7 +262,7 @@ so the new price is $153.</p></solution></example>
                         <cell><m>\dfrac{27}{64}</m></cell>
                         <cell><m>\dfrac{81}{256}</m></cell></row>
                     </tabular></sidebyside>
-                Decrease</li>
+                <p>Decrease</p></li>
     <li><sidebyside width="45%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>
@@ -278,7 +277,7 @@ so the new price is $153.</p></solution></example>
                         <cell><m>\dfrac{64}{27}</m></cell>
                         <cell><m>\dfrac{257}{81}</m></cell></row>
                     </tabular></sidebyside>
-                Increase</li></ol></p>
+                <p>Increase</p></li></ol></p>
     </answer></exercise> 
 
 <exercise><statement><p>Complete the table of powers. As the exponent increases, do the powers increase or decrease?<ol label="a" cols="2">
@@ -325,7 +324,7 @@ so the new price is $153.</p></solution></example>
                         <cell><m>0.512</m></cell>
                         <cell><m>0.4096</m></cell></row>
                     </tabular></sidebyside>
-            Decrease</li>
+            <p>Decrease</p></li>
     <li><sidebyside width="45%" margins="0% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~x~~</m></cell>
@@ -340,10 +339,9 @@ so the new price is $153.</p></solution></example>
                         <cell><m>3.375</m></cell>
                         <cell><m>5.0625</m></cell></row>
                     </tabular></sidebyside>
-            Increase</li></ol></p>
+            <p>Increase</p></li></ol></p>
     </answer></exercise>
 </subsubsection>
 </subsection>
 
 </section>
-<!-- </book>  </pretext> -->

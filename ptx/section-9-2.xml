@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="DistanceMidpoint" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Distance and Midpoint Formulas</title>
                  
@@ -58,10 +57,10 @@
 <answer><p>cannot be simplified</p></answer></exercise>
 
 <exercise><statement><p>Simplify if possible:  <m>~\sqrt{7^2+w^2}</m></p></statement>
-<answer><m>\sqrt{49+w^2}</m></answer></exercise>
+<answer><p><m>\sqrt{49+w^2}</m></p></answer></exercise>
 
 <exercise><statement><p>Simplify if possible:  <m>~\sqrt{7+w} \sqrt{7+w}</m></p></statement>
-<answer><m>7+w</m></answer></exercise>
+<answer><p><m>7+w</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -90,10 +89,10 @@ We write the left sides as a perfect square, <m>(x+p)^2</m>, and simplify the ri
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Write an equivalent equation in which the left side is a perfect square: <m>~x^2+12x=-6</m></p></statement>
-<answer><m>(x+6)^2=30</m></answer></exercise>
+<answer><p><m>(x+6)^2=30</m></p></answer></exercise>
 
 <exercise><statement><p>Write an equivalent equation in which the left side is a perfect square: <m>~y^2-5y=3</m></p></statement>
-<answer><m>\left(y-\dfrac{5}{2}\right)^2=\dfrac{37}{4}</m></answer></exercise>
+<answer><p><m>\left(y-\dfrac{5}{2}\right)^2=\dfrac{37}{4}</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -123,7 +122,7 @@ We see that the solutions are <m>y=6</m> and <m>y=2</m>.  Thus, the points <m>(-
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Does <m>(2,6)</m> lie on the circle <m>~(x+3)^2+(y-5)^2=26~</m>?</p></statement>
-<answer>Yes</answer></exercise>
+<answer><p>Yes</p></answer></exercise>
 
 <exercise><statement><p>Find a point with <m>y</m>-coordinate <m>-2</m> that lies on the circle <m>(x-2)^2+(y+1)^2=9</m>.</p></statement>
 <answer><p><m>(2+\sqrt{8}, -2)</m> and <m>(2-\sqrt{8}, -2)</m></p></answer></exercise>

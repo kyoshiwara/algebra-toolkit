@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="QuadraticFormula" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Quadratic Formula</title>
                  
@@ -11,19 +10,19 @@
 
 <example><statement><p>Multiply  <m>~\dfrac{1}{2}\left(\dfrac{P}{Q}\right)</m></p></statement>
  
-<solution><m>\dfrac{1}{2}\left(\dfrac{P}{Q}\right) = \dfrac{1 \cdot P}{2 \cdot Q} = \dfrac{P}{2Q}</m></solution></example>
+<solution><p><m>\dfrac{1}{2}\left(\dfrac{P}{Q}\right) = \dfrac{1 \cdot P}{2 \cdot Q} = \dfrac{P}{2Q}</m></p></solution></example>
 
 <example><statement><p>Multiply <m>~4 \left(\dfrac{b}{c}\right)</m></p></statement>
  
-<solution><m>4 \left(\dfrac{b}{c}\right) = \dfrac{4}{1} \left(\dfrac{b}{c}\right) = \dfrac{4 \cdot b}{1 \cdot c} = \dfrac{4b}{c}</m></solution></example>
+<solution><p><m>4 \left(\dfrac{b}{c}\right) = \dfrac{4}{1} \left(\dfrac{b}{c}\right) = \dfrac{4 \cdot b}{1 \cdot c} = \dfrac{4b}{c}</m></p></solution></example>
 
 <example><statement><p>Multiply  <m>~\dfrac{t}{w} \cdot \dfrac{w}{3t^2}</m></p></statement>
  
-<solution><m>\dfrac{t}{w} \cdot \dfrac{w}{3t^2} = \dfrac{\cancel{t}}{\cancel{w}} \cdot \dfrac{\cancel{w}}{3t \cdot \cancel{t}} = \dfrac{1}{3t}</m></solution></example>
+<solution><p><m>\dfrac{t}{w} \cdot \dfrac{w}{3t^2} = \dfrac{\cancel{t}}{\cancel{w}} \cdot \dfrac{\cancel{w}}{3t \cdot \cancel{t}} = \dfrac{1}{3t}</m></p></solution></example>
 
 <example><statement><p>Multiply  <m>~\dfrac{a}{2} \cdot \dfrac{1-b}{b}</m></p></statement>
  
-<solution><m>\dfrac{a}{2} \cdot \dfrac{1-b}{b} = \dfrac{a(1-b)}{2 \cdot b} = \dfrac{a-ab}{2b}</m></solution></example>
+<solution><p><m>\dfrac{a}{2} \cdot \dfrac{1-b}{b} = \dfrac{a(1-b)}{2 \cdot b} = \dfrac{a-ab}{2b}</m></p></solution></example>
 
 </subsubsection>
 
@@ -80,16 +79,16 @@
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Subtract <m>~\dfrac{4a}{b^2} - \dfrac{c}{b^2}</m></p></statement>
-<answer><m>\dfrac{4a-c}{b^2}</m></answer></exercise>
+<answer><p><m>\dfrac{4a-c}{b^2}</m></p></answer></exercise>
 
 <exercise><statement><p>Subtract <m>~\dfrac{p+2}{2q} - \dfrac{p-1}{2q}</m></p></statement>
-<answer><m>\dfrac{3}{2q}</m></answer></exercise>
+<answer><p><m>\dfrac{3}{2q}</m></p></answer></exercise>
 
 <exercise><statement><p>Add <m>~N + \dfrac{2}{N}</m></p></statement>
-<answer><m>\dfrac{N^2+2}{N}</m></answer></exercise>
+<answer><p><m>\dfrac{N^2+2}{N}</m></p></answer></exercise>
 
 <exercise><statement><p>Add <m>~\dfrac{2}{xy} - \dfrac{y}{3x}</m></p></statement>
-<answer><m>\dfrac{6+y^2}{3xy}</m></answer></exercise>
+<answer><p><m>\dfrac{6+y^2}{3xy}</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -121,21 +120,20 @@
 
 <subsubsection><title>Exercises</title>
 
-<introduction><p>Decide whether the expressions are equivalent. Assume all variables are positive.</p></introduction>
+<p>Decide whether the expressions are equivalent. Assume all variables are positive.</p>
 
 <exercise><statement><p><m>\sqrt{b^2-81}~</m> and <m>~b-9</m></p></statement>
-<answer>No</answer></exercise> 
+<answer><p>No</p></answer></exercise> 
 
 <exercise><statement><p><m>\sqrt{64x^2y^2}~</m> and <m>~8xy</m></p></statement>
-<answer>Yes</answer></exercise>
+<answer><p>Yes</p></answer></exercise>
 
 <exercise><statement><p><m>\sqrt{64+x^2y^2}~</m> and <m>~8+xy</m></p></statement>
-<answer>No</answer></exercise> 
+<answer><p>No</p></answer></exercise> 
 
 <exercise><statement><p><m>\sqrt{\dfrac{c^2+d^2}{4b^2}}~</m> and <m>~\dfrac{\sqrt{c^2+d^2}}{2b}</m></p></statement>
-<answer>Yes</answer></exercise>
+<answer><p>Yes</p></answer></exercise>
 </subsubsection>
 </subsection>
 
 </section>
-<!-- </book>  </pretext> -->

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="GraphsofFunctions"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Graphs of Functions</title>
                  
@@ -28,11 +27,11 @@
 
 <subsubsection><title>Examples</title>
 
-<introduction><p>Every point on the graph of an equation <m>y=f(x)</m> tells us the solution of the equation for a particular value of <m>y</m>.</p></introduction>
+<p>Every point on the graph of an equation <m>y=f(x)</m> tells us the solution of the equation for a particular value of <m>y</m>.</p>
 
 <example><statement><p>Use the graph of <m>y=\dfrac{-2}{3}x-4</m> to solve the equation <me>\dfrac{-2}{3}x-4=-2</me>.</p></statement>
 
-<solution><sidebyside widths="50% 45%" vertical="bottom bottom"><stack><p>We see that <m>y</m> has been replaced by <m>-2</m> in the equation for the graph. So we look for the point on the graph that has <m>y</m>-coordinate <m>-2</m>.</p> 
+<solution><sidebyside widths="50% 45%" valigns="bottom bottom"><stack><p>We see that <m>y</m> has been replaced by <m>-2</m> in the equation for the graph. So we look for the point on the graph that has <m>y</m>-coordinate <m>-2</m>.</p> 
 <p>This point, labeled <m>P</m> on the graph at right, has <m>x</m>-coordinate <m>-3</m>. Because it lies on the graph, the point <m>P(-3,-2)</m> is a solution of the equation <m>y=\dfrac{-2}{3}x-4</m>. </p></stack>
     <image xml:id="y-eq-neg2x-over3-minus4"><description>line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -120,4 +119,3 @@
 </subsection>
 
 </section>
-<!-- </book>  </pretext> -->

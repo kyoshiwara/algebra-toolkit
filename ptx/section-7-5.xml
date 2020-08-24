@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="ExponentialModels" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Exponential Models </title>
                  
@@ -43,28 +42,28 @@
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Solve <m>~6x^{3/4}-8 = 76~</m>. Round your answer to hundredths.</p> </statement>
-    <answer><m>33.74</m></answer></exercise>
+    <answer><p><m>33.74</m></p></answer></exercise>
 
 <exercise><statement><p>Solve <m>~6\left(\dfrac{3}{4}\right)^x-8 = 76~</m>. Round your answer to hundredths.</p></statement>
-    <answer><m>-9.17</m></answer></exercise>
+    <answer><p><m>-9.17</m></p></answer></exercise>
 
 <exercise><statement><p>Solve <m>~13.2(1.36)^x = 284.8~</m>. Round your answer to hundredths.</p></statement>
-    <answer><m>9.99</m></answer></exercise>
+    <answer><p><m>9.99</m></p></answer></exercise>
 
 <exercise><statement><p>Solve <m>~13.2x^{1.26} = 284.8~</m>. Round your answer to hundredths.</p></statement>
-    <answer><m>11.45</m></answer></exercise>
+    <answer><p><m>11.45</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
 <subsection><title>2. Calculate gowth and decay rates</title>
 
-<introduction><p><assemblage><title>Doubling Time and Half-Life</title>
+<introduction><assemblage><title>Doubling Time and Half-Life</title>
 <p>If <m>D</m> is the doubling time for an exponential function <m>P(t)</m>, then
     <me>P(t) = P_0 2^{t/D}</me></p>
 
 <p>If <m>H</m> is the half-life for an exponential function <m>Q(t)</m>, then
     <me>Q(t)=Q_0 (0.5)^{t/H}</me></p>
-</assemblage></p></introduction>
+</assemblage></introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -218,4 +217,3 @@ The doubling time is 18.59 years.</p></solution></example>
 </subsection>
 
 </section>
-<!-- </book>  </pretext> -->

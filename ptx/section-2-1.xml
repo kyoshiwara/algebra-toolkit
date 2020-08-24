@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="LinearRegression"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Linear Regression</title>
                  
@@ -91,7 +90,7 @@
 
 <exercise><statement><sidebyside widths="40% 45%" valigns="middle middle"><p>Which of the lines fits the scatterplot best?</p>
     <image source="images/fig-1-6-4.png"><description>scatterplot</description></image></sidebyside></statement>
-    <answer>Line L</answer></exercise>
+    <answer><p>Line L</p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -145,4 +144,3 @@ Cross-multiply to find
 </subsection>
 
 </section>
-<!-- </book>  </pretext> -->

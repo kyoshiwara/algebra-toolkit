@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="Logarithms" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Logarithms</title>
                  
@@ -7,7 +6,7 @@
 
 <subsubsection><title>Examples</title>
 
-<introduction><p>Because a logarithm is an exponent, it is helpful to convert easily between radical notation and exponent noatation.</p></introduction>
+<p>Because a logarithm is an exponent, it is helpful to convert easily between radical notation and exponent noatation.</p>
 
 <example><statement><p>Write each power as a radical. <ol label="a" cols="2">
     <li><m>x^{2/3}</m></li>
@@ -158,15 +157,14 @@
 <subsubsection><title>Exercise</title>
 
 <exercise><statement><p>Use the laws of exponents to simplify <m>~2.5^{2t}(2.5^3)</m>.</p></statement> 
-    <answer><m>2.5^{2t+3}</m></answer></exercise> 
+    <answer><p><m>2.5^{2t+3}</m></p></answer></exercise> 
 
 <exercise><statement><p>Use the laws of exponents to simplify <m>~\left(0.94^4\right)^{m-2}</m>.</p></statement>
-    <answer><m>0.94^{4m-8}</m></answer></exercise>
+    <answer><p><m>0.94^{4m-8}</m></p></answer></exercise>
 
 <exercise><statement><p>Use the laws of exponents to simplify <m>~\dfrac{1.13^{8x}}{1.13^{5x}}</m>.</p></statement>
-    <answer><m>1.13^{3x}</m></answer></exercise>
+    <answer><p><m>1.13^{3x}</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
 </section>
-<!-- </book>  </pretext> -->

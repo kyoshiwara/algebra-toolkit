@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="CompletingSquare" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Completing the Square</title>
   
@@ -116,20 +115,17 @@
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Write <m>~x^2+12x+36~</m> as the square of a binomial.</p></statement>
-    <answer><m>(x+6)^2</m></answer></exercise>
+    <answer><p><m>(x+6)^2</m></p></answer></exercise>
 
 <exercise><statement><p>Write <m>~x^2-26x+169~</m> as the square of a binomial.</p></statement>
-    <answer><m>(x-13)^2</m></answer></exercise>
+    <answer><p><m>(x-13)^2</m></p></answer></exercise>
 
 <exercise><statement><p>Write <m>~a^2-9a+\dfrac{81}{4}~</m> as the square of a binomial.</p></statement>
-    <answer><m>(a-\dfrac{9}{2})^2</m></answer></exercise>
+    <answer><p><m>(a-\dfrac{9}{2})^2</m></p></answer></exercise>
 
 <exercise><statement><p>Write <m>~t^2-\dfrac{4}{3}t+\dfrac{4}{9}~</m> as the square of a binomial.</p></statement>
-    <answer><m>(t-\dfrac{2}{3})^2</m></answer></exercise>
+    <answer><p><m>(t-\dfrac{2}{3})^2</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
-
-
 </section>
-<!-- </book>  </pretext> -->

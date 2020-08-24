@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="QuadraticSystems"   xmlns:xi="http://www.w3.org/2001/XInclude">
 
@@ -38,7 +37,7 @@ Finally, we substitute each of these values into <m>y=\dfrac{2}{x}</m> to find t
                 \end{align*}
 </p></statement>
 
-<answer><m>(6,1),~ (-6,-1)</m></answer></exercise>
+<answer><p><m>(6,1),~ (-6,-1)</m></p></answer></exercise>
 </introduction>
 
 <subsection><title>Solving Systems by Elimination</title>
@@ -83,7 +82,7 @@ Verify the solutions on a graph.</p></statement>
                 x^2 + y^2 \amp = 13\\           
                 \end{align*}</p></statement>
     
-<answer><m>(2,3),~ (-2,3),~ (2,-3),~ (-2,-3)</m></answer></exercise>
+<answer><p><m>(2,3),~ (-2,3),~ (2,-3),~ (-2,-3)</m></p></answer></exercise>
 
 <p>For some quadratic systems, we can use a combination of elimination of variables and substitution.</p>
 
@@ -117,12 +116,8 @@ Verify the solutions on a graph.</p></statement>
                 x^2 -12x + y^2 - 6y \amp = -25\\           
                 \end{align*}</p></statement>
     
-<answer><m>(2,5),~ (10,1)</m></answer></exercise>   
+<answer><p><m>(2,5),~ (10,1)</m></p></answer></exercise>   
 </subsection>
 
 
-<!-- <xi:include href="./summary-10-5.xml" /> summary  
-<xi:include href="./section-10-5-exercises.xml" /> exercises  -->
-
-</section> 
-<!-- </book>  </pretext> -->
+</section>

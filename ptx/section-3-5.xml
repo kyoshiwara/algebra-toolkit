@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="Joint-Variation"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Joint Variation</title>
 
@@ -25,10 +24,10 @@
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Evaluate <m>~g(a,b) = \dfrac{4a^3}{b^{1/2}}~</m> for <m>a=8</m> and <m>b=12</m>.</p></statement>
-<answer><m>591.207</m></answer></exercise>
+<answer><p><m>591.207</m></p></answer></exercise>
 
 <exercise><statement><p><m>~F(d,w) = 6.5d^{0.25}w^{0.4}~</m>. Evaluate <m>~F(32, 18)</m>.</p></statement>
-<answer><m>49.126</m></answer></exercise>
+<answer><p><m>49.126</m></p></answer></exercise>
 </subsubsection>
 
 </subsection>
@@ -247,13 +246,9 @@ and <m>k=60</m>.  Thus, <m>z=\dfrac{60x}{y^2}</m>.</p></solution></example>
             <cell><m>2304</m></cell></row>
     </tabular></sidebyside></p></statement>
 
-<answer><m>z=\dfrac{1}{4}x^2y^2</m></answer></exercise>
+<answer><p><m>z=\dfrac{1}{4}x^2y^2</m></p></answer></exercise>
 </subsubsection>
 
 </subsection>
 
-
-
-
 </section> 
-<!-- </book>  </pretext> -->

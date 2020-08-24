@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="PolynomialFunctions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Polynomial Functions</title>
                  
@@ -70,10 +69,10 @@
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>If <m>~a=-4x^3~</m> and <m>~b=3h</m>, find <m>a^3</m> and <m>ab^2</m>.</p></statement>  
-    <answer><m>-64x^9;~~-36x^3h^2</m></answer></exercise>
+    <answer><p><m>-64x^9;~~-36x^3h^2</m></p></answer></exercise>
 
 <exercise><statement><p>If <m>x=6p^2</m> and <m>y=mq^2</m>, find <m>y^3</m> and <m>x^2y</m>.</p></statement>
-    <answer><m>m^3q^6;~~-36mp^4q^2</m></answer></exercise>
+    <answer><p><m>m^3q^6;~~-36mp^4q^2</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -81,11 +80,11 @@
 
 <introduction><p>Sometimes it is easier to use formulas to square binomials.</p>
 
-<p><assemblage><title>Special Products of Binomials</title>
+<assemblage><title>Special Products of Binomials</title>
 <p><md><mrow>\amp(a + b)^2 = (a + b) (a + b) = a^2 + 2ab + b^2</mrow>
         <mrow>\amp(a - b)^2 = (a - b) (a - b) = a^2 - 2ab + b^2</mrow>
         <mrow>\amp(a + b) (a - b)= a^2 -b^2</mrow></md></p></assemblage>
-</p></introduction>
+</introduction>
 
 <subsubsection><title>Examples</title>
 
@@ -107,12 +106,11 @@
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Expand <m>~(8w^4-3w^3)^2</m></p></statement>
-    <answer><m>64w^8-48w^7+9w^6</m></answer></exercise>
+    <answer><p><m>64w^8-48w^7+9w^6</m></p></answer></exercise>
 
 <exercise><statement><p>Expand <m>~(a^3b+9ab^3)^2</m></p></statement>
-    <answer><m>a^6b^2+18a^4b^4+81a^2b^6</m></answer></exercise>
+    <answer><p><m>a^6b^2+18a^4b^4+81a^2b^6</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
 </section>
-<!-- </book>  </pretext> -->

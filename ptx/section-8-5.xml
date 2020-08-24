@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="EquationswithFractions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Equations with Algebraic Fractions</title>
                  
@@ -61,10 +60,10 @@
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Use a graph to solve the equation <m>~2x^3+7x^2-7x-12=0</m></p></statement>
-<answer><m>x = -4,~ -1,~ \dfrac{3}{2}</m></answer></exercise>
+<answer><p><m>x = -4,~ -1,~ \dfrac{3}{2}</m></p></answer></exercise>
 
 <exercise><statement><p>Use a graph to solve the equation <m>~\dfrac{24}{x+4}=11+2x-x^2</m></p></statement>
-<answer><m>x=-1,~4</m></answer></exercise>
+<answer><p><m>x=-1,~4</m></p></answer></exercise>
 
 </subsubsection>
 </subsection>
@@ -99,19 +98,19 @@
 
 <exercise><statement><p>Write the first step for the problem.</p>
     <p>Solve <m>~\dfrac{3}{x} + 3 = \dfrac{1}{x+3}</m></p></statement>
-<answer><m>3(x+3)+3x(x+3)=x</m></answer></exercise>
+<answer><p><m>3(x+3)+3x(x+3)=x</m></p></answer></exercise>
 
 <exercise><statement><p>Write the first step for the problem.</p>
     <p>Combine <m>~\dfrac{3}{x} + 3 - \dfrac{1}{x+3}</m></p></statement>
-<answer><m>\dfrac{3(x+3)}{x(x+3)} + \dfrac{3x(x+3)}{x(x+3)} - \dfrac{x}{x(x+3)}</m></answer></exercise>
+<answer><p><m>\dfrac{3(x+3)}{x(x+3)} + \dfrac{3x(x+3)}{x(x+3)} - \dfrac{x}{x(x+3)}</m></p></answer></exercise>
 
 <exercise><statement><p>Write the first step for the problem.</p>
         <p>Simplify <m>~\dfrac{\dfrac{3}{x} + 1} {3- \dfrac{1}{x+3}}</m></p></statement>
-<answer><m>\dfrac{3(x+3)-x(x+3)}{3x(x+3)-x}</m></answer></exercise>
+<answer><p><m>\dfrac{3(x+3)-x(x+3)}{3x(x+3)-x}</m></p></answer></exercise>
 
 <exercise><statement><p>Write the first step for the problem.</p>
         <p>Solve <m>~\dfrac{3}{x} = \dfrac{1}{x+3}</m></p></statement>
-<answer><m>3(x+3)=x</m></answer></exercise>
+<answer><p><m>3(x+3)=x</m></p></answer></exercise>
 
 </subsubsection>
 </subsection>
@@ -158,4 +157,3 @@
 </subsection>
 
 </section>
-<!-- </book>  </pretext> -->

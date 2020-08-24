@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="MathematicalModels"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Functions as Mathematical Models</title>
 
@@ -25,10 +24,10 @@
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Which of the eight basic functions are undefined at <m>x=0</m>?</p></statement>
-<answer><m>f(x)=\dfrac{1}{x},~~~f(x)=\dfrac{1}{x^2}</m></answer></exercise>
+<answer><p><m>f(x)=\dfrac{1}{x},~~~f(x)=\dfrac{1}{x^2}</m></p></answer></exercise>
 
 <exercise><statement><p>Which of the eight basic functions are always non-negative?</p></statement>
-<answer><m>f(x)=\abs{x},~~~f(x)=x^2,~~~f(x)=\sqrt{x},~~~f(x)=\dfrac{1}{x^2}</m></answer></exercise>
+<answer><p><m>f(x)=\abs{x},~~~f(x)=x^2,~~~f(x)=\sqrt{x},~~~f(x)=\dfrac{1}{x^2}</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -103,7 +102,4 @@
 </subsubsection>
 </subsection>
 
-
-
 </section>
-<!-- </book>  </pretext> -->

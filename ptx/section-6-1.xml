@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="IntegerExponents" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Integer Exponents</title>
                  
@@ -55,16 +54,16 @@ Multiply the coefficients together, and use the first law of exponents to find t
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Multiply <m>~-3a^4b(-4a^3b)</m>.</p></statement>
-<answer><m>12a^7b^2</m></answer></exercise>
+<answer><p><m>12a^7b^2</m></p></answer></exercise>
 
 <exercise><statement><p>Divide <m>~\dfrac{8x^2y}{12x^5y^3}</m>.</p></statement>
-<answer><m>\dfrac{2}{3x^3y^2}</m></answer></exercise>
+<answer><p><m>\dfrac{2}{3x^3y^2}</m></p></answer></exercise>
 
 <exercise><statement><p>Simplify <m>~(6pq^4)^3</m>.</p></statement>
-<answer><m>216p^3q^{12}</m></answer></exercise>
+<answer><p><m>216p^3q^{12}</m></p></answer></exercise>
 
 <exercise><statement><p>Simplify <m>~\left(\dfrac{n^3}{k^4}\right)^8</m>.</p></statement>
-<answer><m>\dfrac{n^{24}}{k^{32}}</m></answer></exercise>
+<answer><p><m>\dfrac{n^{24}}{k^{32}}</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -153,6 +152,4 @@ A negative exponent does <em>not</em> mean that the power is negative. So for ex
 </subsubsection>
 </subsection>
 
-
 </section>
-<!-- </book>  </pretext> -->

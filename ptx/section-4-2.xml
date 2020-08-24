@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="TheVertex" xmlns:xi="http://www.w3.org/2001/XInclude"><title>The Vertex </title>
                  
@@ -150,10 +149,10 @@ The <m>x</m>-intercepts are <m>(9,0)</m> and <m>(21,0)</m>. We plot these three 
 
 <subsubsection><title>Exercises</title>
 <exercise><statement><p>Multiply <m>~(4a-7)(3a+8)</m>.</p></statement>
-<answer><m>12a^2+11a-56</m></answer></exercise> 
+<answer><p><m>12a^2+11a-56</m></p></answer></exercise> 
 
 <exercise><statement><p>Multiply <m>~(1-3b^2)(3-4b^2)</m>.</p></statement>
-<answer><m>12b^4-13b^2+3</m></answer></exercise>
+<answer><p><m>12b^4-13b^2+3</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -183,18 +182,17 @@ The solution is <m>b = -5</m>.</p></solution></example>
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>The point <m>(-6,10)</m> lies on the graph of <m>~y=a(x+3)^2-2.~</m> Solve for <m>a</m>.</p></statement>
-    <answer><m>a=\dfrac{4}{3}</m></answer></exercise>
+    <answer><p><m>a=\dfrac{4}{3}</m></p></answer></exercise>
 
 <exercise><statement><p>The point <m>(-3,8)</m> lies on the graph of <m>~y=-x^2+bx+5.~</m> Solve for <m>b</m>.</p></statement>
-    <answer><m>b=-4</m></answer></exercise>
+    <answer><p><m>b=-4</m></p></answer></exercise>
 
 <exercise><statement><p>The point <m>(8,-12)</m> lies on the graph of <m>~y=ax^2-4x+36.~</m> Solve for <m>a</m>.</p></statement>
-    <answer><m>a=\dfrac{-1}{3}</m></answer></exercise>
+    <answer><p><m>a=\dfrac{-1}{3}</m></p></answer></exercise>
 
 <exercise><statement><p>The point <m>(60,-480)</m> lies on the graph of <m>~y=\dfrac{-2}{3}(x-h)^2+120.~</m> Solve for <m>h</m>.</p></statement>
-    <answer><m>h=30</m></answer></exercise>
+    <answer><p><m>h=30</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
 </section>
-<!-- </book>  </pretext> -->

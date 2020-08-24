@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="CurveFitting" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Curve Fitting </title>
                  
@@ -20,16 +19,16 @@
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Write an equation to say that <m>(-4,-18)</m> lies on the graph of<m>~y=ax^2+bx+c~</m>.</p> </statement>
-    <answer><m>-16a-4b+c=-18</m></answer></exercise>
+    <answer><p><m>-16a-4b+c=-18</m></p></answer></exercise>
 
 <exercise><statement><p>Write an equation to say that <m>(8,0)</m> lies on the graph of<m>~y=ax^2+bx+c~</m>.</p> </statement>
-    <answer><m>64a+8b+c=0</m></answer></exercise>
+    <answer><p><m>64a+8b+c=0</m></p></answer></exercise>
 
 <exercise><statement><p>Write an equation to say that <m>(0,-5)</m> lies on the graph of<m>~y=ax^2+bx+c~</m>.</p> </statement>
-    <answer><m>c=-5</m></answer></exercise>
+    <answer><p><m>c=-5</m></p></answer></exercise>
 
 <exercise><statement><p>Write an equation to say that <m>(-60,400)</m> lies on the graph of<m>~y=ax^2+bx+c~</m>.</p> </statement>
-    <answer><m>3600a-60b+c=400</m></answer></exercise>
+    <answer><p><m>3600a-60b+c=400</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -64,13 +63,13 @@ The solution to the system is <m>(4,-1)</m>. </p></solution></example>
     <md><mrow>2x-9y \amp = 3</mrow>
         <mrow>4x-5y \amp = -7</mrow></md>
 </p></statement>
-    <answer><m>(-3,-1)</m></answer></exercise>
+    <answer><p><m>(-3,-1)</m></p></answer></exercise>
 
 <exercise><statement><p>Solve the system by elimination.
     <md><mrow>5x+2y \amp = 5</mrow>
         <mrow>4x+3y \amp = -3</mrow></md>
 </p></statement>
-    <answer><m>(3,-5)</m></answer></exercise>
+    <answer><p><m>(3,-5)</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -105,11 +104,8 @@ The solution is <m>a=2,~b=-3</m>, and <m>c=4</m>.</p>
     <md><mrow>a+b+c \amp = 5</mrow>
         <mrow>4a-2b+c \amp = -7</mrow>
         <mrow>16a+4b+c \amp = -37 </mrow></md></p></statement>
-    <answer><m>a=-3,~b=1,~c=7</m></answer></exercise>
+    <answer><p><m>a=-3,~b=1,~c=7</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
-
-
 </section>
-<!-- </book>  </pretext> -->

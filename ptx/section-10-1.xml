@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="LogFunctions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Logarithmic Functions</title>
                  
@@ -7,7 +6,7 @@
 
 <subsubsection><title>Examples</title>
 
-<introduction><p>It is useful to be able to estimate mentally the value of a log.</p></introduction>
+<p>It is useful to be able to estimate mentally the value of a log.</p>
                     
 <example><statement><p>Write each log equation in exponential form. Then use trial and error to estimate the log between two integers.<ol label="a" cols="2">
         <li><m>\log_2 6=x</m></li>
@@ -23,7 +22,7 @@
 </solution></example>
 
 <example><statement><p><ol label="a">
-    <li><p>Use computing technology to complete the table for <m>f(x)=5^x~</m>. Round the function values to tenths.
+    <li><p>Use computing technology to complete the table for <m>f(x)=5^x~</m>. Round the function values to tenths.</p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -51,8 +50,8 @@
                         <cell><m></m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell></row>
-                    </tabular></sidebyside></p></li>
-    <li><p>Use your table from part (a) to make a table of values for the function <m>g(x) = \log_5 x</m>.
+                    </tabular></sidebyside></li>
+    <li><p>Use your table from part (a) to make a table of values for the function <m>g(x) = \log_5 x</m>.</p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~x~</m></cell>
@@ -80,10 +79,10 @@
                         <cell><m></m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell></row>
-                    </tabular></sidebyside></p></li></ol></p></statement>
+                    </tabular></sidebyside></li></ol></p></statement>
 
 <solution><p><ol label="a">
-    <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>2.0</m></cell>
@@ -110,8 +109,8 @@
                         <cell><m>90.6</m></cell>
                         <cell><m>106.4</m></cell>
                         <cell><m>125</m></cell></row>
-                    </tabular></sidebyside></p></li>
-    <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    </tabular></sidebyside></li>
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>25</m></cell>
@@ -138,7 +137,7 @@
                         <cell><m>2.8</m></cell>
                         <cell><m>2.9</m></cell>
                         <cell><m>3.0</m></cell></row>                         
-                    </tabular></sidebyside></p></li></ol></p>
+                    </tabular></sidebyside></li></ol></p>
 </solution></example>
 </subsubsection>
 
@@ -157,7 +156,7 @@
     </p></answer></exercise>
 
 <exercise><statement><p><ol label="a">
-    <li><p>Use computing technology to complete the table for <m>f(x)=4^x~</m>.
+    <li><p>Use computing technology to complete the table for <m>f(x)=4^x~</m>.</p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -185,8 +184,8 @@
                         <cell><m></m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell></row>
-                    </tabular></sidebyside></p></li>
-    <li><p>Use your table from part (a) to make a table of values for the function <m>g(x) = \log_4 x</m>.
+                    </tabular></sidebyside></li>
+    <li><p>Use your table from part (a) to make a table of values for the function <m>g(x) = \log_4 x</m>.</p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~x~</m></cell>
@@ -214,13 +213,13 @@
                         <cell><m></m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell></row>
-                    </tabular></sidebyside></p></li>
+                    </tabular></sidebyside></li>
     <li><p>Use your table from part (b) to make a graph of <m>g(x) = \log_4 x</m>.</p>
-        <sidebyside width="50%"><image source="images/fig-5-2-1.svg"><description>grid </description></image></sidebyside>
+        <sidebyside width="50%"><image source="images/fig-5-2-1"><description>grid </description></image></sidebyside>
         </li></ol></p></statement>
  
 <answer><p><ol label="a">
-    <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-1</m></cell>
@@ -247,8 +246,8 @@
                         <cell><m>64</m></cell>
                         <cell><m>128</m></cell>
                         <cell><m>256</m></cell></row>
-                    </tabular></sidebyside></p></li>
-    <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    </tabular></sidebyside></li>
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~x~</m></cell>
                         <cell><m>0.25</m></cell>
@@ -275,8 +274,8 @@
                         <cell><m>3</m></cell>
                         <cell><m>3.5</m></cell>
                         <cell><m>4.0</m></cell></row>
-                    </tabular></sidebyside></p></li> 
-    <li><sidebyside width="50%"><image source="images/fig-5-2-2.svg"><description>graph</description></image></sidebyside></li></ol></p></answer></exercise>  
+                    </tabular></sidebyside></li> 
+    <li><sidebyside width="50%"><image source="images/fig-5-2-2"><description>graph</description></image></sidebyside></li></ol></p></answer></exercise>  
 
 </subsubsection>
 </subsection>
@@ -369,7 +368,7 @@
 <subsubsection><title>Exercise</title>
 
 <exercise><statement><p><ol label="a">
-    <li><p>Complete the table of values and graph on the same grid: <m>~f(x)=x^2~</m> and <m>~g(x)=2^x~</m>
+    <li><p>Complete the table of values and graph on the same grid: <m>~f(x)=x^2~</m> and <m>~g(x)=2^x~</m></p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>~~~x~~~</m></cell>
@@ -404,18 +403,17 @@
                         <cell><m></m></cell>
                         <cell><m></m></cell>
                         <cell><m></m></cell></row>
-                    </tabular></sidebyside></p>
-    <sidebyside width="50%"><image source="images/fig-5-2-3.svg"><description>grid</description></image></sidebyside></li>
+                    </tabular></sidebyside>
+    <sidebyside width="50%"><image source="images/fig-5-2-3"><description>grid</description></image></sidebyside></li>
     <li><p>Use your tables from part (a) to graph <m>~h(x)=\sqrt{x}~</m> and <m>~j(x)=\log_2 x~</m> on the same grid.</p>
-    <sidebyside width="50%"><image source="images/fig-5-2-5.svg"><description>grid</description></image></sidebyside></li>
+    <sidebyside width="50%"><image source="images/fig-5-2-5"><description>grid</description></image></sidebyside></li>
 </ol></p></statement> 
     <answer><p><ol label="a">
-     <li><sidebyside width="50%"><image source="images/fig-5-2-4.svg"><description>graph</description></image></sidebyside></li>
-      <li><sidebyside width="50%"><image source="images/fig-5-2-6.svg"><description>graph</description></image></sidebyside></li></ol> </p>
+     <li><sidebyside width="50%"><image source="images/fig-5-2-4"><description>graph</description></image></sidebyside></li>
+      <li><sidebyside width="50%"><image source="images/fig-5-2-6"><description>graph</description></image></sidebyside></li></ol> </p>
     </answer></exercise>
 
 </subsubsection>
 </subsection>
 
 </section>
-<!-- </book>  </pretext> -->

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="InterceptsFactors" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Intercepts and Factors</title>
 
@@ -30,16 +29,16 @@ Then use the distributive law to multiply the result by the monomial factor, <m>
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Expand the product  <m>~(2x+1)(3x-2)</m>. </p> </statement>
-    <answer><m>6x^2-x-2</m></answer></exercise>
+    <answer><p><m>6x^2-x-2</m></p></answer></exercise>
 
 <exercise><statement><p>Expand the product  <m>~(2t+5)(2t+5)</m>. </p></statement>
-    <answer><m>4t^2+20t+25</m></answer></exercise>
+    <answer><p><m>4t^2+20t+25</m></p></answer></exercise>
 
 <exercise><statement><p>Expand the product  <m>~4(a-3)(3a-5)</m>. </p></statement>
-    <answer><m>12a^2-56a+60</m></answer></exercise>
+    <answer><p><m>12a^2-56a+60</m></p></answer></exercise>
 
 <exercise><statement><p>Expand the product  <m>~-3(2b-3)(5b+1)</m>. </p></statement>
-    <answer><m>-30b^2+39b+9</m></answer></exercise>
+    <answer><p><m>-30b^2+39b+9</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -91,22 +90,22 @@ The middle term we want is <m>2x</m>, not <m>-2x</m>, so we change the signs of 
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Factor <m>~x^2+8x+15</m></p></statement>
-    <answer><m>(x+3)(x+5)</m></answer></exercise>
+    <answer><p><m>(x+3)(x+5)</m></p></answer></exercise>
 
 <exercise><statement><p>Factor <m>~y^2+14y+49</m></p></statement>
-    <answer><m>(y+7)(y+7)</m></answer></exercise>
+    <answer><p><m>(y+7)(y+7)</m></p></answer></exercise>
 
 <exercise><statement><p>Factor <m>~m^2-10m+24</m></p></statement>
-    <answer><m>(m-4)(m-6)</m></answer></exercise>
+    <answer><p><m>(m-4)(m-6)</m></p></answer></exercise>
 
 <exercise><statement><p>Factor <m>~m^2-11m+24</m></p></statement>
-    <answer><m>(m-3)(m-8)</m></answer></exercise>
+    <answer><p><m>(m-3)(m-8)</m></p></answer></exercise>
 
 <exercise><statement><p>Factor <m>~t^2+8t-48</m></p></statement>
-    <answer><m>(t+12)(t-4)</m></answer></exercise>
+    <answer><p><m>(t+12)(t-4)</m></p></answer></exercise>
 
 <exercise><statement><p>Factor <m>~t^2-8t-48</m></p></statement>
-    <answer><m>(t-12)(t+4)</m></answer></exercise>
+    <answer><p><m>(t-12)(t+4)</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -148,4 +147,3 @@ The middle term we want is <m>2x</m>, not <m>-2x</m>, so we change the signs of 
 </subsection>
 
 </section>
-<!-- </book>  </pretext> -->

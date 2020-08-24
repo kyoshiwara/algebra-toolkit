@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="BasicFunctions"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Some Basic Functions</title>
                  
@@ -7,9 +6,9 @@
 
 <subsubsection><title>Examples</title>
 
-<introduction><p>It is a good idea to become familiar with the first few perfect cubes:
+<p>It is a good idea to become familiar with the first few perfect cubes:
     <me>2^3=8~~~~~~3^3=27~~~~~~4^3=64~~~~~~5^3=125~~~~~~6^3=216</me>
-and so on.</p></introduction>
+and so on.</p>
 
 <example><statement><p>Evaluate each cube root.<ol label="a" cols="2">  
     <li><m>\sqrt[3]{64}</m></li>
@@ -44,10 +43,10 @@ and so on.</p></introduction>
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Evaluate <m>\sqrt[3]{-0.5}</m>. Round to thousandths.</p></statement>
-    <answer><m>-0.794</m></answer></exercise>
+    <answer><p><m>-0.794</m></p></answer></exercise>
 
 <exercise><statement><p>Evaluate <m>\sqrt[3]{81}</m>. Round to thousandths.</p></statement>
-    <answer><m>4.327</m></answer></exercise>
+    <answer><p><m>4.327</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -55,10 +54,10 @@ and so on.</p></introduction>
 
 <subsubsection><title>Examples</title>
 
-<introduction><p>The definition of how to take an absolute value may look complicated, but it just says two things:<ol label="1">
+<p>The definition of how to take an absolute value may look complicated, but it just says two things:<ol label="1">
     <li>If the number is positive, leave it alone.</li>
     <li>If the number is negative, put another negative in front, which will make the number positive.</li></ol></p>
-</introduction>
+
 
 <example><statement><p>Simplify each expression.<ol label="a" cols="2">
     <li><m>|-3|</m></li>
@@ -87,13 +86,13 @@ and so on.</p></introduction>
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Simplify <m>-|-12|</m>.</p></statement>
-    <answer><m>-12</m></answer></exercise>
+    <answer><p><m>-12</m></p></answer></exercise>
 
 <exercise><statement><p>Simplify <m>|-25|</m>.</p></statement>
-    <answer><m>25</m></answer></exercise>
+    <answer><p><m>25</m></p></answer></exercise>
 
 <exercise><statement><p>Simplify <m>-(-90)|</m>.</p></statement>
-    <answer><m>90</m></answer></exercise>
+    <answer><p><m>90</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -140,4 +139,3 @@ and so on.</p></introduction>
 </subsection>
 
 </section>
-<!-- </book>  </pretext> -->

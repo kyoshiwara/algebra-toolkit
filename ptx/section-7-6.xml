@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="LogScales" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Logarithmic Scales </title>
                  
@@ -175,29 +174,29 @@
     <li><m>20 \cdot 25 = 500</m></li>
     <li><m>200 \cdot 250 = 50,000</m></li></ol>
 </p></statement>
-    <answer><ol label="a">
+    <answer><p><ol label="a">
         <li><m>\log 8 + \log 10 = \log 800</m></li>
         <li><m>\log 12 + \log 100 = \log 12,000</m></li>
         <li><m>\log 20 + \log 25 = \log 500</m></li>
         <li><m>\log 200 + \log 250 = \log 50,000</m></li></ol>
-    </answer></exercise>
+    </p></answer></exercise>
 
 <exercise><statement><p>Compare the two operations. What do you notice?<ol label = "a">
     <li>(i) Compute <m>10^{2.68}~~~~~~~~~~~~~~~~~</m>  (ii) Solve for <m>x:~~\log x = 2.68</m></li>
     <li>(i) Compute <m>10^{-0.75}~~~~~~~~~~~~~~~~</m>  (ii) Solve for <m>x:~~\log x = -0.75</m></li></ol>
 </p></statement>
-    <answer><ol label = "a">
+    <answer><p><ol label = "a">
         <li>(i) and (ii) have the same answer: <m>478.63</m></li>
         <li>(i) and (ii) have the same answer: <m>0.1778</m></li></ol>
-    </answer></exercise>
+    </p></answer></exercise>
 
 <exercise><statement><p><ol label = "a">
     <li>The ratio of <m>N</m> to <m>P</m> is <m>32.6</m>.  Compute <m>\log N - \log P</m>.</li>
     <li><m>\log z - \log t = 2.5</m>.  Compute <m>\dfrac{z}{t}</m>.</li></ol></p>
 </statement>
-    <answer><ol label = "a">
+    <answer><p><ol label = "a">
         <li><m>1.5132</m></li>
-        <li><m>316.2278</m></li></ol>
+        <li><m>316.2278</m></li></ol></p>
     </answer></exercise>
 </subsubsection>
 </subsection>
@@ -233,14 +232,11 @@
     <li><m>\log x + \log 5 = \log H</m></li></ol></p></introduction>
 
 <exercise><statement><p>From the list above, match all the correct algebraic expressions to the phrase "<m>x</m> is 5 times as large as <m>H</m>."</p></statement>
-    <answer>(a), (i), (l)</answer></exercise>
+    <answer><p>(a), (i), (l)</p></answer></exercise>
 
 <exercise><statement><p>From the list above, match all the correct algebraic expressions to the phrase "<m>x</m> is 5 more than <m>H</m>."</p></statement>
-    <answer>(c), (g)</answer></exercise>
+    <answer><p>(c), (g)</p></answer></exercise>
 </subsubsection>
 </subsection>
 
-
-
 </section>
-<!-- </book>  </pretext> -->

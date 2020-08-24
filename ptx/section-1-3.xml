@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="Intercepts"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Intercepts</title>
               
 <subsection><title>1. Graph a linear equation by the intercept method</title>
 
-<introduction><p>To graph a line by the intercept method, we find the <m>x</m>- and <m>y</m>-intercepts of the line and plot those points.</p></introduction> 
+<introduction><p>To graph a line by the intercept method, we find the <m>x</m>- and <m>y</m>-intercepts of the line and plot those points.</p>
 
 <example><statement><p>Graph the equation <m>3x+2y=7</m> by the intercept method.
 </p></statement>
@@ -44,6 +43,7 @@ The <m>x</m>-intercept is the point <m>\left(2\dfrac{1}{3}, 0\right)</m>.</p>
         \draw[magenta!90!black,very thick, <->,>=stealth'] (-5/3,6)--(5,-4);
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside></solution></example>
+</introduction> 
 
 <subsubsection><title>Exercises</title>
 
@@ -121,7 +121,7 @@ The <m>x</m>-intercept is the point <m>\left(2\dfrac{1}{3}, 0\right)</m>.</p>
 
 <subsection><title>2. Interpret the intercepts</title>
 
-<introduction><p>The values of the variables at the intercepts often tell us something important about a linear model</p></introduction>
+<introduction><p>The values of the variables at the intercepts often tell us something important about a linear model</p>
 
 <example><statement><p>The temperature, <m>T</m>, in Nome was <m>-12 \degree</m> at noon and has been rising at a rate of <m>2 \degree</m> per hour all day. <ul>
     <li>Write and graph an equaton for <m>T</m> in terms of <m>h</m>, the number of hours after noon.</li>
@@ -154,6 +154,7 @@ To find the <m>T</m>-intercept, we set <m>h=0</m> and solve for <m>T</m>.
             <mrow>12 \amp = 2h \amp \amp \blert{\text{Divide both sides by 2.}}</mrow>
             <mrow>6 \amp =h</mrow></md>
 The <m>h</m>-intercept is the point <m>(6,0)</m>. This point tells us that when <m>h=6, T=0</m>, or the temperature will reach zero degrees at six hours after noon, or 6 pm.</p></solution></example>
+</introduction>
 
 <subsubsection><title>Exercises</title>
 
@@ -201,7 +202,7 @@ The <m>h</m>-intercept is the point <m>(6,0)</m>. This point tells us that when 
     <me>P=-600+40d</me>
 where <m>d</m> is the number of dogs he has groomed.</p>
 <sidebyside widths="50% 45%" valigns="bottom bottom">
-    <p><ol label="a"> <li>Find the intercepts and use them to make a graph of the equation.
+    <p><ol label="a"> <li><p>Find the intercepts and use them to make a graph of the equation.</p>
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row> <cell><m>d</m></cell><cell><m>P</m></cell></row>
                 <row> <cell><m>~~~~~~~~</m></cell><cell><m>~~~~~~~~</m></cell></row>
@@ -246,7 +247,7 @@ where <m>d</m> is the number of dogs he has groomed.</p>
         \draw[magenta!90!black,very thick, ->, >=stealth'] (0,-12)--(20,4);
         \end{tikzpicture}]]>
         </latex-image></image>
-    <p><ul><li><m>(0,-600)</m> To start, Delbert's profit is <m>-$600</m>. (He is $600 in debt.)</li>               
+    <p><ul><li><m>(0,-600)</m> To start, Delbert's profit is <m>-\$600</m>. (He is $600 in debt.)</li>               
         <li><m>(15,0)</m> Delbert breaks even after grooming 15 dogs.</li></ul></p>
     </sidebyside>
 </answer></exercise>
@@ -264,7 +265,7 @@ To put an equation into this form, we want to "isolate" the output variable on o
 
 <example><statement><p>Solve the equation <m>2x-3y=8</m> for <m>y</m>.</p></statement>
 
-<solution><p><md><mrow>2x-3y \amp = 8 \amp \amp \blert{\text{Subtract <m>2x</m> from both sides.}} </mrow>
+<solution><p><md><mrow>2x-3y \amp = 8 \amp \amp \blert{\text{Subtract }2x \text{ from both sides.}} </mrow>
         <mrow>-3y \amp = 8-2x \amp \amp \blert{\text{Divide both sides by} -3.}</mrow>
         <mrow>y \amp =\dfrac{8-2x}{-3}   \amp \amp  \blert{\text{Divide each term of the numerator by} -3.}</mrow>
         <mrow>y \amp =\dfrac{8}{3}-\dfrac{2}{3}x</mrow></md>
@@ -275,7 +276,7 @@ To put an equation into this form, we want to "isolate" the output variable on o
 <solution><p>It is nearly always best to clear fractions from an equation first, so we begin by multiplying both sides by 2.
     <md><mrow>\alert{2}A \amp = \alert{\cancel{2}}\left(\dfrac{h}{\cancel{2}}(b+c)\right) \amp \amp \blert{\text{Multiply both sides by}~ \alert{2}.}</mrow>
         <mrow>2A \amp = h(b+c) \amp \amp \blert{\text{Divide both sides by}~h.}</mrow>
-        <mrow>\dfrac{2A}{h} \amp = b+c   \amp \amp  \blert{\text{Subtract <m>c</m> from both sides.}}</mrow>
+        <mrow>\dfrac{2A}{h} \amp = b+c   \amp \amp  \blert{\text{Subtract }c \text{ from both sides.}}</mrow>
         <mrow>\dfrac{2A}{h}-c \amp = b</mrow></md>
 </p></solution></example>
 </subsubsection>
@@ -283,20 +284,18 @@ To put an equation into this form, we want to "isolate" the output variable on o
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Solve  <m>f=s+at</m>  for <m>t</m></p></statement>
-    <answer><m>t=\dfrac{f-a}{s}</m></answer></exercise>
+    <answer><p><m>t=\dfrac{f-a}{s}</m></p></answer></exercise>
 
 <exercise><statement><p>Solve  <m>2x-4y=k</m>  for <m>y</m></p></statement>
-    <answer><m>y=\dfrac{-1}{4}k+\dfrac{1}{2}x</m></answer></exercise>
+    <answer><p><m>y=\dfrac{-1}{4}k+\dfrac{1}{2}x</m></p></answer></exercise>
 
 <exercise><statement><p>Solve  <m>P=2l+2w</m>  for <m>l</m></p></statement>
-    <answer><m>l=\dfrac{P}{2}-w</m></answer></exercise>
+    <answer><p><m>l=\dfrac{P}{2}-w</m></p></answer></exercise>
 
 <exercise><statement><p>Solve  <m>\dfrac{x}{a}+\dfrac{y}{b}=1</m>  for <m>x</m></p></statement>
-    <answer><m>x=a-\dfrac{ay}{b}</m></answer></exercise>
+    <answer><p><m>x=a-\dfrac{ay}{b}</m></p></answer></exercise>
 </subsubsection>
 
 </subsection>
 
-
 </section>
-<!-- </book>  </pretext> -->

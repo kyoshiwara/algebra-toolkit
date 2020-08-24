@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="AlgebraicFractions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Algebraic Fractions</title>
                  
@@ -33,16 +32,16 @@
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Factor completely  <m>2x^3+16y^3</m></p></statement>
-<answer><m>2(x+2y)(x^2-2xy+4y^2)</m></answer></exercise>
+<answer><p><m>2(x+2y)(x^2-2xy+4y^2)</m></p></answer></exercise>
 
 <exercise><statement><p>Factor completely  <m>4x^2y-36y^3</m></p></statement>
-<answer><m>4y(x-3y)(x+3y)</m></answer></exercise>
+<answer><p><m>4y(x-3y)(x+3y)</m></p></answer></exercise>
 
 <exercise><statement><p>Factor completely  <m>2b^3-6b^2-36b</m></p></statement>
-<answer><m>2b(b-6)(b+3)</m></answer></exercise>
+<answer><p><m>2b(b-6)(b+3)</m></p></answer></exercise>
 
 <exercise><statement><p>Factor completely  <m>9b^4+9b^2</m></p></statement>
-<answer><m>9b^2(b^2+1)</m></answer></exercise>
+<answer><p><m>9b^2(b^2+1)</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -70,16 +69,16 @@
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Find the opposite of the binomial  <m>2x+1</m></p></statement>
-<answer><m>-2x-1</m></answer></exercise>
+<answer><p><m>-2x-1</m></p></answer></exercise>
 
 <exercise><statement><p>Find the opposite of the binomial  <m>b^2-b</m></p></statement>
-<answer><m>b-b^2</m></answer></exercise>
+<answer><p><m>b-b^2</m></p></answer></exercise>
 
 <exercise><statement><p>Find the opposite of the binomial  <m>-4n+8</m></p></statement>
-<answer><m>4n-8</m></answer></exercise>
+<answer><p><m>4n-8</m></p></answer></exercise>
 
 <exercise><statement><p>Find the opposite of the binomial  <m>-3z^2-2</m></p></statement>
-<answer><m>3z^2+2</m></answer></exercise>
+<answer><p><m>3z^2+2</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -163,7 +162,7 @@
 		</image>
 	</sidebyside>
 </statement>
-<answer><m>y=-16;~ m=0</m></answer></exercise>
+<answer><p><m>y=-16;~ m=0</m></p></answer></exercise>
 
 <exercise><statement><p>Give the equation and slope of the line.</p>
 	<sidebyside width="30%"><image xml:id="fig-x-eq-30">
@@ -188,7 +187,7 @@
 		</image>
 	</sidebyside>
 </statement>
-<answer><m>x=30;~ m~</m>is undefined</answer></exercise>
+<answer><p><m>x=30</m>; <m>~ m~</m>is undefined</p></answer></exercise>
 
 <exercise><statement><p>Give the equation and slope of the line.</p>
 	<sidebyside width="30%"><image xml:id="fig-y-eq-45">
@@ -213,7 +212,7 @@
 		</image>
 	</sidebyside>
 </statement>
-<answer><m>y=45; m=0</m></answer></exercise>
+<answer><p><m>y=45; m=0</m></p></answer></exercise>
 
 <exercise><statement><p>Give the equation and slope of the line.</p>
 	<sidebyside width="30%"><image xml:id="fig-x-eq-neg24">
@@ -238,9 +237,8 @@
 		</image>
 	</sidebyside>
 </statement>
-<answer><m>x=-24;~  m~</m>is undefined</answer></exercise>
+<answer><p><m>x=-24</m>; <m>~ m~</m>is undefined</p></answer></exercise>
 </subsubsection>
 </subsection>
 
 </section>
-
