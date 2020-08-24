@@ -19,7 +19,7 @@
     <li>Square first, then multiply by 2:  <m>~~2x^2=2(-6)^2=2(36)=72</m></li>
     <li>Square first, then subtract from 2:  <m>~~2-x^2=2-(-6)^2=2-36=-34</m></li>
     <li>Multiply by 2 first, then square:  <m>~~(2x)^2=[2(-6)]^2=[-12]^2=144</m></li>
-    <li>Subtract from 2 first, then square:  <m>~~(2-x)^2=[2-(-6)^2=[8]^2=64</m></li>
+    <li>Subtract from 2 first, then square:  <m>~~(2-x)^2=[2-(-6)]^2=[8]^2=64</m></li>
 </ol></p></solution></example>
 
 <example><statement><p>Make a table of values for <m>y=x^2+2x-8</m>, and graph the equation.</p></statement>
@@ -249,7 +249,7 @@ The radius of the cone is 5.46 cm.</p></solution></example>
 <exercise><statement><p>Solve by extraction of roots.<ol label="a" cols="2">
     <li><m>98=2a^2</m></li>
     <li><m>0=3n^2-15</m></li>
-    <li><m>144 = \dfrac{h^2}{9} = 169</m></li>
+    <li><m>144 + \dfrac{h^2}{9} = 169</m></li>
     <li><m>12-5v^2=2</m></li></ol></p></statement>
 
 <answer><p><ol label="a" cols="2">
@@ -304,7 +304,7 @@ The length of the hypotenuse is a positive number, so <m>z=37</m>.</p></solution
     <md><mrow>h^2 + 49 \amp = 625 \amp \amp \blert{\text{Subtract 49 from both sides.}}</mrow>
         <mrow>h^2 \amp =576 \amp \amp \blert{\text{Extract roots.}}</mrow>
         <mrow>h \amp =\pm \sqrt{576}   \amp \amp  \blert{\text{Simplify the radical.}}</mrow>
-        <mrow>h \amp \pm 24</mrow></md>
+        <mrow>h = \amp \pm 24</mrow></md>
 The height must be a positive number, so the ladder reaches 24 feet up the wall.</p></solution></example>
 </subsubsection>
 
