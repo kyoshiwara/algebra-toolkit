@@ -742,7 +742,7 @@ Next, complete the square inside parentheses.
         5+2x-x^2  \amp  1\le x\lt 3\\
         2x \amp  x \gt 3
         \end{cases}</me></p>
-    <sidebyside width="30%"><image source="images/fig-2-4-1.svg"><description>graph</description></image></sidebyside>
+    <sidebyside width="30%"><image source="images/fig-2-4-1"><description>graph</description></image></sidebyside>
 <p><ol label="a" cols="4">
     <li><m>f(-2)</m></li>
     <li><m>f(1)</m></li>
@@ -772,7 +772,7 @@ Next, complete the square inside parentheses.
     <li><m>g(1)</m></li></ol></p>
 
 </statement>
-<answer><sidebyside width="30%"><image source="images/fig-2-4-2.svg"><description>graph</description></image></sidebyside>
+<answer><sidebyside width="30%"><image source="images/fig-2-4-2"><description>graph</description></image></sidebyside>
     <p><ol label="a" cols="4">
     <li><m>0</m></li>
     <li>undefined</li>

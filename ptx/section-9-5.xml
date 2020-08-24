@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="NonlinearSystems"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Nonlinear Systems</title>
                 
@@ -25,24 +24,24 @@
 
 <subsubsection><title>Exercises</title>
 
-<introduction><p>Write a system of equations for the problem.</p></introduction>
+<p>Write a system of equations for the problem.</p>
 
 <exercise><statement><p>Darryl plans to mix some 50% solution with some 75% solution to make 20 liters of 60% solution. How much of each should he use?</p></statement>
-<answer><md><mrow>x+y=20</mrow>
-			<mrow>0.5x+0.75y=12</mrow></md></answer></exercise>
+<answer><p><md><mrow>x+y=20</mrow>
+			<mrow>0.5x+0.75y=12</mrow></md></p></answer></exercise>
 
 <exercise><statement><p>The perimeter of a rectangle is 38 inches.  If we triple the width and decrease the length by 8 inches, we increase the area of the rectangle by 40%.  What are the dimensions of the original rectangle?
 </p></statement>
-<answer><md><mrow>2l+2w=38</mrow>
-			<mrow>3w(l-8)=1.4lw</mrow></md></answer></exercise>
+<answer><p><md><mrow>2l+2w=38</mrow>
+			<mrow>3w(l-8)=1.4lw</mrow></md></p></answer></exercise>
 
 <exercise><statement><p>The express train travels 15 miles per hour faster than the local.  The local takes 10 minutes longer to travel 30 miles than the express takes.  Find the speed of each.</p></statement>
-<answer><md><mrow>v=15+l</mrow>
-			<mrow>\dfrac{30}{l} = \dfrac{30}{v}+\dfrac{1}{6}</mrow></md></answer></exercise>
+<answer><p><md><mrow>v=15+l</mrow>
+			<mrow>\dfrac{30}{l} = \dfrac{30}{v}+\dfrac{1}{6}</mrow></md></p></answer></exercise>
 
 <exercise><statement><p>Delbert made $65 interest on his money market account this year.  Francine invested $100 less than Delbert at 0.5% higher interest rate and earned $66.  How much did Delbert invest, and at what interest rate?</p></statement>
-<answer><md><mrow>Pr=65</mrow>
-			<mrow>(P-100)(r+0.005) = 66</mrow></md></answer></exercise>
+<answer><p><md><mrow>Pr=65</mrow>
+			<mrow>(P-100)(r+0.005) = 66</mrow></md></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -92,19 +91,19 @@ The vertex is the point <m>(-1,9)</m>. The graph of the parabola is shown below.
 
 <subsubsection><title>Exercises</title>
 
-<introduction><p>Find the intercepts and the vertex of the parabola.</p></introduction>
+<p>Find the intercepts and the vertex of the parabola.</p>
 
 <exercise><statement><p><m>y=x^2-8x+15</m></p></statement>
-<answer><m>(5,0),~(3,0),~(0,15),~(4,-1)</m></answer></exercise>
+<answer><p><m>(5,0),~(3,0),~(0,15),~(4,-1)</m></p></answer></exercise>
 
 <exercise><statement><p><m>y=8-2x^2</m></p></statement>
-<answer><m>(2,0),~(-2,0),~(0,8),~(0,8)</m></answer></exercise>
+<answer><p><m>(2,0),~(-2,0),~(0,8),~(0,8)</m></p></answer></exercise>
 
 <exercise><statement><p><m>y=3x^2+6x+3</m></p></statement>
-<answer><m>(-1,0),~(-1,0),~(0,3),~(-1,0)</m></answer></exercise>
+<answer><p><m>(-1,0),~(-1,0),~(0,3),~(-1,0)</m></p></answer></exercise>
 
 <exercise><statement><p><m>y=x^2-4x-1</m></p></statement>
-<answer><m>(2+\sqrt{5},0),~(2-\sqrt{5},0),~(0,-1),~(2,-5)</m></answer></exercise>
+<answer><p><m>(2+\sqrt{5},0),~(2-\sqrt{5},0),~(0,-1),~(2,-5)</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -126,23 +125,23 @@ The vertex is the point <m>(-1,9)</m>. The graph of the parabola is shown below.
 
 <subsubsection><title>Exercises</title>
 
-<introduction><p>Use substitution to write an equation in one variable.</p></introduction>
+<p>Use substitution to write an equation in one variable.</p>
 
 <exercise><statement><p><md><mrow>x^2-2x+y^2+4y \amp = 20</mrow>
 							<mrow>y-x \amp = 4</mrow></md></p></statement>
-<answer><m>2x^2+10x+12=0</m></answer></exercise>
+<answer><p><m>2x^2+10x+12=0</m></p></answer></exercise>
 
 <exercise><statement><p><md><mrow>x^2-y^2 \amp = 16</mrow>
 							<mrow>xy \amp = 6</mrow></md></p></statement>
-<answer><m>x^4-16x^2-36=0</m></answer></exercise>
+<answer><p><m>x^4-16x^2-36=0</m></p></answer></exercise>
 
 <exercise><statement><p><md><mrow>x^2-12x+y^2+2 \amp = 0</mrow>
 							<mrow>y \amp = 4x-7</mrow></md></p></statement>
-<answer><m>17x^2-68x+51=0</m></answer></exercise>
+<answer><p><m>17x^2-68x+51=0</m></p></answer></exercise>
 
 <exercise><statement><p><md><mrow>x^2-4x+y^2+2y \amp = 5</mrow>
 							<mrow>x+2y \amp = -5</mrow></md></p></statement>
-<answer><m>5y^2+30y+40=0</m></answer></exercise>
+<answer><p><m>5y^2+30y+40=0</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 

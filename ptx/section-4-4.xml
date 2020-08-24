@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="QuadraticInequalities" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Quadratic Inequalities </title>
                  
@@ -15,9 +14,9 @@
     <md><mrow>-3x+1 \amp \gt 7 \amp \amp \blert{\text{Subtract 1 from both sides.}}</mrow>
         <mrow>-3x \amp \gt 6  \amp \amp \blert{\text{Divide both sides by -3.}}</mrow>
         <mrow>x \amp \lt -2 \amp \amp \blert{\text{Reverse the direction of the inequality.}}</mrow></md>
-The graph of the solutions is shown below.
+The graph of the solutions is shown below.</p>
     <sidebyside width="50%"><image source="images/fig-6-5-1.png"><description>number line</description></image></sidebyside>
-</p></solution></example>
+</solution></example>
 
 <example><statement><p>Solve <m>~-3 \lt 2x-5 \le 6~</m> and graph the solutions on a number line.</p></statement>
  
@@ -25,24 +24,24 @@ The graph of the solutions is shown below.
     <md><mrow>-3 \amp \lt 2x-5 \le 6 \amp \amp \blert{\text{Add 5 on all three sides.}}</mrow>
         <mrow>2 \amp \lt 2x \le 11 \amp \amp \blert{\text{Divide each side by 2.}}</mrow>
         <mrow>1 \amp \lt x \le \dfrac{11}{2} \amp \amp \blert{\text{Do not reverse the inequality.}}</mrow></md>
- The graph of the solutions is shown below.
+ The graph of the solutions is shown below.</p>
     <sidebyside width="50%"><image source="images/fig-6-5-2.png"><description>number line</description></image></sidebyside>       
-</p></solution></example>
+</solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Solve the inequality <m>~8-4x \gt -2~</m></p> </statement>
-    <answer><m>x \lt \dfrac{5}{2}</m></answer></exercise>
+    <answer><p><m>x \lt \dfrac{5}{2}</m></p></answer></exercise>
 
 <exercise><statement><p>Solve the inequality <m>~-6 \le \dfrac{4-x}{3} \lt 2~</m></p> </statement>
-    <answer><m>22 \ge x \gt -2</m></answer></exercise>
+    <answer><p><m>22 \ge x \gt -2</m></p></answer></exercise>
 
 <exercise><statement><p>Solve the inequality <m>~3x-5 \lt -6x+7~</m></p> </statement>
-    <answer><m>x \lt \dfrac{4}{3}</m></answer></exercise>
+    <answer><p><m>x \lt \dfrac{4}{3}</m></p></answer></exercise>
 
 <exercise><statement><p>Solve the inequality <m>~-6 \gt 4-5b \gt -21~</m></p> </statement>
-    <answer><m>2 \lt b \lt 5</m></answer></exercise>
+    <answer><p><m>2 \lt b \lt 5</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -99,23 +98,20 @@ The <m>x</m>-intercepts are <m>\left(\dfrac{-3 + \sqrt{15}}{2},0\right)</m> and 
 
 <subsubsection><title>Exercises</title>
 
-<introduction><p>Find the <m>x</m>-intercepts of the parabola. </p></introduction>
+<p>Find the <m>x</m>-intercepts of the parabola. </p>
 
 <exercise><statement><p><m>~y=2x^2-7x+3</m></p></statement>
-    <answer><m>\left(\dfrac{1}{2},0\right),~(3,0)</m></answer></exercise>
+    <answer><p><m>\left(\dfrac{1}{2},0\right),~(3,0)</m></p></answer></exercise>
 
 <exercise><statement><p><m>~y=7x-2x^2</m></p></statement>
-    <answer><m>(0,0)</m>, <m>\left(\dfrac{7}{2},0\right)</m></answer></exercise>
+    <answer><p><m>(0,0)</m>, <m>\left(\dfrac{7}{2},0\right)</m></p></answer></exercise>
 
 <exercise><statement><p><m>~y=10-2x^2</m></p></statement>
-    <answer><m>(2.24,0),~(-2.24,0)</m></answer></exercise>
+    <answer><p><m>(2.24,0),~(-2.24,0)</m></p></answer></exercise>
 
 <exercise><statement><p><m>~y=2x^2+10x+3</m></p></statement>
-    <answer><m>(-0.32,0),~(-4.68,0)</m></answer></exercise>
+    <answer><p><m>(-0.32,0),~(-4.68,0)</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
-
-
 </section>
-<!-- </book>  </pretext> -->

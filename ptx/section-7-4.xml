@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="PropertiesLogarithms" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Properties of Logarithms</title>
                  
@@ -25,18 +24,18 @@
 
 <subsubsection><title>Exercises</title>
 
-<introduction><p>Decide whether each equation is a correct application of the distributive law. Write a correct statement if possible.</p></introduction>
+<p>Decide whether each equation is a correct application of the distributive law. Write a correct statement if possible.</p>
 
-<exercise><statement><m>\dfrac{x+6}{3} \rightarrow \dfrac{x}{3} + \dfrac{6}{3}</m></statement>
+<exercise><statement><p><m>\dfrac{x+6}{3} \rightarrow \dfrac{x}{3} + \dfrac{6}{3}</m></p></statement>
     <answer><p>Correct</p></answer></exercise>
 
-<exercise><statement><m>\dfrac{6}{x+3} \rightarrow \dfrac{6}{x} + \dfrac{6}{3}</m></statement>
+<exercise><statement><p><m>\dfrac{6}{x+3} \rightarrow \dfrac{6}{x} + \dfrac{6}{3}</m></p></statement>
     <answer><p>Not correct</p></answer></exercise>
 
-<exercise><statement><m>2(P_0 a^t) \rightarrow 2P_0 +2a^t</m></statement>
-    <answer>Not correct. <m>~~2(P_0 a^t) = 2P_0 a^t</m></answer></exercise>
+<exercise><statement><p><m>2(P_0 a^t) \rightarrow 2P_0 +2a^t</m></p></statement>
+    <answer><p>Not correct. <m>~~2(P_0 a^t) = 2P_0 a^t</m></p></answer></exercise>
 
-<exercise><statement><m>25(1+r)^8 \rightarrow (25+25r)^8</m></statement>
+<exercise><statement><p><m>25(1+r)^8 \rightarrow (25+25r)^8</m></p></statement>
     <answer><p>Not correct</p></answer></exercise>
 
 </subsubsection>
@@ -65,24 +64,24 @@
 
 <subsubsection><title>Exercises</title>
 
-<introduction><p>Decide whether each equation is a correct application of the laws of exponents. Write a correct statement if possible.</p></introduction>
+<p>Decide whether each equation is a correct application of the laws of exponents. Write a correct statement if possible.</p>
 
-<exercise><statement><m>P(1-r)^6 \rightarrow P-Pr^6</m></statement>
+<exercise><statement><p><m>P(1-r)^6 \rightarrow P-Pr^6</m></p></statement>
     <answer><p>Not correct</p></answer></exercise>
 
-<exercise><statement><m>25(2^t) \cdot 4(2^t) \rightarrow 100 \cdot 2^{t^2}</m></statement>
-    <answer>Not correct. <m>~25(2^t) \cdot 4(2^t) = 100(2^{2t})</m></answer></exercise>
+<exercise><statement><p><m>25(2^t) \cdot 4(2^t) \rightarrow 100 \cdot 2^{t^2}</m></p></statement>
+    <answer><p>Not correct. <m>~25(2^t) \cdot 4(2^t) = 100(2^{2t})</m></p></answer></exercise>
 
-<exercise><statement><m>a\left(b^{1/8}\right)^{2t} \rightarrow ab^{t/4}</m></statement>
+<exercise><statement><p><m>a\left(b^{1/8}\right)^{2t} \rightarrow ab^{t/4}</m></p></statement>
     <answer><p>Correct</p></answer></exercise>
 
-<exercise><statement><m>N(0.94)^{1/8.3} \rightarrow \dfrac{N}{(0.94)^{8.3}}</m></statement>
-    <answer>Not correct, but <m>~N(0.94)^{-8.3} = \dfrac{N}{(0.94)^{8.3}}</m></answer></exercise>
+<exercise><statement><p><m>N(0.94)^{1/8.3} \rightarrow \dfrac{N}{(0.94)^{8.3}}</m></p></statement>
+    <answer><p>Not correct, but <m>~N(0.94)^{-8.3} = \dfrac{N}{(0.94)^{8.3}}</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
 <subsection><title>3. Apply the properties of radicals</title>
-
+<introduction>
 <assemblage><title>Rules for Radicals</title>
     <p>Product Rule
    <me>\sqrt[n]{ab}=\sqrt[n]{a}~\sqrt[n]{b}~~~~~~~\text{for } a, b \ge 0</me></p> 
@@ -91,7 +90,7 @@
 <me>\sqrt[n]{\frac{a}{b}}=\frac{\sqrt[n]{a}}{\sqrt[n]{b}}~~~~~~~\text{for } a\ge 0,~~ b \gt 0</me></p>
 
 <p>In general, it is <em>not</em> true that <m>\sqrt[n]{a+b}</m> is equivalent to <m>\sqrt[n]{a}+\sqrt[n]{b}</m>, or that <m>\sqrt[n]{a-b}</m> is equivalent to <m>\sqrt[n]{a}-\sqrt[n]{b}</m>.</p></assemblage>
-
+</introduction>
 <subsubsection><title>Examples</title>
 
 <example><statement><p>Which equation is a correct application of the properties of radicals?<ol label="a">
@@ -109,21 +108,20 @@
 
 <subsubsection><title>Exercises</title>
 
-<introduction><p>Decide whether each equation is a correct application of the properties of radicals. Write a correct statement if possible.</p></introduction>
+<p>Decide whether each equation is a correct application of the properties of radicals. Write a correct statement if possible.</p>
 
-<exercise><statement><m>\sqrt[4]{a^2-a^4} \rightarrow \sqrt[4]{a^2} - a</m></statement>
+<exercise><statement><p><m>\sqrt[4]{a^2-a^4} \rightarrow \sqrt[4]{a^2} - a</m></p></statement>
     <answer><p>Not correct</p></answer></exercise>
 
-<exercise><statement><m>\sqrt{b^4-16} \rightarrow \sqrt{b^2-4} \sqrt{b^2+4}</m></statement>
+<exercise><statement><p><m>\sqrt{b^4-16} \rightarrow \sqrt{b^2-4} \sqrt{b^2+4}</m></p></statement>
     <answer><p>Correct</p></answer></exercise>
 
-<exercise><statement><m>\sqrt[3]{t^4} + \sqrt[3]{t^4} \rightarrow \sqrt[3]{2t^4}</m></statement>
-    <answer>Not correct.<m>~\sqrt[3]{t^4} + \sqrt[3]{t^4} = 2\sqrt[3]{t^4}</m></answer></exercise>
+<exercise><statement><p><m>\sqrt[3]{t^4} + \sqrt[3]{t^4} \rightarrow \sqrt[3]{2t^4}</m></p></statement>
+    <answer><p>Not correct.<m>~\sqrt[3]{t^4} + \sqrt[3]{t^4} = 2\sqrt[3]{t^4}</m></p></answer></exercise>
 
-<exercise><statement><m>\dfrac{\sqrt{2p}}{\sqrt{4p+8p^2}} \rightarrow \dfrac{1}{\sqrt{2+4p}}</m></statement>
+<exercise><statement><p><m>\dfrac{\sqrt{2p}}{\sqrt{4p+8p^2}} \rightarrow \dfrac{1}{\sqrt{2+4p}}</m></p></statement>
     <answer><p>Correct</p></answer></exercise>
 </subsubsection>
 </subsection>
 
 </section>
-<!-- </book>  </pretext> -->

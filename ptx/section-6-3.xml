@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="RationalExponents" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Rational Exponents</title>
                  
@@ -78,13 +77,13 @@ Then we reduce:
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Convert <m>~0.1062~</m> to a common fraction.</p></statement>
-    <answer><m>\dfrac{531}{5000}</m></answer></exercise>
+    <answer><p><m>\dfrac{531}{5000}</m></p></answer></exercise>
 
 <exercise><statement><p>Convert <m>~2.08~</m> to a common fraction.</p></statement>
-    <answer><m>\dfrac{52}{25}</m></answer></exercise>
+    <answer><p><m>\dfrac{52}{25}</m></p></answer></exercise>
 
  <exercise><statement><p>Convert <m>~\dfrac{4}{15}~</m> to a decimal fraction.</p></statement>
-    <answer><m>0.2\overline{6}</m></answer></exercise> 
+    <answer><p><m>0.2\overline{6}</m></p></answer></exercise> 
 </subsubsection>
 </subsection>
 
@@ -133,16 +132,14 @@ We evaluate <m>(0.36\overline{1})^{1/0.24}</m> by entering  <m>~~\text{ANS}</m> 
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Solve <m>~4x^5 = 1825~</m>. Round your answer to thousandths.</p></statement> 
-    <answer><m>3.403</m></answer></exercise> 
+    <answer><p><m>3.403</m></p></answer></exercise> 
 
 <exercise><statement><p>Solve <m>~\dfrac{3}{4}x^{3/4} = 36~</m>. Round your answer to thousandths.</p></statement>
-    <answer><m>174.444</m></answer></exercise>
+    <answer><p><m>174.444</m></p></answer></exercise>
 
  <exercise><statement><p>Solve <m>~0.2x^{1.4}+1.8=12.3~</m>. Round your answer to thousandths.</p></statement>
-    <answer><m>16.931</m></answer></exercise>   
+    <answer><p><m>16.931</m></p></answer></exercise>   
 </subsubsection>
 </subsection>
 
-
 </section>
-<!-- </book>  </pretext> -->

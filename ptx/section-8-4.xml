@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="MoreOperationsonAlgebraicFractions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>More Operations on Algebraic Fractions</title>
                  
@@ -26,16 +25,16 @@ or we can divide 3 by <m>\sqrt{3}</m> to get <m>\sqrt{3}</m>.  (Remember that <m
 <subsubsection><title>Exercises</title>
                     
 <exercise><statement><p>Simplify  <m>~\dfrac{8}{2\sqrt{2}}</m></p></statement>
-<answer><m>2\sqrt{2}</m></answer></exercise>
+<answer><p><m>2\sqrt{2}</m></p></answer></exercise>
 
 <exercise><statement><p>Simplify  <m>~\sqrt{6} \cdot \dfrac{\sqrt{3}}{2\sqrt{2}}</m></p></statement>
-<answer><m>\dfrac{3}{2}</m></answer></exercise>
+<answer><p><m>\dfrac{3}{2}</m></p></answer></exercise>
 
 <exercise><statement><p>Simplify  <m>~\dfrac{\sqrt{2}}{6} - \dfrac{2}{\sqrt{3}}</m></p></statement>
-<answer><m>\dfrac{\sqrt{2}-4\sqrt{3}}{6}</m></answer></exercise>
+<answer><p><m>\dfrac{\sqrt{2}-4\sqrt{3}}{6}</m></p></answer></exercise>
 
 <exercise><statement><p>Simplify  <m>~\dfrac{1}{\sqrt{6}} + \dfrac{3}{\sqrt{2}}</m></p></statement>
-<answer><m>\dfrac{\sqrt{6}+9\sqrt{2}}{6}</m></answer></exercise>
+<answer><p><m>\dfrac{\sqrt{6}+9\sqrt{2}}{6}</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -77,19 +76,19 @@ or we can divide 3 by <m>\sqrt{3}</m> to get <m>\sqrt{3}</m>.  (Remember that <m
                     
 <exercise><statement><p>Simplify where possible.  Write your answer without negative exponents.  
   	<me>(2x^3y^{-4})(\dfrac{3}{4}x^{-2}y^2)</me></p></statement>
-<answer><m>\dfrac{3x}{2y^2}</m></answer></exercise>
+<answer><p><m>\dfrac{3x}{2y^2}</m></p></answer></exercise>
 
 <exercise><statement><p>Simplify where possible.  Write your answer without negative exponents.  
 	<me>~\dfrac{ab^{-3}}{(3ab)^{-2}}</me></p></statement>
-<answer><m>\dfrac{9a^3}{b}</m></answer></exercise>
+<answer><p><m>\dfrac{9a^3}{b}</m></p></answer></exercise>
 
 <exercise><statement><p>Simplify where possible.  Write your answer without negative exponents.  
 	<me>2x^{-2}-(2x)^{-2}</me></p></statement>
-<answer><m>\dfrac{8x^4-1}{4x^2}</m></answer></exercise>
+<answer><p><m>\dfrac{8x^4-1}{4x^2}</m></p></answer></exercise>
 
 <exercise><statement><p>Simplify where possible.  Write your answer without negative exponents.  
 	<me>2x^{-2}(-2x)^{-2}</me></p></statement>
-<answer><m>\dfrac{1}{2}</m></answer></exercise>
+<answer><p><m>\dfrac{1}{2}</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -116,36 +115,20 @@ Note the pattern:  divisor <m>\times</m> quotient <m>+</m> remainder <m>=</m> st
                     
 <exercise><statement><p>Check the division.  
   	<me>25 \div 4 = 6\dfrac{1}{4}</me></p></statement>
-<answer><m>4(6)+1=25</m></answer></exercise>
+<answer><p><m>4(6)+1=25</m></p></answer></exercise>
 
 <exercise><statement><p>Check the division.  
 	<me>1331 \div 28 = 47\dfrac{15}{28}</me></p></statement>
-<answer><m>28(47)+15=1331</m></answer></exercise>
+<answer><p><m>28(47)+15=1331</m></p></answer></exercise>
 
 <exercise><statement><p>Check the division. 
 	<me>(n^2+3n+6) \div (n+1) = n+2 +\dfrac{4}{n+1}</me></p></statement>
-<answer><m>(n+1)(n+2)+4 = n^2+3n+6</m></answer></exercise>
+<answer><p><m>(n+1)(n+2)+4 = n^2+3n+6</m></p></answer></exercise>
 
 <exercise><statement><p>Check the division.  
 	<me>(2x^3+7x^2+9x+40) \div (2x-3) = x^2+5x+12 + \dfrac{40}{2x-3}</me></p></statement>
-<answer><m>(2x-3)(x^2+5x+12)+40 = 2x^3+7x^2+9x+40</m></answer></exercise>
+<answer><p><m>(2x-3)(x^2+5x+12)+40 = 2x^3+7x^2+9x+40</m></p></answer></exercise>
 </subsubsection>
 </subsection>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </section>

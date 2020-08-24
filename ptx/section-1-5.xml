@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="EquationsofLines"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Equations of Lines</title>
 
 <subsection><title>1. Calculate slope using a formula</title>
 
-<introduction><p>Recall that the subscripts on the coordinates in <m>~P_1(x_1,y_1)~</m> and <m>~P_2(x_2,y_2)~</m> just mean "first point" and "second point".</p></introduction>
+<introduction><p>Recall that the subscripts on the coordinates in <m>~P_1(x_1,y_1)~</m> and <m>~P_2(x_2,y_2)~</m> just mean "first point" and "second point".</p>
 
 <assemblage><title>Two-Point Formula for Slope</title>
     <p>The slope of the line joining points <m>~P_1(x_1,y_1)~</m> and <m>~P_2(x_2,y_2)~</m> is
         <me>m = \dfrac{\Delta y}{\Delta x} = \dfrac{y_2-y_1}{x_2-x_1}~~~~~~\text{if}~~~~x_2 \not= x_1</me></p>
 </assemblage>
-        
+</introduction>   
 <subsubsection><title>Example</title>
 
 <example><statement><p>Compute the slope of the line joining <m>(-6,2)</m> and <m>(3,-1)</m>.</p></statement>
@@ -29,10 +28,10 @@ or your slope will have the wrong sign.</p></warning>
 <subsubsection><title>Exercises</title>
  
 <exercise><statement><p>Compute the slope of the line joining the points <m>(5,2)</m> and <m>(8,7)</m>.</p></statement>
-    <answer><m>\dfrac{5}{3}</m></answer></exercise>
+    <answer><p><m>\dfrac{5}{3}</m></p></answer></exercise>
 
 <exercise><statement><p>Compute the slope of the line joining the points <m>(-3,-4)</m> and <m>(-7,1)</m>.</p></statement>
-    <answer><m>\dfrac{-5}{4}</m></answer></exercise>
+    <answer><p><m>\dfrac{-5}{4}</m></p></answer></exercise>
 </subsubsection>
 </subsection>
                  
@@ -69,10 +68,10 @@ can be expressed in symbols as
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Monica has saved $7800 to live on while she attends college.  She spends $600 a month.  Write a function for the amount, <m>S</m>, in Monica's savings account after <m>t</m> months.</p></statement>
-    <answer><m>b=7800~~</m> and <m>~~m=-400~~</m>, so <m>~~S=7800-600t</m></answer></exercise>
+    <answer><p><m>b=7800~~</m> and <m>~~m=-400~~</m>, so <m>~~S=7800-600t</m></p></answer></exercise>
 
 <exercise><statement><p>Jesse opened a new doughnut shop in an old store-front. He invested $2400 in remodeling and set-up, and he makes about $400 per week from the business.  Write a function giving the shop's financial standing, <m>F</m>, after <m>w</m> weeks.</p></statement>
-    <answer><m>b=-2400~~</m> and <m>~~m=400~~</m>, so <m>~~F=-2400+400w</m></answer></exercise>
+    <answer><p><m>b=-2400~~</m> and <m>~~m=400~~</m>, so <m>~~F=-2400+400w</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -114,11 +113,11 @@ or
 
 <exercise><statement><p>Find an equation for the line of slope <m>-4</m> that passes through <m>(2,-5)</m>.
 </p></statement>
-    <answer><m>y=-4x+3</m></answer></exercise>
+    <answer><p><m>y=-4x+3</m></p></answer></exercise>
 
 <exercise><statement><p>Find an equation for the line of slope <m>\dfrac{2}{3}</m> that passes through <m>(-6,1)</m>.
 </p></statement>
-    <answer><m>y=\dfrac{2}{3}x+5</m></answer></exercise>
+    <answer><p><m>y=\dfrac{2}{3}x+5</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -213,4 +212,3 @@ or
 </subsection>
 
 </section>
-<!-- </book>  </pretext> -->

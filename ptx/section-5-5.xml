@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="InverseVariation" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Inverse Variation</title>
                  
@@ -30,10 +29,10 @@
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Solve <m>~13.03=\dfrac{380}{h^2}</m></p></statement>
-<answer><m>5.4</m></answer></exercise>
+<answer><p><m>5.4</m></p></answer></exercise>
 
 <exercise><statement><p>Solve <m>~0.065=\dfrac{12}{p}</m></p></statement>
-<answer><m>184.6</m></answer></exercise>
+<answer><p><m>184.6</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -85,7 +84,8 @@ The graph is shown below.</p>
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside></statement>
     
-<answer><m>(1,0.8),~(2,0.2),~(4,0.05)</m><sidebyside width="25%"><image xml:id="B-eq-pt8-over-d-sq">
+<answer><p><m>(1,0.8),~(2,0.2),~(4,0.05)</m></p>
+<sidebyside width="25%"><image xml:id="B-eq-pt8-over-d-sq">
         <description>reciprocal squared</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -124,9 +124,8 @@ The graph is shown below.</p>
 
 <exercise><statement><p>Find the constant of variation and the variation equation:</p>
 <p> <m>y</m> varies inversely with <m>x</m>, and <m>y=31.25</m> when <m>x=640</m>.</p></statement> 
-    <answer><m>k=20,000</m> and <m>y=\dfrac{20,000}{x}</m></answer></exercise>
+    <answer><p><m>k=20,000</m> and <m>y=\dfrac{20,000}{x}</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
 </section>
-

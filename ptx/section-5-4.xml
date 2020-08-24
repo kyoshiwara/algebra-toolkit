@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="DirectVariation" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Direct Variation</title>
                  
@@ -29,10 +28,10 @@
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Solve <m>~1371.8=25R^3</m></p></statement>
-<answer><m>3.8</m></answer></exercise>
+<answer><p><m>3.8</m></p></answer></exercise>
 
 <exercise><statement><p>Solve <m>~6.3t^2 = 18.4</m></p></statement>
-<answer><m>1.7</m></answer></exercise>
+<answer><p><m>1.7</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -86,7 +85,7 @@ The graph is shown below.</p>
         \end{tikzpicture}]]>
         </latex-image></image></sidebyside></statement>
     
-<answer><m>\left(1,\dfrac{3}{8}\right)</m>, <m>\left(2,\dfrac{3}{2}\right)</m>, <m>(4,6)</m>
+<answer><p><m>\left(1,\dfrac{3}{8}\right)</m>, <m>\left(2,\dfrac{3}{2}\right)</m>, <m>(4,6)</m></p>
         <sidebyside width="25%"><image xml:id="d-eq-3eighths-t-sq"><description>parabola</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
@@ -124,10 +123,8 @@ The constant of variation is 16, and the variation equation is <m>~y=16x^2</m>.<
 
 <exercise><statement><p>Find the constant of variation and the variation equation:</p>  
 <p><m>y</m> varies directly with the cube of <m>x</m>, and <m>y=119,164</m> when <m>x=6.2</m>.</p></statement> 
-    <answer><m>k=500</m> and <m>y=500x^3</m></answer></exercise>  
+    <answer><p><m>k=500</m> and <m>y=500x^3</m></p></answer></exercise>  
 </subsubsection>
 </subsection>
 
-
 </section>
-<!-- </book>  </pretext> -->

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="OperationsonAlgebraicFractions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Operations on Algebraic Fractions</title>
                  
@@ -115,6 +114,4 @@ The LCd is <m>2 \cdot 3 \cdot 3 \cdot a \cdot a</m>, or <m>18a^2</m>.</p></solut
 </subsubsection>
 </subsection>
 
-
 </section>
-

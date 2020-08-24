@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="Slope"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Slope</title>
                  
@@ -43,7 +42,7 @@ The Lookout Point trail is steeper.</p></solution></example>
 <subsubsection><title>Examples</title>
 
 <example><statement><p>Calculate the slope of the line.</p>
-    <sidebyside widths="35%"><!-- <image source="images/fig-1-4-1.png"><description>graph</description></image> --><image xml:id="fig-calculate-slope-grid">
+    <sidebyside widths="35%"><image xml:id="fig-calculate-slope-grid">
         <description>line on grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -94,7 +93,7 @@ The Lookout Point trail is steeper.</p></solution></example>
 </p></solution></example>
 
 <example><statement><p>Calculate the slope of the line.</p>
-    <sidebyside widths="35%"><!-- <image source="images/fig-1-4-2.png"><description>graph</description></image> --><image xml:id="fig-calculate-slope2-grid">
+    <sidebyside widths="35%"><image xml:id="fig-calculate-slope2-grid">
         <description>line on grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -145,7 +144,7 @@ The Lookout Point trail is steeper.</p></solution></example>
 
 <exercise><statement><p>Calculate the slope of the line.</p>
     <p>Hint: Find two points that lie on the intersection of grid lines, so that it's easy to read their coordinates.  For example, you could use <m>(2, 300)</m> and <m>(8, 600)</m>.</p>
-    <sidebyside widths="35%"><!-- <image source="images/fig-1-4-3.png"><description>graph</description></image> --><image xml:id="fig-calculate-slope3">
+    <sidebyside widths="35%"><image xml:id="fig-calculate-slope3">
         <description>line on grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -165,11 +164,11 @@ The Lookout Point trail is steeper.</p></solution></example>
         </latex-image>
         </image></sidebyside>
 </statement>
-    <answer><m>50</m></answer></exercise>
+    <answer><p><m>50</m></p></answer></exercise>
 
 <exercise><statement><p>Calculate the slope of the line.</p>
 <p>Hint: Find two points that lie on the intersection of grid lines. For example, you could use <m>(0, 60)</m> and <m>(3, -12)</m>.</p>
-    <sidebyside widths="30%"><!-- <image source="images/fig-1-4-4.png"><description>graph</description></image> --><image xml:id="fig-calculate-slope4">
+    <sidebyside widths="30%"><image xml:id="fig-calculate-slope4">
         <description>line on grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -189,7 +188,7 @@ The Lookout Point trail is steeper.</p></solution></example>
         </latex-image>
         </image></sidebyside>
 </statement>
-    <answer><m>-24</m></answer></exercise>
+    <answer><p><m>-24</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -232,7 +231,4 @@ To calculate the volume of water, we can multiply the area of the base, <m>lw</m
 </subsubsection>
 </subsection>
 
-
-
 </section>
-<!-- </book>  </pretext> -->

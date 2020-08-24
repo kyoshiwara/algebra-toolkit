@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="LinearSystems" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Linear Systems</title>
                  
@@ -84,7 +83,7 @@ Yes, <m>(3,-2)</m> is a solution</p></solution></example>
         \end{tikzpicture}]]>
         </latex-image>
 </image></sidebyside></statement>
-<answer><m>(300, 24)</m></answer></exercise>
+<answer><p><m>(300, 24)</m></p></answer></exercise>
 
 </subsubsection>
 </subsection>
@@ -127,7 +126,7 @@ to find that <m>R=5094</m>.  Their revenue was $5094.</p></solution></example>
 
 <exercise><statement><p>Last week Moe's Auto Shop took in $5400 in revenue, but experienced a loss of $800.  What were Moe's costs last week? </p></statement>
 
-<answer>$6200</answer></exercise>
+<answer><p>$6200</p></answer></exercise>
 </subsubsection>
 
 </subsection>
@@ -163,9 +162,9 @@ to find that <m>R=5094</m>.  Their revenue was $5094.</p></solution></example>
 
 <exercise><statement><p>Write equations about the number of calories in a hamburger and in a chocolate shake.<ol label="a">    <li>A hamburger and a chocolate shake together contain 1020 calories.</li>
     <li>Two shakes and three hamburgers contain 2710 calories.</li></ol></p></statement>
-    <answer><ol label="a">
+    <answer><p><ol label="a">
         <li><m>x+y=1020</m></li>
-        <li><m>3x+2y=2710</m></li></ol></answer></exercise>
+        <li><m>3x+2y=2710</m></li></ol></p></answer></exercise>
 
 <exercise><statement><p>Write equations about the vertex angle and the base angles of an isosceles triangle.<ol label="a">
    <li>The vertex angle is <m>15 \degree</m> less than each base angle.</li>
@@ -176,6 +175,4 @@ to find that <m>R=5094</m>.  Their revenue was $5094.</p></solution></example>
 </subsubsection>
 </subsection>
 
-
 </section>
-<!-- </book>  </pretext> -->

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="WorkingwithRadicals" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Working with Radicals</title>
                  
@@ -13,9 +12,9 @@
 	<li><m>60x^9 = 3x^3 \cdot~</m> ?</li>
 	<li><m>9x^3 - 3x^9 \cdot~</m> ?</li></ol></p></statement>
 
-<solution><ol label="a">
+<solution><p><ol label="a">
 	<li>We mentally divide <m>60x^9</m> by <m>3x^3</m> to find <m>\dfrac{60x^9}{3x^3} = 20x^6</m>. The missing factor is <m>20x^6</m>.</li>
-	<li>We mentally divide each term by <m>3x^3</m> to find <m>\dfrac{9x^3}{3x^3} = 3</m> and <m>\dfrac{3x^9}{3x^3}=x^6</m>.  The missing factor is <m>3-x^6</m>.</li></ol></solution></example>
+	<li>We mentally divide each term by <m>3x^3</m> to find <m>\dfrac{9x^3}{3x^3} = 3</m> and <m>\dfrac{3x^9}{3x^3}=x^6</m>.  The missing factor is <m>3-x^6</m>.</li></ol></p></solution></example>
 
 <example><statement><p>Factor out the largest perfect square.<ol label="a" cols="2">
 	<li><m>108a^5b^2</m></li>
@@ -132,13 +131,11 @@ Finally, we simplify the first of the two factors to find
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Simplify <m>~\sqrt{75}</m></p></statement>
-<answer><m>3\sqrt{5}</m></answer></exercise>
+<answer><p><m>3\sqrt{5}</m></p></answer></exercise>
 
 <exercise><statement><p>Simplify <m>~\sqrt{72u^6v^9}</m></p></statement>
-<answer><m>6u^3v^4\sqrt{2v}</m></answer></exercise>
+<answer><p><m>6u^3v^4\sqrt{2v}</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
 </section>
-
-

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="NaturalBase" xmlns:xi="http://www.w3.org/2001/XInclude"><title>The Natural Base</title>
                  
@@ -7,13 +6,13 @@
 
 <subsubsection><title>Examples</title>
 
-<introduction><p>We can write exponential growth and decay laws using bas <m>e</m>.
+<p>We can write exponential growth and decay laws using base <m>e</m>.</p>
 
 <assemblage><title>Exponential Growth and Decay</title>
     <p>The function
         <me>P(t) = P_0 e^{kt}</me>
         describes exponential growth if <m>k \gt 0</m>, and exponential decay if <m>k \lt 0</m>.</p>    
-</assemblage></p></introduction>
+</assemblage>
                     
 <example><statement><p>A colony of bees grows at a rate of 8% annually. Write its growth law using base <m>e</m>.</p></statement>
 
@@ -36,16 +35,16 @@ The growth law is <m>~P(t) = P_0 e^{0.077t}</m>.</p>
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>A virus spreads in the population at a rate of 19.5% daily. Write its growth law using base <m>e</m>.</p></statement>
-    <answer><m>P(t) = P_0 e^{0.178t}</m></answer></exercise>
+    <answer><p><m>P(t) = P_0 e^{0.178t}</m></p></answer></exercise>
 
 <exercise><statement><p>Sea ice is decreasing at a rate of 12.85% per decade. Write its decay law using base <m>e</m>.</p></statement>
-<answer><m>Q(t) = Q_0 e^{-0.1375t}</m></answer></exercise>  
+<answer><p><m>Q(t) = Q_0 e^{-0.1375t}</m></p></answer></exercise>  
 
 <exercise><statement><p>In 2020, the world population was growing according to the formula <m>~P(t)=P_0 e^{0.0488t},~</m> where <m>t</m> is in years. Find its percent rate of growth.</p></statement>
-<answer>5%</answer></exercise>
+<answer><p>5%</p></answer></exercise>
 
 <exercise><statement><p>Since 1984, the population of cod has decreased annually according to the formula <m>~N(t)=N_0 e^{-0.1863t}.~</m> Find its percent rate of decay.</p></statement>
-<answer>17%</answer></exercise>
+<answer><p>17%</p></answer></exercise>
 
 </subsubsection>
 </subsection>
@@ -57,12 +56,12 @@ The growth law is <m>~P(t) = P_0 e^{0.077t}</m>.</p>
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Use technology to graph <m>~f(x)=e^x~</m> and <m>~y=x+1~</m> in a window with <m>~-2 \le x \le 3~</m> and <m>~-1 \le y \le 4~</m>.  What do you notice about the two graphs?</p></statement>
-    <answer><sidebyside width="35%"><image source="images/fig-5-3-1.svg"><description>graph</description></image></sidebyside>
+    <answer><sidebyside width="35%"><image source="images/fig-5-3-1"><description>graph</description></image></sidebyside>
     <p>The line is tangent to the graph at <m>(0,1)</m>.</p>
     </answer></exercise>
 
 <exercise><statement><p>Use technology to graph <m>~f(x)=\ln x~</m> and <m>~y=x-1~</m> in a window with <m>~-1 \le x \le 4~</m> and <m>~-2 \le y \le 3~</m>.  What do you notice about the two graphs?</p></statement>
-    <answer><sidebyside width="35%"><image source="images/fig-5-3-2.svg"><description>graph</description></image></sidebyside>
+    <answer><sidebyside width="35%"><image source="images/fig-5-3-2"><description>graph</description></image></sidebyside>
     <p>The line is tangent to the graph at <m>(1,0)</m>.</p>
     </answer></exercise>
 
@@ -70,4 +69,3 @@ The growth law is <m>~P(t) = P_0 e^{0.077t}</m>.</p>
 </subsection>
 
 </section>
-<!-- </book>  </pretext> -->

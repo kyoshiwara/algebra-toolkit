@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="LinMod"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Linear Models</title>
                  
@@ -38,22 +37,22 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Salewa saved $5000 to go to school full time. She spends $200 per week on living expenses. Write an equation for Salewa's savings, <m>S</m>, after <m>w</m> weeks.</p></statement>
-    <answer><m>S=5000-200w</m></answer></exercise>
+    <answer><p><m>S=5000-200w</m></p></answer></exercise>
 
 <exercise><statement><p>As a student at City College, Delbert pays a $50 registration fee plus $15 for each unit he takes. Write an equation that gives Delbert's tuition, <m>T</m>, if he takes <m>u</m> units.</p></statement>
-    <answer><m>T=50+15u</m></answer></exercise>
+    <answer><p><m>T=50+15u</m></p></answer></exercise>
 
 <exercise><statement><p>Greta's math notebook has 100 pages, and she uses on average 6 pages per day for notes and homework. How many pages, <m>P</m>, will she have left after <m>d</m> days?</p></statement>
-    <answer><m>P=100-6d</m></answer></exercise>
+    <answer><p><m>P=100-6d</m></p></answer></exercise>
 
 <exercise><statement><p>Asa has typed 220 words of his term paper, and is still typing at a rate of 20 words per minute.  How many words, <m>W</m>, will Asa have typed after <m>m</m> more minutes?</p></statement>
-    <answer><m>W=220+20m</m></answer></exercise>
+    <answer><p><m>W=220+20m</m></p></answer></exercise>
 
 <exercise><statement><p>The temperature in Nome was <m>-12 \degree</m> F at noon. It has been rising at a rate of <m>2 \degree</m> F per hour all day. Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</p></statement>
-    <answer><m>T=-12+2h</m></answer></exercise>
+    <answer><p><m>T=-12+2h</m></p></answer></exercise>
 
 <exercise><statement><p>Francine borrowed money from her mother, and she owes her $750 right now. She has been paying off the debt at a rate of $50 per month. Write an equation for Francine's financial status, <m>F</m>, in terms of <m>m</m>, the number of months from now.</p></statement>
-    <answer><m>F=-750+50m</m></answer></exercise>
+    <answer><p><m>F=-750+50m</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -356,7 +355,7 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
          \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
         }
         \foreach \x [evaluate=\x as \xi using int(200*\x)] in  {-4,-2,2,4} {
-         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$}
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
          }
         \end{tikzpicture}]]>
         </latex-image>
@@ -509,39 +508,40 @@ We say that <m>x</m> is the input variable, and <m>y</m> is the output variable.
                     
 <example><statement><p>Solve the equation <m>~~\dfrac{2}{3}x-5=7</m> </p></statement>
                     
-<solution><me>\begin{aligned}[t]
-                \dfrac{2}{3}x-5 \amp = 7 \amp \amp \blert{\text{Add 5 to both sides.}}\\
-                \dfrac{2}{3}x \amp = 12 \amp \amp \blert{\text{To divide both sides by } \dfrac{2}{3}, \text{we:}}\\
-                \dfrac{3}{2}\left(\dfrac{2}{3}x\right) \amp =\dfrac{3}{2}(12) \amp \amp \blert{\text{Multiply by the reciprocal of }\dfrac{2}{3}.}\\
-                x \amp = 18 \amp \amp \blert{\text{The solution is 18.}}
-                \end{aligned}</me></solution></example>
+<solution><p>
+    <md>
+        <mrow>\dfrac{2}{3}x-5 \amp = 7 \amp \amp \blert{\text{Add 5 to both sides.}}</mrow>
+        <mrow>\dfrac{2}{3}x \amp = 12 \amp \amp \blert{\text{To divide both sides by } \dfrac{2}{3}, \text{we:}}</mrow>
+        <mrow>\dfrac{3}{2}\left(\dfrac{2}{3}x\right) \amp =\dfrac{3}{2}(12) \amp \amp \blert{\text{Multiply by the reciprocal of }\dfrac{2}{3}.}</mrow>
+        <mrow>x \amp = 18 \amp \amp \blert{\text{The solution is 18.}}</mrow>
+    </md></p></solution></example>
 
 <example><statement><p>Solve the equation <m>~~2x+7=4x-3</m></p></statement>
 
-<solution>To begin, we must get both variable terms on the same side of the equation.
-    <me>\begin{aligned}[t]
-                2x+7 \amp = 4x-3 \amp \amp \blert{\text{Subtract}~2x~\text{from both sides.}}\\
-                7 \amp = 2x-3 \amp \amp \blert{\text{Add 3 to both sides.}}\\
-                10 \amp =2x   \amp \amp \blert{\text{Divide both sides by 2.}}\\
-                5 \amp = x \amp \amp \blert{\text{The solution is 5.}}
-                \end{aligned}</me></solution></example>
+<solution><p>To begin, we must get both variable terms on the same side of the equation.
+    <md>
+        <mrow>2x+7 \amp = 4x-3 \amp \amp \blert{\text{Subtract}~2x~\text{from both sides.}}</mrow>
+        <mrow>7 \amp = 2x-3 \amp \amp \blert{\text{Add 3 to both sides.}}</mrow>
+        <mrow>10 \amp =2x   \amp \amp \blert{\text{Divide both sides by 2.}}</mrow>
+        <mrow>5 \amp = x \amp \amp \blert{\text{The solution is 5.}}</mrow>
+    </md></p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Solve the equation <m>~~10=1-\dfrac{3x}{7}</m></p></statement>
-    <answer><m>-21</m></answer></exercise>
+    <answer><p><m>-21</m></p></answer></exercise>
 
 <exercise><statement><p>Solve the equation <m>~~6p-8=-3p-26</m> </p></statement>
-    <answer><m>-2</m></answer></exercise>
+    <answer><p><m>-2</m></p></answer></exercise>
 
 <exercise><statement><p>Solve the equation <m>~~12=\dfrac{7u+4}{5}</m> </p>
 <p>Hint:  Start by clearing the fraction:  multiply both sides by 5.</p></statement>
-    <answer><m>8</m></answer></exercise>
+    <answer><p><m>8</m></p></answer></exercise>
 
 <exercise><statement><p>Solve the equation <m>~~0=13q+25-17q+7</m> </p>
 <p>Hint:  Start by combining like terms.</p></statement>
-    <answer><m>8</m></answer></exercise>
+    <answer><p><m>8</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -685,4 +685,3 @@ The graph of the solutions is shown below.</p>
 </subsection>
 
 </section>
-<!-- </book>  </pretext> -->

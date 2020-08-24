@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- <pretext><book> -->
 
 <section xml:id="RadicalEquations" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Radical Equations</title>
                  
@@ -35,10 +34,10 @@ Finally, we add 4 to both sides to find the solution, <m>x=31</m>.  We do not ha
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Solve <m>~\sqrt{x-6} = 2</m></p></statement>
-<answer><m>x=10</m></answer></exercise>
+<answer><p><m>x=10</m></p></answer></exercise>
 
 <exercise><statement><p>Solve <m>~3\sqrt[3]{4x-1} = -15</m></p></statement>
-<answer><m>x=-31</m></answer></exercise>
+<answer><p><m>x=-31</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -65,10 +64,10 @@ Finally, we add 4 to both sides to find the solution, <m>x=31</m>.  We do not ha
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>Expand <m>~\left(6-\sqrt{3a+1}\right)^2</m></p></statement>
-<answer><m>37-12\sqrt{3a+1}+3a</m></answer></exercise>
+<answer><p><m>37-12\sqrt{3a+1}+3a</m></p></answer></exercise>
 
 <exercise><statement><p>Expand <m>~\left(2\sqrt{z+4}-5\right)^2</m></p></statement>
-<answer><m>4z+41-20\sqrt{z+4}</m></answer></exercise>
+<answer><p><m>4z+41-20\sqrt{z+4}</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
@@ -90,10 +89,10 @@ Finally, we add 4 to both sides to find the solution, <m>x=31</m>.  We do not ha
 <subsubsection><title>Exercises</title>
 
 <exercise><statement><p>For what values of <m>x</m> is <m>~\sqrt{(2x+8)^2} = 2x+8~</m>?</p></statement>
-<answer><m>x \ge -4</m></answer></exercise>
+<answer><p><m>x \ge -4</m></p></answer></exercise>
 
 <exercise><statement><p>For what values of <m>x</m> is <m>~\sqrt{(x-9)^2} = 9-x~</m>?</p></statement>
-<answer><m>x \le 9</m></answer></exercise>
+<answer><p><m>x \le 9</m></p></answer></exercise>
 </subsubsection>
 </subsection>
 
